@@ -6,7 +6,7 @@
 
 # open science methods, computational content analysis
 
-- some bullet point here..
+- [some test](https://cca-cce.github.io/osm-cca/web/ai-aided-content-analysis-of-sustainability-communication/_site/module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html)
 
 ---
 
