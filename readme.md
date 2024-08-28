@@ -6,7 +6,7 @@
 
 # open science methods, computational content analysis
 
-- some bullet point
+- some bullet point here..
 
 ---
 
