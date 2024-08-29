@@ -1,0 +1,68 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.qmd\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "## descriptive analysis\n",
+        "\n",
+        "The provided code chunk reads a collection of text files from a specified directory, cleans the text by removing non-ASCII characters, and then stores the cleaned and original text in a `pandas` DataFrame along with a unique ID and the filename. The DataFrame is then printed, displaying the organized data for further analysis.\n",
+        "\n",
+        "### New Code Chunk for Word Count and Character Count:\n",
+        "\n",
+        "To extend the analysis, the following code chunk will add two new columns to the DataFrame: one for the word count and another for the character count of the cleaned text.\n"
+      ],
+      "id": "603aa952"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# Perform word count and character count on each cleaned text in the DataFrame\n",
+        "df['word_count'] = df['cleaned_text'].apply(lambda x: len(x.split()))\n",
+        "df['character_count'] = df['cleaned_text'].apply(lambda x: len(x))\n",
+        "\n",
+        "# Select and print all columns except 'original_text' and 'cleaned_text'\n",
+        "columns_to_display = df.columns.difference(['original_text', 'cleaned_text'])\n",
+        "print(df[columns_to_display])"
+      ],
+      "id": "e8d7fcc9",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Explanation:\n",
+        "\n",
+        "1. **Word Count**:\n",
+        "   - The `apply` function is used on the `cleaned_text` column to calculate the word count. The `lambda` function splits each cleaned text string into words using `split()` and then calculates the length of the resulting list using `len(x.split())`. This word count is stored in a new column `word_count`.\n",
+        "\n",
+        "2. **Character Count**:\n",
+        "   - Similarly, the `apply` function calculates the character count by applying `len(x)` directly on the `cleaned_text` string. This counts the total number of characters (including spaces) and stores the result in a new column `character_count`.\n",
+        "\n",
+        "3. **Updated DataFrame**:\n",
+        "   - The DataFrame is then printed again, now including the `word_count` and `character_count` columns, providing additional insights into the text length and structure.\n"
+      ],
+      "id": "7adaa202"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/local/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

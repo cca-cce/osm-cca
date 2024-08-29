@@ -1,5 +1,4 @@
 ---
-title: "module04-analyzing-image-content-computer-vision-30pct"
+title: "module04-analyzing-image-content-computer-vision-30pct/index.qmd"
 ---
-
 

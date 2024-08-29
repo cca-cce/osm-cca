@@ -1,0 +1,4 @@
+---
+title: "module04-analyzing-image-content-computer-vision-30pct/4-2-2-computer-lab.qmd"
+---
+

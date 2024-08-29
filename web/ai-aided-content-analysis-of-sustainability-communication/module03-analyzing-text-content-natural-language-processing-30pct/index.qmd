@@ -2,3 +2,13 @@
 title: "module03-analyzing-text-content-natural-language-processing-30pct/index.qmd"
 ---
 
+## overview of module 3
+
+- [lesson 3.1](3-1-lesson.qmd) read, clean, describe text content
+- [lesson 3.2](3-2-lesson.qmd) use ai to infer tokens and entities
+- [lesson 3.3](3-3-lesson.qmd) summarize and visualize tabular data
+
+
+
+
+
