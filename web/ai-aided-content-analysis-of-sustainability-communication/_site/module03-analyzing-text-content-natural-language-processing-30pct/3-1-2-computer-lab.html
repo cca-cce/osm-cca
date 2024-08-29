@@ -310,13 +310,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">computer lab 3.1.2</span></a>
+ <span class="menu-text">computer lab 3.2.2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">computer lab 3.1.3</span></a>
+ <span class="menu-text">computer lab 3.2.3</span></a>
   </div>
 </li>
       </ul>
@@ -362,8 +362,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#code-chunk" id="toc-code-chunk" class="nav-link active" data-scroll-target="#code-chunk">code chunk</a></li>
-  <li><a href="#explanation" id="toc-explanation" class="nav-link" data-scroll-target="#explanation">explanation</a></li>
+  <li><a href="#prepare-text-content" id="toc-prepare-text-content" class="nav-link active" data-scroll-target="#prepare-text-content">prepare text content</a></li>
+  <li><a href="#code-chunk" id="toc-code-chunk" class="nav-link" data-scroll-target="#code-chunk">code chunk</a></li>
   </ul>
 </nav>
     </div>
@@ -389,9 +389,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="code-chunk" class="level2">
-<h2 class="anchored" data-anchor-id="code-chunk">code chunk</h2>
-<div id="d51bb491" class="cell" data-execution_count="1">
+<section id="prepare-text-content" class="level2">
+<h2 class="anchored" data-anchor-id="prepare-text-content">prepare text content</h2>
+<p>This code chunk outlines a procedure for processing a collection of text files using Python, with a focus on content analysis and natural language processing (NLP). Here’s a detailed explanation of each step:</p>
+<div id="e9a193f8" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
@@ -404,43 +405,73 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Directory containing text files</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>directory_path <span class="op">=</span> <span class="st">'/content/osm-cca-nlp/res'</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>directory_path <span class="op">=</span> <span class="st">'/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/res'</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize an empty list to store the data</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> []</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize a unique ID counter</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>unique_id <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate over the text files in the directory</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> filename <span class="kw">in</span> os.listdir(directory_path):</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Consider only plain text files</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> filename.endswith(<span class="st">".txt"</span>) <span class="kw">or</span> filename.endswith(<span class="st">".md"</span>):</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        file_path <span class="op">=</span> os.path.join(directory_path, filename)</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Read the file content</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(file_path, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>            text <span class="op">=</span> <span class="bu">file</span>.read()</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Clean the text</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>        cleaned_text <span class="op">=</span> clean_text(text)</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Append the data as a dictionary with a unique ID</span></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>        data.append({</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>            <span class="st">'id'</span>: unique_id,</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>            <span class="st">'filename'</span>: filename,</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>            <span class="st">'original_text'</span>: text,</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>            <span class="st">'cleaned_text'</span>: cleaned_text</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>        })</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Increment the unique ID</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>        unique_id <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a Pandas DataFrame</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the DataFrame</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>directory_path <span class="op">=</span> <span class="st">'/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/res'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol type="1">
+<li><strong>Importing Necessary Libraries</strong>:
+<ul>
+<li>The code begins by importing essential Python libraries: <code>os</code>, <code>pandas</code>, and <code>re</code>. The <code>os</code> library is used for interacting with the file system, <code>pandas</code> is a powerful data manipulation library used to manage and analyze data structures like DataFrames, and <code>re</code> is the regular expressions library used for pattern matching and text processing.</li>
+</ul></li>
+<li><strong>Defining a Text Cleaning Function</strong>:
+<ul>
+<li>A function <code>clean_text(text)</code> is defined to clean the text data by removing non-ASCII characters. This function uses the <code>re.sub()</code> method to search the text for any character that does not fall within the ASCII range (<code>[^\x00-\x7F]</code>) and replaces it with an empty string, effectively removing these characters. This step is crucial in NLP tasks to standardize text data, making it easier to analyze.</li>
+</ul></li>
+<li><strong>Setting Up the Directory Path</strong>:
+<ul>
+<li>The directory containing the text files is specified with <code>directory_path = '/content/osm-cca-nlp/res'</code>. This path directs the script to the location of the text files that will be processed.</li>
+</ul></li>
+</ol>
+<div id="3c8c97d2" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize an empty list to store the data</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> []</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize a unique ID counter</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>unique_id <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate over the text files in the directory</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> filename <span class="kw">in</span> os.listdir(directory_path):</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Consider only plain text files</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> filename.endswith(<span class="st">".txt"</span>) <span class="kw">or</span> filename.endswith(<span class="st">".md"</span>):</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>        file_path <span class="op">=</span> os.path.join(directory_path, filename)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Read the file content</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(file_path, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>            text <span class="op">=</span> <span class="bu">file</span>.read()</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Clean the text</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>        cleaned_text <span class="op">=</span> clean_text(text)</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Append the data as a dictionary with a unique ID</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>        data.append({</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>            <span class="st">'id'</span>: unique_id,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>            <span class="st">'filename'</span>: filename,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>            <span class="st">'original_text'</span>: text,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>            <span class="st">'cleaned_text'</span>: cleaned_text</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>        })</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Increment the unique ID</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>        unique_id <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="4" type="1">
+<li><strong>Initializing Data Structures</strong>:
+<ul>
+<li>An empty list <code>data</code> is initialized to store the cleaned data, and a <code>unique_id</code> counter is set to <code>1</code> to uniquely identify each text file. These data structures are essential for organizing and managing the extracted and cleaned content.</li>
+</ul></li>
+<li><strong>Iterating Over Files in the Directory</strong>:
+<ul>
+<li>The script iterates over each file in the specified directory using <code>os.listdir(directory_path)</code>. A conditional statement <code>if filename.endswith(".txt") or filename.endswith(".md")</code> ensures that only plain text files (<code>.txt</code>) and Markdown files (<code>.md</code>) are processed. This step is fundamental in content analysis as it focuses the analysis on relevant document types.</li>
+</ul></li>
+<li><strong>Reading and Cleaning Text Content</strong>:
+<ul>
+<li>For each text file, the file is opened and read into a string variable <code>text</code> using <code>open(file_path, 'r', encoding='utf-8')</code>. The content is then passed to the <code>clean_text()</code> function to remove non-ASCII characters, resulting in a cleaned version of the text stored in <code>cleaned_text</code>. This step is crucial for preparing the text data for further NLP tasks by ensuring it is in a consistent and analyzable format.</li>
+</ul></li>
+</ol>
+<div id="5ac7aee9" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a Pandas DataFrame</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the DataFrame</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   id                                           filename  \
 0   1  strategy-sustainable-development-lund-universi...   
@@ -455,35 +486,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 1  Your browser has javascript turned off or bloc...  </code></pre>
 </div>
 </div>
-</section>
-<section id="explanation" class="level2">
-<h2 class="anchored" data-anchor-id="explanation">explanation</h2>
-<p>This code chunk outlines a procedure for processing a collection of text files using Python, with a focus on content analysis and natural language processing (NLP). Here’s a detailed explanation of each step:</p>
-<ol type="1">
-<li><strong>Importing Necessary Libraries</strong>:
-<ul>
-<li>The code begins by importing essential Python libraries: <code>os</code>, <code>pandas</code>, and <code>re</code>. The <code>os</code> library is used for interacting with the file system, <code>pandas</code> is a powerful data manipulation library used to manage and analyze data structures like DataFrames, and <code>re</code> is the regular expressions library used for pattern matching and text processing.</li>
-</ul></li>
-<li><strong>Defining a Text Cleaning Function</strong>:
-<ul>
-<li>A function <code>clean_text(text)</code> is defined to clean the text data by removing non-ASCII characters. This function uses the <code>re.sub()</code> method to search the text for any character that does not fall within the ASCII range (<code>[^\x00-\x7F]</code>) and replaces it with an empty string, effectively removing these characters. This step is crucial in NLP tasks to standardize text data, making it easier to analyze.</li>
-</ul></li>
-<li><strong>Setting Up the Directory Path</strong>:
-<ul>
-<li>The directory containing the text files is specified with <code>directory_path = '/content/osm-cca-nlp/res'</code>. This path directs the script to the location of the text files that will be processed.</li>
-</ul></li>
-<li><strong>Initializing Data Structures</strong>:
-<ul>
-<li>An empty list <code>data</code> is initialized to store the cleaned data, and a <code>unique_id</code> counter is set to <code>1</code> to uniquely identify each text file. These data structures are essential for organizing and managing the extracted and cleaned content.</li>
-</ul></li>
-<li><strong>Iterating Over Files in the Directory</strong>:
-<ul>
-<li>The script iterates over each file in the specified directory using <code>os.listdir(directory_path)</code>. A conditional statement <code>if filename.endswith(".txt") or filename.endswith(".md")</code> ensures that only plain text files (<code>.txt</code>) and Markdown files (<code>.md</code>) are processed. This step is fundamental in content analysis as it focuses the analysis on relevant document types.</li>
-</ul></li>
-<li><strong>Reading and Cleaning Text Content</strong>:
-<ul>
-<li>For each text file, the file is opened and read into a string variable <code>text</code> using <code>open(file_path, 'r', encoding='utf-8')</code>. The content is then passed to the <code>clean_text()</code> function to remove non-ASCII characters, resulting in a cleaned version of the text stored in <code>cleaned_text</code>. This step is crucial for preparing the text data for further NLP tasks by ensuring it is in a consistent and analyzable format.</li>
-</ul></li>
+<ol start="7" type="1">
 <li><strong>Storing the Data</strong>:
 <ul>
 <li>The original and cleaned text, along with the filename and unique ID, are stored as a dictionary in the <code>data</code> list. This structured storage is essential for keeping track of each document’s metadata and content, facilitating easy access and manipulation for later analysis.</li>
@@ -498,6 +501,73 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 </ol>
 <p>This procedure exemplifies a typical workflow in content analysis and NLP, where raw text data is cleaned, organized, and prepared for more sophisticated analytical tasks such as tokenization, entity recognition, or sentiment analysis. The use of Python and its libraries like <code>pandas</code> and <code>re</code> streamlines these tasks, making it easier to manage and analyze large collections of text.</p>
+</section>
+<section id="code-chunk" class="level2">
+<h2 class="anchored" data-anchor-id="code-chunk">code chunk</h2>
+<div id="62392352" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to clean text by removing non-ASCII characters</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_text(text):</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Remove non-ASCII characters</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    cleaned_text <span class="op">=</span> re.sub(<span class="vs">r'[^\x00-\x7F]+'</span>, <span class="st">''</span>, text)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> cleaned_text</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Directory containing text files</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>directory_path <span class="op">=</span> <span class="st">'/content/osm-cca-nlp/res'</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>directory_path <span class="op">=</span> <span class="st">'/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/res'</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize an empty list to store the data</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> []</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize a unique ID counter</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>unique_id <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate over the text files in the directory</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> filename <span class="kw">in</span> os.listdir(directory_path):</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Consider only plain text files</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> filename.endswith(<span class="st">".txt"</span>) <span class="kw">or</span> filename.endswith(<span class="st">".md"</span>):</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>        file_path <span class="op">=</span> os.path.join(directory_path, filename)</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Read the file content</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="bu">open</span>(file_path, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>            text <span class="op">=</span> <span class="bu">file</span>.read()</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Clean the text</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>        cleaned_text <span class="op">=</span> clean_text(text)</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Append the data as a dictionary with a unique ID</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>        data.append({</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>            <span class="st">'id'</span>: unique_id,</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>            <span class="st">'filename'</span>: filename,</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>            <span class="st">'original_text'</span>: text,</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>            <span class="st">'cleaned_text'</span>: cleaned_text</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>        })</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Increment the unique ID</span></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>        unique_id <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a Pandas DataFrame</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the DataFrame</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>   id                                           filename  \
+0   1  strategy-sustainable-development-lund-universi...   
+1   2          lu-sustainability-communication-01-min.md   
+
+                                       original_text  \
+0  Page 1\n\nSTRATEGY  \n\n19 September 2019  \n\...   
+1  Your browser has javascript turned off or bloc...   
+
+                                        cleaned_text  
+0  Page 1\n\nSTRATEGY  \n\n19 September 2019  \n\...  
+1  Your browser has javascript turned off or bloc...  </code></pre>
+</div>
+</div>
 
 
 </section>
