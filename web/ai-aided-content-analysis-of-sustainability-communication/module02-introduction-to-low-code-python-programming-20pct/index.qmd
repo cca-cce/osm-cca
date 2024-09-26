@@ -2,3 +2,35 @@
 title: "module02-introduction-to-low-code-python-programming-20pct/index.qmd"
 ---
 
+## overview of module 2 (ca 2x3 hours work)
+
+### [lesson 2.1](2-1-lesson.qmd) low-code python using jupyter notebooks
+
+- **video lecture:**
+- different python environments, local, cloud, notebooks
+- different python use cases, social science vs computer science
+- open science methods, reproducibility, transparency, collaboration, github
+- **computer lab:** walk-trough of google colab notebook user interface
+- **computer lab:** trying some basic python syntax
+- **prepare quiz:**
+- what is the result of this python command
+
+---
+
+### [lesson 2.2](2-2-lesson.qmd) ai-aided code generation with openai
+
+- **video lecture:**
+- different python environments, local, cloud, notebooks
+- different python use cases, social science vs computer science
+- **computer lab:** low-code cda, structured data analysis using pandas, built in data
+- **computer lab:** low-code cda, data visualization using matplotlib, seaborn 
+- **prepare quiz:**
+- what are the column names of dataset iris
+
+---
+
+
+
+
+
+

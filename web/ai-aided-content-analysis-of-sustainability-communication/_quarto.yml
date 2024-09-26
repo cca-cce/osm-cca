@@ -1,3 +1,16 @@
+execute:
+#  eval 	Evaluate the code chunk (if false, just echos the code into the output).
+  eval: false
+#  echo 	Include the source code in output
+  echo: true
+#  output 	Include the results of executing the code in the output (true, false, or asis to indicate that the output is raw markdown and should not have any of Quarto’s standard enclosing markdown).
+  output: false
+#  warning 	Include warnings in the output.
+  warning: false
+#  error 	Include errors in the output (note that this implies that errors executing code will not halt processing of the document).
+  error: false
+jupyter: python3
+
 project:
   type: website
 
@@ -124,9 +137,20 @@ website:
 
 format:
   html:
-    theme: cosmo
+#    theme: cosmo
+    theme: darkly
     css: styles.css
     toc: true
-
+#  pdf: 
+#    documentclass: report
+#    classoption: [twocolumn, landscape]
+#    lof: true
+#    lot: true
+#    geometry:
+#      - top=30mm
+#      - left=20mm
+#      - heightrounded
+#    fontfamily: libertinus
+#    colorlinks: true
 
 

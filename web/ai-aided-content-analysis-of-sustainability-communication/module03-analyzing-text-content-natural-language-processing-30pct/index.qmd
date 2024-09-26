@@ -2,13 +2,52 @@
 title: "module03-analyzing-text-content-natural-language-processing-30pct/index.qmd"
 ---
 
-## overview of module 3
+## overview of module 3 (ca 3x3 hours work)
 
-- [lesson 3.1](3-1-lesson.qmd) read, clean, describe text content
-- [lesson 3.2](3-2-lesson.qmd) use ai to infer tokens and entities
-- [lesson 3.3](3-3-lesson.qmd) summarize and visualize tabular data
+### [lesson 3.1](3-1-lesson.qmd) read, clean, describe text content
 
+- **video lecture:**
+- different types of NLP, ai-aided NLU, pos, ner, lemma 
+- text content features are associated with, causes cognitive effects 
+- text as unstructured data, unit of analysis
+- text sampling and types of text pdf, html, text, languages (en/se)
+- explain three levels of text analysis, quantitative analysis
+- 3 levels: descriptive, explorative, inferential
+- **computer lab:** read text into dataframe, text cleaning, stopword removal
+- **computer lab:** describe text stats (NLTK)
+- **prepare quiz:**
+- which of these word is a NLTK stopword
 
+---
+
+### [lesson 3.2](3-2-lesson.qmd) use ai to infer tokens and entities
+
+- **video lecture:**
+- different types of NLP, ai-aided NLU, pos, ner, lemma
+- text content features are associated with, causes cognitive effects 
+- explain three levels of text analysis, quantitative analysis
+- 3 levels: descriptive, explorative, inferential
+- tokenization, normalization, sentence level named entity recognition
+- **computer lab:** sentence and word tokenization, dataframe data structure
+- **computer lab:** inferential analysis of text using spacy ai models
+- **prepare quiz:**
+
+---
+
+### [lesson 3.3](3-3-lesson.qmd) summarize and visualize tabular data
+
+- **video lecture:**
+- different types of NLP, ai-aided NLU, pos, ner, lemma
+- text content features are associated with, causes cognitive effects 
+- open science methods, reproducibility, transparency, collaboration, github
+- plug in your own text content data in this course module
+- interate through module 3, lessons 1-3
+- next steps, compare sustainability communication by organizations, vectorization
+- **computer lab:** low-code ai-aided summarize in google colab
+- **computer lab:** low-code ai-aided visualize in google colab, content word frequency
+- **prepare quiz:**
+
+---
 
 
 
