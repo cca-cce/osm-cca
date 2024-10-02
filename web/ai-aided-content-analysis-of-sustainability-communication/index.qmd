@@ -2,6 +2,28 @@
 title: "web/ai-aided-content-analysis-of-sustainability-communication"
 ---
 
+## overview of mooc course (ca 10 lessons x 3 hours work)
+
+### check list for setting up video recordings
+
+- **video lecture:**
+- open google chrome, access google isk account 
+- go to [microsoft teams, stream web app](https://teams.microsoft.com/v2/) 
+- start screen recording of google slides browser tab
+- start google slides in presenter view
+- read presentation script, stop screen recording
+
+- **computer lab:** 
+- open google chrome, access google isk account 
+- go to [microsoft teams, stream web app](https://teams.microsoft.com/v2/) 
+- start screen recording of google colab browser tab
+- execute jupyter notebook cells and explain
+
+- **prepare quiz:**
+- 
+
+---
+
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

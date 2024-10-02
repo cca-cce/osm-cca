@@ -153,4 +153,5 @@ format:
 #    fontfamily: libertinus
 #    colorlinks: true
 
-
+bibliography: /home/sol-nhl/rnd/r/literature/bibs/sustainability-communication.bib
+bibliographystyle: apa

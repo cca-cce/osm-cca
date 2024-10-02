@@ -4,7 +4,7 @@ title: "module02-introduction-to-low-code-python-programming-20pct/index.qmd"
 
 ## overview of module 2 (ca 2x3 hours work)
 
-### [lesson 2.1](2-1-lesson.qmd) low-code python using jupyter notebooks
+### [lesson 2.1](2-1-lesson.qmd) jupyter notebooks on google colab
 
 - **video lecture:**
 - different python environments, local, cloud, notebooks
