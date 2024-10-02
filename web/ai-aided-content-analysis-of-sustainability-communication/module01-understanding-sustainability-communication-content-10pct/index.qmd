@@ -14,6 +14,7 @@ title: "module01-understanding-sustainability-communication-content-10pct/index.
 - **computer lab:** setting up a minimal, simple content database
 - **prepare quiz:**
 - reference book [@weder2021sustainability]
+
 ---
 
 

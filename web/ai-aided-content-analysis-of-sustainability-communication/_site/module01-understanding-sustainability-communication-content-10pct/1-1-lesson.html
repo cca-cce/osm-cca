@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -461,8 +481,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lesson.qmd" id="toc-lesson.qmd" class="nav-link active" data-scroll-target="#lesson.qmd">1-1-lesson.qmd</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -486,10 +512,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="lesson.qmd" class="level2">
+<h2 class="anchored" data-anchor-id="lesson.qmd"><a href="../module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html">1-1-lesson.qmd</a></h2>
+<ul>
+<li><strong>video lecture:</strong></li>
+<li>definition and relevance of sustainability communication (suscomm)</li>
+<li>background in quantitative content analysis, content sampling</li>
+<li>computational content analysis (cca), easier to scale up than manual</li>
+<li><strong>computer lab:</strong> find, download suscomm on organizational websites</li>
+<li><strong>computer lab:</strong> setting up a minimal, simple content database</li>
+<li><strong>prepare quiz:</strong></li>
+<li>reference book <span class="citation" data-cites="weder2021sustainability">(<a href="#ref-weder2021sustainability" role="doc-biblioref">Weder, Krainer, and Karmasin 2021</a>)</span></li>
+</ul>
+<hr>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-weder2021sustainability" class="csl-entry" role="listitem">
+Weder, Franzisca, Larissa Krainer, and Matthias Karmasin. 2021. <em>Sustainability Communication Reader</em>. Springer.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

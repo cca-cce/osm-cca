@@ -1,5 +1,51 @@
 [
   {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html",
+    "title": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.qmd",
+    "section": "",
+    "text": "computer lab: find, download suscomm on organizational websites\ncomputer lab: setting up a minimal, simple content database",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "computer lab 1.1.2"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html#computer-lab.qmd",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html#computer-lab.qmd",
+    "title": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.qmd",
+    "section": "",
+    "text": "computer lab: find, download suscomm on organizational websites\ncomputer lab: setting up a minimal, simple content database",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "computer lab 1.1.2"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html",
+    "title": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.qmd",
+    "section": "",
+    "text": "video lecture:\ndefinition and relevance of sustainability communication (suscomm)\nbackground in quantitative content analysis, content sampling\ncomputational content analysis (cca), easier to scale up than manual\ncomputer lab: find, download suscomm on organizational websites\ncomputer lab: setting up a minimal, simple content database\nprepare quiz:\nreference book (Weder, Krainer, and Karmasin 2021)",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html#lesson.qmd",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html#lesson.qmd",
+    "title": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.qmd",
+    "section": "",
+    "text": "video lecture:\ndefinition and relevance of sustainability communication (suscomm)\nbackground in quantitative content analysis, content sampling\ncomputational content analysis (cca), easier to scale up than manual\ncomputer lab: find, download suscomm on organizational websites\ncomputer lab: setting up a minimal, simple content database\nprepare quiz:\nreference book (Weder, Krainer, and Karmasin 2021)",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1"
+    ]
+  },
+  {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html",
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html",
     "title": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.qmd",
@@ -80,21 +126,93 @@
     ]
   },
   {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html",
+    "title": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.qmd",
+    "section": "",
+    "text": "# this is a python code cell.. also called a \"code chunk\"",
+    "crumbs": [
+      "module 2",
+      "lesson 2.1",
+      "computer lab 2.1.2"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html#computer-lab.qmd",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html#computer-lab.qmd",
+    "title": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.qmd",
+    "section": "",
+    "text": "# this is a python code cell.. also called a \"code chunk\"",
+    "crumbs": [
+      "module 2",
+      "lesson 2.1",
+      "computer lab 2.1.2"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html",
+    "title": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.qmd",
+    "section": "",
+    "text": "open science methods, reproducibility, transparency, collaboration, github\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of jupyter notebooks, benefits, contrasts with other environments\ndefining what is programming in general, and what is python programming\nwalk-trough of google colab notebook user interface\ngetting familiar with some basic python syntax\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one paragraph of text for each list item, where each paragraph starts with a bold face title sentence\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one lecture slide for each list item, where each slide starts with a short title prefixed by “####” and contains about 5 single sentence bullet points",
+    "crumbs": [
+      "module 2",
+      "lesson 2.1",
+      "lecture 2.1.1"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#video-lecture.qmd",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#video-lecture.qmd",
+    "title": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.qmd",
+    "section": "",
+    "text": "open science methods, reproducibility, transparency, collaboration, github\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of jupyter notebooks, benefits, contrasts with other environments\ndefining what is programming in general, and what is python programming\nwalk-trough of google colab notebook user interface\ngetting familiar with some basic python syntax\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one paragraph of text for each list item, where each paragraph starts with a bold face title sentence\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one lecture slide for each list item, where each slide starts with a short title prefixed by “####” and contains about 5 single sentence bullet points",
+    "crumbs": [
+      "module 2",
+      "lesson 2.1",
+      "lecture 2.1.1"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
+    "title": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.qmd",
+    "section": "",
+    "text": "different python environments, local, cloud, notebooks\ngoogle colab jupyter notebooks, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\nlow-code data analysis, structured datasets using pandas, built in datasets\nlow-code data analysis, data visualization using matplotlib, seaborn\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one paragraph of text for each list item, where each paragraph starts with a bold face title sentence\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one lecture slide for each list item, where each slide starts with a short title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\n\n\n\nDifferent Python Environments: Local, Cloud, Notebooks\nPython programming can be done in a variety of environments, each suited for different use cases. Local environments involve installing Python directly on your machine, offering full control and flexibility. Cloud-based environments, like Google Colab, abstract away installation and hardware concerns, allowing users to leverage powerful cloud servers. Jupyter Notebooks, whether local or cloud-based, are particularly popular for their interactive nature, enabling users to run code in small, digestible chunks within a document that also supports markdown and visualizations.\nGoogle Colab Jupyter Notebooks: Step-wise Code Chunks\nGoogle Colab uses Jupyter notebooks, which break down code into manageable, step-wise chunks. This precondition of chunked code facilitates experimentation and iteration. Users can run sections of code independently, troubleshoot specific parts, and gradually build complex workflows. It is an ideal setup for learners, data scientists, and AI practitioners, as it encourages testing code incrementally, with the added benefit of cloud-hosted execution.\nPrompting Generative AI: Copy-Paste Code Chunks\nOne of the most powerful workflows emerging in AI-aided low-code programming is the use of generative AI to assist in coding. Users can prompt AI models to generate code snippets based on natural language descriptions. These generated code chunks can then be copy-pasted directly into Google Colab cells for execution. This creates a seamless interaction between ideation and implementation, reducing the barrier to coding and allowing for rapid prototyping.\nThe Concept of Low-Code Programming: Copy-Paste Chunks vs. High-Code\nLow-code programming refers to the practice of building software with minimal hand-coding, relying on prebuilt code chunks, often generated by AI or taken from libraries. This is in contrast to high-code programming, where every aspect of the software is manually coded. Low-code approaches emphasize speed and accessibility, enabling individuals with limited coding experience to develop functional applications, while high-code remains essential for complex, highly customized solutions.\nImplementing Low-Code Using Google Colab and Generative AI\nGoogle Colab combined with generative AI represents a powerful platform for low-code development. By leveraging prebuilt code chunks generated by AI, users can quickly build and iterate on their projects without deep programming expertise. Colab’s support for Python and its vast ecosystem of libraries, such as Pandas and Matplotlib, makes it possible to implement complex data science workflows with minimal coding effort, bridging the gap between technical and non-technical users.\nLow-Code Data Analysis: Structured Datasets Using Pandas, Built-in Datasets\nFor data analysis, low-code programming in Google Colab can take advantage of powerful libraries like Pandas, which simplifies the handling of structured datasets. With minimal coding, users can perform complex data manipulations, aggregations, and transformations. Colab offers access to built-in datasets as well, making it easy for users to get started with practical examples. AI-aided low-code tools can suggest specific Pandas commands, allowing even beginners to perform sophisticated data analysis.\nLow-Code Data Visualization: Data Visualization Using Matplotlib, Seaborn\nData visualization is another area where low-code programming shines. Libraries like Matplotlib and Seaborn allow users to create rich, informative visualizations with just a few lines of code. In a low-code environment, AI can generate visualization scripts, which users can easily copy-paste into Colab. This enables the quick creation of graphs, charts, and plots, offering insights into datasets without requiring extensive coding knowledge or manual scripting.\n\n\n\n\nHere are the lecture slides based on your prompt:\n\n\n\n\nLocal environments require Python installation and offer full control.\nCloud environments provide scalable resources without local setup.\nJupyter Notebooks enable interactive, step-by-step coding.\nNotebooks support code execution alongside documentation and visuals.\nCloud and notebook environments streamline experimentation.\n\n\n\n\n\n\nGoogle Colab offers a cloud-based Jupyter Notebook environment.\nCode is divided into cells for incremental execution and testing.\nStep-wise execution aids in debugging and iterative development.\nSupports both Python code and Markdown documentation within cells.\nIdeal for cloud-hosted data science and machine learning workflows.\n\n\n\n\n\n\nUse generative AI to produce code based on natural language prompts.\nCopy-paste AI-generated code chunks directly into Colab cells.\nReduces manual coding efforts and speeds up development cycles.\nAI assists with generating functional code snippets on demand.\nEnables fast prototyping with minimal coding experience required.\n\n\n\n\n\n\nLow-code involves minimal hand-coding, using pre-built code snippets.\nHigh-code requires detailed manual coding and full customization.\nLow-code speeds up development and increases accessibility.\nHigh-code is necessary for complex, highly customized applications.\nLow-code approaches are ideal for rapid prototyping and automation.\n\n\n\n\n\n\nAI can generate code that users can implement in Colab with ease.\nColab provides a seamless environment for executing low-code solutions.\nUsers can perform powerful computations without extensive coding knowledge.\nAI-generated code integrates easily with popular Python libraries.\nLow-code in Colab democratizes access to advanced programming tools.\n\n\n\n\n\n\nPandas allows users to manipulate data with minimal lines of code.\nBuilt-in datasets in Colab offer immediate access to data for analysis.\nAI can assist in generating Pandas code for common data manipulations.\nLow-code workflows simplify filtering, transforming, and summarizing data.\nSuitable for both beginners and professionals handling structured datasets.\n\n\n\n\n\n\nMatplotlib and Seaborn enable easy creation of data visualizations.\nAI-generated code can produce ready-to-use visualizations quickly.\nColab supports seamless integration of visualizations within notebooks.\nLow-code makes it simple to create charts and graphs from datasets.\nVisualization tools help uncover insights from data with minimal effort.\n\n\nThis format provides clear and concise slides for each topic, which is well-suited for a lecture structure.",
+    "crumbs": [
+      "module 2",
+      "lesson 2.2",
+      "lecture 2.2.1"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#video-lecture.qmd",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#video-lecture.qmd",
+    "title": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.qmd",
+    "section": "",
+    "text": "different python environments, local, cloud, notebooks\ngoogle colab jupyter notebooks, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\nlow-code data analysis, structured datasets using pandas, built in datasets\nlow-code data analysis, data visualization using matplotlib, seaborn\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one paragraph of text for each list item, where each paragraph starts with a bold face title sentence\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the numbered list below to generate one lecture slide for each list item, where each slide starts with a short title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\n\n\n\nDifferent Python Environments: Local, Cloud, Notebooks\nPython programming can be done in a variety of environments, each suited for different use cases. Local environments involve installing Python directly on your machine, offering full control and flexibility. Cloud-based environments, like Google Colab, abstract away installation and hardware concerns, allowing users to leverage powerful cloud servers. Jupyter Notebooks, whether local or cloud-based, are particularly popular for their interactive nature, enabling users to run code in small, digestible chunks within a document that also supports markdown and visualizations.\nGoogle Colab Jupyter Notebooks: Step-wise Code Chunks\nGoogle Colab uses Jupyter notebooks, which break down code into manageable, step-wise chunks. This precondition of chunked code facilitates experimentation and iteration. Users can run sections of code independently, troubleshoot specific parts, and gradually build complex workflows. It is an ideal setup for learners, data scientists, and AI practitioners, as it encourages testing code incrementally, with the added benefit of cloud-hosted execution.\nPrompting Generative AI: Copy-Paste Code Chunks\nOne of the most powerful workflows emerging in AI-aided low-code programming is the use of generative AI to assist in coding. Users can prompt AI models to generate code snippets based on natural language descriptions. These generated code chunks can then be copy-pasted directly into Google Colab cells for execution. This creates a seamless interaction between ideation and implementation, reducing the barrier to coding and allowing for rapid prototyping.\nThe Concept of Low-Code Programming: Copy-Paste Chunks vs. High-Code\nLow-code programming refers to the practice of building software with minimal hand-coding, relying on prebuilt code chunks, often generated by AI or taken from libraries. This is in contrast to high-code programming, where every aspect of the software is manually coded. Low-code approaches emphasize speed and accessibility, enabling individuals with limited coding experience to develop functional applications, while high-code remains essential for complex, highly customized solutions.\nImplementing Low-Code Using Google Colab and Generative AI\nGoogle Colab combined with generative AI represents a powerful platform for low-code development. By leveraging prebuilt code chunks generated by AI, users can quickly build and iterate on their projects without deep programming expertise. Colab’s support for Python and its vast ecosystem of libraries, such as Pandas and Matplotlib, makes it possible to implement complex data science workflows with minimal coding effort, bridging the gap between technical and non-technical users.\nLow-Code Data Analysis: Structured Datasets Using Pandas, Built-in Datasets\nFor data analysis, low-code programming in Google Colab can take advantage of powerful libraries like Pandas, which simplifies the handling of structured datasets. With minimal coding, users can perform complex data manipulations, aggregations, and transformations. Colab offers access to built-in datasets as well, making it easy for users to get started with practical examples. AI-aided low-code tools can suggest specific Pandas commands, allowing even beginners to perform sophisticated data analysis.\nLow-Code Data Visualization: Data Visualization Using Matplotlib, Seaborn\nData visualization is another area where low-code programming shines. Libraries like Matplotlib and Seaborn allow users to create rich, informative visualizations with just a few lines of code. In a low-code environment, AI can generate visualization scripts, which users can easily copy-paste into Colab. This enables the quick creation of graphs, charts, and plots, offering insights into datasets without requiring extensive coding knowledge or manual scripting.\n\n\n\n\nHere are the lecture slides based on your prompt:\n\n\n\n\nLocal environments require Python installation and offer full control.\nCloud environments provide scalable resources without local setup.\nJupyter Notebooks enable interactive, step-by-step coding.\nNotebooks support code execution alongside documentation and visuals.\nCloud and notebook environments streamline experimentation.\n\n\n\n\n\n\nGoogle Colab offers a cloud-based Jupyter Notebook environment.\nCode is divided into cells for incremental execution and testing.\nStep-wise execution aids in debugging and iterative development.\nSupports both Python code and Markdown documentation within cells.\nIdeal for cloud-hosted data science and machine learning workflows.\n\n\n\n\n\n\nUse generative AI to produce code based on natural language prompts.\nCopy-paste AI-generated code chunks directly into Colab cells.\nReduces manual coding efforts and speeds up development cycles.\nAI assists with generating functional code snippets on demand.\nEnables fast prototyping with minimal coding experience required.\n\n\n\n\n\n\nLow-code involves minimal hand-coding, using pre-built code snippets.\nHigh-code requires detailed manual coding and full customization.\nLow-code speeds up development and increases accessibility.\nHigh-code is necessary for complex, highly customized applications.\nLow-code approaches are ideal for rapid prototyping and automation.\n\n\n\n\n\n\nAI can generate code that users can implement in Colab with ease.\nColab provides a seamless environment for executing low-code solutions.\nUsers can perform powerful computations without extensive coding knowledge.\nAI-generated code integrates easily with popular Python libraries.\nLow-code in Colab democratizes access to advanced programming tools.\n\n\n\n\n\n\nPandas allows users to manipulate data with minimal lines of code.\nBuilt-in datasets in Colab offer immediate access to data for analysis.\nAI can assist in generating Pandas code for common data manipulations.\nLow-code workflows simplify filtering, transforming, and summarizing data.\nSuitable for both beginners and professionals handling structured datasets.\n\n\n\n\n\n\nMatplotlib and Seaborn enable easy creation of data visualizations.\nAI-generated code can produce ready-to-use visualizations quickly.\nColab supports seamless integration of visualizations within notebooks.\nLow-code makes it simple to create charts and graphs from datasets.\nVisualization tools help uncover insights from data with minimal effort.\n\n\nThis format provides clear and concise slides for each topic, which is well-suited for a lecture structure.",
+    "crumbs": [
+      "module 2",
+      "lesson 2.2",
+      "lecture 2.2.1"
+    ]
+  },
+  {
     "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html",
     "href": "module02-introduction-to-low-code-python-programming-20pct/index.html",
     "title": "module02-introduction-to-low-code-python-programming-20pct/index.qmd",
     "section": "",
-    "text": "video lecture:\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nopen science methods, reproducibility, transparency, collaboration, github\ncomputer lab: walk-trough of google colab notebook user interface\ncomputer lab: trying some basic python syntax\nprepare quiz:\nwhat is the result of this python command\n\n\n\n\n\n\nvideo lecture:\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\ncomputer lab: low-code cda, structured data analysis using pandas, built in data\ncomputer lab: low-code cda, data visualization using matplotlib, seaborn\nprepare quiz:\nwhat are the column names of dataset iris",
+    "text": "extent: ca 2x3 hours work\nlow-code programming consists of two concepts:\ngoogle colab jupyter notebook env, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\n\n\n\n\nutilizing jupyter notebooks on google colab\n\n\n\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nwhat is programming, and what is python programming\nopen science methods, reproducibility, transparency, collaboration, github\n\n\n\n\n\nwalk-trough of google colab notebook user interface\n\n\n\n\n\ntrying some basic python syntax\n\n\n\n\n\nwhat is the result of this python command\n\n\n\n\n\n\n\nai-aided code generation with openai\n\n\n\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\n\n\n\n\n\nlow-code cda, structured data analysis using pandas, built in data\n\n\n\n\n\nlow-code cda, data visualization using matplotlib, seaborn\n\n\n\n\n\nwhat are the column names of dataset iris\nwhat are the number of rows in iris dataset",
     "crumbs": [
       "module 2"
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2-ca-2x3-hours-work",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2-ca-2x3-hours-work",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2",
     "title": "module02-introduction-to-low-code-python-programming-20pct/index.qmd",
     "section": "",
-    "text": "video lecture:\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nopen science methods, reproducibility, transparency, collaboration, github\ncomputer lab: walk-trough of google colab notebook user interface\ncomputer lab: trying some basic python syntax\nprepare quiz:\nwhat is the result of this python command\n\n\n\n\n\n\nvideo lecture:\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\ncomputer lab: low-code cda, structured data analysis using pandas, built in data\ncomputer lab: low-code cda, data visualization using matplotlib, seaborn\nprepare quiz:\nwhat are the column names of dataset iris",
+    "text": "extent: ca 2x3 hours work\nlow-code programming consists of two concepts:\ngoogle colab jupyter notebook env, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\n\n\n\n\nutilizing jupyter notebooks on google colab\n\n\n\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nwhat is programming, and what is python programming\nopen science methods, reproducibility, transparency, collaboration, github\n\n\n\n\n\nwalk-trough of google colab notebook user interface\n\n\n\n\n\ntrying some basic python syntax\n\n\n\n\n\nwhat is the result of this python command\n\n\n\n\n\n\n\nai-aided code generation with openai\n\n\n\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\n\n\n\n\n\nlow-code cda, structured data analysis using pandas, built in data\n\n\n\n\n\nlow-code cda, data visualization using matplotlib, seaborn\n\n\n\n\n\nwhat are the column names of dataset iris\nwhat are the number of rows in iris dataset",
     "crumbs": [
       "module 2"
     ]
@@ -104,7 +222,7 @@
     "href": "index.html",
     "title": "web/ai-aided-content-analysis-of-sustainability-communication",
     "section": "",
-    "text": "video lecture:\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncomputer lab:\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain\nprepare quiz:\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "text": "open google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
     "crumbs": [
       "course start"
     ]
@@ -114,7 +232,7 @@
     "href": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
     "title": "web/ai-aided-content-analysis-of-sustainability-communication",
     "section": "",
-    "text": "video lecture:\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncomputer lab:\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain\nprepare quiz:\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "text": "open google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
     "crumbs": [
       "course start"
     ]
@@ -252,6 +370,30 @@
       "module 3",
       "lesson 3.1",
       "computer lab 3.1.3"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
+    "title": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.qmd",
+    "section": "",
+    "text": "video lecture:\ndefinition and relevance of sustainability communication (suscomm)\nbackground in quantitative content analysis, content sampling\ncomputational content analysis (cca), easier to scale up than manual",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "lecture 1.1.1"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#video-lecture.qmd",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#video-lecture.qmd",
+    "title": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.qmd",
+    "section": "",
+    "text": "video lecture:\ndefinition and relevance of sustainability communication (suscomm)\nbackground in quantitative content analysis, content sampling\ncomputational content analysis (cca), easier to scale up than manual",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "lecture 1.1.1"
     ]
   },
   {

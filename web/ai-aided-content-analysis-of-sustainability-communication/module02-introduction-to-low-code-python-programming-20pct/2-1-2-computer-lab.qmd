@@ -2,3 +2,28 @@
 title: "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.qmd"
 ---
 
+## [2-1-2-computer-lab.qmd](2-1-2-computer-lab.qmd)
+
+### walk-trough of google colab notebook user interface
+
+#### computer lab
+
+```{python}
+# this is a python code cell.. also called a "code chunk"
+```
+
+# annotations
+
+this is a markdown text cell used to annotate and describe the code cell below
+
+```{python}
+# this is a python comment explaining the code line below
+print("hello mooc world :)")
+```
+
+# create cells
+
+
+
+
+

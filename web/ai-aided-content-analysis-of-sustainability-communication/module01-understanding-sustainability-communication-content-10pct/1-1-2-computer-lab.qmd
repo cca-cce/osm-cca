@@ -2,3 +2,10 @@
 title: "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.qmd"
 ---
 
+## [1-1-2-computer-lab.qmd](1-1-2-computer-lab.qmd)
+
+- **computer lab:** find, download suscomm on organizational websites
+- **computer lab:** setting up a minimal, simple content database
+
+
+

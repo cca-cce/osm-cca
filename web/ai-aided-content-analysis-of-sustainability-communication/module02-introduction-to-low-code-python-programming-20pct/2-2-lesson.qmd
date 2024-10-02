@@ -2,3 +2,5 @@
 title: "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.qmd"
 ---
 
+
+## [2-2-lesson.qmd](2-2-lesson.qmd)

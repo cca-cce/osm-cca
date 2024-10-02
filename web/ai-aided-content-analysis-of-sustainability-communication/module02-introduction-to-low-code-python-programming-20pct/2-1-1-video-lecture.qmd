@@ -2,3 +2,32 @@
 title: "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.qmd"
 ---
 
+## [2-1-1-video-lecture.qmd](2-1-1-video-lecture.qmd)
+
+### jupyter notebooks on google colab
+
+#### video lecture
+- open science methods, reproducibility, transparency, collaboration, github
+- different python environments, local, cloud, notebooks
+- different python use cases, social science vs computer science
+- the concept of jupyter notebooks, benefits, contrasts with other environments
+- defining what is programming in general, and what is python programming
+- walk-trough of google colab notebook user interface
+- getting familiar with some basic python syntax
+
+---
+
+prompt: im planning a text on the topic of "ai-aided low-code programming with google colab".. please use the numbered list below to generate one paragraph of text for each list item, where each paragraph starts with a bold face title sentence
+
+prompt: im planning a lecture on the topic of "ai-aided low-code programming with google colab".. please use the numbered list below to generate one lecture slide for each list item, where each slide starts with a short title prefixed by "#### " and contains about 5 single sentence bullet points
+
+---
+
+### lecture text
+
+
+### lecture slides
+
+
+
+

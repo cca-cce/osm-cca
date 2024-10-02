@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -461,8 +495,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#computer-lab.qmd" id="toc-computer-lab.qmd" class="nav-link active" data-scroll-target="#computer-lab.qmd">2-1-2-computer-lab.qmd</a>
+  <ul class="collapse">
+  <li><a href="#walk-trough-of-google-colab-notebook-user-interface" id="toc-walk-trough-of-google-colab-notebook-user-interface" class="nav-link" data-scroll-target="#walk-trough-of-google-colab-notebook-user-interface">walk-trough of google colab notebook user interface</a></li>
+  </ul></li>
+  <li><a href="#annotation" id="toc-annotation" class="nav-link" data-scroll-target="#annotation">annotation</a></li>
+  <li><a href="#create-cells" id="toc-create-cells" class="nav-link" data-scroll-target="#create-cells">create cells</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -486,8 +531,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="computer-lab.qmd" class="level2">
+<h2 class="anchored" data-anchor-id="computer-lab.qmd"><a href="../module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html">2-1-2-computer-lab.qmd</a></h2>
+<section id="walk-trough-of-google-colab-notebook-user-interface" class="level3">
+<h3 class="anchored" data-anchor-id="walk-trough-of-google-colab-notebook-user-interface">walk-trough of google colab notebook user interface</h3>
+<section id="computer-lab" class="level4">
+<h4 class="anchored" data-anchor-id="computer-lab">computer lab</h4>
+<div id="c05783b8" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># this is a python code cell.. also called a "code chunk"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="annotation" class="level1">
+<h1>annotation</h1>
+<p>this is a markdown text cell used to annotate and describe the code cell below</p>
+<div id="9cf39108" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># this is a python comment explaining the command below</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"hello mooc world :)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="create-cells" class="level1">
+<h1>create cells</h1>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

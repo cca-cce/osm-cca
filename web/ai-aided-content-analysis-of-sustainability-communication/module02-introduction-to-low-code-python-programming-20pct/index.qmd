@@ -2,30 +2,50 @@
 title: "module02-introduction-to-low-code-python-programming-20pct/index.qmd"
 ---
 
-## overview of module 2 (ca 2x3 hours work)
+## overview of module 2
+- extent: ca 2x3 hours work
+- low-code programming consists of two concepts:
+- google colab jupyter notebook env, step-wise code chunks (precondition)
+- prompting generative ai, copy-paste code chunks (workflow)
 
-### [lesson 2.1](2-1-lesson.qmd) jupyter notebooks on google colab
+### [lesson 2.1](2-1-lesson.qmd)
+- utilizing jupyter notebooks on google colab
 
-- **video lecture:**
+#### video lecture
 - different python environments, local, cloud, notebooks
 - different python use cases, social science vs computer science
+- what is programming, and what is python programming
 - open science methods, reproducibility, transparency, collaboration, github
-- **computer lab:** walk-trough of google colab notebook user interface
-- **computer lab:** trying some basic python syntax
-- **prepare quiz:**
+
+#### computer lab
+- walk-trough of google colab notebook user interface
+
+#### computer lab
+- trying some basic python syntax
+
+#### prepare quiz
 - what is the result of this python command
 
 ---
 
-### [lesson 2.2](2-2-lesson.qmd) ai-aided code generation with openai
+### [lesson 2.2](2-2-lesson.qmd)
+- ai-aided code generation with openai
 
-- **video lecture:**
+#### video lecture
 - different python environments, local, cloud, notebooks
 - different python use cases, social science vs computer science
-- **computer lab:** low-code cda, structured data analysis using pandas, built in data
-- **computer lab:** low-code cda, data visualization using matplotlib, seaborn 
-- **prepare quiz:**
+- the concept of low-code programming (copy-paste chunks) vs high-code
+- implementing low-code using google colab and generative ai
+
+#### computer lab
+- low-code cda, structured data analysis using pandas, built in data
+
+#### computer lab
+- low-code cda, data visualization using matplotlib, seaborn 
+
+#### prepare quiz
 - what are the column names of dataset iris
+- what are the number of rows in iris dataset
 
 ---
 
