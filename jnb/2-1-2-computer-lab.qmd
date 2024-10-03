@@ -1,0 +1,44 @@
+---
+title: "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.qmd"
+---
+
+## [the google colab notebook user interface](2-1-2-computer-lab.ipynb)
+
+```{python}
+# this is a python code cell.. also called a "code chunk"
+print("hello world !")
+```
+
+# annotations
+
+this is a markdown text cell used to annotate and describe the code cell below
+
+```{python}
+# this is a python comment explaining the code line below
+print("hello mooc :)")
+```
+
+# more user actions
+
+1. **Create a code cell**: Insert a new cell to write and execute Python code.
+2. **Create a text cell**: Insert a markdown cell to add notes, explanations, or documentation.
+3. **Upload files**: Upload local files to the Colab environment for use in your notebook.
+4. **Mount Google Drive**: Connect and access your Google Drive files directly from Colab.
+5. **Run code cells**: Execute the code within a cell and see the output below it.
+6. **Save notebook to Google Drive**: Automatically save your notebook to Google Drive for easy access.
+7. **Download notebook as .ipynb**: Download your notebook in Jupyter notebook format.
+8. **Download notebook as .py**: Export your notebook as a Python script.
+9. **Share notebook**: Share the notebook with others, allowing for collaboration and viewing.
+10. **Access GPU/TPU runtime**: Switch to GPU or TPU for faster computations when dealing with large datasets or deep learning models.
+11. **Install Python packages**: Use `pip` or `apt-get` to install additional Python libraries or system packages.
+12. **View execution history**: Check the execution history of each cell and its outputs.
+13. **Clear all outputs**: Remove all outputs in the notebook to declutter the interface.
+14. **Restart runtime**: Reset the runtime environment to start fresh without previous variables and data.
+15. **Connect to runtime**: Manually connect or reconnect to a runtime instance to execute the notebook.
+
+
+
+
+
+
+

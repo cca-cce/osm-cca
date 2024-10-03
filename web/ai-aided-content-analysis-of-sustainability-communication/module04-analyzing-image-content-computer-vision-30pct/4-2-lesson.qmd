@@ -1,4 +1,0 @@
----
-title: "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.qmd"
----
-

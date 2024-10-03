@@ -1,0 +1,9 @@
+---
+title: "module02-introduction-to-low-code-python-programming-20pct/2-1-3-computer-lab.qmd"
+---
+
+## [trying out some basic python syntax](2-1-3-computer-lab.qmd)
+
+
+
+
