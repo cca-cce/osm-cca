@@ -18,7 +18,7 @@ this is a markdown text cell used to annotate and describe the code cell below
 
 ```{python}
 # this is a python comment explaining the code line below
-print("hello mooc world :)")
+print("hello mooc :)")
 ```
 
 # create cells
