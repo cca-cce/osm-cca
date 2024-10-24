@@ -1,5 +1,9 @@
 ---
-title: "module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.qmd"
+title: "module02-introduction-to-low-code-python-programming-20pct"
+subtitle: "ai-aided-content-analysis-of-sustainability-communication"
+---
+
+## 2-2-3-computer-lab.qmd
 ---
 
 ## [2-2-3-computer-lab.qmd](2-2-3-computer-lab.qmd)

@@ -1,4 +1,8 @@
 ---
-title: "module04-analyzing-image-content-computer-vision-30pct/4-3-3-computer-lab.qmd"
+title: "module04-analyzing-image-content-computer-vision-30pct"
+subtitle: "ai-aided-content-analysis-of-sustainability-communication"
+---
+
+## 4-3-3-computer-lab.qmd
 ---
 

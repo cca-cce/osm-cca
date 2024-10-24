@@ -1,5 +1,9 @@
 ---
-title: "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.qmd"
+title: "module02-introduction-to-low-code-python-programming-20pct"
+subtitle: "ai-aided-content-analysis-of-sustainability-communication"
+---
+
+## 2-1-2-computer-lab.qmd
 ---
 
 ## [the google colab notebook user interface](2-1-2-computer-lab.ipynb)
