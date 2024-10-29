@@ -10,381 +10,75 @@
     ]
   },
   {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
+    "title": "module01-understanding-sustainability-communication-content-10pct",
+    "section": "",
+    "text": "definitions and relevance of sustainability communication content today\nfunctions and objectives organizational of sustainability communication\nbackground in quantitative content analysis, example of manual analysis\ncomputational content analysis easier to scale up than manual analysis\npros and cons of manual quatitative content analysis vs computational\nfind, download sustainability communication from organizational websites\ntechniques for setting up a sustainability communication content database\n\n\nprompt: im planning a text on the topic of “understanding sustainability communication content”.. please use the list below to generate one paragraph of text for each list item, where each paragraph is preceeded by a shortened title prefixed by “####”\nprompt: im planning a lecture on the topic of “understanding sustainability communication content”.. please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\n\n\n\nSustainability communication refers to the messages and narratives organizations use to convey their efforts toward environmental, social, and economic responsibility. Today, sustainability communication has become increasingly relevant due to heightened public awareness of climate change, ethical consumerism, and corporate social responsibility. Organizations use this communication to build trust, engage stakeholders, and demonstrate their commitment to sustainability goals. As such, it plays a key role in influencing perceptions and driving societal change.\n\n\n\nThe primary functions of sustainability communication within organizations include informing stakeholders, promoting transparency, and shaping the organization’s public image. Its objectives range from raising awareness of sustainability efforts to influencing policy and behavior, both internally and externally. It also serves to align the organization’s activities with global sustainability goals, such as the UN Sustainable Development Goals (SDGs), fostering accountability and reinforcing corporate identity.\n\n\n\nQuantitative content analysis involves systematically coding and quantifying communication materials, such as reports, press releases, or social media posts, to identify trends and patterns. For example, in a manual analysis of sustainability reports, researchers might count the frequency of specific sustainability-related keywords or themes. This traditional approach provides valuable insights but is time-consuming and labor-intensive, limiting its scalability when dealing with large datasets.\n\n\n\nComputational content analysis leverages algorithms and machine learning models to automate the coding and analysis process, making it much easier to scale than manual methods. By processing vast amounts of sustainability communication data in seconds, computational analysis enables researchers to identify trends, sentiment, and thematic patterns across large datasets. This scalability allows for more comprehensive analyses, uncovering insights that may be missed in manual reviews.\n\n\n\nManual quantitative content analysis offers a level of nuance and human interpretation that computational methods may not fully capture, especially when dealing with ambiguous or context-dependent content. However, manual analysis is time-consuming and often impractical for large datasets. In contrast, computational analysis can process massive amounts of data quickly and objectively but may miss subtle qualitative differences. A combination of both methods can provide a more balanced approach to analyzing sustainability communication.\n\n\n\nFinding sustainability communication from organizational websites typically involves browsing through dedicated sections such as “Sustainability,” “Corporate Social Responsibility,” or “Environmental Impact.” Many organizations publish reports, case studies, and press releases on these pages. Using web scraping tools or APIs, these documents can be systematically downloaded for further analysis, making it easier to collect large volumes of sustainability-related content for research purposes.\n\n\n\nTo set up a sustainability communication content database, researchers can utilize data storage tools like relational databases or cloud-based storage services. The content can be collected via automated web scraping, APIs, or manual downloads, and then systematically organized by categories such as organization, date, and type of communication (e.g., reports, press releases, social media posts). This database forms the foundation for further manual or computational content analysis, providing a structured and scalable approach to studying sustainability communication.\n\n\n\n\nHere is the breakdown of lecture slides based on your prompt:\n\n\n\n\nSustainability communication refers to how organizations share their sustainability efforts.\n\nIt encompasses environmental, social, and economic responsibility messages.\n\nToday, it is essential due to increased public concern for climate change and corporate ethics.\n\nEffective communication builds trust and drives sustainable practices.\n\nIt plays a critical role in shaping perceptions and driving societal change.\n\n\n\n\n\n\nInforms stakeholders about sustainability initiatives and goals.\n\nPromotes transparency and corporate social responsibility.\n\nShapes the public image and strengthens organizational identity.\n\nAligns activities with global sustainability goals like the UN SDGs.\n\nEngages internal and external stakeholders to foster collaboration.\n\n\n\n\n\n\nQuantitative content analysis involves coding and counting content features.\n\nExample: counting sustainability-related keywords in corporate reports.\n\nIt helps identify trends and patterns in communication materials.\n\nManual analysis is labor-intensive and time-consuming.\n\nUseful for detailed, context-rich insights but limited in scalability.\n\n\n\n\n\n\nComputational analysis automates the coding and processing of content.\n\nAllows for large-scale analysis of sustainability communication datasets.\n\nIdentifies trends, sentiment, and themes more quickly than manual methods.\n\nCan process vast amounts of data within seconds or minutes.\n\nUseful for big datasets but may lack the nuance of manual coding.\n\n\n\n\n\n\nManual analysis provides deep insights but is time-intensive.\n\nComputational analysis is faster and can handle much larger datasets.\n\nManual methods capture subtle context but may introduce bias.\n\nComputational methods are more objective but can miss nuanced details.\n\nCombining both methods can offer a more comprehensive approach.\n\n\n\n\n\n\nMany organizations publish sustainability reports on their websites.\n\nLook for sections like “Sustainability” or “Corporate Social Responsibility”.\n\nWeb scraping tools can automate the collection of online reports.\n\nAPIs may offer structured access to sustainability-related data.\n\nSystematic collection is crucial for large-scale content analysis.\n\n\n\n\n\n\nUse relational databases or cloud storage to organize content.\n\nCollect content via web scraping, APIs, or manual downloads.\n\nCategorize content by organization, date, and type (e.g., reports, social media).\n\nEnsure the database is scalable for both manual and computational analysis.\n\nOrganizing the data effectively supports future research and analysis.\n\n\nThese slides provide a structured outline for your lecture on “Understanding Sustainability Communication Content.”",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "video lecture 1.1.1"
+    ]
+  },
+  {
     "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#sustainability-communication-content",
     "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#sustainability-communication-content",
     "title": "module01-understanding-sustainability-communication-content-10pct",
-    "section": "sustainability communication content",
-    "text": "sustainability communication content\n\nvideo lecture\n\ndefinitions and relevance of sustainability communication content today\nfunctions and objectives organizational of sustainability communication\nbackground in quantitative content analysis, example of manual analysis\ncomputational content analysis easier to scale up than manual analysis\npros and cons of manual quatitative content analysis vs computational\nfind, download sustainability communication from organizational websites\ntechniques for setting up a sustainability communication content database\n\n\nprompt: im planning a text on the topic of “understanding sustainability communication content”.. please use the list below to generate one paragraph of text for each list item, where each paragraph is preceeded by a shortened title prefixed by “####”\nprompt: im planning a lecture on the topic of “understanding sustainability communication content”.. please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\nlecture text\n\nDefinitions and Relevance of Sustainability Communication Content Today\nSustainability communication refers to the messages and narratives organizations use to convey their efforts toward environmental, social, and economic responsibility. Today, sustainability communication has become increasingly relevant due to heightened public awareness of climate change, ethical consumerism, and corporate social responsibility. Organizations use this communication to build trust, engage stakeholders, and demonstrate their commitment to sustainability goals. As such, it plays a key role in influencing perceptions and driving societal change.\n\n\nFunctions and Objectives of Organizational Sustainability Communication\nThe primary functions of sustainability communication within organizations include informing stakeholders, promoting transparency, and shaping the organization’s public image. Its objectives range from raising awareness of sustainability efforts to influencing policy and behavior, both internally and externally. It also serves to align the organization’s activities with global sustainability goals, such as the UN Sustainable Development Goals (SDGs), fostering accountability and reinforcing corporate identity.\n\n\nBackground in Quantitative Content Analysis: Example of Manual Analysis\nQuantitative content analysis involves systematically coding and quantifying communication materials, such as reports, press releases, or social media posts, to identify trends and patterns. For example, in a manual analysis of sustainability reports, researchers might count the frequency of specific sustainability-related keywords or themes. This traditional approach provides valuable insights but is time-consuming and labor-intensive, limiting its scalability when dealing with large datasets.\n\n\nComputational Content Analysis: Easier to Scale Up Than Manual Analysis\nComputational content analysis leverages algorithms and machine learning models to automate the coding and analysis process, making it much easier to scale than manual methods. By processing vast amounts of sustainability communication data in seconds, computational analysis enables researchers to identify trends, sentiment, and thematic patterns across large datasets. This scalability allows for more comprehensive analyses, uncovering insights that may be missed in manual reviews.\n\n\nPros and Cons of Manual Quantitative Content Analysis vs. Computational\nManual quantitative content analysis offers a level of nuance and human interpretation that computational methods may not fully capture, especially when dealing with ambiguous or context-dependent content. However, manual analysis is time-consuming and often impractical for large datasets. In contrast, computational analysis can process massive amounts of data quickly and objectively but may miss subtle qualitative differences. A combination of both methods can provide a more balanced approach to analyzing sustainability communication.\n\n\nFinding and Downloading Sustainability Communication from Organizational Websites\nFinding sustainability communication from organizational websites typically involves browsing through dedicated sections such as “Sustainability,” “Corporate Social Responsibility,” or “Environmental Impact.” Many organizations publish reports, case studies, and press releases on these pages. Using web scraping tools or APIs, these documents can be systematically downloaded for further analysis, making it easier to collect large volumes of sustainability-related content for research purposes.\n\n\nTechniques for Setting Up a Sustainability Communication Content Database\nTo set up a sustainability communication content database, researchers can utilize data storage tools like relational databases or cloud-based storage services. The content can be collected via automated web scraping, APIs, or manual downloads, and then systematically organized by categories such as organization, date, and type of communication (e.g., reports, press releases, social media posts). This database forms the foundation for further manual or computational content analysis, providing a structured and scalable approach to studying sustainability communication.\n\n\n\nlecture slides\nHere is the breakdown of lecture slides based on your prompt:\n\n\nDefinitions and Relevance of Sustainability Communication Today\n\nSustainability communication refers to how organizations share their sustainability efforts.\n\nIt encompasses environmental, social, and economic responsibility messages.\n\nToday, it is essential due to increased public concern for climate change and corporate ethics.\n\nEffective communication builds trust and drives sustainable practices.\n\nIt plays a critical role in shaping perceptions and driving societal change.\n\n\n\n\nFunctions and Objectives of Organizational Sustainability Communication\n\nInforms stakeholders about sustainability initiatives and goals.\n\nPromotes transparency and corporate social responsibility.\n\nShapes the public image and strengthens organizational identity.\n\nAligns activities with global sustainability goals like the UN SDGs.\n\nEngages internal and external stakeholders to foster collaboration.\n\n\n\n\nBackground in Quantitative Content Analysis: Manual Analysis Example\n\nQuantitative content analysis involves coding and counting content features.\n\nExample: counting sustainability-related keywords in corporate reports.\n\nIt helps identify trends and patterns in communication materials.\n\nManual analysis is labor-intensive and time-consuming.\n\nUseful for detailed, context-rich insights but limited in scalability.\n\n\n\n\nComputational Content Analysis: Easier to Scale Than Manual\n\nComputational analysis automates the coding and processing of content.\n\nAllows for large-scale analysis of sustainability communication datasets.\n\nIdentifies trends, sentiment, and themes more quickly than manual methods.\n\nCan process vast amounts of data within seconds or minutes.\n\nUseful for big datasets but may lack the nuance of manual coding.\n\n\n\n\nPros and Cons of Manual vs. Computational Content Analysis\n\nManual analysis provides deep insights but is time-intensive.\n\nComputational analysis is faster and can handle much larger datasets.\n\nManual methods capture subtle context but may introduce bias.\n\nComputational methods are more objective but can miss nuanced details.\n\nCombining both methods can offer a more comprehensive approach.\n\n\n\n\nFinding and Downloading Sustainability Communication from Websites\n\nMany organizations publish sustainability reports on their websites.\n\nLook for sections like “Sustainability” or “Corporate Social Responsibility”.\n\nWeb scraping tools can automate the collection of online reports.\n\nAPIs may offer structured access to sustainability-related data.\n\nSystematic collection is crucial for large-scale content analysis.\n\n\n\n\nTechniques for Setting Up a Sustainability Communication Content Database\n\nUse relational databases or cloud storage to organize content.\n\nCollect content via web scraping, APIs, or manual downloads.\n\nCategorize content by organization, date, and type (e.g., reports, social media).\n\nEnsure the database is scalable for both manual and computational analysis.\n\nOrganizing the data effectively supports future research and analysis.\n\n\nThese slides provide a structured outline for your lecture on “Understanding Sustainability Communication Content.”",
+    "section": "",
+    "text": "definitions and relevance of sustainability communication content today\nfunctions and objectives organizational of sustainability communication\nbackground in quantitative content analysis, example of manual analysis\ncomputational content analysis easier to scale up than manual analysis\npros and cons of manual quatitative content analysis vs computational\nfind, download sustainability communication from organizational websites\ntechniques for setting up a sustainability communication content database\n\n\nprompt: im planning a text on the topic of “understanding sustainability communication content”.. please use the list below to generate one paragraph of text for each list item, where each paragraph is preceeded by a shortened title prefixed by “####”\nprompt: im planning a lecture on the topic of “understanding sustainability communication content”.. please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\n\n\n\nSustainability communication refers to the messages and narratives organizations use to convey their efforts toward environmental, social, and economic responsibility. Today, sustainability communication has become increasingly relevant due to heightened public awareness of climate change, ethical consumerism, and corporate social responsibility. Organizations use this communication to build trust, engage stakeholders, and demonstrate their commitment to sustainability goals. As such, it plays a key role in influencing perceptions and driving societal change.\n\n\n\nThe primary functions of sustainability communication within organizations include informing stakeholders, promoting transparency, and shaping the organization’s public image. Its objectives range from raising awareness of sustainability efforts to influencing policy and behavior, both internally and externally. It also serves to align the organization’s activities with global sustainability goals, such as the UN Sustainable Development Goals (SDGs), fostering accountability and reinforcing corporate identity.\n\n\n\nQuantitative content analysis involves systematically coding and quantifying communication materials, such as reports, press releases, or social media posts, to identify trends and patterns. For example, in a manual analysis of sustainability reports, researchers might count the frequency of specific sustainability-related keywords or themes. This traditional approach provides valuable insights but is time-consuming and labor-intensive, limiting its scalability when dealing with large datasets.\n\n\n\nComputational content analysis leverages algorithms and machine learning models to automate the coding and analysis process, making it much easier to scale than manual methods. By processing vast amounts of sustainability communication data in seconds, computational analysis enables researchers to identify trends, sentiment, and thematic patterns across large datasets. This scalability allows for more comprehensive analyses, uncovering insights that may be missed in manual reviews.\n\n\n\nManual quantitative content analysis offers a level of nuance and human interpretation that computational methods may not fully capture, especially when dealing with ambiguous or context-dependent content. However, manual analysis is time-consuming and often impractical for large datasets. In contrast, computational analysis can process massive amounts of data quickly and objectively but may miss subtle qualitative differences. A combination of both methods can provide a more balanced approach to analyzing sustainability communication.\n\n\n\nFinding sustainability communication from organizational websites typically involves browsing through dedicated sections such as “Sustainability,” “Corporate Social Responsibility,” or “Environmental Impact.” Many organizations publish reports, case studies, and press releases on these pages. Using web scraping tools or APIs, these documents can be systematically downloaded for further analysis, making it easier to collect large volumes of sustainability-related content for research purposes.\n\n\n\nTo set up a sustainability communication content database, researchers can utilize data storage tools like relational databases or cloud-based storage services. The content can be collected via automated web scraping, APIs, or manual downloads, and then systematically organized by categories such as organization, date, and type of communication (e.g., reports, press releases, social media posts). This database forms the foundation for further manual or computational content analysis, providing a structured and scalable approach to studying sustainability communication.\n\n\n\n\nHere is the breakdown of lecture slides based on your prompt:\n\n\n\n\nSustainability communication refers to how organizations share their sustainability efforts.\n\nIt encompasses environmental, social, and economic responsibility messages.\n\nToday, it is essential due to increased public concern for climate change and corporate ethics.\n\nEffective communication builds trust and drives sustainable practices.\n\nIt plays a critical role in shaping perceptions and driving societal change.\n\n\n\n\n\n\nInforms stakeholders about sustainability initiatives and goals.\n\nPromotes transparency and corporate social responsibility.\n\nShapes the public image and strengthens organizational identity.\n\nAligns activities with global sustainability goals like the UN SDGs.\n\nEngages internal and external stakeholders to foster collaboration.\n\n\n\n\n\n\nQuantitative content analysis involves coding and counting content features.\n\nExample: counting sustainability-related keywords in corporate reports.\n\nIt helps identify trends and patterns in communication materials.\n\nManual analysis is labor-intensive and time-consuming.\n\nUseful for detailed, context-rich insights but limited in scalability.\n\n\n\n\n\n\nComputational analysis automates the coding and processing of content.\n\nAllows for large-scale analysis of sustainability communication datasets.\n\nIdentifies trends, sentiment, and themes more quickly than manual methods.\n\nCan process vast amounts of data within seconds or minutes.\n\nUseful for big datasets but may lack the nuance of manual coding.\n\n\n\n\n\n\nManual analysis provides deep insights but is time-intensive.\n\nComputational analysis is faster and can handle much larger datasets.\n\nManual methods capture subtle context but may introduce bias.\n\nComputational methods are more objective but can miss nuanced details.\n\nCombining both methods can offer a more comprehensive approach.\n\n\n\n\n\n\nMany organizations publish sustainability reports on their websites.\n\nLook for sections like “Sustainability” or “Corporate Social Responsibility”.\n\nWeb scraping tools can automate the collection of online reports.\n\nAPIs may offer structured access to sustainability-related data.\n\nSystematic collection is crucial for large-scale content analysis.\n\n\n\n\n\n\nUse relational databases or cloud storage to organize content.\n\nCollect content via web scraping, APIs, or manual downloads.\n\nCategorize content by organization, date, and type (e.g., reports, social media).\n\nEnsure the database is scalable for both manual and computational analysis.\n\nOrganizing the data effectively supports future research and analysis.\n\n\nThese slides provide a structured outline for your lecture on “Understanding Sustainability Communication Content.”",
     "crumbs": [
       "module 1",
       "lesson 1.1",
-      "lecture 1.1.1"
+      "video lecture 1.1.1"
     ]
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html#computer-lab.qmd-1",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html#computer-lab.qmd-1",
-    "title": "module01-understanding-sustainability-communication-content-10pct",
-    "section": "1-1-3-computer-lab.qmd",
-    "text": "1-1-3-computer-lab.qmd",
-    "crumbs": [
-      "module 1",
-      "lesson 1.1",
-      "computer lab 1.1.3"
-    ]
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-slide-deck.html#hello-there",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-slide-deck.html#hello-there",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Hello, There",
+    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nPrinting to PDF\n\n…and much more"
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#video-lecture.qmd-1",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#video-lecture.qmd-1",
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-slide-deck.html#pretty-code",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-slide-deck.html#pretty-code",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n\nimport seaborn as sns\n\n# Load the iris dataset\ndf = sns.load_dataset(\"iris\")\n\n# Display the first 5 rows\ndf.head()\n\n\nLearn more: Syntax Highlighting\n\n\n\n\n\nhttps://quarto.org"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html#computer-lab.qmd-1",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html#computer-lab.qmd-1",
     "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "2-2-1-video-lecture.qmd",
-    "text": "2-2-1-video-lecture.qmd\n\nai-aided low-code with google colab, openai\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ngoogle colab jupyter notebooks, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\nlow-code data analysis, structured datasets using pandas, built in datasets\nlow-code data analysis, data visualization using matplotlib, seaborn\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one paragraph of text for each list item, where each paragraph is preceeded by a shortened title prefixed by “####”\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\n\nlecture text\n\nPython Environments: Local, Cloud, Notebooks\nPython programming can take place in several environments, each offering unique benefits. Local environments involve installing Python directly on your machine, providing full control over the setup and resources. Cloud environments, such as Google Colab, remove the need for installation, offering scalable and powerful resources hosted remotely. Jupyter notebooks bridge the gap by offering an interactive, browser-based interface for executing Python code, making it easy to write, run, and document code in a step-by-step manner, whether locally or in the cloud.\n\n\nGoogle Colab Jupyter Notebooks: Step-wise Code Chunks\nGoogle Colab builds on the Jupyter notebook framework by enabling users to break down code into manageable, step-wise chunks. Each code cell in Colab can be run independently, allowing for incremental development and testing of code. This structure is particularly useful in data science and machine learning, where complex workflows benefit from the ability to isolate and debug smaller components before integrating them into the larger project.\n\n\nPrompting Generative AI: Copy-Paste Code Chunks\nAI-aided low-code programming leverages generative AI to produce code snippets that can be quickly integrated into projects. By providing natural language prompts, users can generate functional code, which can then be copied and pasted directly into Google Colab cells. This workflow minimizes the need for manual coding and accelerates development, especially for those who are not programming experts, allowing them to focus more on building and less on the technical details.\n\n\nLow-Code Programming vs. High-Code\nLow-code programming refers to the practice of using pre-built or AI-generated code chunks to assemble applications with minimal manual coding, making it accessible to a wider range of users. High-code programming, on the other hand, involves writing custom, detailed code that provides full control over the application. Low-code approaches are ideal for speeding up development, particularly for straightforward applications, while high-code remains necessary for creating highly specialized or complex solutions.\n\n\nImplementing Low-Code with Google Colab and Generative AI\nGoogle Colab, combined with generative AI, creates a powerful platform for low-code programming. Users can generate code through AI prompts and immediately implement these code chunks in Colab’s interactive environment. This approach dramatically reduces the amount of time and expertise required to develop functional code. Colab’s cloud-based resources ensure that even computationally intensive tasks can be handled with ease, further streamlining the implementation of low-code solutions.\n\n\nLow-Code Data Analysis: Structured Datasets Using Pandas\nLow-code data analysis becomes particularly effective with the use of the Pandas library, which simplifies the manipulation of structured datasets. With minimal code, users can perform complex data cleaning, filtering, and transformation operations. Google Colab provides built-in datasets and an intuitive interface for loading data, enabling even novice programmers to perform advanced data analysis. Generative AI can also assist by suggesting appropriate Pandas commands, making data manipulation more accessible.\n\n\nLow-Code Data Visualization: Using Matplotlib and Seaborn\nLow-code data visualization in Google Colab is made easy through libraries like Matplotlib and Seaborn, which allow for the creation of complex visualizations with just a few lines of code. AI-generated scripts can help produce ready-to-use charts, graphs, and plots, reducing the need for manual coding. These libraries enable users to quickly gain insights from their data by creating compelling visualizations, a crucial step in data analysis, especially when communicating findings to others.\n\n\n\nlecture slides\nHere is a breakdown of lecture slides based on your prompt:\n\n\nPython Environments: Local, Cloud, Notebooks\n\nLocal environments require installing Python on your machine.\n\nCloud environments offer remote execution without setup requirements.\n\nJupyter notebooks provide an interactive, browser-based interface.\n\nNotebooks support code, documentation, and visualizations in one place.\n\nCloud and notebooks simplify resource management and collaboration.\n\n\n\n\nGoogle Colab Jupyter Notebooks: Step-wise Code Chunks\n\nGoogle Colab uses Jupyter notebooks to run code in small, independent chunks.\n\nEach cell can be executed separately, aiding in debugging and iteration.\n\nStep-wise execution supports progressive refinement of complex workflows.\n\nCombines Python code with text for comprehensive documentation.\n\nPrecondition for low-code approaches with AI assistance.\n\n\n\n\nPrompting Generative AI: Copy-Paste Code Chunks\n\nGenerative AI helps create code snippets based on simple prompts.\n\nUsers can copy-paste AI-generated code chunks directly into Colab cells.\n\nAI reduces the need for manual coding, speeding up development.\n\nAI supports both novice and advanced users with pre-built solutions.\n\nThis workflow fosters quick iteration and implementation of ideas.\n\n\n\n\nLow-Code Programming: Copy-Paste Chunks vs High-Code\n\nLow-code relies on pre-built code or AI-generated chunks for quick assembly.\n\nHigh-code involves manual coding with complete control over the application.\n\nLow-code approaches make programming accessible to non-experts.\n\nHigh-code remains essential for deeply customized or complex solutions.\n\nLow-code prioritizes speed and simplicity, while high-code focuses on flexibility.\n\n\n\n\nImplementing Low-Code Using Google Colab and Generative AI\n\nGoogle Colab facilitates low-code development with AI support.\n\nUsers can integrate AI-generated code directly into Colab notebooks.\n\nCloud resources allow for powerful execution with minimal local setup.\n\nLow-code workflows benefit from Colab’s interactive and collaborative features.\n\nAI assists with complex tasks, enabling faster development cycles.\n\n\n\n\nLow-Code Data Analysis: Structured Datasets Using Pandas\n\nPandas allows easy manipulation of structured datasets with minimal code.\n\nBuilt-in datasets in Google Colab provide immediate access for analysis.\n\nAI can suggest Pandas commands for data cleaning, filtering, and transformation.\n\nLow-code data analysis simplifies operations, even for beginners.\n\nPandas streamlines common tasks like grouping, merging, and aggregating data.\n\n\n\n\nLow-Code Data Visualization: Using Matplotlib and Seaborn\n\nMatplotlib and Seaborn create complex visualizations with minimal effort.\n\nAI can generate code for producing graphs and plots quickly.\n\nUsers can visualize data directly within Colab notebooks.\n\nLow-code visualization tools make it easy to uncover insights from data.\n\nMatplotlib and Seaborn are versatile, supporting various chart types and styles.\n\n\nThis layout provides a structured approach for discussing AI-aided low-code programming with Google Colab in a lecture format.",
+    "section": "2-2-2-computer-lab.qmd",
+    "text": "2-2-2-computer-lab.qmd",
     "crumbs": [
       "module 2",
       "lesson 2.2",
-      "lecture 2.2.1"
+      "computer lab 2.2.2"
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html#lesson.qmd-1",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html#lesson.qmd-1",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2",
     "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "2-2-lesson.qmd",
-    "text": "2-2-lesson.qmd\n\n2-2-1-video-lecture.qmd: ai-aided low-code with google colab\n\n\n2-2-2-computer-lab.qmd: low-code data analysis, structured datasets\n\n\n2-2-3-computer-lab.qmd: low-code data analysis, data visualization",
+    "section": "overview of module 2",
+    "text": "overview of module 2\n\nextent: ca 2x3 hours work\nlow-code programming consists of two concepts:\ngoogle colab jupyter notebook env, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\n\n\nlesson 2.1\n\nutilizing jupyter notebooks on google colab\n\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nwhat is programming, and what is python programming\nopen science methods, reproducibility, transparency, collaboration, github\n\n\n\ncomputer lab\n\nwalk-trough of google colab notebook user interface\n\n\n\ncomputer lab\n\ntrying some basic python syntax\n\n\n\nprepare quiz\n\nwhat is the result of this python command\n\n\n\n\n\nlesson 2.2\n\nai-aided code generation with openai\n\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\n\n\n\ncomputer lab\n\nlow-code cda, structured data analysis using pandas, built in data\n\n\n\ncomputer lab\n\nlow-code cda, data visualization using matplotlib, seaborn\n\n\n\nprepare quiz\n\nwhat are the column names of dataset iris\nwhat are the number of rows in iris dataset",
     "crumbs": [
-      "module 2",
-      "lesson 2.2"
+      "module 2"
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html#lesson.qmd-1",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html#lesson.qmd-1",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html#the-google-colab-notebook-user-interface",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html#the-google-colab-notebook-user-interface",
     "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "2-1-lesson.qmd",
-    "text": "2-1-lesson.qmd\n\n2-1-1-video-lecture.qmd: using python notebooks on google colab\n\n\n2-1-2-computer-lab.qmd: the google colab notebook user interface\n\n\n2-1-3-computer-lab.qmd: trying out some basic python syntax",
-    "crumbs": [
-      "module 2",
-      "lesson 2.1"
-    ]
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html#computer-lab.qmd-1",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html#computer-lab.qmd-1",
-    "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "2-2-3-computer-lab.qmd",
-    "text": "2-2-3-computer-lab.qmd",
-    "crumbs": [
-      "module 2",
-      "lesson 2.2",
-      "computer lab 2.2.3"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
-    "section": "",
-    "text": "open google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
-    "crumbs": [
-      "course start"
-    ]
-  },
-  {
-    "objectID": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
-    "href": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
-    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
-    "section": "",
-    "text": "open google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
-    "crumbs": [
-      "course start"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html",
-    "title": "module04-analyzing-image-content-computer-vision-30pct",
-    "section": "",
-    "text": "4-1-1-video-lecture.qmd 4-1-2-computer-lab.qmd 4-1-3-computer-lab.qmd",
-    "crumbs": [
-      "module 4",
-      "lesson 4.1"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html#lesson.qmd",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html#lesson.qmd",
-    "title": "module04-analyzing-image-content-computer-vision-30pct",
-    "section": "",
-    "text": "4-1-1-video-lecture.qmd 4-1-2-computer-lab.qmd 4-1-3-computer-lab.qmd",
-    "crumbs": [
-      "module 4",
-      "lesson 4.1"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html",
-    "title": "module04-analyzing-image-content-computer-vision-30pct",
-    "section": "",
-    "text": "4-2-1-video-lecture.qmd 4-2-2-computer-lab.qmd 4-2-3-computer-lab.qmd",
-    "crumbs": [
-      "module 4",
-      "lesson 4.2"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html#lesson.qmd",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html#lesson.qmd",
-    "title": "module04-analyzing-image-content-computer-vision-30pct",
-    "section": "",
-    "text": "4-2-1-video-lecture.qmd 4-2-2-computer-lab.qmd 4-2-3-computer-lab.qmd",
-    "crumbs": [
-      "module 4",
-      "lesson 4.2"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html#inferential-analysis-part-2",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html#inferential-analysis-part-2",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "inferential analysis (part 2)",
-    "text": "inferential analysis (part 2)\nimport pandas as pd\nimport spacy\nimport os\n\n# Load sentence_df from the TSV file\ninput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/sentence_data.tsv'\ninput_file_path = '/content/osm-cca-nlp/csv/sentence_data.tsv'\nsentence_df = pd.read_csv(input_file_path, sep='\\t')\n\n# Load the spaCy model (small English model is used here)\nnlp = spacy.load(\"en_core_web_sm\")\n\n# Initialize an empty list to store token data\ntoken_data = []\n\n# Iterate over the sentences in the sentence_df DataFrame\nfor index, row in sentence_df.iterrows():\n    doc = nlp(row['sentence_text'])  # Process the sentence text with spaCy\n    \n    # Iterate over the tokens in the sentence\n    for j, token in enumerate(doc):\n        token_data.append({\n            'id': row['id'],                    # Original text ID\n            'sentence_number': row['sentence_number'],  # Sentence number\n            'token_number': j + 1,              # Token number (starting from 1)\n            'token_text': token.text,           # Token text\n            'token_lemma': token.lemma_,        # Token lemma\n            'token_pos': token.pos_,            # Token part of speech\n            'token_entity': token.ent_type_     # Token entity type (if any)\n        })\n\n# Create a new DataFrame with the token data\ntoken_df = pd.DataFrame(token_data)\n\n# Save the token_df DataFrame as a TSV file\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/token_data.tsv'\noutput_file_path = '/content/osm-cca-nlp/csv/token_data.tsv'\ntoken_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the token DataFrame\nprint(token_df)",
-    "crumbs": [
-      "module 3",
-      "lesson 3.2",
-      "computer lab 3.2.3"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#inferential-analysis",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#inferential-analysis",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "inferential analysis",
-    "text": "inferential analysis\nimport pandas as pd\nimport spacy\nimport os\n\n# Load text_df from the TSV file\ninput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/text_data.tsv'\ninput_file_path = '/content/osm-cca-nlp/csv/text_data.tsv'\ntext_df = pd.read_csv(input_file_path, sep='\\t')\n\n# Load the spaCy model (small English model is used here)\nnlp = spacy.load(\"en_core_web_sm\")\n\n# Initialize an empty list to store sentence data\nsentence_data = []\n\n# Iterate over the cleaned text in the DataFrame\nfor index, row in text_df.iterrows():\n    doc = nlp(row['cleaned_text'])  # Process the cleaned text with spaCy\n    \n    # Iterate over the sentences in the document\n    for i, sentence in enumerate(doc.sents):\n        sentence_data.append({\n            'id': row['id'],           # Original text ID\n            'sentence_number': i + 1,  # Sentence number (starting from 1)\n            'sentence_text': sentence.text.strip()  # Sentence text\n        })\n\n# Create a new DataFrame with the sentence data\nsentence_df = pd.DataFrame(sentence_data)\n\n# Save the sentence_df DataFrame as a TSV file\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/sentence_data.tsv'\noutput_file_path = '/content/osm-cca-nlp/csv/sentence_data.tsv'\nsentence_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the sentence DataFrame\nprint(sentence_df)",
-    "crumbs": [
-      "module 3",
-      "lesson 3.2",
-      "computer lab 3.2.2"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#code-discussion",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#code-discussion",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "code discussion",
-    "text": "code discussion\nThis code chunk outlines a procedure for processing text data stored in a TSV file using Python, with a specific focus on sentence extraction and content analysis through natural language processing (NLP) techniques.\n\nLoading the Text Data:\n\nThe process begins by loading a TSV file containing text data into a pandas DataFrame using pd.read_csv(). The file is located at a specified path (input_file_path), and the sep='\\t' parameter indicates that the file is tab-separated. This DataFrame, text_df, holds the cleaned text data along with associated metadata like unique IDs.\n\nInitializing the NLP Model:\n\nThe spaCy library, a powerful NLP tool, is loaded using spacy.load(\"en_core_web_sm\"). This initializes a small English model that will be used to process the text data, allowing for sophisticated linguistic analysis such as tokenization, lemmatization, and sentence segmentation.\n\nProcessing Text and Extracting Sentences:\n\nThe core of the procedure involves iterating over each row of the text_df DataFrame. For each row, the cleaned text is passed through the spaCy model, which processes the text and divides it into sentences (doc.sents). Each sentence is then extracted and stored in a list called sentence_data along with its corresponding unique ID and sentence number. This step is crucial for breaking down the text into manageable units, facilitating more granular content analysis.\n\nCreating and Saving the Sentence Data:\n\nAfter all sentences have been extracted, the sentence_data list is converted into a new DataFrame, sentence_df. This DataFrame organizes the sentences with their associated metadata, making it easier to analyze or manipulate the content on a sentence-by-sentence basis.\nThe sentence_df DataFrame is then saved as a TSV file at a specified output path (output_file_path) using sentence_df.to_csv(), ensuring the data is stored in a structured and accessible format for future use.\n\nDisplaying the Result:\n\nFinally, the sentence_df DataFrame is printed to the console, allowing for a quick inspection of the extracted sentence data. This step helps verify that the sentence extraction and data storage processes have been executed correctly.\n\n\nThis procedure effectively leverages Python and NLP techniques to transform raw text data into a structured format, breaking it down into sentences that can be further analyzed for various content analysis tasks. The use of spaCy allows for accurate sentence segmentation, which is a foundational step in many NLP workflows.",
-    "crumbs": [
-      "module 3",
-      "lesson 3.2",
-      "computer lab 3.2.2"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "",
-    "text": "3-2-1-video-lecture.qmd 3-2-2-computer-lab.qmd 3-2-3-computer-lab.qmd",
-    "crumbs": [
-      "module 3",
-      "lesson 3.2"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html#lesson.qmd",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html#lesson.qmd",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "",
-    "text": "3-2-1-video-lecture.qmd 3-2-2-computer-lab.qmd 3-2-3-computer-lab.qmd",
-    "crumbs": [
-      "module 3",
-      "lesson 3.2"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#video-lecture",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#video-lecture",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "video lecture",
-    "text": "video lecture\n\n3-1-1-video-lecture.qmd",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "computer lab",
-    "text": "computer lab\n\n3-1-2-computer-lab.qmd\n\n\n\n\nIMAGE ALT TEXT HERE",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab-1",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab-1",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "computer lab",
-    "text": "computer lab\n\n3-1-3-computer-lab.qmd\n\n3-1-1-video-lecture.qmd 3-1-2-computer-lab.qmd 3-1-3-computer-lab.qmd",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html#descriptive-analysis",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html#descriptive-analysis",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "descriptive analysis",
-    "text": "descriptive analysis\nThe provided code chunk reads a collection of text files from a specified directory, cleans the text by removing non-ASCII characters, and then stores the cleaned and original text in a pandas DataFrame along with a unique ID and the filename. The DataFrame is then printed, displaying the organized data for further analysis.\n\nNew Code Chunk for Word Count and Character Count:\nTo extend the analysis, the following code chunk will add two new columns to the DataFrame: one for the word count and another for the character count of the cleaned text.\n# Perform word count and character count on each cleaned text in the DataFrame\ndf['word_count'] = df['cleaned_text'].apply(lambda x: len(x.split()))\ndf['character_count'] = df['cleaned_text'].apply(lambda x: len(x))\n\n# Select and print all columns except 'original_text' and 'cleaned_text'\ncolumns_to_display = df.columns.difference(['original_text', 'cleaned_text'])\nprint(df[columns_to_display])\n\n\nExplanation:\n\nWord Count:\n\nThe apply function is used on the cleaned_text column to calculate the word count. The lambda function splits each cleaned text string into words using split() and then calculates the length of the resulting list using len(x.split()). This word count is stored in a new column word_count.\n\nCharacter Count:\n\nSimilarly, the apply function calculates the character count by applying len(x) directly on the cleaned_text string. This counts the total number of characters (including spaces) and stores the result in a new column character_count.\n\nUpdated DataFrame:\n\nThe DataFrame is then printed again, now including the word_count and character_count columns, providing additional insights into the text length and structure.",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1",
-      "computer lab 3.1.3"
-    ]
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html",
-    "title": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
-    "section": "",
-    "text": "5-1-1-video-lecture.qmd 5-1-2-computer-lab.qmd 5-1-3-computer-lab.qmd",
-    "crumbs": [
-      "module 5",
-      "lesson 5.1"
-    ]
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html#lesson.qmd",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html#lesson.qmd",
-    "title": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
-    "section": "",
-    "text": "5-1-1-video-lecture.qmd 5-1-2-computer-lab.qmd 5-1-3-computer-lab.qmd",
-    "crumbs": [
-      "module 5",
-      "lesson 5.1"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#overview-of-module-3-ca-3x3-hours-work",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#overview-of-module-3-ca-3x3-hours-work",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "overview of module 3 (ca 3x3 hours work)",
-    "text": "overview of module 3 (ca 3x3 hours work)\n\nlesson 3.1 read, clean, describe text content\n\nvideo lecture:\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\ntext as unstructured data, unit of analysis\ntext sampling and types of text pdf, html, text, languages (en/se)\nexplain three levels of text analysis, quantitative analysis\n3 levels: descriptive, explorative, inferential\ncomputer lab: read text into dataframe, text cleaning, stopword removal\ncomputer lab: describe text stats (NLTK)\nprepare quiz:\nwhich of these word is a NLTK stopword\n\n\n\n\nlesson 3.2 use ai to infer tokens and entities\n\nvideo lecture:\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\nexplain three levels of text analysis, quantitative analysis\n3 levels: descriptive, explorative, inferential\ntokenization, normalization, sentence level named entity recognition\ncomputer lab: sentence and word tokenization, dataframe data structure\ncomputer lab: inferential analysis of text using spacy ai models\nprepare quiz:\n\n\n\n\nlesson 3.3 summarize and visualize tabular data\n\nvideo lecture:\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\nopen science methods, reproducibility, transparency, collaboration, github\nplug in your own text content data in this course module\ninterate through module 3, lessons 1-3\nnext steps, compare sustainability communication by organizations, vectorization\ncomputer lab: low-code ai-aided summarize in google colab\ncomputer lab: low-code ai-aided visualize in google colab, content word frequency\nprepare quiz:",
-    "crumbs": [
-      "module 3"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html#summarize-and-visualize-data",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html#summarize-and-visualize-data",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "summarize and visualize data",
-    "text": "summarize and visualize data\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nimport os\n\n# Load token_df from the TSV file\ninput_file_path = '/content/osm-cca-nlp/csv/token_data.tsv'\ninput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/token_data.tsv'\ntoken_df = pd.read_csv(input_file_path, sep='\\t')\n\n# Filter the DataFrame to keep only rows where the part of speech is 'NOUN'\nnoun_df = token_df[token_df['token_pos'] == 'NOUN']\n\n# Group by the lemma and count the occurrences of each lemma\nlemma_counts = noun_df['token_lemma'].value_counts().reset_index()\n\n# Rename the columns for clarity\nlemma_counts.columns = ['lemma', 'count']\n\n# Get the 20 most frequent lemmas\ntop_lemmas = lemma_counts.head(20)\n\n# Plot the 20 most frequent nouns using Seaborn\nplt.figure(figsize=(10, 8))\nsns.barplot(x='count', y='lemma', data=top_lemmas, palette='viridis')\nplt.title('Top 20 Most Frequent Nouns')\nplt.xlabel('Count')\nplt.ylabel('Lemma')\n\n# Save the figure to a PNG file\noutput_file_path = '/content/osm-cca-nlp/fig/token_noun.png'\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/fig/token_noun.png'\nplt.savefig(output_file_path)\n\n# Display the plot\nplt.show()",
-    "crumbs": [
-      "module 3",
-      "lesson 3.3",
-      "computer lab 3.3.2"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "",
-    "text": "3-3-1-video-lecture.qmd 3-3-2-computer-lab.qmd 3-3-3-computer-lab.qmd",
-    "crumbs": [
-      "module 3",
-      "lesson 3.3"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html#lesson.qmd",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html#lesson.qmd",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "",
-    "text": "3-3-1-video-lecture.qmd 3-3-2-computer-lab.qmd 3-3-3-computer-lab.qmd",
-    "crumbs": [
-      "module 3",
-      "lesson 3.3"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#prepare-text-content",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#prepare-text-content",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "prepare text content",
-    "text": "prepare text content\nThis code chunk outlines a procedure for processing a collection of text files using Python, with a focus on content analysis and natural language processing (NLP). Here’s a detailed explanation of each step:\nimport os\nimport pandas as pd\nimport re\n\n# Function to clean text by removing non-ASCII characters\ndef clean_text(text):\n    # Remove non-ASCII characters\n    cleaned_text = re.sub(r'[^\\x00-\\x7F]+', '', text)\n    return cleaned_text\n\n# Directory containing text files\ndirectory_path = '/content/osm-cca-nlp/res'\ndirectory_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/res'\n\nImporting Necessary Libraries:\n\nThe code begins by importing essential Python libraries: os, pandas, and re. The os library is used for interacting with the file system, pandas is a powerful data manipulation library used to manage and analyze data structures like DataFrames, and re is the regular expressions library used for pattern matching and text processing.\n\nDefining a Text Cleaning Function:\n\nA function clean_text(text) is defined to clean the text data by removing non-ASCII characters. This function uses the re.sub() method to search the text for any character that does not fall within the ASCII range ([^\\x00-\\x7F]) and replaces it with an empty string, effectively removing these characters. This step is crucial in NLP tasks to standardize text data, making it easier to analyze.\n\nSetting Up the Directory Path:\n\nThe directory containing the text files is specified with directory_path = '/content/osm-cca-nlp/res'. This path directs the script to the location of the text files that will be processed.\n\n\n# Initialize an empty list to store the data\ndata = []\n\n# Initialize a unique ID counter\nunique_id = 1\n\n# Iterate over the text files in the directory\nfor filename in os.listdir(directory_path):\n    # Consider only plain text files\n    if filename.endswith(\".txt\") or filename.endswith(\".md\"):\n        file_path = os.path.join(directory_path, filename)\n        \n        # Read the file content\n        with open(file_path, 'r', encoding='utf-8') as file:\n            text = file.read()\n        \n        # Clean the text\n        cleaned_text = clean_text(text)\n        \n        # Append the data as a dictionary with a unique ID\n        data.append({\n            'id': unique_id,\n            'filename': filename,\n            'original_text': text,\n            'cleaned_text': cleaned_text\n        })\n        \n        # Increment the unique ID\n        unique_id += 1\n\nInitializing Data Structures:\n\nAn empty list data is initialized to store the cleaned data, and a unique_id counter is set to 1 to uniquely identify each text file. These data structures are essential for organizing and managing the extracted and cleaned content.\n\nIterating Over Files in the Directory:\n\nThe script iterates over each file in the specified directory using os.listdir(directory_path). A conditional statement if filename.endswith(\".txt\") or filename.endswith(\".md\") ensures that only plain text files (.txt) and Markdown files (.md) are processed. This step is fundamental in content analysis as it focuses the analysis on relevant document types.\n\nReading and Cleaning Text Content:\n\nFor each text file, the file is opened and read into a string variable text using open(file_path, 'r', encoding='utf-8'). The content is then passed to the clean_text() function to remove non-ASCII characters, resulting in a cleaned version of the text stored in cleaned_text. This step is crucial for preparing the text data for further NLP tasks by ensuring it is in a consistent and analyzable format.\n\n\n# Create a Pandas DataFrame\ntext_df = pd.DataFrame(data)\n\n# Save the DataFrame as a TSV file in the 'csv' subdirectory\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/text_data.tsv'\noutput_file_path = '/content/osm-cca-nlp/csv/text_data.tsv'\n\n# Save the DataFrame to a TSV file\ntext_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the DataFrame\nprint(text_df)\n\nStoring the Data:\n\nThe original and cleaned text, along with the filename and unique ID, are stored as a dictionary in the data list. This structured storage is essential for keeping track of each document’s metadata and content, facilitating easy access and manipulation for later analysis.\n\nCreating a DataFrame:\n\nOnce all files are processed, the list data is converted into a pandas DataFrame using pd.DataFrame(data). This DataFrame organizes the collected data into a tabular format, where each row corresponds to a file, and columns represent the unique ID, filename, original text, and cleaned text. This step is critical in content analysis and NLP as it allows for systematic exploration, manipulation, and analysis of the textual data.\n\nDisplaying the Data:\n\nFinally, the DataFrame is printed to the console using print(df), providing a visual representation of the processed data. This allows for a quick inspection of the results, ensuring that the text cleaning and data aggregation processes have been correctly executed.\n\n\nThis procedure exemplifies a typical workflow in content analysis and NLP, where raw text data is cleaned, organized, and prepared for more sophisticated analytical tasks such as tokenization, entity recognition, or sentiment analysis. The use of Python and its libraries like pandas and re streamlines these tasks, making it easier to manage and analyze large collections of text.",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1",
-      "computer lab 3.1.2"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#code-chunk",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#code-chunk",
-    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "section": "code chunk",
-    "text": "code chunk\nimport os\nimport pandas as pd\nimport re\n\n# Function to clean text by removing non-ASCII characters\ndef clean_text(text):\n    # Remove non-ASCII characters\n    cleaned_text = re.sub(r'[^\\x00-\\x7F]+', '', text)\n    return cleaned_text\n\n# Directory containing text files\ndirectory_path = '/content/osm-cca-nlp/res'\ndirectory_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/res'\n\n# Initialize an empty list to store the data\ndata = []\n\n# Initialize a unique ID counter\nunique_id = 1\n\n# Iterate over the text files in the directory\nfor filename in os.listdir(directory_path):\n    # Consider only plain text files\n    if filename.endswith(\".txt\") or filename.endswith(\".md\"):\n        file_path = os.path.join(directory_path, filename)\n        \n        # Read the file content\n        with open(file_path, 'r', encoding='utf-8') as file:\n            text = file.read()\n        \n        # Clean the text\n        cleaned_text = clean_text(text)\n        \n        # Append the data as a dictionary with a unique ID\n        data.append({\n            'id': unique_id,\n            'filename': filename,\n            'original_text': text,\n            'cleaned_text': cleaned_text\n        })\n        \n        # Increment the unique ID\n        unique_id += 1\n\n# Create a Pandas DataFrame\ntext_df = pd.DataFrame(data)\n\n# Save the DataFrame as a TSV file in the 'csv' subdirectory\noutput_file_path = '/content/osm-cca-nlp/csv/text_data.tsv'\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/text_data.tsv'\n\n# Save the DataFrame to a TSV file\ntext_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the DataFrame\nprint(text_df)",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1",
-      "computer lab 3.1.2"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#overview-of-module-4",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#overview-of-module-4",
-    "title": "module04-analyzing-image-content-computer-vision-30pct",
-    "section": "overview of module 4",
-    "text": "overview of module 4\n\nextent: ca 3x3 hours work\nexplain basic concepts, visual sustainability communication, images, video\nthe concept of computer vision, object recognition etc, everyday examples\nsummarizing and visualizing results of object recognition and localization\n\n\nlesson 4.1\n\nexplain basic concepts in digital images\n\n\nvideo lecture\n\nunderstanding visual communication and sustainability communication\nconcept of computer vision, object recognition etc, everyday examples\nbasic concepts in digital images, image pixels, rgb color channels\n\n\n\ncomputer lab\n\nextracting digital images from pdf files, cf. converting pdf to plain text\nread images into dataframes, data structures\n\n\n\ncomputer lab\n\ndescribe manifest image content features, height, width etc\nnormalizing image data, resize, grayscale etc.\n\n\n\nprepare quiz\n\nwhat is the result of this python command\n\n\n\n\n\nlesson 4.2\n\nimage classification (labels), object recognition, face recognition\n\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\n\n\n\ncomputer lab\n\nlow-code cda, structured data analysis using pandas, built in data\n\n\n\ncomputer lab\n\nlow-code cda, data visualization using matplotlib, seaborn\n\n\n\nprepare quiz\n\nwhat are the column names of dataset iris\nwhat are the number of rows in iris dataset\n\n\n\n\n\nlesson 4.3\n\nsummarize and visualize tabular data\n\n\nvideo lecture\n\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\nopen science methods, reproducibility, transparency, collaboration, github\nplug in your own text content data in this course module\ninterate through module 3, lessons 1-3\nnext steps, compare sustainability communication by organizations, vectorization\n\n\n\ncomputer lab\n\nlow-code ai-aided summarize in google colab\n\n\n\ncomputer lab\n\nlow-code ai-aided visualize in google colab, content word frequency\n\n\n\nprepare quiz",
-    "crumbs": [
-      "module 4"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html",
-    "title": "module04-analyzing-image-content-computer-vision-30pct",
-    "section": "",
-    "text": "4-3-1-video-lecture.qmd 4-3-2-computer-lab.qmd 4-3-3-computer-lab.qmd",
-    "crumbs": [
-      "module 4",
-      "lesson 4.3"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html#lesson.qmd",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html#lesson.qmd",
-    "title": "module04-analyzing-image-content-computer-vision-30pct",
-    "section": "",
-    "text": "4-3-1-video-lecture.qmd 4-3-2-computer-lab.qmd 4-3-3-computer-lab.qmd",
-    "crumbs": [
-      "module 4",
-      "lesson 4.3"
-    ]
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#using-python-notebooks-on-google-colab",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#using-python-notebooks-on-google-colab",
-    "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "using python notebooks on google colab",
-    "text": "using python notebooks on google colab\n\nvideo lecture\n\nopen science methods, reproducibility, transparency, collaboration, open source\ndifferent python environments, local, cloud, notebooks\nthe concept of jupyter notebooks, benefits, contrasts with other environments\nwalk-trough of google colab notebook user interface, explain functionality\ndefining what programming is in general, and what python programming is\ndifferent python use cases, low-code social science vs high-code computer science\ngetting familiar with some basic python syntax, variable types, data objects, loops\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one paragraph of text for each list item, where each paragraph is preceeded by a shortened title prefixed by “####”\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\nlecture text\n\nOpen Science Methods\nOpen science methods emphasize transparency, reproducibility, and collaboration in scientific research. By sharing data, code, and methodologies openly, researchers contribute to a global body of knowledge that others can verify, reproduce, and build upon. This collaborative spirit is often facilitated by open-source software, which allows unrestricted access and modification, making it easier to replicate studies and improve upon them. Open science is key to enhancing scientific integrity and fostering innovation through shared efforts.\n\n\nDifferent Python Environments\nPython can be run in a variety of environments, including local installations, cloud-based platforms, and notebook interfaces. Local environments give the user complete control over setup and dependencies, while cloud environments, like Google Colab, offer convenience and scalability by handling the infrastructure in the background. Jupyter notebooks combine the benefits of both, providing an interactive, browser-based interface that supports code execution, visualization, and documentation in one place, making them ideal for teaching and data analysis.\n\n\nThe Concept of Jupyter Notebooks\nJupyter notebooks are an interactive programming environment that allows users to run code in individual cells while combining it with text, images, and visualizations. This setup contrasts with traditional script-based environments, where code execution is linear and isolated from documentation. Jupyter notebooks enhance the learning and research experience by enabling users to document their process, visualize results, and iteratively refine their code, which fosters experimentation and clarity in workflows.\n\n\nGoogle Colab Notebook Interface\nGoogle Colab extends the functionality of Jupyter notebooks by offering cloud-hosted notebooks that require no setup. The user interface includes code and text cells, tools for managing files, access to GPU resources, and an integrated terminal. It supports collaboration with other users, auto-saves work, and links directly to Google Drive for file management. These features make Colab a powerful, accessible tool for Python programming and data science without the need for local computing resources.\n\n\nWhat Is Programming and Python Programming\nProgramming is the process of designing and building software to accomplish specific tasks or solve problems. Python programming, in particular, is the use of Python, a high-level, versatile language known for its readability and ease of use. Python is widely used across industries for tasks ranging from web development to data analysis, due to its simple syntax and extensive libraries that streamline complex functions, making it ideal for both beginners and experienced developers.\n\n\nPython Use Cases: Low-Code Social Science vs. High-Code Computer Science\nPython is uniquely suited for both low-code and high-code applications. In social sciences, low-code approaches leverage Python’s libraries for data analysis, enabling researchers to perform complex tasks with minimal coding. In contrast, high-code use cases in computer science often involve developing algorithms, machine learning models, or large-scale systems, requiring deeper coding expertise. The flexibility of Python allows it to meet the needs of both ends of the coding spectrum.\n\n\nBasic Python Syntax: Variables, Data Objects, Loops\nGetting familiar with Python begins with understanding its basic syntax, including variables, data types, and control structures like loops. Variables store information, while data objects, such as lists, dictionaries, and tuples, organize and manipulate that data. Loops allow for repetitive tasks, iterating over data or executing code multiple times. Understanding these fundamentals is essential for writing functional Python programs and serves as the foundation for more advanced coding tasks.\n\n\n\nlecture slides\nHere is a breakdown of lecture slides based on your prompt:\n\n\nOpen Science Methods\n\nEmphasizes reproducibility and transparency in research.\n\nEncourages collaboration among global research communities.\n\nRelies on sharing data, code, and methodologies openly.\n\nSupported by open-source tools and platforms.\n\nEnhances scientific integrity and innovation.\n\n\n\n\nPython Environments: Local, Cloud, Notebooks\n\nLocal environments require Python installation and configuration.\n\nCloud environments like Google Colab eliminate setup hurdles.\n\nNotebooks provide interactive code execution and documentation.\n\nCloud environments offer scalability and resource management.\n\nNotebooks support real-time code execution alongside markdown.\n\n\n\n\nThe Concept of Jupyter Notebooks\n\nEnables interactive, step-wise execution of code.\n\nIntegrates code, text, and visualizations within one document.\n\nIdeal for iterative development, debugging, and documentation.\n\nSupports educational and research purposes effectively.\n\nContrasts with traditional script-based development environments.\n\n\n\n\nGoogle Colab Notebook Interface\n\nCombines a cloud-hosted Jupyter notebook with GPU access.\n\nFeatures cells for executing code and writing text.\n\nAuto-saves progress and links to Google Drive for file storage.\n\nSupports collaboration and sharing with other users.\n\nRequires no local setup, ideal for rapid project development.\n\n\n\n\nWhat Is Programming and Python Programming\n\nProgramming involves writing instructions for computers to execute.\n\nPython is a high-level, versatile language known for readability.\n\nWidely used in web development, data science, and automation.\n\nPython’s extensive libraries simplify complex tasks.\n\nPopular for both beginner learning and professional development.\n\n\n\n\nPython Use Cases: Low-Code Social Science vs. High-Code Computer Science\n\nLow-code leverages Python’s simplicity for fast data analysis.\n\nHigh-code applications involve deeper customization and algorithms.\n\nSocial sciences benefit from low-code data manipulation and visualization.\n\nComputer science projects often require complex, high-code solutions.\n\nPython accommodates both low-code and high-code workflows.\n\n\n\n\nBasic Python Syntax: Variables, Data Objects, Loops\n\nVariables store information and data types define their nature.\n\nLists, dictionaries, and tuples organize data into structures.\n\nLoops iterate over data to automate repetitive tasks.\n\nPython syntax emphasizes simplicity and readability.\n\nMastery of basic syntax is essential for further programming skills.\n\n\nThese slides offer a clear, focused structure for each topic, ideal for guiding a lecture on AI-aided low-code programming in Google Colab.",
+    "section": "the google colab notebook user interface",
+    "text": "the google colab notebook user interface\n# this is a python code cell.. also called a \"code chunk\"\nprint(\"hello world !\")",
     "crumbs": [
       "module 2",
       "lesson 2.1",
-      "lecture 2.1.1"
+      "computer lab 2.1.2"
     ]
   },
   {
@@ -460,37 +154,422 @@
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html#the-google-colab-notebook-user-interface",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html#the-google-colab-notebook-user-interface",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#ai-aided-and-low-code-programming",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#ai-aided-and-low-code-programming",
     "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "the google colab notebook user interface",
-    "text": "the google colab notebook user interface\n# this is a python code cell.. also called a \"code chunk\"\nprint(\"hello world !\")",
+    "section": "ai-aided and low-code programming",
+    "text": "ai-aided and low-code programming\n\nvideo lecture\n\nopen science methods, reproducibility, transparency, collaboration, open source\ndifferent python environments, local, cloud, notebooks\nthe concept of jupyter notebooks, benefits, contrasts with other environments\nwalk-trough of google colab notebook user interface, explain functionality\ndefining ai-aided (colab genai) and low-code (python packages) programming\ndifferent python use cases, low-code social science vs high-code computer science\ngetting familiar with some basic python syntax, variable types, data objects, loops\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one paragraph of text for each list item, where each paragraph is preceeded by a shortened title prefixed by “####”\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\nlecture text\n\nOpen Science Methods\nOpen science methods emphasize transparency, reproducibility, and collaboration in scientific research. By sharing data, code, and methodologies openly, researchers contribute to a global body of knowledge that others can verify, reproduce, and build upon. This collaborative spirit is often facilitated by open-source software, which allows unrestricted access and modification, making it easier to replicate studies and improve upon them. Open science is key to enhancing scientific integrity and fostering innovation through shared efforts.\n\n\nDifferent Python Environments\nPython can be run in a variety of environments, including local installations, cloud-based platforms, and notebook interfaces. Local environments give the user complete control over setup and dependencies, while cloud environments, like Google Colab, offer convenience and scalability by handling the infrastructure in the background. Jupyter notebooks combine the benefits of both, providing an interactive, browser-based interface that supports code execution, visualization, and documentation in one place, making them ideal for teaching and data analysis.\n\n\nThe Concept of Jupyter Notebooks\nJupyter notebooks are an interactive programming environment that allows users to run code in individual cells while combining it with text, images, and visualizations. This setup contrasts with traditional script-based environments, where code execution is linear and isolated from documentation. Jupyter notebooks enhance the learning and research experience by enabling users to document their process, visualize results, and iteratively refine their code, which fosters experimentation and clarity in workflows.\n\n\nGoogle Colab Notebook Interface\nGoogle Colab extends the functionality of Jupyter notebooks by offering cloud-hosted notebooks that require no setup. The user interface includes code and text cells, tools for managing files, access to GPU resources, and an integrated terminal. It supports collaboration with other users, auto-saves work, and links directly to Google Drive for file management. These features make Colab a powerful, accessible tool for Python programming and data science without the need for local computing resources.\n\n\nWhat Is Programming and Python Programming\nProgramming is the process of designing and building software to accomplish specific tasks or solve problems. Python programming, in particular, is the use of Python, a high-level, versatile language known for its readability and ease of use. Python is widely used across industries for tasks ranging from web development to data analysis, due to its simple syntax and extensive libraries that streamline complex functions, making it ideal for both beginners and experienced developers.\n\n\nPython Use Cases: Low-Code Social Science vs. High-Code Computer Science\nPython is uniquely suited for both low-code and high-code applications. In social sciences, low-code approaches leverage Python’s libraries for data analysis, enabling researchers to perform complex tasks with minimal coding. In contrast, high-code use cases in computer science often involve developing algorithms, machine learning models, or large-scale systems, requiring deeper coding expertise. The flexibility of Python allows it to meet the needs of both ends of the coding spectrum.\n\n\nBasic Python Syntax: Variables, Data Objects, Loops\nGetting familiar with Python begins with understanding its basic syntax, including variables, data types, and control structures like loops. Variables store information, while data objects, such as lists, dictionaries, and tuples, organize and manipulate that data. Loops allow for repetitive tasks, iterating over data or executing code multiple times. Understanding these fundamentals is essential for writing functional Python programs and serves as the foundation for more advanced coding tasks.\n\n\n\nlecture slides\nHere is a breakdown of lecture slides based on your prompt:\n\n\nOpen Science Methods\n\nEmphasizes reproducibility and transparency in research.\n\nEncourages collaboration among global research communities.\n\nRelies on sharing data, code, and methodologies openly.\n\nSupported by open-source tools and platforms.\n\nEnhances scientific integrity and innovation.\n\n\n\n\nPython Environments: Local, Cloud, Notebooks\n\nLocal environments require Python installation and configuration.\n\nCloud environments like Google Colab eliminate setup hurdles.\n\nNotebooks provide interactive code execution and documentation.\n\nCloud environments offer scalability and resource management.\n\nNotebooks support real-time code execution alongside markdown.\n\n\n\n\nThe Concept of Jupyter Notebooks\n\nEnables interactive, step-wise execution of code.\n\nIntegrates code, text, and visualizations within one document.\n\nIdeal for iterative development, debugging, and documentation.\n\nSupports educational and research purposes effectively.\n\nContrasts with traditional script-based development environments.\n\n\n\n\nGoogle Colab Notebook Interface\n\nCombines a cloud-hosted Jupyter notebook with GPU access.\n\nFeatures cells for executing code and writing text.\n\nAuto-saves progress and links to Google Drive for file storage.\n\nSupports collaboration and sharing with other users.\n\nRequires no local setup, ideal for rapid project development.\n\n\n\n\nWhat Is Programming and Python Programming\n\nProgramming involves writing instructions for computers to execute.\n\nPython is a high-level, versatile language known for readability.\n\nWidely used in web development, data science, and automation.\n\nPython’s extensive libraries simplify complex tasks.\n\nPopular for both beginner learning and professional development.\n\n\n\n\nPython Use Cases: Low-Code Social Science vs. High-Code Computer Science\n\nLow-code leverages Python’s simplicity for fast data analysis.\n\nHigh-code applications involve deeper customization and algorithms.\n\nSocial sciences benefit from low-code data manipulation and visualization.\n\nComputer science projects often require complex, high-code solutions.\n\nPython accommodates both low-code and high-code workflows.\n\n\n\n\nBasic Python Syntax: Variables, Data Objects, Loops\n\nVariables store information and data types define their nature.\n\nLists, dictionaries, and tuples organize data into structures.\n\nLoops iterate over data to automate repetitive tasks.\n\nPython syntax emphasizes simplicity and readability.\n\nMastery of basic syntax is essential for further programming skills.\n\n\nThese slides offer a clear, focused structure for each topic, ideal for guiding a lecture on AI-aided low-code programming in Google Colab.",
     "crumbs": [
       "module 2",
       "lesson 2.1",
-      "computer lab 2.1.2"
+      "video lecture 2.1.1"
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#overview-of-module-2",
-    "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "overview of module 2",
-    "text": "overview of module 2\n\nextent: ca 2x3 hours work\nlow-code programming consists of two concepts:\ngoogle colab jupyter notebook env, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\n\n\nlesson 2.1\n\nutilizing jupyter notebooks on google colab\n\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nwhat is programming, and what is python programming\nopen science methods, reproducibility, transparency, collaboration, github\n\n\n\ncomputer lab\n\nwalk-trough of google colab notebook user interface\n\n\n\ncomputer lab\n\ntrying some basic python syntax\n\n\n\nprepare quiz\n\nwhat is the result of this python command\n\n\n\n\n\nlesson 2.2\n\nai-aided code generation with openai\n\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\n\n\n\ncomputer lab\n\nlow-code cda, structured data analysis using pandas, built in data\n\n\n\ncomputer lab\n\nlow-code cda, data visualization using matplotlib, seaborn\n\n\n\nprepare quiz\n\nwhat are the column names of dataset iris\nwhat are the number of rows in iris dataset",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
+    "section": "",
+    "text": "aicasc: sustainability communication content\naicasc: find online sustainability communication\naicasc: setting up an initial content database",
     "crumbs": [
-      "module 2"
+      "course start"
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html#computer-lab.qmd-1",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html#computer-lab.qmd-1",
+    "objectID": "index.html#module01-understanding-sustainability-communication-content-10pct",
+    "href": "index.html#module01-understanding-sustainability-communication-content-10pct",
+    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
+    "section": "",
+    "text": "aicasc: sustainability communication content\naicasc: find online sustainability communication\naicasc: setting up an initial content database",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module02-introduction-to-low-code-python-programming-20pct",
+    "href": "index.html#module02-introduction-to-low-code-python-programming-20pct",
+    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
+    "section": "module02-introduction-to-low-code-python-programming-20pct",
+    "text": "module02-introduction-to-low-code-python-programming-20pct\n\naicasc: ai-aided and low-code programming\naicasc: google colab notebook user interface\naicasc: trying out some low-code python\naicasc: python and computational data analysis\naicasc: low-code data analysis, tables\naicasc: low-code data analysis, graphs",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module03-analyzing-text-content-natural-language-processing-30pct",
+    "href": "index.html#module03-analyzing-text-content-natural-language-processing-30pct",
+    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
+    "section": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "text": "module03-analyzing-text-content-natural-language-processing-30pct\n\naicasc: natural language processing (NLP) in social science\naicasc: reading text into dataframes\naicasc: descriptive text analysis\naicasc: part-of-speech and named entity recognition\naicasc: inferential text analysis, tokenization\naicasc: inferential text analysis, POS and NER\naicasc: interpreting the results of NLP analysis\naicasc: summarizing results of text analysis\naicasc: visualizing results of text analysis",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module04-analyzing-image-content-computer-vision-30pct",
+    "href": "index.html#module04-analyzing-image-content-computer-vision-30pct",
+    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
+    "section": "module04-analyzing-image-content-computer-vision-30pct",
+    "text": "module04-analyzing-image-content-computer-vision-30pct\n\naicasc: computer vision (CV) in social science\naicasc: reading images into dataframes\naicasc: descriptive image analysis\naicasc: image classification and object detection\naicasc: inferential image analysis, classification\naicasc: inferential image analysis, object detection\naicasc: interpreting the results of CV analysis\naicasc: summarizing results of image analysis\naicasc: summarizing results of image analysis",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "href": "index.html#module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
+    "section": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "text": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct\n\naicasc: key takeaways and ethical perspectives\naicasc: analysis documentation and open science\naicasc: communicating ai-aided content analysis",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
+    "href": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
+    "title": "web/ai-aided-content-analysis-of-sustainability-communication",
+    "section": "overview of mooc course (ca 10 lessons x 3 hours work)",
+    "text": "overview of mooc course (ca 10 lessons x 3 hours work)\n\ncheck list for setting up screen recordings\n\nvideo lecture\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\ncomputer lab\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\nprepare quiz\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html#lesson.qmd-1",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html#lesson.qmd-1",
+    "title": "module04-analyzing-image-content-computer-vision-30pct",
+    "section": "4-1-lesson.qmd",
+    "text": "4-1-lesson.qmd\n\n4-1-1-video-lecture.qmd: visual communication and computer vision\n\n\n4-1-2-computer-lab.qmd: reading digital images into dataframes\n\n\n4-1-3-computer-lab.qmd: descriptive analysis of image content",
+    "crumbs": [
+      "module 4",
+      "lesson 4.1"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html#lesson.qmd-1",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html#lesson.qmd-1",
+    "title": "module04-analyzing-image-content-computer-vision-30pct",
+    "section": "4-2-lesson.qmd",
+    "text": "4-2-lesson.qmd\n\n4-2-1-video-lecture.qmd: image classification and object detection\n\n\n4-2-2-computer-lab.qmd: classification of demographics in human faces\n\n\n4-2-3-computer-lab.qmd: natural object detection and localization",
+    "crumbs": [
+      "module 4",
+      "lesson 4.2"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html#inferential-analysis-part-2",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html#inferential-analysis-part-2",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "inferential analysis (part 2)",
+    "text": "inferential analysis (part 2)\nimport pandas as pd\nimport spacy\nimport os\n\n# Load sentence_df from the TSV file\ninput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/sentence_data.tsv'\ninput_file_path = '/content/osm-cca-nlp/csv/sentence_data.tsv'\nsentence_df = pd.read_csv(input_file_path, sep='\\t')\n\n# Load the spaCy model (small English model is used here)\nnlp = spacy.load(\"en_core_web_sm\")\n\n# Initialize an empty list to store token data\ntoken_data = []\n\n# Iterate over the sentences in the sentence_df DataFrame\nfor index, row in sentence_df.iterrows():\n    doc = nlp(row['sentence_text'])  # Process the sentence text with spaCy\n    \n    # Iterate over the tokens in the sentence\n    for j, token in enumerate(doc):\n        token_data.append({\n            'id': row['id'],                    # Original text ID\n            'sentence_number': row['sentence_number'],  # Sentence number\n            'token_number': j + 1,              # Token number (starting from 1)\n            'token_text': token.text,           # Token text\n            'token_lemma': token.lemma_,        # Token lemma\n            'token_pos': token.pos_,            # Token part of speech\n            'token_entity': token.ent_type_     # Token entity type (if any)\n        })\n\n# Create a new DataFrame with the token data\ntoken_df = pd.DataFrame(token_data)\n\n# Save the token_df DataFrame as a TSV file\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/token_data.tsv'\noutput_file_path = '/content/osm-cca-nlp/csv/token_data.tsv'\ntoken_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the token DataFrame\nprint(token_df)",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2",
+      "computer lab 3.2.3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#inferential-analysis",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#inferential-analysis",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "inferential analysis",
+    "text": "inferential analysis\nimport pandas as pd\nimport spacy\nimport os\n\n# Load text_df from the TSV file\ninput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/text_data.tsv'\ninput_file_path = '/content/osm-cca-nlp/csv/text_data.tsv'\ntext_df = pd.read_csv(input_file_path, sep='\\t')\n\n# Load the spaCy model (small English model is used here)\nnlp = spacy.load(\"en_core_web_sm\")\n\n# Initialize an empty list to store sentence data\nsentence_data = []\n\n# Iterate over the cleaned text in the DataFrame\nfor index, row in text_df.iterrows():\n    doc = nlp(row['cleaned_text'])  # Process the cleaned text with spaCy\n    \n    # Iterate over the sentences in the document\n    for i, sentence in enumerate(doc.sents):\n        sentence_data.append({\n            'id': row['id'],           # Original text ID\n            'sentence_number': i + 1,  # Sentence number (starting from 1)\n            'sentence_text': sentence.text.strip()  # Sentence text\n        })\n\n# Create a new DataFrame with the sentence data\nsentence_df = pd.DataFrame(sentence_data)\n\n# Save the sentence_df DataFrame as a TSV file\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/sentence_data.tsv'\noutput_file_path = '/content/osm-cca-nlp/csv/sentence_data.tsv'\nsentence_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the sentence DataFrame\nprint(sentence_df)",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2",
+      "computer lab 3.2.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#code-discussion",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#code-discussion",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "code discussion",
+    "text": "code discussion\nThis code chunk outlines a procedure for processing text data stored in a TSV file using Python, with a specific focus on sentence extraction and content analysis through natural language processing (NLP) techniques.\n\nLoading the Text Data:\n\nThe process begins by loading a TSV file containing text data into a pandas DataFrame using pd.read_csv(). The file is located at a specified path (input_file_path), and the sep='\\t' parameter indicates that the file is tab-separated. This DataFrame, text_df, holds the cleaned text data along with associated metadata like unique IDs.\n\nInitializing the NLP Model:\n\nThe spaCy library, a powerful NLP tool, is loaded using spacy.load(\"en_core_web_sm\"). This initializes a small English model that will be used to process the text data, allowing for sophisticated linguistic analysis such as tokenization, lemmatization, and sentence segmentation.\n\nProcessing Text and Extracting Sentences:\n\nThe core of the procedure involves iterating over each row of the text_df DataFrame. For each row, the cleaned text is passed through the spaCy model, which processes the text and divides it into sentences (doc.sents). Each sentence is then extracted and stored in a list called sentence_data along with its corresponding unique ID and sentence number. This step is crucial for breaking down the text into manageable units, facilitating more granular content analysis.\n\nCreating and Saving the Sentence Data:\n\nAfter all sentences have been extracted, the sentence_data list is converted into a new DataFrame, sentence_df. This DataFrame organizes the sentences with their associated metadata, making it easier to analyze or manipulate the content on a sentence-by-sentence basis.\nThe sentence_df DataFrame is then saved as a TSV file at a specified output path (output_file_path) using sentence_df.to_csv(), ensuring the data is stored in a structured and accessible format for future use.\n\nDisplaying the Result:\n\nFinally, the sentence_df DataFrame is printed to the console, allowing for a quick inspection of the extracted sentence data. This step helps verify that the sentence extraction and data storage processes have been executed correctly.\n\n\nThis procedure effectively leverages Python and NLP techniques to transform raw text data into a structured format, breaking it down into sentences that can be further analyzed for various content analysis tasks. The use of spaCy allows for accurate sentence segmentation, which is a foundational step in many NLP workflows.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2",
+      "computer lab 3.2.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "",
+    "text": "aicasc: part-of-speech and named entity recognition\naicasc: inferential text analysis, tokenization\naicasc: inferential text analysis, POS and NER\n\n\n3-2-1-video-lecture.qmd 3-2-2-computer-lab.qmd 3-2-3-computer-lab.qmd",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "",
+    "text": "aicasc: natural language processing (NLP) in social science\naicasc: reading text into dataframes\naicasc: descriptive text analysis",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#video-lecture",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#video-lecture",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "video lecture",
+    "text": "video lecture\n\n3-1-1-video-lecture.qmd",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "computer lab",
+    "text": "computer lab\n\n3-1-2-computer-lab.qmd\n\n\n\n\nIMAGE ALT TEXT HERE",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab-1",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#computer-lab-1",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "computer lab",
+    "text": "computer lab\n\n3-1-3-computer-lab.qmd\n\n3-1-1-video-lecture.qmd 3-1-2-computer-lab.qmd 3-1-3-computer-lab.qmd",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html#descriptive-analysis",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html#descriptive-analysis",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "descriptive analysis",
+    "text": "descriptive analysis\nThe provided code chunk reads a collection of text files from a specified directory, cleans the text by removing non-ASCII characters, and then stores the cleaned and original text in a pandas DataFrame along with a unique ID and the filename. The DataFrame is then printed, displaying the organized data for further analysis.\n\nNew Code Chunk for Word Count and Character Count:\nTo extend the analysis, the following code chunk will add two new columns to the DataFrame: one for the word count and another for the character count of the cleaned text.\n# Perform word count and character count on each cleaned text in the DataFrame\ndf['word_count'] = df['cleaned_text'].apply(lambda x: len(x.split()))\ndf['character_count'] = df['cleaned_text'].apply(lambda x: len(x))\n\n# Select and print all columns except 'original_text' and 'cleaned_text'\ncolumns_to_display = df.columns.difference(['original_text', 'cleaned_text'])\nprint(df[columns_to_display])\n\n\nExplanation:\n\nWord Count:\n\nThe apply function is used on the cleaned_text column to calculate the word count. The lambda function splits each cleaned text string into words using split() and then calculates the length of the resulting list using len(x.split()). This word count is stored in a new column word_count.\n\nCharacter Count:\n\nSimilarly, the apply function calculates the character count by applying len(x) directly on the cleaned_text string. This counts the total number of characters (including spaces) and stores the result in a new column character_count.\n\nUpdated DataFrame:\n\nThe DataFrame is then printed again, now including the word_count and character_count columns, providing additional insights into the text length and structure.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "computer lab 3.1.3"
+    ]
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html",
+    "title": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "section": "",
+    "text": "5-1-1-video-lecture.qmd 5-1-2-computer-lab.qmd 5-1-3-computer-lab.qmd",
+    "crumbs": [
+      "module 5",
+      "lesson 5.1"
+    ]
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html#lesson.qmd",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html#lesson.qmd",
+    "title": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "section": "",
+    "text": "5-1-1-video-lecture.qmd 5-1-2-computer-lab.qmd 5-1-3-computer-lab.qmd",
+    "crumbs": [
+      "module 5",
+      "lesson 5.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "",
+    "text": "aicasc: natural language processing (NLP) in social science\naicasc: reading text into dataframes\naicasc: descriptive text analysis\naicasc: part-of-speech and named entity recognition\naicasc: inferential text analysis, tokenization\naicasc: inferential text analysis, POS and NER\naicasc: interpreting the results of NLP analysis\naicasc: summarizing results of text analysis\naicasc: visualizing results of text analysis",
+    "crumbs": [
+      "module 3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#overview-of-module-3-ca-3x3-hours-work",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#overview-of-module-3-ca-3x3-hours-work",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "overview of module 3 (ca 3x3 hours work)",
+    "text": "overview of module 3 (ca 3x3 hours work)\n\nlesson 3.1 read, clean, describe text content\n\nvideo lecture:\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\ntext as unstructured data, unit of analysis\ntext sampling and types of text pdf, html, text, languages (en/se)\nexplain three levels of text analysis, quantitative analysis\n3 levels: descriptive, explorative, inferential\ncomputer lab: read text into dataframe, text cleaning, stopword removal\ncomputer lab: describe text stats (NLTK)\nprepare quiz:\nwhich of these word is a NLTK stopword\n\n\n\n\nlesson 3.2 use ai to infer tokens and entities\n\nvideo lecture:\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\nexplain three levels of text analysis, quantitative analysis\n3 levels: descriptive, explorative, inferential\ntokenization, normalization, sentence level named entity recognition\ncomputer lab: sentence and word tokenization, dataframe data structure\ncomputer lab: inferential analysis of text using spacy ai models\nprepare quiz:\n\n\n\n\nlesson 3.3 summarize and visualize tabular data\n\nvideo lecture:\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\nopen science methods, reproducibility, transparency, collaboration, github\nplug in your own text content data in this course module\ninterate through module 3, lessons 1-3\nnext steps, compare sustainability communication by organizations, vectorization\ncomputer lab: low-code ai-aided summarize in google colab\ncomputer lab: low-code ai-aided visualize in google colab, content word frequency\nprepare quiz:",
+    "crumbs": [
+      "module 3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html#summarize-and-visualize-data",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html#summarize-and-visualize-data",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "summarize and visualize data",
+    "text": "summarize and visualize data\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\nimport os\n\n# Load token_df from the TSV file\ninput_file_path = '/content/osm-cca-nlp/csv/token_data.tsv'\ninput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/token_data.tsv'\ntoken_df = pd.read_csv(input_file_path, sep='\\t')\n\n# Filter the DataFrame to keep only rows where the part of speech is 'NOUN'\nnoun_df = token_df[token_df['token_pos'] == 'NOUN']\n\n# Group by the lemma and count the occurrences of each lemma\nlemma_counts = noun_df['token_lemma'].value_counts().reset_index()\n\n# Rename the columns for clarity\nlemma_counts.columns = ['lemma', 'count']\n\n# Get the 20 most frequent lemmas\ntop_lemmas = lemma_counts.head(20)\n\n# Plot the 20 most frequent nouns using Seaborn\nplt.figure(figsize=(10, 8))\nsns.barplot(x='count', y='lemma', data=top_lemmas, palette='viridis')\nplt.title('Top 20 Most Frequent Nouns')\nplt.xlabel('Count')\nplt.ylabel('Lemma')\n\n# Save the figure to a PNG file\noutput_file_path = '/content/osm-cca-nlp/fig/token_noun.png'\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/fig/token_noun.png'\nplt.savefig(output_file_path)\n\n# Display the plot\nplt.show()",
+    "crumbs": [
+      "module 3",
+      "lesson 3.3",
+      "computer lab 3.3.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "",
+    "text": "aicasc: interpreting the results of NLP analysis\naicasc: summarizing results of text analysis\naicasc: visualizing results of text analysis\n\n\n3-3-1-video-lecture.qmd 3-3-2-computer-lab.qmd 3-3-3-computer-lab.qmd",
+    "crumbs": [
+      "module 3",
+      "lesson 3.3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#prepare-text-content",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#prepare-text-content",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "prepare text content",
+    "text": "prepare text content\nThis code chunk outlines a procedure for processing a collection of text files using Python, with a focus on content analysis and natural language processing (NLP). Here’s a detailed explanation of each step:\nimport os\nimport pandas as pd\nimport re\n\n# Function to clean text by removing non-ASCII characters\ndef clean_text(text):\n    # Remove non-ASCII characters\n    cleaned_text = re.sub(r'[^\\x00-\\x7F]+', '', text)\n    return cleaned_text\n\n# Directory containing text files\ndirectory_path = '/content/osm-cca-nlp/res'\ndirectory_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/res'\n\nImporting Necessary Libraries:\n\nThe code begins by importing essential Python libraries: os, pandas, and re. The os library is used for interacting with the file system, pandas is a powerful data manipulation library used to manage and analyze data structures like DataFrames, and re is the regular expressions library used for pattern matching and text processing.\n\nDefining a Text Cleaning Function:\n\nA function clean_text(text) is defined to clean the text data by removing non-ASCII characters. This function uses the re.sub() method to search the text for any character that does not fall within the ASCII range ([^\\x00-\\x7F]) and replaces it with an empty string, effectively removing these characters. This step is crucial in NLP tasks to standardize text data, making it easier to analyze.\n\nSetting Up the Directory Path:\n\nThe directory containing the text files is specified with directory_path = '/content/osm-cca-nlp/res'. This path directs the script to the location of the text files that will be processed.\n\n\n# Initialize an empty list to store the data\ndata = []\n\n# Initialize a unique ID counter\nunique_id = 1\n\n# Iterate over the text files in the directory\nfor filename in os.listdir(directory_path):\n    # Consider only plain text files\n    if filename.endswith(\".txt\") or filename.endswith(\".md\"):\n        file_path = os.path.join(directory_path, filename)\n        \n        # Read the file content\n        with open(file_path, 'r', encoding='utf-8') as file:\n            text = file.read()\n        \n        # Clean the text\n        cleaned_text = clean_text(text)\n        \n        # Append the data as a dictionary with a unique ID\n        data.append({\n            'id': unique_id,\n            'filename': filename,\n            'original_text': text,\n            'cleaned_text': cleaned_text\n        })\n        \n        # Increment the unique ID\n        unique_id += 1\n\nInitializing Data Structures:\n\nAn empty list data is initialized to store the cleaned data, and a unique_id counter is set to 1 to uniquely identify each text file. These data structures are essential for organizing and managing the extracted and cleaned content.\n\nIterating Over Files in the Directory:\n\nThe script iterates over each file in the specified directory using os.listdir(directory_path). A conditional statement if filename.endswith(\".txt\") or filename.endswith(\".md\") ensures that only plain text files (.txt) and Markdown files (.md) are processed. This step is fundamental in content analysis as it focuses the analysis on relevant document types.\n\nReading and Cleaning Text Content:\n\nFor each text file, the file is opened and read into a string variable text using open(file_path, 'r', encoding='utf-8'). The content is then passed to the clean_text() function to remove non-ASCII characters, resulting in a cleaned version of the text stored in cleaned_text. This step is crucial for preparing the text data for further NLP tasks by ensuring it is in a consistent and analyzable format.\n\n\n# Create a Pandas DataFrame\ntext_df = pd.DataFrame(data)\n\n# Save the DataFrame as a TSV file in the 'csv' subdirectory\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/text_data.tsv'\noutput_file_path = '/content/osm-cca-nlp/csv/text_data.tsv'\n\n# Save the DataFrame to a TSV file\ntext_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the DataFrame\nprint(text_df)\n\nStoring the Data:\n\nThe original and cleaned text, along with the filename and unique ID, are stored as a dictionary in the data list. This structured storage is essential for keeping track of each document’s metadata and content, facilitating easy access and manipulation for later analysis.\n\nCreating a DataFrame:\n\nOnce all files are processed, the list data is converted into a pandas DataFrame using pd.DataFrame(data). This DataFrame organizes the collected data into a tabular format, where each row corresponds to a file, and columns represent the unique ID, filename, original text, and cleaned text. This step is critical in content analysis and NLP as it allows for systematic exploration, manipulation, and analysis of the textual data.\n\nDisplaying the Data:\n\nFinally, the DataFrame is printed to the console using print(df), providing a visual representation of the processed data. This allows for a quick inspection of the results, ensuring that the text cleaning and data aggregation processes have been correctly executed.\n\n\nThis procedure exemplifies a typical workflow in content analysis and NLP, where raw text data is cleaned, organized, and prepared for more sophisticated analytical tasks such as tokenization, entity recognition, or sentiment analysis. The use of Python and its libraries like pandas and re streamlines these tasks, making it easier to manage and analyze large collections of text.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "computer lab 3.1.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#code-chunk",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#code-chunk",
+    "title": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "section": "code chunk",
+    "text": "code chunk\nimport os\nimport pandas as pd\nimport re\n\n# Function to clean text by removing non-ASCII characters\ndef clean_text(text):\n    # Remove non-ASCII characters\n    cleaned_text = re.sub(r'[^\\x00-\\x7F]+', '', text)\n    return cleaned_text\n\n# Directory containing text files\ndirectory_path = '/content/osm-cca-nlp/res'\ndirectory_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/res'\n\n# Initialize an empty list to store the data\ndata = []\n\n# Initialize a unique ID counter\nunique_id = 1\n\n# Iterate over the text files in the directory\nfor filename in os.listdir(directory_path):\n    # Consider only plain text files\n    if filename.endswith(\".txt\") or filename.endswith(\".md\"):\n        file_path = os.path.join(directory_path, filename)\n        \n        # Read the file content\n        with open(file_path, 'r', encoding='utf-8') as file:\n            text = file.read()\n        \n        # Clean the text\n        cleaned_text = clean_text(text)\n        \n        # Append the data as a dictionary with a unique ID\n        data.append({\n            'id': unique_id,\n            'filename': filename,\n            'original_text': text,\n            'cleaned_text': cleaned_text\n        })\n        \n        # Increment the unique ID\n        unique_id += 1\n\n# Create a Pandas DataFrame\ntext_df = pd.DataFrame(data)\n\n# Save the DataFrame as a TSV file in the 'csv' subdirectory\noutput_file_path = '/content/osm-cca-nlp/csv/text_data.tsv'\noutput_file_path = '/home/sol-nhl/rnd/d/quarto/osm-cca-nlp/csv/text_data.tsv'\n\n# Save the DataFrame to a TSV file\ntext_df.to_csv(output_file_path, sep='\\t', index=False)\n\n# Display the DataFrame\nprint(text_df)",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "computer lab 3.1.2"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#visual-communication-and-computer-vision",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#visual-communication-and-computer-vision",
+    "title": "module04-analyzing-image-content-computer-vision-30pct",
+    "section": "visual communication and computer vision",
+    "text": "visual communication and computer vision\n\nvideo lecture\n\nfunctions of different types of visuals in sustainability communication\nexamples of different computer vision areas, challenges of image content\nexplain basic concepts, image pixels, rgb color channels, grayscale\nconstructing images using numpy matrixes, manipulating pixel regions\nexplain the concept of image content features, color histograms, edges, etc\nreading digital images into dataframes, matrix data structures, opencv\ndescribe manifest image content, normalizing images, resize, grayscale etc\n\n\nprompt: im planning a text on the topic of “visual communication and computer vision”; please use the list below to generate one paragraph of text for each list item, where each paragraph is preceded by a shortened title prefixed by “####”;\nprompt: im planning a lecture on the topic of “visual communication and computer vision”; please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points;\n\n\n\nlecture text\n\nVisuals in Sustainability Communication\nIn sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\nComputer Vision Applications and Content Challenges\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\nImage Basics: Pixels, RGB, and Grayscale\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\nConstructing and Manipulating Images with NumPy\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\nImage Content Features: Colors, Histograms, and Edges\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\nDigital Images as Dataframes and Matrix Structures\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\nNormalizing Image Content: Resize, Grayscale, and Consistency\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.\n\n\n\n\nlecture slides\n\nFunctions of Visuals in Sustainability Communication\n\nVisuals enhance message clarity and audience engagement in sustainability topics.\nPhotos evoke emotional responses, encouraging empathy and action.\nInfographics simplify complex data for easier public understanding.\nVideos convey real-time impact, offering immersive storytelling.\nVisual variety can reinforce key sustainability messages across contexts.\n\n\n\nComputer Vision Areas and Content Challenges\n\nComputer vision applications include object detection, facial recognition, and scene analysis.\nVariations in lighting and angle present challenges in accurate image interpretation.\nEnvironmental monitoring relies on detecting specific features in natural scenes.\nHandling diverse image sources requires robust algorithms and large datasets.\nComputer vision aids sustainability by tracking changes in environmental conditions.\n\n\n\nImage Basics: Pixels, RGB, and Grayscale\n\nImages are composed of pixels, each storing color or intensity values.\nRGB channels (Red, Green, Blue) combine to create various colors in visuals.\nGrayscale simplifies images by converting them into shades of gray.\nEach color channel holds intensity values ranging from 0 to 255.\nUnderstanding these basics is essential for manipulating and analyzing images.\n\n\n\nConstructing and Manipulating Images with NumPy\n\nImages can be represented as NumPy matrices, enabling pixel-based control.\nEach matrix element corresponds to a pixel’s intensity or color value.\nAdjusting matrix values allows for brightness or color changes in specific regions.\nImage manipulations aid in highlighting areas of interest or removing noise.\nUsing NumPy enhances flexibility in preprocessing images for computer vision tasks.\n\n\n\nImage Features: Colors, Histograms, and Edges\n\nImage content features help models identify patterns within visuals.\nColor histograms reveal dominant tones by analyzing pixel distributions.\nEdge detection outlines shapes, essential for object and scene recognition.\nTexture features assist in distinguishing smooth versus rough surfaces.\nFeatures enable AI to interpret images more effectively by capturing key visual aspects.\n\n\n\nReading Images into Dataframes and Matrix Structures\n\nTools like OpenCV allow images to be imported as matrices or dataframes.\nDataframes enable organization of pixel data for efficient analysis.\nMatrix structures store spatial information, which is crucial for vision models.\nImage data in structured formats simplifies comparisons across visuals.\nAccessing pixel-level data provides precision in analyzing image content.\n\n\n\nNormalizing Image Content: Resize, Grayscale, and Consistency\n\nImage normalization enhances model performance by standardizing inputs.\nResizing aligns images to a uniform size, aiding consistency in analysis.\nGrayscale conversion reduces complexity and focuses on essential shapes.\nBrightness adjustments help maintain consistency across varied image sources.\nNormalizing inputs is vital for achieving accurate, reliable computer vision results.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.1",
+      "video lecture 4.1.1"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#overview-of-module-4",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#overview-of-module-4",
+    "title": "module04-analyzing-image-content-computer-vision-30pct",
+    "section": "overview of module 4",
+    "text": "overview of module 4\n\nextent: ca 3x3 hours work\nexplain basic concepts, visual sustainability communication, images, video\nthe concept of computer vision, object detection etc, everyday examples\nsummarizing and visualizing results of object detection and localization\n\n\nlesson 4.1\n\nvisual communication and computer vision\n\n\nvideo lecture\n\nunderstanding visual communication and sustainability communication\nconcept of computer vision, object detection etc, everyday examples\nbasic concepts in digital images, image pixels, rgb color channels\n\n\n\ncomputer lab\n\nextracting digital images from pdf files, cf. converting pdf to plain text\nreading digital images into dataframes, matrix data structures\n\n\n\ncomputer lab\n\ndescribe manifest image content features, height, width etc\nnormalizing image data, resize, grayscale etc.\n\n\n\nprepare quiz\n\nwhat is the result of this python command\n\n\n\n\n\nlesson 4.2\n\nimage classification and object detection\n\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ndifferent python use cases, social science vs computer science\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\n\n\n\ncomputer lab\n\nlow-code cda, structured data analysis using pandas, built in data\n\n\n\ncomputer lab\n\nlow-code cda, data visualization using matplotlib, seaborn\n\n\n\nprepare quiz\n\nwhat are the column names of dataset iris\nwhat are the number of rows in iris dataset\n\n\n\n\n\nlesson 4.3\n\nsummarize and visualize tabular data\n\n\nvideo lecture\n\ndifferent types of NLP, ai-aided NLU, pos, ner, lemma\ntext content features are associated with, causes cognitive effects\nopen science methods, reproducibility, transparency, collaboration, github\nplug in your own text content data in this course module\ninterate through module 3, lessons 1-3\nnext steps, compare sustainability communication by organizations, vectorization\n\n\n\ncomputer lab\n\nlow-code ai-aided summarize in google colab\n\n\n\ncomputer lab\n\nlow-code ai-aided visualize in google colab, content word frequency\n\n\n\nprepare quiz",
+    "crumbs": [
+      "module 4"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html",
+    "title": "module04-analyzing-image-content-computer-vision-30pct",
+    "section": "",
+    "text": "4-3-1-video-lecture.qmd 4-3-2-computer-lab.qmd 4-3-3-computer-lab.qmd",
+    "crumbs": [
+      "module 4",
+      "lesson 4.3"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html#lesson.qmd",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html#lesson.qmd",
+    "title": "module04-analyzing-image-content-computer-vision-30pct",
+    "section": "",
+    "text": "4-3-1-video-lecture.qmd 4-3-2-computer-lab.qmd 4-3-3-computer-lab.qmd",
+    "crumbs": [
+      "module 4",
+      "lesson 4.3"
+    ]
+  },
+  {
+    "objectID": "aicasc-2-1-1-video-lecture.html#hello-there",
+    "href": "aicasc-2-1-1-video-lecture.html#hello-there",
+    "title": "Quarto Presentations",
+    "section": "Hello, There",
+    "text": "Hello, There\nThis presentation will show you examples of what you can do with Quarto and Reveal.js, including:\n\nPresenting code and LaTeX equations\nIncluding computations in slide output\nImage, video, and iframe backgrounds\nFancy transitions and animations\nPrinting to PDF\n\n…and much more"
+  },
+  {
+    "objectID": "aicasc-2-1-1-video-lecture.html#pretty-code",
+    "href": "aicasc-2-1-1-video-lecture.html#pretty-code",
+    "title": "Quarto Presentations",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\nimport seaborn as sns\n\n# Load the iris dataset\ndf = sns.load_dataset(\"iris\")\n\n# Display the first 5 rows\ndf.head()\n\nLearn more: Syntax Highlighting\n\n\n\n\n\nhttps://quarto.org"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html#computer-lab.qmd-1",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html#computer-lab.qmd-1",
     "title": "module02-introduction-to-low-code-python-programming-20pct",
-    "section": "2-2-2-computer-lab.qmd",
-    "text": "2-2-2-computer-lab.qmd",
+    "section": "2-2-3-computer-lab.qmd",
+    "text": "2-2-3-computer-lab.qmd",
     "crumbs": [
       "module 2",
       "lesson 2.2",
-      "computer lab 2.2.2"
+      "computer lab 2.2.3"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html#lesson.qmd-1",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html#lesson.qmd-1",
+    "title": "module02-introduction-to-low-code-python-programming-20pct",
+    "section": "2-1-lesson.qmd",
+    "text": "2-1-lesson.qmd\n\n2-1-1-video-lecture.qmd: ai-aided and low-code programming\n\n\n2-1-2-computer-lab.qmd: the google colab notebook user interface\n\n\n2-1-3-computer-lab.qmd: trying out some basic python syntax",
+    "crumbs": [
+      "module 2",
+      "lesson 2.1"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html#lesson.qmd-1",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html#lesson.qmd-1",
+    "title": "module02-introduction-to-low-code-python-programming-20pct",
+    "section": "2-2-lesson.qmd",
+    "text": "2-2-lesson.qmd\n\n2-2-1-video-lecture.qmd: ai-aided low-code with google colab\n\n\n2-2-2-computer-lab.qmd: low-code data analysis, structured datasets\n\n\n2-2-3-computer-lab.qmd: low-code data analysis, data visualization",
+    "crumbs": [
+      "module 2",
+      "lesson 2.2"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#video-lecture.qmd-1",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#video-lecture.qmd-1",
+    "title": "module02-introduction-to-low-code-python-programming-20pct",
+    "section": "2-2-1-video-lecture.qmd",
+    "text": "2-2-1-video-lecture.qmd\n\nai-aided low-code with google colab, openai\n\nvideo lecture\n\ndifferent python environments, local, cloud, notebooks\ngoogle colab jupyter notebooks, step-wise code chunks (precondition)\nprompting generative ai, copy-paste code chunks (workflow)\nthe concept of low-code programming (copy-paste chunks) vs high-code\nimplementing low-code using google colab and generative ai\nlow-code data analysis, structured datasets using pandas, built in datasets\nlow-code data analysis, data visualization using matplotlib, seaborn\n\n\nprompt: im planning a text on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one paragraph of text for each list item, where each paragraph is preceeded by a shortened title prefixed by “####”\nprompt: im planning a lecture on the topic of “ai-aided low-code programming with google colab”.. please use the list below to generate one lecture slide for each list item, where each slide starts with a shortened title prefixed by “####” and contains about 5 single sentence bullet points\n\n\n\n\nlecture text\n\nPython Environments: Local, Cloud, Notebooks\nPython programming can take place in several environments, each offering unique benefits. Local environments involve installing Python directly on your machine, providing full control over the setup and resources. Cloud environments, such as Google Colab, remove the need for installation, offering scalable and powerful resources hosted remotely. Jupyter notebooks bridge the gap by offering an interactive, browser-based interface for executing Python code, making it easy to write, run, and document code in a step-by-step manner, whether locally or in the cloud.\n\n\nGoogle Colab Jupyter Notebooks: Step-wise Code Chunks\nGoogle Colab builds on the Jupyter notebook framework by enabling users to break down code into manageable, step-wise chunks. Each code cell in Colab can be run independently, allowing for incremental development and testing of code. This structure is particularly useful in data science and machine learning, where complex workflows benefit from the ability to isolate and debug smaller components before integrating them into the larger project.\n\n\nPrompting Generative AI: Copy-Paste Code Chunks\nAI-aided low-code programming leverages generative AI to produce code snippets that can be quickly integrated into projects. By providing natural language prompts, users can generate functional code, which can then be copied and pasted directly into Google Colab cells. This workflow minimizes the need for manual coding and accelerates development, especially for those who are not programming experts, allowing them to focus more on building and less on the technical details.\n\n\nLow-Code Programming vs. High-Code\nLow-code programming refers to the practice of using pre-built or AI-generated code chunks to assemble applications with minimal manual coding, making it accessible to a wider range of users. High-code programming, on the other hand, involves writing custom, detailed code that provides full control over the application. Low-code approaches are ideal for speeding up development, particularly for straightforward applications, while high-code remains necessary for creating highly specialized or complex solutions.\n\n\nImplementing Low-Code with Google Colab and Generative AI\nGoogle Colab, combined with generative AI, creates a powerful platform for low-code programming. Users can generate code through AI prompts and immediately implement these code chunks in Colab’s interactive environment. This approach dramatically reduces the amount of time and expertise required to develop functional code. Colab’s cloud-based resources ensure that even computationally intensive tasks can be handled with ease, further streamlining the implementation of low-code solutions.\n\n\nLow-Code Data Analysis: Structured Datasets Using Pandas\nLow-code data analysis becomes particularly effective with the use of the Pandas library, which simplifies the manipulation of structured datasets. With minimal code, users can perform complex data cleaning, filtering, and transformation operations. Google Colab provides built-in datasets and an intuitive interface for loading data, enabling even novice programmers to perform advanced data analysis. Generative AI can also assist by suggesting appropriate Pandas commands, making data manipulation more accessible.\n\n\nLow-Code Data Visualization: Using Matplotlib and Seaborn\nLow-code data visualization in Google Colab is made easy through libraries like Matplotlib and Seaborn, which allow for the creation of complex visualizations with just a few lines of code. AI-generated scripts can help produce ready-to-use charts, graphs, and plots, reducing the need for manual coding. These libraries enable users to quickly gain insights from their data by creating compelling visualizations, a crucial step in data analysis, especially when communicating findings to others.\n\n\n\nlecture slides\nHere is a breakdown of lecture slides based on your prompt:\n\n\nPython Environments: Local, Cloud, Notebooks\n\nLocal environments require installing Python on your machine.\n\nCloud environments offer remote execution without setup requirements.\n\nJupyter notebooks provide an interactive, browser-based interface.\n\nNotebooks support code, documentation, and visualizations in one place.\n\nCloud and notebooks simplify resource management and collaboration.\n\n\n\n\nGoogle Colab Jupyter Notebooks: Step-wise Code Chunks\n\nGoogle Colab uses Jupyter notebooks to run code in small, independent chunks.\n\nEach cell can be executed separately, aiding in debugging and iteration.\n\nStep-wise execution supports progressive refinement of complex workflows.\n\nCombines Python code with text for comprehensive documentation.\n\nPrecondition for low-code approaches with AI assistance.\n\n\n\n\nPrompting Generative AI: Copy-Paste Code Chunks\n\nGenerative AI helps create code snippets based on simple prompts.\n\nUsers can copy-paste AI-generated code chunks directly into Colab cells.\n\nAI reduces the need for manual coding, speeding up development.\n\nAI supports both novice and advanced users with pre-built solutions.\n\nThis workflow fosters quick iteration and implementation of ideas.\n\n\n\n\nLow-Code Programming: Copy-Paste Chunks vs High-Code\n\nLow-code relies on pre-built code or AI-generated chunks for quick assembly.\n\nHigh-code involves manual coding with complete control over the application.\n\nLow-code approaches make programming accessible to non-experts.\n\nHigh-code remains essential for deeply customized or complex solutions.\n\nLow-code prioritizes speed and simplicity, while high-code focuses on flexibility.\n\n\n\n\nImplementing Low-Code Using Google Colab and Generative AI\n\nGoogle Colab facilitates low-code development with AI support.\n\nUsers can integrate AI-generated code directly into Colab notebooks.\n\nCloud resources allow for powerful execution with minimal local setup.\n\nLow-code workflows benefit from Colab’s interactive and collaborative features.\n\nAI assists with complex tasks, enabling faster development cycles.\n\n\n\n\nLow-Code Data Analysis: Structured Datasets Using Pandas\n\nPandas allows easy manipulation of structured datasets with minimal code.\n\nBuilt-in datasets in Google Colab provide immediate access for analysis.\n\nAI can suggest Pandas commands for data cleaning, filtering, and transformation.\n\nLow-code data analysis simplifies operations, even for beginners.\n\nPandas streamlines common tasks like grouping, merging, and aggregating data.\n\n\n\n\nLow-Code Data Visualization: Using Matplotlib and Seaborn\n\nMatplotlib and Seaborn create complex visualizations with minimal effort.\n\nAI can generate code for producing graphs and plots quickly.\n\nUsers can visualize data directly within Colab notebooks.\n\nLow-code visualization tools make it easy to uncover insights from data.\n\nMatplotlib and Seaborn are versatile, supporting various chart types and styles.\n\n\nThis layout provides a structured approach for discussing AI-aided low-code programming with Google Colab in a lecture format.",
+    "crumbs": [
+      "module 2",
+      "lesson 2.2",
+      "video lecture 2.2.1"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html#computer-lab.qmd-1",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html#computer-lab.qmd-1",
+    "title": "module01-understanding-sustainability-communication-content-10pct",
+    "section": "1-1-3-computer-lab.qmd",
+    "text": "1-1-3-computer-lab.qmd",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "computer lab 1.1.3"
     ]
   },
   {
