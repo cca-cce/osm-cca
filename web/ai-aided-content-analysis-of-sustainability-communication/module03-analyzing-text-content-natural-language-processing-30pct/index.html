@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>module03-analyzing-text-content-natural-language-processing-30pct – osm-cca</title>
+<title>Module 3: Analyzing text content with natural language processing – osm-cca</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -466,11 +466,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview-of-module-3-ca-3x3-hours-work" id="toc-overview-of-module-3-ca-3x3-hours-work" class="nav-link active" data-scroll-target="#overview-of-module-3-ca-3x3-hours-work">overview of module 3 (ca 3x3 hours work)</a>
+  <li><a href="#lesson-3-1" id="toc-lesson-3-1" class="nav-link active" data-scroll-target="#lesson-3-1">lesson 3-1</a>
   <ul class="collapse">
-  <li><a href="#lesson-3.1-read-clean-describe-text-content" id="toc-lesson-3.1-read-clean-describe-text-content" class="nav-link" data-scroll-target="#lesson-3.1-read-clean-describe-text-content">lesson 3.1 read, clean, describe text content</a></li>
-  <li><a href="#lesson-3.2-use-ai-to-infer-tokens-and-entities" id="toc-lesson-3.2-use-ai-to-infer-tokens-and-entities" class="nav-link" data-scroll-target="#lesson-3.2-use-ai-to-infer-tokens-and-entities">lesson 3.2 use ai to infer tokens and entities</a></li>
-  <li><a href="#lesson-3.3-summarize-and-visualize-tabular-data" id="toc-lesson-3.3-summarize-and-visualize-tabular-data" class="nav-link" data-scroll-target="#lesson-3.3-summarize-and-visualize-tabular-data">lesson 3.3 summarize and visualize tabular data</a></li>
+  <li><a href="#video-lecture.qmdnatural-language-processing-nlp-in-social-science" id="toc-video-lecture.qmdnatural-language-processing-nlp-in-social-science" class="nav-link" data-scroll-target="#video-lecture.qmdnatural-language-processing-nlp-in-social-science">video-lecture.qmd:Natural language processing (NLP) in social science</a></li>
+  <li><a href="#computer-lab.qmdreading-text-into-dataframes" id="toc-computer-lab.qmdreading-text-into-dataframes" class="nav-link" data-scroll-target="#computer-lab.qmdreading-text-into-dataframes">computer-lab.qmd:Reading text into dataframes</a></li>
+  <li><a href="#computer-lab.qmddescriptive-text-analysis" id="toc-computer-lab.qmddescriptive-text-analysis" class="nav-link" data-scroll-target="#computer-lab.qmddescriptive-text-analysis">computer-lab.qmd:Descriptive text analysis</a></li>
+  </ul></li>
+  <li><a href="#lesson-3-2" id="toc-lesson-3-2" class="nav-link" data-scroll-target="#lesson-3-2">lesson 3-2</a>
+  <ul class="collapse">
+  <li><a href="#video-lecture.qmdpart-of-speech-and-named-entity-recognition" id="toc-video-lecture.qmdpart-of-speech-and-named-entity-recognition" class="nav-link" data-scroll-target="#video-lecture.qmdpart-of-speech-and-named-entity-recognition">video-lecture.qmd:Part-of-speech and named entity recognition</a></li>
+  <li><a href="#computer-lab.qmdinferential-text-analysis-tokenization" id="toc-computer-lab.qmdinferential-text-analysis-tokenization" class="nav-link" data-scroll-target="#computer-lab.qmdinferential-text-analysis-tokenization">computer-lab.qmd:Inferential text analysis, tokenization</a></li>
+  <li><a href="#computer-lab.qmdinferential-text-analysis-pos-and-ner" id="toc-computer-lab.qmdinferential-text-analysis-pos-and-ner" class="nav-link" data-scroll-target="#computer-lab.qmdinferential-text-analysis-pos-and-ner">computer-lab.qmd:Inferential text analysis, POS and NER</a></li>
+  </ul></li>
+  <li><a href="#lesson-3-3" id="toc-lesson-3-3" class="nav-link" data-scroll-target="#lesson-3-3">lesson 3-3</a>
+  <ul class="collapse">
+  <li><a href="#video-lecture.qmdinterpreting-the-results-of-nlp-analysis" id="toc-video-lecture.qmdinterpreting-the-results-of-nlp-analysis" class="nav-link" data-scroll-target="#video-lecture.qmdinterpreting-the-results-of-nlp-analysis">video-lecture.qmd:Interpreting the results of NLP analysis</a></li>
+  <li><a href="#computer-lab.qmdsummarizing-results-of-text-analysis" id="toc-computer-lab.qmdsummarizing-results-of-text-analysis" class="nav-link" data-scroll-target="#computer-lab.qmdsummarizing-results-of-text-analysis">computer-lab.qmd:Summarizing results of text analysis</a></li>
+  <li><a href="#computer-lab.qmdvisualizing-results-of-text-analysis" id="toc-computer-lab.qmdvisualizing-results-of-text-analysis" class="nav-link" data-scroll-target="#computer-lab.qmdvisualizing-results-of-text-analysis">computer-lab.qmd:Visualizing results of text analysis</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -480,8 +492,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">module03-analyzing-text-content-natural-language-processing-30pct</h1>
-<p class="subtitle lead">ai-aided-content-analysis-of-sustainability-communication</p>
+<h1 class="title">Module 3: Analyzing text content with natural language processing</h1>
+<p class="subtitle lead">AI-aided content analysis of sustainability communication</p>
 </div>
 
 
@@ -498,67 +510,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ul>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html">natural language processing (NLP) in social science</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html">reading text into dataframes</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html">descriptive text analysis</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html">part-of-speech and named entity recognition</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html">inferential text analysis, tokenization</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html">inferential text analysis, POS and NER</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-1-video-lecture.html">interpreting the results of NLP analysis</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html">summarizing results of text analysis</a></li>
-<li>aicasc: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html">visualizing results of text analysis</a></li>
-</ul>
-<hr>
-<section id="overview-of-module-3-ca-3x3-hours-work" class="level2">
-<h2 class="anchored" data-anchor-id="overview-of-module-3-ca-3x3-hours-work">overview of module 3 (ca 3x3 hours work)</h2>
-<section id="lesson-3.1-read-clean-describe-text-content" class="level3">
-<h3 class="anchored" data-anchor-id="lesson-3.1-read-clean-describe-text-content"><a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html">lesson 3.1</a> read, clean, describe text content</h3>
-<ul>
-<li><strong>video lecture:</strong></li>
-<li>different types of NLP, ai-aided NLU, pos, ner, lemma</li>
-<li>text content features are associated with, causes cognitive effects</li>
-<li>text as unstructured data, unit of analysis</li>
-<li>text sampling and types of text pdf, html, text, languages (en/se)</li>
-<li>explain three levels of text analysis, quantitative analysis</li>
-<li>3 levels: descriptive, explorative, inferential</li>
-<li><strong>computer lab:</strong> read text into dataframe, text cleaning, stopword removal</li>
-<li><strong>computer lab:</strong> describe text stats (NLTK)</li>
-<li><strong>prepare quiz:</strong></li>
-<li>which of these word is a NLTK stopword</li>
-</ul>
-<hr>
+<section id="lesson-3-1" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3-1">lesson 3-1</h2>
+<section id="video-lecture.qmdnatural-language-processing-nlp-in-social-science" class="level3">
+<h3 class="anchored" data-anchor-id="video-lecture.qmdnatural-language-processing-nlp-in-social-science">video-lecture.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html">Natural language processing (NLP) in social science</a></h3>
 </section>
-<section id="lesson-3.2-use-ai-to-infer-tokens-and-entities" class="level3">
-<h3 class="anchored" data-anchor-id="lesson-3.2-use-ai-to-infer-tokens-and-entities"><a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html">lesson 3.2</a> use ai to infer tokens and entities</h3>
-<ul>
-<li><strong>video lecture:</strong></li>
-<li>different types of NLP, ai-aided NLU, pos, ner, lemma</li>
-<li>text content features are associated with, causes cognitive effects</li>
-<li>explain three levels of text analysis, quantitative analysis</li>
-<li>3 levels: descriptive, explorative, inferential</li>
-<li>tokenization, normalization, sentence level named entity recognition</li>
-<li><strong>computer lab:</strong> sentence and word tokenization, dataframe data structure</li>
-<li><strong>computer lab:</strong> inferential analysis of text using spacy ai models</li>
-<li><strong>prepare quiz:</strong></li>
-</ul>
-<hr>
+<section id="computer-lab.qmdreading-text-into-dataframes" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmdreading-text-into-dataframes">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html">Reading text into dataframes</a></h3>
 </section>
-<section id="lesson-3.3-summarize-and-visualize-tabular-data" class="level3">
-<h3 class="anchored" data-anchor-id="lesson-3.3-summarize-and-visualize-tabular-data"><a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html">lesson 3.3</a> summarize and visualize tabular data</h3>
-<ul>
-<li><strong>video lecture:</strong></li>
-<li>different types of NLP, ai-aided NLU, pos, ner, lemma</li>
-<li>text content features are associated with, causes cognitive effects</li>
-<li>open science methods, reproducibility, transparency, collaboration, github</li>
-<li>plug in your own text content data in this course module</li>
-<li>interate through module 3, lessons 1-3</li>
-<li>next steps, compare sustainability communication by organizations, vectorization</li>
-<li><strong>computer lab:</strong> low-code ai-aided summarize in google colab</li>
-<li><strong>computer lab:</strong> low-code ai-aided visualize in google colab, content word frequency</li>
-<li><strong>prepare quiz:</strong></li>
-</ul>
-<hr>
+<section id="computer-lab.qmddescriptive-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmddescriptive-text-analysis">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html">Descriptive text analysis</a></h3>
+</section>
+</section>
+<section id="lesson-3-2" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3-2">lesson 3-2</h2>
+<section id="video-lecture.qmdpart-of-speech-and-named-entity-recognition" class="level3">
+<h3 class="anchored" data-anchor-id="video-lecture.qmdpart-of-speech-and-named-entity-recognition">video-lecture.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html">Part-of-speech and named entity recognition</a></h3>
+</section>
+<section id="computer-lab.qmdinferential-text-analysis-tokenization" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmdinferential-text-analysis-tokenization">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html">Inferential text analysis, tokenization</a></h3>
+</section>
+<section id="computer-lab.qmdinferential-text-analysis-pos-and-ner" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmdinferential-text-analysis-pos-and-ner">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html">Inferential text analysis, POS and NER</a></h3>
+</section>
+</section>
+<section id="lesson-3-3" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3-3">lesson 3-3</h2>
+<section id="video-lecture.qmdinterpreting-the-results-of-nlp-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="video-lecture.qmdinterpreting-the-results-of-nlp-analysis">video-lecture.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-1-video-lecture.html">Interpreting the results of NLP analysis</a></h3>
+</section>
+<section id="computer-lab.qmdsummarizing-results-of-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmdsummarizing-results-of-text-analysis">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html">Summarizing results of text analysis</a></h3>
+</section>
+<section id="computer-lab.qmdvisualizing-results-of-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmdvisualizing-results-of-text-analysis">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html">Visualizing results of text analysis</a></h3>
 
 
 </section>

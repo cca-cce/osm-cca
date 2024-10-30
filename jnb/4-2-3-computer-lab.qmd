@@ -1,8 +1,16 @@
 ---
-title: "module04-analyzing-image-content-computer-vision-30pct"
-subtitle: "ai-aided-content-analysis-of-sustainability-communication"
+title: "Module 4: Analyzing image content with computer vision"
+subtitle: "AI-aided content analysis of sustainability communication"
+#author: "nils.holmberg@iko.lu.se"
 ---
 
-## 4-2-3-computer-lab.qmd
----
+## Lesson 4.2: Inferential image analysis, object detection
+
+### [lab notebook](4-2-3-computer-lab-notebook.ipynb){target="_blank"}
+
+### [lab video](video-url.mp4){target="_blank"}
+
+### lab text
+
+
 
