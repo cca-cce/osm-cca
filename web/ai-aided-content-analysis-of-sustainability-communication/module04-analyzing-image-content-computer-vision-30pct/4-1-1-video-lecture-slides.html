@@ -29,71 +29,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../../styles/styles.css">
@@ -387,8 +322,10 @@
     }
   </style>
   <style>
-  #title-slide .title {
-    font-size: 1.5em;
+  #title-slide .subtitle,
+  #title-slide .quarto-title-author-name {
+    font-size: 1.3em;
+    font-weight: bold;
   }
   </style>
 </head>
@@ -398,7 +335,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Module 4: Analyzing image content with computer vision</h1>
-  <p class="subtitle">Lesson 4.1: Computer vision (CV) in social science <br><br>AI-aided content analysis of sustainability communication</p>
+  <p class="subtitle"><br>Lesson 4.1: Computer vision (CV) in social science <br><br>AI-aided content analysis of sustainability communication</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -409,39 +346,87 @@ nils.holmberg@iko.lu.se
 </div>
 
 </section>
-<section id="hello-there" class="slide level2">
-<h2>Hello, There</h2>
-<p>This presentation will show you examples of what you can do with Quarto and <a href="https://revealjs.com">Reveal.js</a>, including:</p>
+<section id="functions-of-visuals-in-sustainability-communication" class="slide level2">
+<h2>Functions of Visuals in Sustainability Communication</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
 <ul>
-<li>Presenting code and LaTeX equations</li>
-<li>Including computations in slide output</li>
-<li>Image, video, and iframe backgrounds</li>
-<li>Fancy transitions and animations</li>
-<li>Printing to PDF</li>
+<li>Visuals enhance message clarity and audience engagement in sustainability topics.</li>
+<li>Photos evoke emotional responses, encouraging empathy and action.</li>
+<li>Infographics simplify complex data for easier public understanding.</li>
+<li>Videos convey real-time impact, offering immersive storytelling.</li>
+<li>Visual variety can reinforce key sustainability messages across contexts.</li>
 </ul>
-<p>…and much more</p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<p><img data-src="../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png" class="absolute" style="top: 100px; left: 500px; width: 500px; height: 500px; "></p>
+</div></div>
 </section>
-<section id="pretty-code" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Pretty Code</h2>
+<section id="computer-vision-areas-and-content-challenges" class="slide level2">
+<h2>Computer Vision Areas and Content Challenges</h2>
 <ul>
-<li>Over 20 syntax highlighting themes available</li>
-<li>Default theme optimized for accessibility</li>
+<li>Computer vision applications include object detection, facial recognition, and scene analysis.</li>
+<li>Variations in lighting and angle present challenges in accurate image interpretation.</li>
+<li>Environmental monitoring relies on detecting specific features in natural scenes.</li>
+<li>Handling diverse image sources requires robust algorithms and large datasets.</li>
+<li>Computer vision aids sustainability by tracking changes in environmental conditions.</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode python hljs"><span id="cb1-1" class="hljs-ln-code"><a></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
-<span id="cb1-2" class="hljs-ln-code"><a></a></span>
-<span id="cb1-3" class="hljs-ln-code"><a></a><span class="co"># Load the iris dataset</span></span>
-<span id="cb1-4" class="hljs-ln-code"><a></a>df <span class="op">=</span> sns.load_dataset(<span class="st">"iris"</span>)</span>
-<span id="cb1-5" class="hljs-ln-code"><a></a></span>
-<span id="cb1-6" class="hljs-ln-code"><a></a><span class="co"># Display the first 5 rows</span></span>
-<span id="cb1-7" class="hljs-ln-code"><a></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="footer">
-<p>Learn more: <a href="https://quarto.org/docs/output-formats/html-code.html#highlighting">Syntax Highlighting</a></p>
-</div>
+</section>
+<section id="image-basics-pixels-rgb-and-grayscale" class="slide level2">
+<h2>Image Basics: Pixels, RGB, and Grayscale</h2>
+<ul>
+<li>Images are composed of pixels, each storing color or intensity values.</li>
+<li>RGB channels (Red, Green, Blue) combine to create various colors in visuals.</li>
+<li>Grayscale simplifies images by converting them into shades of gray.</li>
+<li>Each color channel holds intensity values ranging from 0 to 255.</li>
+<li>Understanding these basics is essential for manipulating and analyzing images.</li>
+</ul>
+</section>
+<section id="constructing-and-manipulating-images-with-numpy" class="slide level2">
+<h2>Constructing and Manipulating Images with NumPy</h2>
+<ul>
+<li>Images can be represented as NumPy matrices, enabling pixel-based control.</li>
+<li>Each matrix element corresponds to a pixel’s intensity or color value.</li>
+<li>Adjusting matrix values allows for brightness or color changes in specific regions.</li>
+<li>Image manipulations aid in highlighting areas of interest or removing noise.</li>
+<li>Using NumPy enhances flexibility in preprocessing images for computer vision tasks.</li>
+</ul>
+</section>
+<section id="image-features-colors-histograms-and-edges" class="slide level2">
+<h2>Image Features: Colors, Histograms, and Edges</h2>
+<ul>
+<li>Image content features help models identify patterns within visuals.</li>
+<li>Color histograms reveal dominant tones by analyzing pixel distributions.</li>
+<li>Edge detection outlines shapes, essential for object and scene recognition.</li>
+<li>Texture features assist in distinguishing smooth versus rough surfaces.</li>
+<li>Features enable AI to interpret images more effectively by capturing key visual aspects.</li>
+</ul>
+</section>
+<section id="reading-images-into-dataframes-and-matrix-structures" class="slide level2">
+<h2>Reading Images into Dataframes and Matrix Structures</h2>
+<ul>
+<li>Tools like OpenCV allow images to be imported as matrices or dataframes.</li>
+<li>Dataframes enable organization of pixel data for efficient analysis.</li>
+<li>Matrix structures store spatial information, which is crucial for vision models.</li>
+<li>Image data in structured formats simplifies comparisons across visuals.</li>
+<li>Accessing pixel-level data provides precision in analyzing image content.</li>
+</ul>
+</section>
+<section id="normalizing-image-content-resize-grayscale-and-consistency" class="slide level2">
+<h2>Normalizing Image Content: Resize, Grayscale, and Consistency</h2>
+<ul>
+<li>Image normalization enhances model performance by standardizing inputs.</li>
+<li>Resizing aligns images to a uniform size, aiding consistency in analysis.</li>
+<li>Grayscale conversion reduces complexity and focuses on essential shapes.</li>
+<li>Brightness adjustments help maintain consistency across varied image sources.</li>
+<li>Normalizing inputs is vital for achieving accurate, reliable computer vision results.</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
-<p><img src="../../images/quarto.png" class="slide-logo"></p>
+<p><img src="../../../../../../res/media/lu/logo-black.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://quarto.org" class="uri">https://quarto.org</a></p>
+<p><a href="https://www.iko.lu.se" class="uri">https://www.iko.lu.se</a></p>
 </div>
 </div>
 </section>
@@ -476,7 +461,7 @@ nils.holmberg@iko.lu.se
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,

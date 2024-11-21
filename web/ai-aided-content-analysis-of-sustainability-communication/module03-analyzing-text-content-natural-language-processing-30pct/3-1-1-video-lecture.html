@@ -105,12 +105,23 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">course start</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">resources</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../module01-understanding-sustainability-communication-content-10pct/index.html" class="sidebar-item-text sidebar-link">
@@ -507,12 +518,41 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="lecture-video" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-video"><a href="video-url.mp4" target="_blank">lecture video</a></h3>
+<h3 class="anchored" data-anchor-id="lecture-video"><a href="https://youtu.be/BLNFnBeMuLg" target="_blank">lecture video</a></h3>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/BLNFnBeMuLg?start=0" width="300" height="200" title="Lesson 3.1: Natural language processing (NLP) in social science" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 <section id="lecture-text" class="level3">
 <h3 class="anchored" data-anchor-id="lecture-text">lecture text</h3>
+<section id="functions-of-texts-in-sustainability-communication" class="level4">
+<h4 class="anchored" data-anchor-id="functions-of-texts-in-sustainability-communication">Functions of Texts in Sustainability Communication</h4>
+<p>Texts in sustainability communication serve varied purposes, including raising awareness, educating audiences, advocating for change, and influencing policies. Informational texts like reports and white papers provide detailed data and analyses, while persuasive content such as blogs and social media posts aim to inspire action. Visual- and data-supported texts often enhance engagement by presenting complex ideas in accessible formats. Understanding the intended function is critical for effective communication and targeted NLP applications.</p>
+</section>
+<section id="nlp-areas-and-challenges-of-unstructured-text" class="level4">
+<h4 class="anchored" data-anchor-id="nlp-areas-and-challenges-of-unstructured-text">NLP Areas and Challenges of Unstructured Text</h4>
+<p>Natural Language Processing (NLP) covers diverse areas, from sentiment analysis to machine translation and summarization. Working with unstructured text presents challenges, such as handling ambiguous language, idiomatic expressions, and domain-specific jargon. Additionally, processing noisy data from social media or OCR errors in scanned documents often complicates the analysis. Effective NLP requires robust preprocessing pipelines and domain-specific adjustments to achieve meaningful results.</p>
+</section>
+<section id="text-analysis-basics-units-tokens-and-n-grams" class="level4">
+<h4 class="anchored" data-anchor-id="text-analysis-basics-units-tokens-and-n-grams">Text Analysis Basics: Units, Tokens, and N-grams</h4>
+<p>In NLP, text analysis begins with defining the units of analysis—such as sentences, words, or characters. Tokens, the smallest logical units of text, are derived from splitting strings into meaningful components. N-grams, sequences of n tokens, capture contextual relationships, with bigrams and trigrams being particularly useful for understanding phrases. Mastering these foundational concepts is essential for advanced text processing.</p>
+</section>
+<section id="formats-and-conversion-to-plain-text" class="level4">
+<h4 class="anchored" data-anchor-id="formats-and-conversion-to-plain-text">Formats and Conversion to Plain Text</h4>
+<p>Text is often embedded in formats like PDFs, HTML, or Markdown, each presenting unique challenges for extraction. PDFs may include layout artifacts, while HTML contains tags that must be parsed. Converting these formats into clean plain text ensures compatibility with NLP tools. Tools like Tika, Beautiful Soup, and Markdown parsers simplify this conversion process, paving the way for structured analysis.</p>
+</section>
+<section id="text-content-features-readability-pos-and-ner" class="level4">
+<h4 class="anchored" data-anchor-id="text-content-features-readability-pos-and-ner">Text Content Features: Readability, POS, and NER</h4>
+<p>Key features of text content include readability indices like the Flesch Reading Ease, which assess complexity, and linguistic features such as Part-of-Speech (POS) tagging, which categorizes words based on their grammatical role. Named Entity Recognition (NER) identifies and classifies proper nouns, dates, or other specific entities. These features offer insights into the style, structure, and meaning of the text, aiding both analysis and decision-making.</p>
+</section>
+<section id="reading-text-into-dataframes-and-preprocessing" class="level4">
+<h4 class="anchored" data-anchor-id="reading-text-into-dataframes-and-preprocessing">Reading Text into Dataframes and Preprocessing</h4>
+<p>Textual data is often ingested into dataframes for analysis, enabling structured workflows. This process involves normalization tasks, such as lowercasing and removing punctuation, followed by tokenization to split the text into analyzable units. Pandas and NLTK are popular tools for managing these steps, enabling efficient preparation of text for downstream NLP tasks.</p>
+</section>
+<section id="manifest-text-content-and-frequency-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="manifest-text-content-and-frequency-analysis">Manifest Text Content and Frequency Analysis</h4>
+<p>Manifest content refers to the explicit, observable elements of a text, such as word counts, sentence lengths, and overall structure. Techniques like word frequency analysis reveal dominant themes and help identify key terms. Sentence and word counts provide quantitative measures of text characteristics, while visualization tools like word clouds offer intuitive insights into content prominence.</p>
 
 
+</section>
 </section>
 </section>
 

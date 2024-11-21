@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -107,12 +127,23 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">course start</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">resources</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="./module01-understanding-sustainability-communication-content-10pct/index.html" class="sidebar-item-text sidebar-link">
@@ -463,8 +494,24 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources">resources</a></li>
+  <li><a href="#literature" id="toc-literature" class="nav-link" data-scroll-target="#literature">literature</a>
+  <ul class="collapse">
+  <li><a href="#sustainability-communication" id="toc-sustainability-communication" class="nav-link" data-scroll-target="#sustainability-communication">sustainability communication</a></li>
+  <li><a href="#computational-content-analysis-computer-vision" id="toc-computational-content-analysis-computer-vision" class="nav-link" data-scroll-target="#computational-content-analysis-computer-vision">computational content analysis, computer vision</a></li>
+  <li><a href="#computational-content-analysis-natural-language-processing" id="toc-computational-content-analysis-natural-language-processing" class="nav-link" data-scroll-target="#computational-content-analysis-natural-language-processing">computational content analysis, natural language processing</a></li>
+  <li><a href="#computational-data-analysis" id="toc-computational-data-analysis" class="nav-link" data-scroll-target="#computational-data-analysis">computational data analysis</a></li>
+  <li><a href="#course-literature" id="toc-course-literature" class="nav-link" data-scroll-target="#course-literature">course literature</a></li>
+  </ul></li>
+  <li><a href="#websites-and-apps" id="toc-websites-and-apps" class="nav-link" data-scroll-target="#websites-and-apps">websites and apps</a></li>
+  <li><a href="#online-articles" id="toc-online-articles" class="nav-link" data-scroll-target="#online-articles">online articles</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -488,11 +535,235 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">resources</h2>
+</section>
+<section id="literature" class="level2">
+<h2 class="anchored" data-anchor-id="literature">literature</h2>
+<section id="sustainability-communication" class="level3">
+<h3 class="anchored" data-anchor-id="sustainability-communication">sustainability communication</h3>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/weder2021sustainability.webp" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="weder2021sustainability">Weder, Krainer, and Karmasin (<a href="#ref-weder2021sustainability" role="doc-biblioref">2021</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/lakshmanan2021practical.jpg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="lakshmanan2021practical">Lakshmanan, Görner, and Gillard (<a href="#ref-lakshmanan2021practical" role="doc-biblioref">2021</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/vasilev2019advanced.jpeg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="vasilev2019advanced">Vasilev (<a href="#ref-vasilev2019advanced" role="doc-biblioref">2019</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="computational-content-analysis-computer-vision" class="level3">
+<h3 class="anchored" data-anchor-id="computational-content-analysis-computer-vision">computational content analysis, computer vision</h3>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/dey2018hands.jpeg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="dey2018hands">Dey (<a href="#ref-dey2018hands" role="doc-biblioref">2018</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/lakshmanan2021practical.jpg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="lakshmanan2021practical">Lakshmanan, Görner, and Gillard (<a href="#ref-lakshmanan2021practical" role="doc-biblioref">2021</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/vasilev2019advanced.jpeg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="vasilev2019advanced">Vasilev (<a href="#ref-vasilev2019advanced" role="doc-biblioref">2019</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="computational-content-analysis-natural-language-processing" class="level3">
+<h3 class="anchored" data-anchor-id="computational-content-analysis-natural-language-processing">computational content analysis, natural language processing</h3>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/vasiliev2020natural.jpg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="vasiliev2020natural">Vasiliev (<a href="#ref-vasiliev2020natural" role="doc-biblioref">2020</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/tunstall2022natural.jpeg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="tunstall2022natural">Tunstall, Von Werra, and Wolf (<a href="#ref-tunstall2022natural" role="doc-biblioref">2022</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://m.media-amazon.com/images/I/41Tow-yW8LL.jpg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="szeliski2010computer">Szeliski (<a href="#ref-szeliski2010computer" role="doc-biblioref">2010</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="computational-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="computational-data-analysis">computational data analysis</h3>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../r/literature/book-covers/mckinney2022python.png" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="mckinney2022python">McKinney (<a href="#ref-mckinney2022python" role="doc-biblioref">2022</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../../../res/literature/book-covers/mckinney2022python.png" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="some-test">(<a href="#ref-some-test" role="doc-biblioref"><strong>some-test?</strong></a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".png" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="some-test">(<a href="#ref-some-test" role="doc-biblioref"><strong>some-test?</strong></a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="course-literature" class="level3">
+<h3 class="anchored" data-anchor-id="course-literature">course literature</h3>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://images-na.ssl-images-amazon.com/images/I/61Gjz0Z6cpL.jpg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="neuendorf2017content">Neuendorf (<a href="#ref-neuendorf2017content" role="doc-biblioref">2017</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://m.media-amazon.com/images/I/41YuZsedw8L._AC_SY580_.jpg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="kedia2020hands">Kedia and Rasu (<a href="#ref-kedia2020hands" role="doc-biblioref">2020</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://m.media-amazon.com/images/I/41Tow-yW8LL.jpg" width="100" height="150" class="figure-img"></p>
+<figcaption><span class="citation" data-cites="szeliski2010computer">Szeliski (<a href="#ref-szeliski2010computer" role="doc-biblioref">2010</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="websites-and-apps" class="level2">
+<h2 class="anchored" data-anchor-id="websites-and-apps">websites and apps</h2>
+<ul>
+<li><p><a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p></li>
+<li><p><a href="https://wiki.python.org/moin/BeginnersGuide">https://wiki.python.org/moin/BeginnersGuide</a></p></li>
+<li><p><a href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a></p></li>
+<li><p><a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p></li>
+<li><p><a href="https://github.com/jupyterlab/jupyterlab_app#download">https://github.com/jupyterlab/jupyterlab_app#download</a></p></li>
+<li><p><a href="https://trinket.io/home">https://trinket.io/home</a></p></li>
+</ul>
+</section>
+<section id="online-articles" class="level2">
+<h2 class="anchored" data-anchor-id="online-articles">online articles</h2>
+<ul>
+<li>some text here <span class="citation" data-cites="kedia2020hands">Kedia and Rasu (<a href="#ref-kedia2020hands" role="doc-biblioref">2020</a>)</span></li>
+</ul>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-dey2018hands" class="csl-entry" role="listitem">
+Dey, Sandipan. 2018. <em>Hands-on Image Processing with Python: Expert Techniques for Advanced Image Analysis and Effective Interpretation of Image Data</em>. Packt Publishing Ltd.
+</div>
+<div id="ref-kedia2020hands" class="csl-entry" role="listitem">
+Kedia, Aman, and Mayank Rasu. 2020. <em>Hands-on Python Natural Language Processing: Explore Tools and Techniques to Analyze and Process Text with a View to Building Real-World NLP Applications</em>. Packt Publishing Ltd.
+</div>
+<div id="ref-lakshmanan2021practical" class="csl-entry" role="listitem">
+Lakshmanan, Valliappa, Martin Görner, and Ryan Gillard. 2021. <em>Practical Machine Learning for Computer Vision</em>. " O’Reilly Media, Inc.".
+</div>
+<div id="ref-mckinney2022python" class="csl-entry" role="listitem">
+McKinney, Wes. 2022. <em>Python for Data Analysis</em>. " O’Reilly Media, Inc.".
+</div>
+<div id="ref-neuendorf2017content" class="csl-entry" role="listitem">
+Neuendorf, Kimberly A. 2017. <em>The Content Analysis Guidebook</em>. sage.
+</div>
+<div id="ref-szeliski2010computer" class="csl-entry" role="listitem">
+Szeliski, Richard. 2010. <em>Computer Vision: Algorithms and Applications</em>. Springer Science &amp; Business Media.
+</div>
+<div id="ref-tunstall2022natural" class="csl-entry" role="listitem">
+Tunstall, Lewis, Leandro Von Werra, and Thomas Wolf. 2022. <em>Natural Language Processing with Transformers</em>. " O’Reilly Media, Inc.".
+</div>
+<div id="ref-vasilev2019advanced" class="csl-entry" role="listitem">
+Vasilev, Ivan. 2019. <em>Advanced Deep Learning with Python: Design and Implement Advanced Next-Generation AI Solutions Using TensorFlow and PyTorch</em>. Packt Publishing Ltd.
+</div>
+<div id="ref-vasiliev2020natural" class="csl-entry" role="listitem">
+Vasiliev, Yuli. 2020. <em>Natural Language Processing with Python and spaCy: A Practical Introduction</em>. No Starch Press.
+</div>
+<div id="ref-weder2021sustainability" class="csl-entry" role="listitem">
+Weder, Franzisca, Larissa Krainer, and Matthias Karmasin. 2021. <em>Sustainability Communication Reader</em>. Springer.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
