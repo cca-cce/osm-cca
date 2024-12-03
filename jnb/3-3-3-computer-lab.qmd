@@ -1,4 +1,16 @@
 ---
-title: "module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.qmd"
+title: "Module 3: Analyzing text content with natural language processing"
+subtitle: "AI-aided content analysis of sustainability communication"
+#author: "nils.holmberg@iko.lu.se"
 ---
+
+## Lesson 3.3: Visualizing results of text analysis
+
+### [lab notebook](3-3-3-computer-lab-notebook.ipynb){target="_blank"}
+
+### [lab video](video-url.mp4){target="_blank"}
+
+### lab text
+
+
 

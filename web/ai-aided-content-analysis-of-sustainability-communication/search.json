@@ -166,6 +166,30 @@
     "text": "online articles\n\nsome text here Kedia and Rasu (2020)"
   },
   {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "Understanding token relationships is fundamental in NLP, where aspect-based sentiment analysis identifies sentiment tied to specific aspects of a text. Knowledge graphs further enrich this understanding by mapping relationships between entities, enabling sophisticated insights into connections and context within the data.\n\n\n\nNatural language processing operates across multiple levels of granularity, from complete texts and paragraphs to sentences, words, and individual tokens. Each unit provides unique insights, with tokens representing the smallest meaningful elements, forming the foundation for complex linguistic analysis.\n\n\n\nSpaCy’s powerful NLP models can be seamlessly integrated with text and sentence dataframes, enabling batch processing of textual data. This application simplifies linguistic analysis and provides structured outputs, such as token attributes and syntactic dependencies, directly usable for further processing.\n\n\n\nIterating over a sentence-level dataframe and corresponding SpaCy document objects allows detailed exploration of linguistic features. This method facilitates tasks like extracting sentence-specific attributes, analyzing syntactic structures, and identifying patterns within textual data.\n\n\n\nText normalization ensures consistency and clarity by standardizing tokens, extracting essential attributes like token text and lemma. Lemmatization, in particular, reduces words to their base forms, enhancing search, indexing, and overall NLP model performance.\n\n\n\nNamed entity recognition (NER) identifies and classifies entities such as names, organizations, and dates within text, enabling applications like automated content categorization, customer sentiment analysis, and improved information retrieval systems.\n\n\n\nPart-of-speech tagging assigns grammatical categories to tokens, such as nouns, verbs, or adjectives, providing critical insights into text structure. Applications include syntactic parsing, language generation, and improving machine translation systems by capturing grammatical nuances.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2",
+      "video lecture 3.2.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html#lesson-3.2-part-of-speech-and-named-entity-recognition",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html#lesson-3.2-part-of-speech-and-named-entity-recognition",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "Understanding token relationships is fundamental in NLP, where aspect-based sentiment analysis identifies sentiment tied to specific aspects of a text. Knowledge graphs further enrich this understanding by mapping relationships between entities, enabling sophisticated insights into connections and context within the data.\n\n\n\nNatural language processing operates across multiple levels of granularity, from complete texts and paragraphs to sentences, words, and individual tokens. Each unit provides unique insights, with tokens representing the smallest meaningful elements, forming the foundation for complex linguistic analysis.\n\n\n\nSpaCy’s powerful NLP models can be seamlessly integrated with text and sentence dataframes, enabling batch processing of textual data. This application simplifies linguistic analysis and provides structured outputs, such as token attributes and syntactic dependencies, directly usable for further processing.\n\n\n\nIterating over a sentence-level dataframe and corresponding SpaCy document objects allows detailed exploration of linguistic features. This method facilitates tasks like extracting sentence-specific attributes, analyzing syntactic structures, and identifying patterns within textual data.\n\n\n\nText normalization ensures consistency and clarity by standardizing tokens, extracting essential attributes like token text and lemma. Lemmatization, in particular, reduces words to their base forms, enhancing search, indexing, and overall NLP model performance.\n\n\n\nNamed entity recognition (NER) identifies and classifies entities such as names, organizations, and dates within text, enabling applications like automated content categorization, customer sentiment analysis, and improved information retrieval systems.\n\n\n\nPart-of-speech tagging assigns grammatical categories to tokens, such as nouns, verbs, or adjectives, providing critical insights into text structure. Applications include syntactic parsing, language generation, and improving machine translation systems by capturing grammatical nuances.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2",
+      "video lecture 3.2.1"
+    ]
+  },
+  {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture-slides.html#functions-of-texts-in-sustainability-communication",
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture-slides.html#functions-of-texts-in-sustainability-communication",
     "title": "Module 3: Analyzing text content with natural language processing",
@@ -287,18 +311,77 @@
     "text": "Python Environments: Local, Cloud, Notebooks\n\nLocal environments require Python installation and configuration.\n\nCloud environments like Google Colab eliminate setup hurdles.\n\nNotebooks provide interactive code execution and documentation.\n\nCloud environments offer scalability and resource management.\n\nNotebooks support real-time code execution alongside markdown.\n\n\n\n\n\nhttps://www.iko.lu.se"
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#open-science-methods",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#open-science-methods",
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#token-relationships-and-knowledge-graphs",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#token-relationships-and-knowledge-graphs",
     "title": "Module 3: Analyzing text content with natural language processing",
-    "section": "Open Science Methods",
-    "text": "Open Science Methods\n\n\n\nEmphasizes reproducibility and transparency in research.\n\nEncourages collaboration among global research communities.\n\nRelies on sharing data, code, and methodologies openly.\n\nSupported by open-source tools and platforms.\n\nEnhances scientific integrity and innovation."
+    "section": "Token Relationships and Knowledge Graphs",
+    "text": "Token Relationships and Knowledge Graphs\n\n\n\n\nTokens form the building blocks of text relationships and meaning in NLP.\n\nAspect-based sentiment analysis identifies sentiment tied to specific aspects or topics.\n\nKnowledge graphs map relationships between entities to provide contextual insights.\n\nToken relationships enhance machine understanding of complex linguistic structures.\n\nThese concepts drive applications in sentiment analysis, recommendations, and chatbots."
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#units-of-nlp-analysis",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#units-of-nlp-analysis",
     "title": "Module 3: Analyzing text content with natural language processing",
-    "section": "Python Environments: Local, Cloud, Notebooks",
-    "text": "Python Environments: Local, Cloud, Notebooks\n\nLocal environments require Python installation and configuration.\n\nCloud environments like Google Colab eliminate setup hurdles.\n\nNotebooks provide interactive code execution and documentation.\n\nCloud environments offer scalability and resource management.\n\nNotebooks support real-time code execution alongside markdown.\n\n\n\n\n\nhttps://www.iko.lu.se"
+    "section": "Units of NLP Analysis",
+    "text": "Units of NLP Analysis\n\n\nNLP processes text at various levels: texts, paragraphs, sentences, words, and tokens.\n\nTexts provide overarching narratives; tokens are the smallest meaningful units.\n\nParagraphs and sentences act as natural segmentation points for processing.\n\nTokens are annotated with attributes like part-of-speech and syntactic role.\n\nUnderstanding these units is key to granular and scalable text analysis."
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#applying-spacy-nlp-models-to-dataframes",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#applying-spacy-nlp-models-to-dataframes",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "Applying SpaCy NLP Models to Dataframes",
+    "text": "Applying SpaCy NLP Models to Dataframes\n\nSpaCy provides pre-trained NLP models for efficient text processing.\n\nText and sentence dataframes integrate structured data with NLP outputs.\n\nNLP models parse and enrich text with token, dependency, and entity annotations.\n\nBatch processing of text improves efficiency for large datasets.\n\nPractical applications include text classification, summarization, and sentiment analysis."
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#iterating-over-sentence-dataframes-and-spacy-documents",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#iterating-over-sentence-dataframes-and-spacy-documents",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "Iterating Over Sentence Dataframes and SpaCy Documents",
+    "text": "Iterating Over Sentence Dataframes and SpaCy Documents\n\nSentence-level dataframes organize text into manageable units for analysis.\n\nSpaCy document objects provide linguistic annotations for each token.\n\nIterating enables extraction of sentence-specific attributes like entities or sentiments.\n\nCombines structured data analysis with NLP insights for robust results.\n\nStreamlines processes such as summarization, search indexing, and context identification."
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#text-normalization-and-token-attributes",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#text-normalization-and-token-attributes",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "Text Normalization and Token Attributes",
+    "text": "Text Normalization and Token Attributes\n\nNormalization reduces text variability by standardizing tokens.\n\nLemmatization extracts the base form of words for consistent analysis.\n\nToken attributes, such as text and lemma, enable detailed linguistic understanding.\n\nImproved token consistency enhances downstream NLP tasks like matching and clustering.\n\nNormalization is essential for multilingual and noisy text processing."
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#text-inference-named-entity-recognition-ner",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#text-inference-named-entity-recognition-ner",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "Text Inference: Named Entity Recognition (NER)",
+    "text": "Text Inference: Named Entity Recognition (NER)\n\nNER identifies and categorizes entities like names, organizations, and dates.\n\nExtracted entities provide structured insights from unstructured text.\n\nApplications include content categorization, fraud detection, and customer sentiment analysis.\n\nNER supports personalized recommendations and enhanced search capabilities.\n\nIt is fundamental to building knowledge graphs and question-answering systems."
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#text-inference-part-of-speech-tagging-pos",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#text-inference-part-of-speech-tagging-pos",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "Text Inference: Part-of-Speech Tagging (POS)",
+    "text": "Text Inference: Part-of-Speech Tagging (POS)\n\nPOS tagging assigns grammatical roles to tokens like nouns, verbs, and adjectives.\n\nCaptures the syntactic structure of text for deeper linguistic understanding.\n\nApplications include syntax parsing, machine translation, and text generation.\n\nPOS tagging enhances accuracy in sentiment analysis and topic modeling.\n\nSupports advanced NLP tasks like dependency parsing and coreference resolution.\n\n\n\n\n\nhttps://www.iko.lu.se"
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "!pip install -q pdfminer.six\nimport os\nfrom pdfminer.high_level import extract_text\n\n# Directories containing the PDFs\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.pdf'):\n                pdf_path = os.path.join(root, file)\n                text_path = os.path.splitext(pdf_path)[0] + '.txt'\n\n                try:\n                    text = extract_text(pdf_path)\n                    with open(text_path, 'w', encoding='utf-8') as f:\n                        f.write(text)\n                    print(f\"Converted {pdf_path} to {text_path}\")\n                except Exception as e:\n                    print(f\"Failed to convert {pdf_path}: {e}\")\n\n\n\nimport os\nimport pandas as pd\nimport re\nimport string\n\n# Directories containing the text files\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\ndata = []\ntext_index = 1\n\n# Allowed characters: alphabetic, punctuation, and whitespace\nallowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.txt'):\n                file_path = os.path.join(root, file)\n                folder_name = os.path.basename(root)\n\n                with open(file_path, 'r', encoding='utf-8') as f:\n                    raw_text = f.read()\n\n                # Keep only allowed characters\n                clean_text = ''.join(c for c in raw_text if c in allowed_chars)\n\n                # Replace sequences of whitespace with a single space\n                clean_text = re.sub(r'\\s+', ' ', clean_text)\n\n                # Trim leading and trailing whitespace\n                clean_text = clean_text.strip()\n\n                data.append({\n                    'text_index': text_index,\n                    'file_path': file_path,\n                    'folder_name': folder_name,\n                    'raw_text': raw_text,\n                    'clean_text': clean_text\n                })\n\n                text_index += 1\n\n# Create DataFrame\ndf_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])\n\n# Save DataFrame to TSV file\ndf_texts.to_csv('df_texts.tsv', sep='\\t', index=False)\ndf_texts.head()",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "computer lab 3.1.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#lesson-3.1-reading-text-into-dataframes",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#lesson-3.1-reading-text-into-dataframes",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "!pip install -q pdfminer.six\nimport os\nfrom pdfminer.high_level import extract_text\n\n# Directories containing the PDFs\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.pdf'):\n                pdf_path = os.path.join(root, file)\n                text_path = os.path.splitext(pdf_path)[0] + '.txt'\n\n                try:\n                    text = extract_text(pdf_path)\n                    with open(text_path, 'w', encoding='utf-8') as f:\n                        f.write(text)\n                    print(f\"Converted {pdf_path} to {text_path}\")\n                except Exception as e:\n                    print(f\"Failed to convert {pdf_path}: {e}\")\n\n\n\nimport os\nimport pandas as pd\nimport re\nimport string\n\n# Directories containing the text files\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\ndata = []\ntext_index = 1\n\n# Allowed characters: alphabetic, punctuation, and whitespace\nallowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.txt'):\n                file_path = os.path.join(root, file)\n                folder_name = os.path.basename(root)\n\n                with open(file_path, 'r', encoding='utf-8') as f:\n                    raw_text = f.read()\n\n                # Keep only allowed characters\n                clean_text = ''.join(c for c in raw_text if c in allowed_chars)\n\n                # Replace sequences of whitespace with a single space\n                clean_text = re.sub(r'\\s+', ' ', clean_text)\n\n                # Trim leading and trailing whitespace\n                clean_text = clean_text.strip()\n\n                data.append({\n                    'text_index': text_index,\n                    'file_path': file_path,\n                    'folder_name': folder_name,\n                    'raw_text': raw_text,\n                    'clean_text': clean_text\n                })\n\n                text_index += 1\n\n# Create DataFrame\ndf_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])\n\n# Save DataFrame to TSV file\ndf_texts.to_csv('df_texts.tsv', sep='\\t', index=False)\ndf_texts.head()",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "computer lab 3.1.2"
+    ]
   },
   {
     "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
