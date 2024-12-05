@@ -44,6 +44,74 @@ for directory in directories:
                     print(f"Failed to convert {pdf_path}: {e}")
 ```
 
+**Importing Necessary Libraries**
+
+The code begins by importing essential modules. It imports `os` for interacting with the operating system's file system and `extract_text` from `pdfminer.high_level` for extracting text content from PDF files.
+
+---
+
+**Defining the Directories Containing PDFs**
+
+Two lists named `directories` are defined. The first is a placeholder with `['organization1', 'organization2']`, and the second specifies the actual paths to the directories containing the PDF files:
+- `/content/osm-cca-nlp/res/pdf/preem`
+- `/content/osm-cca-nlp/res/pdf/vattenfall`
+
+---
+
+**Iterating Over Each Directory**
+
+The code uses a `for` loop to iterate through each directory specified in the `directories` list. This allows the program to process multiple directories sequentially.
+
+---
+
+**Walking Through Directory Trees**
+
+Within each directory, the `os.walk(directory)` function traverses the directory tree. It yields a tuple containing the `root` path, a list of `dirs` (subdirectories), and a list of `files` in each directory.
+
+---
+
+**Identifying PDF Files**
+
+For every file in the `files` list, the code checks if the file name ends with `.pdf` (case-insensitive) using `file.lower().endswith('.pdf')`. This ensures that only PDF files are processed.
+
+---
+
+**Constructing File Paths**
+
+The full path to the PDF file is constructed using `os.path.join(root, file)`. The corresponding text file path is created by replacing the `.pdf` extension with `.txt` using `os.path.splitext(pdf_path)[0] + '.txt'`.
+
+---
+
+**Extracting Text from PDFs**
+
+A `try` block is initiated to attempt text extraction. The `extract_text(pdf_path)` function reads the content of the PDF file and stores it in the variable `text`.
+
+---
+
+**Writing Extracted Text to Files**
+
+If text extraction is successful, the code opens a new text file at `text_path` in write mode with UTF-8 encoding. It writes the extracted text into this file and then closes it, ensuring the text is saved next to the original PDF.
+
+---
+
+**Logging Successful Conversions**
+
+After successfully writing the text file, the code prints a message indicating the PDF file has been converted, using:
+```{python}
+print(f"Converted {pdf_path} to {text_path}")
+```
+
+---
+
+**Handling Exceptions**
+
+An `except` block catches any exceptions that occur during the extraction or writing process. If an error occurs, it prints a failure message with the path of the PDF file and the exception details:
+```{python}
+print(f"Failed to convert {pdf_path}: {e}")
+```
+
+---
+
 #### Read plain text to Pandas Dataframe
 
 ```{python}

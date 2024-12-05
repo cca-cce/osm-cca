@@ -580,59 +580,91 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f"Converted </span><span class="sc">{</span>pdf_path<span class="sc">}</span><span class="ss"> to </span><span class="sc">{</span>text_path<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>                <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
 <span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">print</span>(<span class="ss">f"Failed to convert </span><span class="sc">{</span>pdf_path<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Importing Necessary Libraries</strong></p>
+<p>The code begins by importing essential modules. It imports <code>os</code> for interacting with the operating system’s file system and <code>extract_text</code> from <code>pdfminer.high_level</code> for extracting text content from PDF files.</p>
+<hr>
+<p><strong>Defining the Directories Containing PDFs</strong></p>
+<p>Two lists named <code>directories</code> are defined. The first is a placeholder with <code>['organization1', 'organization2']</code>, and the second specifies the actual paths to the directories containing the PDF files: - <code>/content/osm-cca-nlp/res/pdf/preem</code> - <code>/content/osm-cca-nlp/res/pdf/vattenfall</code></p>
+<hr>
+<p><strong>Iterating Over Each Directory</strong></p>
+<p>The code uses a <code>for</code> loop to iterate through each directory specified in the <code>directories</code> list. This allows the program to process multiple directories sequentially.</p>
+<hr>
+<p><strong>Walking Through Directory Trees</strong></p>
+<p>Within each directory, the <code>os.walk(directory)</code> function traverses the directory tree. It yields a tuple containing the <code>root</code> path, a list of <code>dirs</code> (subdirectories), and a list of <code>files</code> in each directory.</p>
+<hr>
+<p><strong>Identifying PDF Files</strong></p>
+<p>For every file in the <code>files</code> list, the code checks if the file name ends with <code>.pdf</code> (case-insensitive) using <code>file.lower().endswith('.pdf')</code>. This ensures that only PDF files are processed.</p>
+<hr>
+<p><strong>Constructing File Paths</strong></p>
+<p>The full path to the PDF file is constructed using <code>os.path.join(root, file)</code>. The corresponding text file path is created by replacing the <code>.pdf</code> extension with <code>.txt</code> using <code>os.path.splitext(pdf_path)[0] + '.txt'</code>.</p>
+<hr>
+<p><strong>Extracting Text from PDFs</strong></p>
+<p>A <code>try</code> block is initiated to attempt text extraction. The <code>extract_text(pdf_path)</code> function reads the content of the PDF file and stores it in the variable <code>text</code>.</p>
+<hr>
+<p><strong>Writing Extracted Text to Files</strong></p>
+<p>If text extraction is successful, the code opens a new text file at <code>text_path</code> in write mode with UTF-8 encoding. It writes the extracted text into this file and then closes it, ensuring the text is saved next to the original PDF.</p>
+<hr>
+<p><strong>Logging Successful Conversions</strong></p>
+<p>After successfully writing the text file, the code prints a message indicating the PDF file has been converted, using:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Converted </span><span class="sc">{</span>pdf_path<span class="sc">}</span><span class="ss"> to </span><span class="sc">{</span>text_path<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+<p><strong>Handling Exceptions</strong></p>
+<p>An <code>except</code> block catches any exceptions that occur during the extraction or writing process. If an error occurs, it prints a failure message with the path of the PDF file and the exception details:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Failed to convert </span><span class="sc">{</span>pdf_path<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>e<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
 </section>
 <section id="read-plain-text-to-pandas-dataframe" class="level4">
 <h4 class="anchored" data-anchor-id="read-plain-text-to-pandas-dataframe">Read plain text to Pandas Dataframe</h4>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> string</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Directories containing the text files</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>directories <span class="op">=</span> [<span class="st">'organization1'</span>, <span class="st">'organization2'</span>]</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>directories <span class="op">=</span> [<span class="st">'/content/osm-cca-nlp/res/pdf/preem'</span>, <span class="st">'/content/osm-cca-nlp/res/pdf/vattenfall'</span>]</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> []</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>text_index <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Allowed characters: alphabetic, punctuation, and whitespace</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>allowed_chars <span class="op">=</span> <span class="bu">set</span>(string.ascii_letters <span class="op">+</span> string.punctuation <span class="op">+</span> string.whitespace)</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> directory <span class="kw">in</span> directories:</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> root, dirs, files <span class="kw">in</span> os.walk(directory):</span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">file</span>.lower().endswith(<span class="st">'.txt'</span>):</span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>                file_path <span class="op">=</span> os.path.join(root, <span class="bu">file</span>)</span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>                folder_name <span class="op">=</span> os.path.basename(root)</span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>                <span class="cf">with</span> <span class="bu">open</span>(file_path, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> f:</span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>                    raw_text <span class="op">=</span> f.read()</span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Keep only allowed characters</span></span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>                clean_text <span class="op">=</span> <span class="st">''</span>.join(c <span class="cf">for</span> c <span class="kw">in</span> raw_text <span class="cf">if</span> c <span class="kw">in</span> allowed_chars)</span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Replace sequences of whitespace with a single space</span></span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>                clean_text <span class="op">=</span> re.sub(<span class="vs">r'\s+'</span>, <span class="st">' '</span>, clean_text)</span>
-<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Trim leading and trailing whitespace</span></span>
-<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>                clean_text <span class="op">=</span> clean_text.strip()</span>
-<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a>                data.append({</span>
-<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'text_index'</span>: text_index,</span>
-<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'file_path'</span>: file_path,</span>
-<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'folder_name'</span>: folder_name,</span>
-<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'raw_text'</span>: raw_text,</span>
-<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'clean_text'</span>: clean_text</span>
-<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>                })</span>
-<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>                text_index <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Create DataFrame</span></span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>df_texts <span class="op">=</span> pd.DataFrame(data, columns<span class="op">=</span>[<span class="st">'text_index'</span>, <span class="st">'file_path'</span>, <span class="st">'folder_name'</span>, <span class="st">'raw_text'</span>, <span class="st">'clean_text'</span>])</span>
-<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Save DataFrame to TSV file</span></span>
-<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>df_texts.to_csv(<span class="st">'df_texts.tsv'</span>, sep<span class="op">=</span><span class="st">'</span><span class="ch">\t</span><span class="st">'</span>, index<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df_texts.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> string</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Directories containing the text files</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>directories <span class="op">=</span> [<span class="st">'organization1'</span>, <span class="st">'organization2'</span>]</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>directories <span class="op">=</span> [<span class="st">'/content/osm-cca-nlp/res/pdf/preem'</span>, <span class="st">'/content/osm-cca-nlp/res/pdf/vattenfall'</span>]</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> []</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>text_index <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Allowed characters: alphabetic, punctuation, and whitespace</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>allowed_chars <span class="op">=</span> <span class="bu">set</span>(string.ascii_letters <span class="op">+</span> string.punctuation <span class="op">+</span> string.whitespace)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> directory <span class="kw">in</span> directories:</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> root, dirs, files <span class="kw">in</span> os.walk(directory):</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="bu">file</span>.lower().endswith(<span class="st">'.txt'</span>):</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>                file_path <span class="op">=</span> os.path.join(root, <span class="bu">file</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>                folder_name <span class="op">=</span> os.path.basename(root)</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>                <span class="cf">with</span> <span class="bu">open</span>(file_path, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> f:</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>                    raw_text <span class="op">=</span> f.read()</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Keep only allowed characters</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>                clean_text <span class="op">=</span> <span class="st">''</span>.join(c <span class="cf">for</span> c <span class="kw">in</span> raw_text <span class="cf">if</span> c <span class="kw">in</span> allowed_chars)</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Replace sequences of whitespace with a single space</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>                clean_text <span class="op">=</span> re.sub(<span class="vs">r'\s+'</span>, <span class="st">' '</span>, clean_text)</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>                <span class="co"># Trim leading and trailing whitespace</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>                clean_text <span class="op">=</span> clean_text.strip()</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>                data.append({</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'text_index'</span>: text_index,</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'file_path'</span>: file_path,</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'folder_name'</span>: folder_name,</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'raw_text'</span>: raw_text,</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>                    <span class="st">'clean_text'</span>: clean_text</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>                })</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>                text_index <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Create DataFrame</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>df_texts <span class="op">=</span> pd.DataFrame(data, columns<span class="op">=</span>[<span class="st">'text_index'</span>, <span class="st">'file_path'</span>, <span class="st">'folder_name'</span>, <span class="st">'raw_text'</span>, <span class="st">'clean_text'</span>])</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="co"># Save DataFrame to TSV file</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>df_texts.to_csv(<span class="st">'df_texts.tsv'</span>, sep<span class="op">=</span><span class="st">'</span><span class="ch">\t</span><span class="st">'</span>, index<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df_texts.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
