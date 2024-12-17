@@ -1,0 +1,559 @@
+---
+jupyter: python3
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/simm71/nlp1_lecture.ipynb)
+
+#### Research question
+
+**Sustainability Communication and Greenwashing: Definitions and Analysis**
+
+*Sustainability communication* refers to how organizations convey their environmental efforts and commitments to stakeholders, including customers, investors, and the public. It encompasses the strategies and messages used to inform about sustainable practices, goals, and achievements.
+
+*Greenwashing* is the practice where an organization gives a false impression or provides misleading information about how its products are more environmentally sound. It's a form of deceptive marketing intended to present an eco-friendly image that doesn't align with reality.
+
+**The Relationship Between Sustainability Communication and Greenwashing**
+
+While sustainability communication aims to transparently share genuine environmental initiatives, greenwashing undermines this by distorting the truth. Effective sustainability communication builds trust and accountability, whereas greenwashing can damage an organization's reputation and lead to consumer skepticism.
+
+**Case Study: Preem and Vattenfall**
+
+Consider two organizations:
+
+- **Preem**: A Swedish petroleum company primarily involved in refining and selling fossil fuels.
+- **Vattenfall**: A Swedish power company engaged in energy production, including renewables like wind and hydroelectric power, as well as traditional sources.
+
+Both companies engage in sustainability communication to highlight their environmental efforts. However, their core businesses differ, which might influence the content and tone of their messages.
+
+**Using spaCy NLP to Analyze Sustainability Communication**
+
+Natural Language Processing (NLP) tools like **spaCy** can help analyze the language used in sustainability reports, press releases, and other communications from these organizations. By examining tokens (words) and parts of speech (POS), we can gain insights into their messaging strategies.
+
+Here's how we can proceed:
+
+1. **Tokenization and POS Tagging**: Using spaCy, we tokenize the text and assign POS tags to each token, identifying nouns, verbs, adjectives, etc.
+
+2. **Frequency Analysis**:
+   - **Adjectives**: Analyze the use of descriptive words such as "sustainable," "green," "renewable," or "clean." A high frequency of positive environmental adjectives might be used to enhance the company's eco-friendly image.
+   - **Nouns and Verbs**: Examine the key nouns and verbs to understand what actions the company emphasizes (e.g., "reducing emissions," "investing," "innovating").
+
+3. **Comparative Analysis**:
+   - **Preem**: As a fossil fuel company, Preem might focus on terms like "transition," "carbon capture," or "efficiency." The language may highlight efforts to mitigate environmental impact while continuing core operations.
+   - **Vattenfall**: With a significant stake in renewables, Vattenfall's communication might frequently include words like "wind power," "sustainability," and "renewable energy," reflecting a strategic shift toward greener energy sources.
+
+4. **Identifying Potential Greenwashing Indicators**:
+   - **Discrepancies**: Look for a mismatch between the frequency of positive environmental language and the company's actual environmental performance or core activities.
+   - **Vagueness and Jargon**: Excessive use of buzzwords without concrete actions or data might indicate greenwashing.
+   - **Overemphasis on Minor Initiatives**: Highlighting small sustainable projects while major operations remain environmentally harmful.
+
+**Determining Levels of Greenwashing**
+
+By quantitatively analyzing the language used, we can infer the level of greenwashing:
+
+- **High Level**: Predominant use of positive environmental adjectives with little mention of substantive actions or acknowledgment of environmental challenges.
+- **Moderate Level**: Balanced use of positive language and discussion of both achievements and ongoing issues.
+- **Low Level**: Transparent communication with specific data, acknowledging areas for improvement, and outlining concrete steps being taken.
+
+**Conclusion**
+
+Applying spaCy NLP to sustainability communications allows us to dissect the linguistic patterns and assess the authenticity of an organization's environmental messaging. By examining the parts of speech and token frequency, we can gain insights into whether companies like Preem and Vattenfall are engaging in genuine sustainability efforts or potentially greenwashing their practices.
+
+This analysis not only sheds light on their communication strategies but also promotes greater accountability and encourages more truthful and transparent sustainability reporting.
+
+#### Download text data and install packages
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/'}
+!rm -rf *.zip osm-cca-* 2>/dev/null
+!git clone https://github.com/cca-cce/osm-cca-nlp.git
+```
+
+The line `!git clone https://github.com/cca-cce/osm-cca-nlp.git` is a shell command executed within a Jupyter Notebook, using the `!` prefix to run terminal commands. It clones a Git repository from the provided URL (`https://github.com/cca-cce/osm-cca-nlp.git`) into the current working directory of the notebook. This action creates a local copy of the repository, including all its files, folders, and version history, making the repository's resources available for use or modification in the notebook environment.
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/'}
+#https://drive.google.com/file/d/1K9akKM0c6ZXTFNdCcZpqimrIqdWKdI0u/view?usp=sharing
+!rm -rf *.zip osm-cca-* 2>/dev/null
+!gdown https://drive.google.com/uc?id=1K9akKM0c6ZXTFNdCcZpqimrIqdWKdI0u
+!unzip -q *.zip 2>/dev/null && mv osm-cca-nlp-main osm-cca-nlp 2>/dev/null
+```
+
+This sequence of commands in a Jupyter Notebook performs file cleanup, downloads a file from Google Drive, and prepares a directory for use. The first command, `!rm -rf osm-cca-* 2>/dev/null`, forcefully removes any existing directories or files matching the pattern `osm-cca-*` while suppressing error messages if they don’t exist. The second command, `!gdown https://drive.google.com/uc?id=1K9akKM0c6ZXTFNdCcZpqimrIqdWKdI0u`, downloads the file specified by the Google Drive URL using the `gdown` tool. The third command, `!unzip -q osm-cca-nlp-main.zip && mv osm-cca-nlp-main osm-cca-nlp`, extracts the downloaded ZIP file in quiet mode and renames the resulting directory from `osm-cca-nlp-main` to `osm-cca-nlp`. Together, these commands ensure a fresh, prepared directory for subsequent operations in the notebook.
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/'}
+!pip install -q pdfminer.six
+```
+
+The line `!pip install -q pdfminer.six` is a shell command executed within a Jupyter Notebook to install the **pdfminer.six** library, a tool for extracting and analyzing text from PDF files. The `!` prefix allows terminal commands to be run directly from the notebook. The `-q` flag enables "quiet mode," minimizing installation output to make the notebook cleaner. This command ensures that the **pdfminer.six** library is available for use in the notebook for PDF text extraction and related operations.
+
+#### Convert PDF to plain text
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/'}
+import os
+from pdfminer.high_level import extract_text
+
+#### Directories containing the PDFs
+directories = ['organization1', 'organization2']
+directories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']
+
+for directory in directories:
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.lower().endswith('.pdf'):
+                pdf_path = os.path.join(root, file)
+                text_path = os.path.splitext(pdf_path)[0] + '.txt'
+
+                try:
+                    text = extract_text(pdf_path)
+                    with open(text_path, 'w', encoding='utf-8') as f:
+                        f.write(text)
+                    print(f"Converted {pdf_path} to {text_path}")
+                except Exception as e:
+                    print(f"Failed to convert {pdf_path}: {e}")
+```
+
+**Importing Necessary Libraries**
+
+The code begins by importing essential modules. It imports `os` for interacting with the operating system's file system and `extract_text` from `pdfminer.high_level` for extracting text content from PDF files.
+
+---
+
+**Defining the Directories Containing PDFs**
+
+Two lists named `directories` are defined. The first is a placeholder with `['organization1', 'organization2']`, and the second specifies the actual paths to the directories containing the PDF files:
+- `/content/osm-cca-nlp/res/pdf/preem`
+- `/content/osm-cca-nlp/res/pdf/vattenfall`
+
+---
+
+**Iterating Over Each Directory**
+
+The code uses a `for` loop to iterate through each directory specified in the `directories` list. This allows the program to process multiple directories sequentially.
+
+---
+
+**Walking Through Directory Trees**
+
+Within each directory, the `os.walk(directory)` function traverses the directory tree. It yields a tuple containing the `root` path, a list of `dirs` (subdirectories), and a list of `files` in each directory.
+
+---
+
+**Identifying PDF Files**
+
+For every file in the `files` list, the code checks if the file name ends with `.pdf` (case-insensitive) using `file.lower().endswith('.pdf')`. This ensures that only PDF files are processed.
+
+---
+
+**Constructing File Paths**
+
+The full path to the PDF file is constructed using `os.path.join(root, file)`. The corresponding text file path is created by replacing the `.pdf` extension with `.txt` using `os.path.splitext(pdf_path)[0] + '.txt'`.
+
+---
+
+**Extracting Text from PDFs**
+
+A `try` block is initiated to attempt text extraction. The `extract_text(pdf_path)` function reads the content of the PDF file and stores it in the variable `text`.
+
+---
+
+**Writing Extracted Text to Files**
+
+If text extraction is successful, the code opens a new text file at `text_path` in write mode with UTF-8 encoding. It writes the extracted text into this file and then closes it, ensuring the text is saved next to the original PDF.
+
+---
+
+**Logging Successful Conversions**
+
+After successfully writing the text file, the code prints a message indicating the PDF file has been converted, using:
+```python
+print(f"Converted {pdf_path} to {text_path}")
+```
+
+---
+
+**Handling Exceptions**
+
+An `except` block catches any exceptions that occur during the extraction or writing process. If an error occurs, it prints a failure message with the path of the PDF file and the exception details:
+```python
+print(f"Failed to convert {pdf_path}: {e}")
+```
+
+---
+
+#### Read plain text to Pandas Dataframe
+
+```{python}
+import os
+import pandas as pd
+import re
+import string
+
+#### Directories containing the text files
+directories = ['organization1', 'organization2']
+directories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']
+
+data = []
+text_index = 1
+
+#### Allowed characters: alphabetic, punctuation, and whitespace
+allowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)
+
+for directory in directories:
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.lower().endswith('.txt'):
+                file_path = os.path.join(root, file)
+                folder_name = os.path.basename(root)
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    raw_text = f.read()
+
+                # Keep only allowed characters
+                clean_text = ''.join(c for c in raw_text if c in allowed_chars)
+
+                # Replace sequences of whitespace with a single space
+                clean_text = re.sub(r'\s+', ' ', clean_text)
+
+                # Trim leading and trailing whitespace
+                clean_text = clean_text.strip()
+
+                data.append({
+                    'text_index': text_index,
+                    'file_path': file_path,
+                    'folder_name': folder_name,
+                    'raw_text': raw_text,
+                    'clean_text': clean_text
+                })
+
+                text_index += 1
+
+#### Create DataFrame
+df_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])
+
+#### Save DataFrame to TSV file
+df_texts.to_csv('df_texts.tsv', sep='\t', index=False)
+```
+
+**Importing Additional Libraries**
+
+The code imports `pandas` for data manipulation, `re` for regular expressions, and `string` for accessing string constants. These libraries provide functionalities for data storage, text processing, and character handling.
+
+---
+
+**Initializing Data Structures**
+
+An empty list named `data` is initialized to store dictionaries of processed text information. A variable `text_index` is set to `1` to assign a unique numerical index to each text file processed.
+
+---
+
+**Defining Allowed Characters**
+
+A set called `allowed_chars` is created containing all alphabetic characters, punctuation marks, and whitespace characters. This set is used to filter out unwanted characters from the text content.
+
+---
+
+**Processing Text Files**
+
+The code iterates through the directories, searching for files that end with `.txt`. For each text file found, it performs the following steps:
+
+---
+
+**Reading Raw Text**
+
+The text file is opened using UTF-8 encoding, and its content is read into the variable `raw_text`. This variable holds the original text extracted from the file.
+
+---
+
+**Cleaning Text Content**
+
+1. **Filtering Allowed Characters:** The code constructs `clean_text` by including only characters present in `allowed_chars`, effectively removing any non-alphabetic, non-punctuation, and non-whitespace characters.
+
+2. **Normalizing Whitespace:** It uses a regular expression to replace multiple whitespace characters (`\s+`) with a single space, ensuring consistent spacing in the text.
+
+3. **Trimming Whitespace:** Leading and trailing whitespace are removed from `clean_text` using the `strip()` method.
+
+---
+
+**Collecting Processed Data**
+
+A dictionary containing the following keys is appended to the `data` list:
+- `'text_index'`: The unique index number for the text file.
+- `'file_path'`: The full path to the text file.
+- `'folder_name'`: The name of the folder containing the file.
+- `'raw_text'`: The original text content from the file.
+- `'clean_text'`: The cleaned and processed text content.
+
+After appending, `text_index` is incremented to prepare for the next file.
+
+---
+
+**Creating a DataFrame**
+
+The list `data` is converted into a pandas DataFrame named `df_texts`. The DataFrame includes the specified columns: `'text_index'`, `'file_path'`, `'folder_name'`, `'raw_text'`, and `'clean_text'`.
+
+---
+
+**Saving DataFrame to TSV File**
+
+The DataFrame `df_texts` is saved to a TSV (Tab-Separated Values) file named `'df_texts.tsv'`. The `index=False` parameter ensures that the DataFrame's index is not written to the file, keeping the output clean.
+
+---
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/', height: 313}
+df_texts.head()
+```
+
+#### Download pre-trained English language model
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/'}
+#import spacy
+!python -m spacy download en_core_web_sm
+```
+
+#### Split text into sentences
+
+```{python}
+import pandas as pd
+import re
+import spacy
+
+#### Load the spaCy English model
+nlp = spacy.load('en_core_web_sm')
+
+data = []
+
+for idx, row in df_texts.iterrows():
+    text_index = row['text_index']
+    folder_name = row['folder_name']
+    clean_text = row['clean_text']
+
+    # Process the clean text to identify sentences
+    doc = nlp(clean_text)
+
+    sentence_index = 1
+    for sent in doc.sents:
+        sentence_text = sent.text
+
+        # Squeeze, trim, and convert sequences of whitespace to single spaces
+        sentence_text = re.sub(r'\s+', ' ', sentence_text).strip()
+
+        # Check if the sentence exceeds five words
+        if len(sentence_text.split()) > 5:
+            data.append({
+                'text_index': text_index,
+                'folder_name': folder_name,
+                'sentence_index': sentence_index,
+                'sentence_text': sentence_text
+            })
+            sentence_index += 1
+
+#### Create the DataFrame
+df_sentences = pd.DataFrame(data, columns=['text_index', 'folder_name', 'sentence_index', 'sentence_text'])
+
+#### Save the DataFrame to a TSV file
+df_sentences.to_csv('df_sentences.tsv', sep='\t', index=False)
+```
+
+**Iterating Over Cleaned Text Data**
+
+The code begins by iterating over each row in the `df_texts` DataFrame using `df_texts.iterrows()`. For every entry, it extracts the `text_index`, `folder_name`, and `clean_text` fields. This setup allows the script to process each cleaned text from the dataset individually.
+
+---
+
+**Processing Text with spaCy to Identify Sentences**
+
+For each `clean_text`, the code applies the spaCy English language model to create a `doc` object:
+```python
+doc = nlp(clean_text)
+```
+This object contains linguistic annotations, enabling the extraction of sentences (`doc.sents`) from the text.
+
+---
+
+**Extracting and Cleaning Sentences**
+
+The script initializes a `sentence_index` to keep track of sentence positions. It then iterates over each sentence in `doc.sents`. For every sentence, it retrieves the sentence text using `sent.text` and performs cleaning operations:
+- **Normalizing Whitespace:** Uses a regular expression to replace multiple whitespace characters with a single space:
+  ```python
+  sentence_text = re.sub(r'\s+', ' ', sentence_text).strip()
+  ```
+- **Trimming:** Removes leading and trailing whitespace with `.strip()`.
+
+---
+
+**Filtering Sentences by Word Count**
+
+Before including a sentence in the dataset, the code checks if it contains more than five words:
+```python
+if len(sentence_text.split()) > 5:
+```
+This condition filters out short sentences that may not be informative, ensuring that only substantial sentences are included in the analysis.
+
+---
+
+**Collecting Processed Sentence Data**
+
+If a sentence meets the word count criterion, the code appends a dictionary to the `data` list containing:
+- `'text_index'`: The identifier of the original text from which the sentence was extracted.
+- `'folder_name'`: The name of the folder containing the source text.
+- `'sentence_index'`: A sequential number indicating the sentence's order within the text.
+- `'sentence_text'`: The cleaned and processed sentence text.
+
+After appending, the `sentence_index` is incremented to prepare for the next sentence.
+
+---
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/', height: 226}
+df_sentences.head()
+```
+
+#### Split sentences into tokens
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/'}
+import pandas as pd
+import spacy
+from nltk.corpus import stopwords
+import nltk
+
+#### Download NLTK stopwords if not already downloaded
+nltk.download('stopwords')
+
+#### Load the spaCy English model
+nlp = spacy.load('en_core_web_sm')
+
+#### Get English stopwords from NLTK
+stop_words = set(stopwords.words('english'))
+
+data = []
+
+for idx, row in df_sentences.iterrows():
+    text_index = row['text_index']
+    folder_name = row['folder_name']
+    sentence_index = row['sentence_index']
+    sentence_text = row['sentence_text']
+
+    doc = nlp(sentence_text)
+
+    token_index = 1
+    for token in doc:
+        # Exclude tokens that are not actual words and are not stopwords
+        if token.is_alpha and token.text.lower() not in stop_words:
+            token_text = token.text
+            token_lemma = token.lemma_
+            token_pos = token.pos_
+            token_entity = token.ent_type_ if token.ent_type_ else 'O'  # 'O' for no entity
+
+            data.append({
+                'text_index': text_index,
+                'folder_name': folder_name,
+                'sentence_index': sentence_index,
+                'token_index': token_index,
+                'token_text': token_text,
+                'token_lemma': token_lemma,
+                'token_pos': token_pos,
+                'token_entity': token_entity
+            })
+
+            token_index += 1
+
+#### Create the DataFrame
+df_tokens = pd.DataFrame(data, columns=[
+    'text_index', 'folder_name', 'sentence_index',
+    'token_index', 'token_text', 'token_lemma', 'token_pos', 'token_entity'
+])
+
+#### Save the DataFrame to a TSV file
+df_tokens.to_csv('df_tokens.tsv', sep='\t', index=False)
+```
+
+**Importing NLTK and Downloading Stopwords**
+
+The code imports `nltk` and `stopwords` from `nltk.corpus`. It then calls `nltk.download('stopwords')` to ensure that the NLTK stopwords corpus is downloaded and available. This step is crucial for filtering out common words (like "the", "and", "is") that may not be meaningful for analysis.
+
+---
+
+**Getting English Stopwords from NLTK**
+
+A set of English stopwords is created by calling `stopwords.words('english')` and converting it to a set for efficient lookup. This set, stored in `stop_words`, will be used to filter out common English words during tokenization.
+
+---
+
+**Iterating Over Sentences in df_sentences**
+
+The code iterates over each row in the `df_sentences` DataFrame using `df_sentences.iterrows()`. For every sentence, it extracts relevant information such as `text_index`, `folder_name`, `sentence_index`, and `sentence_text`. This setup prepares the data for tokenization at the sentence level.
+
+---
+
+**Processing Sentences with spaCy to Extract Tokens**
+
+Each `sentence_text` is processed using the spaCy English model to create a `doc` object:
+```python
+doc = nlp(sentence_text)
+```
+This object contains tokens with rich linguistic annotations, enabling detailed analysis of each word in the sentence.
+
+---
+
+**Filtering Tokens**
+
+The code iterates over each `token` in the `doc` object. It applies filters to include only tokens that:
+- Consist of alphabetic characters (`token.is_alpha`).
+- Are not in the set of English stopwords (`token.text.lower() not in stop_words`).
+
+This ensures that only meaningful, non-common words are included in the analysis.
+
+---
+
+**Extracting Token Attributes**
+
+For each token that passes the filters, the code extracts various linguistic attributes:
+- `token_text`: The original text of the token.
+- `token_lemma`: The lemmatized form of the token, which reduces the word to its base or dictionary form.
+- `token_pos`: The part-of-speech tag, indicating the grammatical role of the token (e.g., noun, verb).
+- `token_entity`: The named entity type if the token is part of a recognized entity; otherwise, it defaults to `'O'` for "no entity."
+
+---
+
+**Collecting Token Data**
+
+A dictionary containing the extracted token information is appended to the `data` list. The dictionary includes:
+- `'text_index'`: The identifier of the original text.
+- `'folder_name'`: The name of the folder containing the source text.
+- `'sentence_index'`: The position of the sentence within the text.
+- `'token_index'`: A sequential number indicating the token's order within the sentence.
+- `'token_text'`, `'token_lemma'`, `'token_pos'`, `'token_entity'`: The linguistic attributes of the token.
+
+After appending, `token_index` is incremented to prepare for the next token.
+
+---
+
+**Creating df_tokens DataFrame**
+
+The list `data` is converted into a pandas DataFrame named `df_tokens`. The DataFrame includes the specified columns:
+```python
+['text_index', 'folder_name', 'sentence_index', 'token_index', 'token_text', 'token_lemma', 'token_pos', 'token_entity']
+```
+This structured format allows for easy manipulation and analysis of the token data.
+
+---
+
+**Saving df_tokens DataFrame to a TSV File**
+
+The DataFrame `df_tokens` is saved to a TSV (Tab-Separated Values) file named `'df_tokens.tsv'`. The `index=False` parameter ensures that the DataFrame's index is not written to the file, keeping the output clean and focused on the relevant data.
+
+---
+
+By following these steps, we've cleaned, processed, and structured the text data from both organizations. The named entity recognition analysis has provided insights into the differences in their sustainability communications, highlighting unique entities and focal points for each organization.
+
+```{python}
+#| colab: {base_uri: 'https://localhost:8080/', height: 226}
+df_tokens.head()
+```
+
+
