@@ -11,7 +11,7 @@
 ---
 
 - [internal repo](https://github.com/cca-cce/osm-cca/)
-- [external website](https://cca-cce.github.io/osm-cca/web/ai-aided-content-analysis-of-sustainability-communication/_site/)
+- [external website](https://cca-cce.github.io/osm-cca/web/ai-aided-content-analysis-of-sustainability-communication/)
 
 
 
