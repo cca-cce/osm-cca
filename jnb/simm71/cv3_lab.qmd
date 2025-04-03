@@ -1,0 +1,961 @@
+---
+jupyter: python3
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/simm71/cv3_lab.ipynb)
+
+# Research question
+
+**Introduction**  
+How can image embeddings generated from video frames of sustainability communication campaigns differentiate between authentic sustainability communication and greenwashing? By comparing frames from organizations like Preem (involved in fossil fuel industries) and Vattenfall (focused on renewable energy), this study aims to uncover patterns in visual communication that align with inauthentic or authentic sustainability messaging.
+
+**Research Question**  
+How can video frames from sustainability communication be analyzed using image embeddings to measure the degree of greenwashing compared to authentic sustainability communication?
+
+**Proposed Investigation**  
+Using the OpenAI CLIP model, this study will analyze the similarity between video frames and conceptual text descriptions such as "inauthentic greenwashing" and "authentic sustainability communication." This approach enables a semantic comparison between visual communication modalities and linguistic constructs of authenticity and greenwashing.
+
+**Methodology**
+
+1. **Image Embeddings**:
+   - Extract image embeddings from video frames of sustainability communication campaigns using the CLIP model.
+   - Compute cosine similarity between these embeddings and the embeddings of descriptive text strings ("inauthentic greenwashing" and "authentic sustainability communication").
+
+2. **Frame-Level Analysis**:
+   - For each video frame, calculate similarity scores with both descriptive text strings.
+   - Categorize frames based on their relative similarity to these two semantic concepts.
+
+3. **Aggregation**:
+   - Compute aggregated similarity scores for entire videos to evaluate their overall alignment with either greenwashing or authentic communication narratives.
+   - Compare aggregated scores between organizations to identify visual communication trends.
+
+4. **Visualization**:
+   - Create similarity heatmaps and timelines to illustrate fluctuations in communication styles across video frames.
+   - Generate comparative visualizations to highlight differences between organizations.
+
+**Expected Results**
+
+- **Preem**: Frames may show higher similarity to "inauthentic greenwashing," emphasizing lush greenery, idyllic settings, and emotional cues designed to deflect attention from unsustainable practices.
+- **Vattenfall**: Frames are expected to align more closely with "authentic sustainability communication," featuring renewable energy projects and factual representations of environmental initiatives.
+- **Temporal Trends**: Videos with greater alignment to "inauthentic greenwashing" may exhibit inconsistent messaging, with frames oscillating between sustainability tropes and unrelated content, whereas authentic communication may show thematic coherence.
+
+**Contributions**
+
+This investigation will:
+- Offer a novel application of the CLIP model for evaluating corporate sustainability messaging.
+- Highlight the potential of image embeddings to quantitatively assess greenwashing levels.
+- Provide actionable insights for stakeholders seeking to differentiate authentic sustainability communication from greenwashing practices.
+
+By leveraging semantic embeddings and similarity analysis, this study aims to advance methods for scrutinizing corporate sustainability claims and ensuring accountability in public communication.
+
+# Content vectorization
+
+```{python}
+!python -m spacy download en_core_web_md > /dev/null 2>&1
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import spacy
+
+# Load a spaCy model with word vectors (e.g., en_core_web_md or en_core_web_lg)
+nlp = spacy.load("en_core_web_md")
+
+print(nlp("greenwashing").vector)
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 675}
+import spacy
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+from mpl_toolkits.mplot3d import Axes3D
+
+# Load the SpaCy medium model
+nlp = spacy.load("en_core_web_md")
+
+# Define words and generate their vectors
+words = ["greenwashing", "sustainability", "organization", "communication"]
+vectors = np.array([nlp(word).vector for word in words])
+
+# Reduce dimensionality to 3D using PCA
+pca = PCA(n_components=3)
+reduced_vectors = pca.fit_transform(vectors)
+
+# Plot the word vectors in 3D space
+fig = plt.figure(figsize=(10, 8))
+ax = fig.add_subplot(111, projection='3d')
+colors = ["blue", "green", "red", "purple"]
+
+for i, word in enumerate(words):
+    x, y, z = reduced_vectors[i]
+    ax.scatter(x, y, z, color=colors[i], s=100, label=word)
+    ax.text(x + 0.1, y + 0.1, z + 0.1, word, fontsize=12)
+
+# Configure the 3D plot
+ax.set_title("Word Vectors Visualization in 3D")
+ax.set_xlabel("PCA Component 1")
+ax.set_ylabel("PCA Component 2")
+ax.set_zlabel("PCA Component 3")
+ax.legend(title="Words")
+
+# Save the figure as a PNG file
+plt.savefig("space_visualization.png", format="png", dpi=300, bbox_inches="tight")
+
+plt.show()
+```
+
+**Load Pre-trained Word Embeddings with SpaCy**: The SpaCy medium model (`en_core_web_md`) is loaded to access pre-trained word embeddings. These embeddings are high-dimensional vector representations of words, capturing their semantic meanings. Example: `nlp(word).vector` retrieves the vector representation of a word.
+
+**Extract Word Vectors**: A list of words is defined (`["greenwashing", "sustainability", "organization", "communication"]`), and their corresponding vector representations are extracted using SpaCy. These vectors are stored in a NumPy array for further processing.
+
+**Reduce Dimensionality Using PCA**: Principal Component Analysis (PCA) is applied to reduce the high-dimensional word vectors to 3D. This simplifies visualization while retaining the key semantic relationships among the words. Example: `PCA(n_components=3)` reduces the vectors to three principal components.
+
+**Visualize Word Vectors in 3D**: A 3D scatter plot is created using Matplotlib to visualize the reduced word vectors. Each word is represented as a point, with its coordinates corresponding to the reduced dimensions. Labels and colors are added to distinguish the words. Example: `ax.scatter(x, y, z, color=colors[i], s=100, label=word)` plots each word's vector.
+
+**Save and Display the Plot**: The 3D plot is saved as a high-resolution PNG file (`space_visualization.png`) and displayed in the notebook. This allows for both immediate viewing and saving for external use. Example: `plt.savefig("space_visualization.png", format="png", dpi=300)` saves the plot to a file.
+
+# Cosine similarity
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import spacy
+
+# Load a spaCy model with word vectors (e.g., en_core_web_md or en_core_web_lg)
+nlp = spacy.load("en_core_web_md")
+
+# Define two words
+word1 = nlp("greenwashing")
+word2 = nlp("sustainability")
+
+# Compare word vectors using similarity
+similarity = word1.similarity(word2)
+
+print(f"Similarity between '{word1.text}' and '{word2.text}': {similarity:.4f}")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import spacy
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+
+# Load spaCy's English medium model
+nlp = spacy.load("en_core_web_md")
+
+# Generate word vectors
+word1 = nlp("greenwashing").vector
+word2 = nlp("sustainability").vector
+
+# Calculate cosine similarity
+def cosine_similarity(vec1, vec2):
+    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
+
+similarity = cosine_similarity(word1, word2)
+print(f"Cosine Similarity between word1 and word2: {similarity:.4f}")
+
+```
+
+**Load Pre-trained Word Embeddings with SpaCy**: The SpaCy English medium model (`en_core_web_md`) is loaded to access pre-trained word embeddings. These embeddings represent words as high-dimensional vectors that capture their semantic relationships. Example: `nlp("greenwashing").vector` retrieves the vector representation of the word "greenwashing."
+
+**Generate Word Vectors**: The word embeddings for two words, "greenwashing" and "sustainability," are extracted and stored as vectors. These vectors encode the semantic meanings of the words in a high-dimensional space.
+
+**Define Cosine Similarity Function**: A custom function calculates the cosine similarity between two vectors. Cosine similarity measures the cosine of the angle between two vectors, with values ranging from -1 (completely dissimilar) to 1 (identical direction). Example: `np.dot(vec1, vec2)` computes the dot product of the vectors.
+
+**Calculate and Print Cosine Similarity**: The similarity between the vectors for "greenwashing" and "sustainability" is computed using the defined function. The result is printed with four decimal places. Example: `similarity = cosine_similarity(word1, word2)` calculates the similarity score.
+
+**Output**: The computed similarity score quantifies how closely related the two words are in semantic terms. Example: `Cosine Similarity between word1 and word2: 0.8234`.
+
+# Image vector clustering
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 534}
+import matplotlib.pyplot as plt
+import numpy as np
+from tensorflow.keras.datasets import mnist
+
+# Step 1: Load the MNIST dataset
+(train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+
+# Combine training and test sets
+images = np.concatenate([train_images, test_images])
+labels = np.concatenate([train_labels, test_labels])
+
+# Step 2: Select one image per digit (0 through 9)
+selected_images = []
+for digit in range(10):
+    digit_indices = np.where(labels == digit)[0]
+    selected_images.append(images[digit_indices[0]])  # Pick the first occurrence of each digit
+
+# Step 3: Plot the selected images in a 2-row by 5-column grid with grid lines
+fig, axes = plt.subplots(2, 5, figsize=(12, 6))
+
+for i, ax in enumerate(axes.flat):
+    ax.imshow(selected_images[i], cmap='gray')
+    ax.set_title(f"Digit: {i}", fontsize=10)
+    ax.axis('on')
+    ax.set_xticks(np.arange(-0.5, 28, 1))  # Add grid ticks
+    ax.set_yticks(np.arange(-0.5, 28, 1))
+    ax.grid(visible=True, color='gray', linestyle='--', linewidth=0.5)
+    ax.tick_params(left=False, bottom=False, labelleft=False, labelbottom=False)
+
+# Add a suptitle
+fig.suptitle("One Example Image per Digit (0-9) with Grid Lines", fontsize=16, weight='bold')
+
+# Adjust spacing between subplots
+fig.tight_layout()
+fig.subplots_adjust(top=0.88)  # Leave space for the suptitle
+
+plt.show()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 559}
+import pandas as pd
+import numpy as np
+from sklearn.manifold import TSNE
+import plotly.express as px
+from tensorflow.keras.datasets import mnist
+
+# Step 1: Load the MNIST dataset using TensorFlow
+(train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+
+# Combine training and test sets
+images = np.concatenate([train_images, test_images])
+labels = np.concatenate([train_labels, test_labels])
+
+# Flatten the images into vectors
+images_flattened = images.reshape(images.shape[0], -1)
+
+# Step 2: Draw a balanced sample of 100 images
+sample_size_per_class = 10  # 10 samples for each of the 10 digits
+balanced_sample_indices = []
+for digit in range(10):
+    digit_indices = np.where(labels == digit)[0]
+    balanced_sample_indices.extend(np.random.choice(digit_indices, sample_size_per_class, replace=False))
+
+balanced_sample_indices = np.array(balanced_sample_indices)
+balanced_images = images_flattened[balanced_sample_indices]
+balanced_labels = labels[balanced_sample_indices]
+
+# Step 3: Prepare the DataFrame
+data = {
+    "Label": balanced_labels,
+    "Vector": balanced_images.tolist()
+}
+df = pd.DataFrame(data)
+
+# Step 4: Perform t-SNE to reduce dimensions to 3D
+tsne = TSNE(n_components=3, random_state=42)
+tsne_results = tsne.fit_transform(balanced_images)
+
+# Step 5: Add t-SNE results to the DataFrame
+df["TSNE-1"] = tsne_results[:, 0]
+df["TSNE-2"] = tsne_results[:, 1]
+df["TSNE-3"] = tsne_results[:, 2]
+
+# Step 6: Plot the t-SNE results in 3D using Plotly
+fig = px.scatter_3d(
+    df,
+    x="TSNE-1",
+    y="TSNE-2",
+    z="TSNE-3",
+    color=df["Label"].astype(str),  # Convert labels to strings for categorical coloring
+    title="t-SNE Visualization of MNIST Digits",
+    labels={"color": "Digit Label"},
+    hover_name="Label",
+    template="plotly_dark"
+)
+
+# Step 7: Display the plot in the notebook
+fig.show()
+
+# Step 8: Save the HTML plot to a file
+output_file = "mnist_tsne_plot.html"
+fig.write_html(output_file)
+
+print(f"t-SNE 3D plot saved to {output_file}")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+df.head()
+```
+
+# Download visual communication
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# https://drive.google.com/file/d/1qzRGYLpEfdC3Sukag_fszX_jT-Ylpb4W/view?usp=sharing
+!rm -rf *.zip cv-* 2>/dev/null
+!gdown https://drive.google.com/uc?id=1qzRGYLpEfdC3Sukag_fszX_jT-Ylpb4W
+!unzip -q *.zip 2>/dev/null
+```
+
+**Download File from Google Drive Using gdown**: The `gdown` command-line tool is used to download files directly from Google Drive using a file ID. The Google Drive URL is converted into a downloadable format (`https://drive.google.com/uc?id=<file_id>`), and the file is downloaded into the current working directory. Example: `!gdown https://drive.google.com/uc?id=1qzRGYLpEfdC3Sukag_fszX_jT-Ylpb4W` downloads the file associated with the specified ID.
+
+**Remove Unnecessary Files and Prepare Workspace**: The `rm` command is used to clean the workspace by removing specific files or folders (e.g., `.zip` files, directories starting with `cv-*`) if they exist. This ensures a clean slate before processing new files. Example: `!rm -rf *.zip cv-* 2>/dev/null` removes all `.zip` files and directories prefixed with `cv-*`, suppressing any errors if the files don't exist.
+
+**Extract Downloaded ZIP File**: The `unzip` command extracts the contents of the downloaded `.zip` file into the current directory. The `-q` flag suppresses output messages for a cleaner execution, and `2>/dev/null` prevents error messages if no `.zip` files are found. Example: `!unzip -q *.zip 2>/dev/null` extracts the first `.zip` file in the directory silently.
+
+# Color histogram similarity
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 683}
+import os
+import cv2
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.cluster.hierarchy import dendrogram, linkage
+
+# Define the base directories
+directories = ["cv-org1-preem", "cv-org2-vattenfall"]
+
+# Initialize a list to store the results
+data = []
+
+# Iterate over directories and process images
+for directory in directories:
+    for file in os.listdir(directory):
+        if file.startswith("frame_") and file.endswith(".png"):
+            file_path = os.path.join(directory, file)
+
+            # Read the image using OpenCV
+            image = cv2.imread(file_path)
+            if image is not None:
+                # Convert to RGB
+                image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+                # Compute color histogram (flattened across channels)
+                hist = cv2.calcHist([image], [0, 1, 2], None, [8, 8, 8], [0, 256, 0, 256, 0, 256]).flatten()
+                hist = hist / hist.sum()  # Normalize histogram
+
+                # Append data to the list
+                data.append({
+                    "Organization": directory,
+                    "Image_Path": file_path,
+                    "Histogram": hist
+                })
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Extract histograms and perform hierarchical clustering
+histograms = np.array(df["Histogram"].tolist())
+linkage_matrix = linkage(histograms, method="ward")
+
+# Plot the dendrogram
+plt.figure(figsize=(12, 8))
+dendrogram(
+    linkage_matrix,
+    labels=[os.path.basename(path) for path in df["Image_Path"]],
+    orientation="right"
+)
+plt.title("Hierarchical Clustering of Images Based on Color Histograms")
+plt.xlabel("Distance")
+plt.ylabel("Image Name")
+plt.tight_layout()
+plt.show()
+```
+
+# Structural similarity (video clips)
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 806}
+import numpy as np
+import matplotlib.pyplot as plt
+from keras.datasets import mnist
+from skimage.metrics import structural_similarity as ssim
+
+# Step 1: Load the MNIST dataset
+(_, _), (test_images, test_labels) = mnist.load_data()
+
+# Step 2: Get the first and second instances of digits 0 and 1
+image_0_1 = test_images[test_labels == 0][0]  # First instance of 0
+image_0_2 = test_images[test_labels == 0][1]  # Second instance of 0
+image_1_1 = test_images[test_labels == 1][0]  # First instance of 1
+image_1_2 = test_images[test_labels == 1][1]  # Second instance of 1
+
+# Step 3: Compute SSIM and difference images
+def compute_ssim(image1, image2):
+    score, diff = ssim(image1, image2, full=True)
+    return score, diff
+
+# SSIM comparisons
+ssim_0_0, diff_0_0 = compute_ssim(image_0_1, image_0_2)  # Top-left: 0 vs 0
+ssim_1_0, diff_1_0 = compute_ssim(image_1_1, image_0_2)  # Top-right: 1 vs 0
+ssim_0_1, diff_0_1 = compute_ssim(image_0_1, image_1_2)  # Bottom-left: 0 vs 1
+ssim_1_1, diff_1_1 = compute_ssim(image_1_1, image_1_2)  # Bottom-right: 1 vs 1
+
+# Step 4: Visualize the results with a 2x2 subplot layout
+fig, axes = plt.subplots(2, 2, figsize=(12, 8))
+fig.suptitle("SSIM Difference Images for MNIST Digits", fontsize=16)
+
+# Top row
+axes[0, 0].imshow(diff_0_0, cmap='gray')
+axes[0, 0].set_title(f"0 vs 0\nSSIM: {ssim_0_0:.2f}")
+axes[0, 0].axis('off')
+
+axes[0, 1].imshow(diff_1_0, cmap='gray')
+axes[0, 1].set_title(f"1 vs 0\nSSIM: {ssim_1_0:.2f}")
+axes[0, 1].axis('off')
+
+# Bottom row
+axes[1, 0].imshow(diff_0_1, cmap='gray')
+axes[1, 0].set_title(f"0 vs 1\nSSIM: {ssim_0_1:.2f}")
+axes[1, 0].axis('off')
+
+axes[1, 1].imshow(diff_1_1, cmap='gray')
+axes[1, 1].set_title(f"1 vs 1\nSSIM: {ssim_1_1:.2f}")
+axes[1, 1].axis('off')
+
+# Configure layout and display
+plt.tight_layout()
+plt.subplots_adjust(top=0.88)
+
+# Save the figure as a PNG file
+plt.savefig("ssim_visualization.png", format="png", dpi=300, bbox_inches="tight")
+
+plt.show()
+```
+
+**Explanation of SSIM:**
+
+- **Structural Similarity Index Measure (SSIM)**: A perceptual metric that quantifies the similarity between two images by comparing their luminance, contrast, and structure. It is designed to mimic human visual perception.
+- **Values**:
+  - SSIM ranges from -1 to 1.
+  - A value of **1** indicates identical images.
+  - A value closer to **0** indicates dissimilarity.
+
+**Key Steps in SSIM:**
+
+1. **Luminance**: Compares average brightness of the two images.
+2. **Contrast**: Measures the variance and contrast of the images.
+3. **Structure**: Captures patterns or textures in the images.
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 668}
+import cv2
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from skimage.metrics import structural_similarity as compare_ssim
+
+# Path to the video
+video_path = "/content/cv-org1-preem/oYgrxXZTAQg.webm"
+
+# Open the video file
+cap = cv2.VideoCapture(video_path)
+
+# Get video frame rate to convert frame index to seconds
+fps = cap.get(cv2.CAP_PROP_FPS)
+
+# Initialize variables
+frame_index = 0
+previous_frame = None
+similarity_scores = []
+
+while True:
+    ret, current_frame = cap.read()
+    if not ret:
+        break  # End of video
+
+    # Downsample frame to width 256 pixels while maintaining aspect ratio
+    height, width = current_frame.shape[:2]
+    aspect_ratio = height / width
+    resized_frame = cv2.resize(current_frame, (256, int(256 * aspect_ratio)))
+
+    # Convert frame to grayscale
+    gray_frame = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2GRAY)
+
+    if previous_frame is not None:
+        # Compute SSIM between the previous and current frame
+        ssim, _ = compare_ssim(previous_frame, gray_frame, full=True)
+
+        # Convert frame index to time in seconds
+        time_in_seconds = frame_index / fps
+
+        # Record time and SSIM
+        similarity_scores.append({"Time (s)": time_in_seconds, "SSIM": ssim})
+
+    # Update the previous frame and frame index
+    previous_frame = gray_frame
+    frame_index += 1
+
+# Release video capture
+cap.release()
+
+# Convert similarity scores to a pandas dataframe
+df = pd.DataFrame(similarity_scores)
+
+# Visualize SSIM changes as a line graph using seaborn
+plt.figure(figsize=(10, 6))
+sns.lineplot(data=df, x="Time (s)", y="SSIM", label="Frame Similarity (SSIM)")
+plt.xlabel("Time (seconds)")
+plt.ylabel("SSIM")
+plt.title("Frame Similarity Over Time")
+plt.legend()
+plt.grid()
+
+# Save the figure as a PNG file
+plt.savefig("video_visualization.png", format="png", dpi=300, bbox_inches="tight")
+
+plt.show()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Filter the dataframe to view the 10 lowest SSIM values with corresponding time, ordered by time
+lowest_ssim = df.nsmallest(10, "SSIM").sort_values(by="Time (s)")
+print("10 Lowest SSIM Values (Ordered by Time):")
+print(lowest_ssim)
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Filter the dataframe for SSIM values lower than 0.3 and order by time ascending
+filtered_ssim = df[df["SSIM"] < 0.3].sort_values(by="Time (s)")
+
+print("Filtered SSIM Values (SSIM < 0.3) Ordered by Time:")
+print(filtered_ssim)
+```
+
+# Create image embeddings
+
+```{python}
+!pip install -q transformers torch pillow
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 290, referenced_widgets: [41617966203b4f9e9e2a72d4ed7f5086, 7fd8b89cfed64acca2cf3d44a92f7e00, fe142270dd0b4b158c1f740c1c2de57a, 24e6fb55537e482785449a880056ff5b, 6413757f18ab41cab68c6b5e04838a9a, 50e419502fd84c61bbd7620fa2e3483b, 31df5509058946f29f12d69b5370a457, 732d2f6e2408443483513f6fb67bdaad, e83114bc027044bd9ac9fffe824590bb, 1dba4cc3e06e411f83e6adf96f2d3f0e, abd97157d2f140e3a382779ed5e94b99, 02698f6a0fb34354b6ea68a0f4550cfd, 01dd6f83a3b64cd39cfabfca6475c616, 0901256b010047c6ad3d342bce77e0e4, b72fe91141fb46d5b3ff6bc6c46cad35, 159e39b4f49943718c5528ab7d062e40, 19d90b801f834d879ecccfc38f261f58, 793521638f10449aad578793acd2c1e4, dc45de2c86914d809483c4ba7a488ff2, 28c51c8ca0e443b78096407c37ef0f79, a89aeac8ff9c451d972f57d64f552a08, 9e764c13911447e9ae6ad9bba2ac7fa2, 4767b4115eb54a0c93fa04fdb345b8a9, 998fdd85d16f4c789f9fc5e974d64080, ae364a2f03594d4f94b9e189867bdd41, 2074058930d649bdaf53aee937708776, 9ffab7eb05d24e0b81ce740bbe0d88c8, 521b7d2adbdf4874bee160db1cd0fcfc, 8e7af129204a478c8faf97bdf0bdb788, 46c391e800fc4874854e5626011b1284, 33b07b739c0945ed83ff25497b2732cc, ae342b173dca45fea8f0812cc3739f12, 191809ad2623445bb765f008e78b3ff1, 68b1f144a5514fb6878c1196f7b87dbf, 4f35bd8e6c3d451e895fdcab47296c79, 146704bdf3a24410952df8b97f583657, e536eb7181a0413f8afc468c658f1b5d, 8020bb5726f2477f8418cbd224f8a89e, 9294dd1c6254485a8a23ca6d2edf3453, 874798395ba34ca7a8b7cb54966bf943, cc3c1d56f0cc4c07be0064e8c209d1ae, 4ed9cbf4eed5464da544917b039db9ce, 96d2c521e29344b5bcb8bab424e05916, 29901ae924f449f389abbecac123b229, d01bacd81f684b5eb2199fcd8a2724e2, bd0f088ab0ec4bb581755cad7c648082, 1edcd9d715d841a397c2b734380b9241, 9797f886f2884eae986ad855f93c91e6, 4857c5f5b24849a3a9586cd046cf6cdd, 70dfea1691254dd0b5c599c8dfbe25ac, 631ff523853f42f88ad9e1ccdade2acd, 17837b023d65485baa80d1532207d2dd, e82f279487694716bf1e32830b051c44, 49baaf81f1c84336ae8e7e09378d515e, 809a19dd594248eea23d215b357057c6, 28b3c56c4977402ba7ef1b053ced06eb, 6929c381f1eb4fda9ecd0e971c1378e7, 34fce3c254b043d4bc8f65cdbf510b5a, ed7dc1d10c5f4abd8affd87588b65d32, 2f7bf5d076824773b6ee22cbd495f83d, e581bb449d1147febc7af808f7b8103d, 358c41d0d619400abe46b71246829590, 02f8ad97cc264a8fb334b4cd166037d8, ff49c71f5c144182be3d49fc2e3a2fa7, 952fc5fed23345b2870c6068da995d59, 3f79cbf7a7b84966b28abff84fce0771, ccd6534b51924c138f3158dc674fb3ad, 4a894b7e6ceb499d9d7d555fe401e5ad, 15ee1bbf642d46789a9a6a65f9ac63b7, ec99d72f4c0e4086bcfc2489226e953b, 2a5d8a620aab435eafdad76490d5dd92, 169609e85c25475287aa243456126403, ec9f7ffad158442a87cec227adf8d4a5, a2dc211544764535b82b79a7bfda5bca, 0a153e078dc346b685896e7cfa785865, 5cd75d4121df45089835c3e25f2178ef, f0678ecbfd1845358b641c1b582fd225, 36c714e86dcd41d184f51612017f1eb6, 2564011f3f9a40ad8a4a6a838e863054, 8d88658dbd9d40ae8f4e43a4a1cb4bea, df23be9edea44c7a94ecede8d512e3eb, 08a091b2c1ff48ea8012b53aac1ab4a2, d815cc44f0b546e79aeb14b171297061, 021dcfac41124c86a09ca599e803ef67, e9af14732e9144d8867fde88df5a731b, 67765e521faf4b9085928ae13e6a2236, fd75aed0098a4764a63d2d4100fd0d90, 4b16c1a5e157455da57ad06a3529b9df]}
+import os
+import pandas as pd
+import torch
+from PIL import Image
+from transformers import CLIPProcessor, CLIPModel
+
+# Initialize the CLIP model and processor
+model_name = "openai/clip-vit-base-patch32"
+model = CLIPModel.from_pretrained(model_name)
+processor = CLIPProcessor.from_pretrained(model_name)
+
+# Base directories
+directories = ["cv-org1-preem", "cv-org2-vattenfall"]
+
+# Dataframe to store results
+data = []
+
+# Iterate over the directories
+for directory in directories:
+    for file in os.listdir(directory):
+        # Check if the file is a valid image
+        if file.startswith("frame_") and file.endswith(".png"):
+            file_path = os.path.join(directory, file)
+
+            try:
+                # Load the image
+                image = Image.open(file_path).convert("RGB")
+
+                # Preprocess the image
+                inputs = processor(images=image, return_tensors="pt", padding=True)
+
+                # Extract image embeddings
+                with torch.no_grad():
+                    embeddings = model.get_image_features(**inputs).squeeze(0).tolist()
+
+                # Append to the data
+                data.append({
+                    "Directory": directory,
+                    "File_Path": file_path,
+                    "Embeddings": embeddings
+                })
+            except Exception as e:
+                print(f"Error processing {file_path}: {e}")
+
+# Create a dataframe
+df = pd.DataFrame(data)
+
+# Save the dataframe to disk
+output_path = "image_embeddings.csv"
+df.to_csv(output_path, index=False)
+print(f"Embeddings saved to {output_path}")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+df.head()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Ensure the dataframe is loaded or exists
+if not df.empty:
+    # Access the first row's embeddings
+    first_embedding = df.loc[0, "Embeddings"]
+
+    # Print the length of the embedding
+    print(f"Length of the first image embedding: {len(first_embedding)}")
+else:
+    print("The dataframe is empty. No embeddings to process.")
+```
+
+**Initialize CLIP Model and Processor**: The `CLIPModel` and `CLIPProcessor` from Hugging Face are initialized using the pre-trained model `"openai/clip-vit-base-patch32"`. The model generates high-dimensional embeddings for images, while the processor preprocesses image inputs to match the model's requirements.
+
+**Set Up Directories and Data Storage**: The script defines base directories containing image files (`cv-org1-preem` and `cv-org2-vattenfall`) and initializes a list to store the results. Each image's embeddings, directory, and file path will be stored for later use.
+
+**Process Images and Extract Embeddings**: The script iterates through the specified directories, checking for valid image files (`frame_*.png`). For each valid image:
+- The image is loaded and converted to RGB using `PIL.Image`.
+- The image is preprocessed using the CLIP processor, which resizes, normalizes, and converts it to tensor format.
+- The CLIP model extracts image embeddings using `model.get_image_features(**inputs)`. These embeddings represent the image's semantic content in a high-dimensional space.
+
+**Handle Errors Gracefully**: If an image cannot be processed (e.g., due to file corruption), the script catches the exception and logs an error message without stopping execution.
+
+**Create and Save the Content Vector Database**: The extracted embeddings, along with their associated directories and file paths, are stored in a pandas DataFrame. This DataFrame is saved as a CSV file (`image_embeddings.csv`), forming a simple content vector database for later querying or analysis.
+
+**Output**: The script saves the embeddings to disk and prints a confirmation message, indicating the file's location. Example: `Embeddings saved to image_embeddings.csv`.
+
+# Multimodal similarity
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+from transformers import CLIPTokenizer, CLIPTextModel
+import torch
+
+# Initialize the CLIP tokenizer and text model
+model_name = "openai/clip-vit-base-patch32"
+tokenizer = CLIPTokenizer.from_pretrained(model_name)
+text_model = CLIPTextModel.from_pretrained(model_name)
+
+# Ensure the dataframe is not empty
+if not df.empty:
+    # Access the first row's embedding
+    first_embedding = torch.tensor(df.loc[0, "Embeddings"]).unsqueeze(0)  # Convert to tensor and add batch dimension
+
+    # Define a set of potential text captions
+    captions = [
+        "greenwashing",
+        "sustainability",
+    ]
+
+    # Encode the text captions
+    text_inputs = tokenizer(captions, padding=True, return_tensors="pt")
+    text_features = text_model(**text_inputs).last_hidden_state.mean(dim=1)
+
+    # Normalize the embeddings
+    first_embedding = first_embedding / first_embedding.norm(dim=-1, keepdim=True)
+    text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+
+    # Compute cosine similarity between the image embedding and text features
+    similarities = torch.matmul(first_embedding, text_features.T)
+
+    # Find the caption with the highest similarity
+    best_caption_idx = similarities.argmax().item()
+    best_caption = captions[best_caption_idx]
+
+    # Print the generated caption
+    print(f"Generated caption for the first image: {best_caption}")
+else:
+    print("The dataframe is empty. No embeddings to process.")
+```
+
+# Results and visualizations
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+from transformers import CLIPTokenizer, CLIPTextModel
+import torch
+
+# Initialize the CLIP tokenizer and text model
+model_name = "openai/clip-vit-base-patch32"
+tokenizer = CLIPTokenizer.from_pretrained(model_name)
+text_model = CLIPTextModel.from_pretrained(model_name)
+
+# Define a set of potential text captions
+captions = [
+    "inautentic greenwashing communication",
+    "authentic sustainability communication",
+]
+
+# Function to generate the best caption for an embedding
+def generate_caption_and_score(embedding):
+    # Convert the embedding to a tensor and normalize it
+    embedding_tensor = torch.tensor(embedding).unsqueeze(0)  # Add batch dimension
+    embedding_tensor = embedding_tensor / embedding_tensor.norm(dim=-1, keepdim=True)
+
+    # Tokenize and encode the text captions
+    text_inputs = tokenizer(captions, padding=True, return_tensors="pt")
+    text_features = text_model(**text_inputs).last_hidden_state.mean(dim=1)
+    text_features = text_features / text_features.norm(dim=-1, keepdim=True)
+
+    # Compute cosine similarity between the image embedding and text features
+    similarities = torch.matmul(embedding_tensor, text_features.T)
+
+    # Find the caption with the highest similarity
+    best_caption_idx = similarities.argmax().item()
+    best_caption = captions[best_caption_idx]
+    best_similarity_score = similarities[0, best_caption_idx].item()
+
+    return best_caption, best_similarity_score
+
+# Iterate over all images in the dataframe and generate captions and scores
+if not df.empty:
+    captions_list = []  # List to store generated captions
+    scores_list = []  # List to store similarity scores
+    for idx, row in df.iterrows():
+        embedding = row["Embeddings"]  # Extract the embedding
+        caption, score = generate_caption_and_score(embedding)
+        captions_list.append(caption)
+        scores_list.append(score)
+
+    # Add the generated captions and scores to the dataframe
+    df["Generated_Caption"] = captions_list
+    df["Similarity_Score"] = scores_list
+
+    # Save the updated dataframe to disk
+    output_path = "image_embeddings_with_captions_and_scores.csv"
+    df.to_csv(output_path, index=False)
+    print(f"Generated captions and similarity scores saved to {output_path}")
+else:
+    print("The dataframe is empty. No embeddings to process.")
+```
+
+**Initialize CLIP Tokenizer and Text Model**: The `CLIPTokenizer` and `CLIPTextModel` from Hugging Face are initialized using the pre-trained CLIP model (`openai/clip-vit-base-patch32`). The tokenizer converts text into tokens compatible with the model, while the text model generates embeddings for the tokenized captions.
+
+**Define Potential Text Captions**: A list of candidate captions (e.g., `"inauthentic greenwashing communication"`, `"authentic sustainability communication"`) is defined. These captions represent possible descriptions for the images.
+
+**Function to Generate Best Caption and Score**:
+- The `generate_caption_and_score` function computes the best-matching caption for a given image embedding.
+- **Embedding Normalization**: The image embedding is converted to a tensor, and its norm is normalized to a unit vector.
+- **Text Caption Embeddings**: The captions are tokenized and encoded to generate embeddings, which are also normalized.
+- **Cosine Similarity**: Cosine similarity between the image embedding and each caption embedding is calculated using matrix multiplication (`torch.matmul`).
+- **Select Best Match**: The caption with the highest similarity score is selected as the best match.
+
+**Iterate Over DataFrame and Generate Captions**:
+- For each image embedding in the DataFrame, the function generates the best caption and its similarity score.
+- The results are stored in new columns: `Generated_Caption` (the best-matching caption) and `Similarity_Score` (its corresponding similarity score).
+
+**Save Updated DataFrame**:
+- The updated DataFrame, including generated captions and scores, is saved to a CSV file (`image_embeddings_with_captions_and_scores.csv`) for further use.
+
+**Error Handling for Empty DataFrame**: If the DataFrame is empty, the script skips processing and displays a message.
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 293}
+df.head()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 683}
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataframe from the saved CSV file
+df = pd.read_csv("image_embeddings_with_captions_and_scores.csv")
+
+# Group the data by Directory and Generated_Caption to get the frequency
+caption_frequency = df.groupby(["Directory", "Generated_Caption"]).size().reset_index(name="Frequency")
+
+# Set up the figure for the grouped bar chart
+plt.figure(figsize=(12, 8))
+
+# Use seaborn to create the horizontal bar chart
+sns.barplot(
+    data=caption_frequency,
+    x="Frequency",
+    y="Generated_Caption",
+    hue="Directory",
+    palette="viridis",
+    orient="h"  # Horizontal bar plot
+)
+
+# Customize the plot
+plt.title("Frequency of Captions by Directory", fontsize=16)
+plt.xlabel("Frequency", fontsize=14)
+plt.ylabel("Generated Caption", fontsize=14)
+plt.yticks(fontsize=12)
+plt.legend(title="Directory", fontsize=12, loc="lower right")
+plt.grid(axis="x", linestyle="--", alpha=0.7)
+
+# Save the figure as a PNG file
+plt.savefig("horizontal_bar_plot.png", format="png", dpi=300, bbox_inches="tight")
+
+# Show the plot
+plt.tight_layout()
+plt.show()
+```
+
+**Expected Results**
+
+- **Preem**: Frames may show higher similarity to "inauthentic greenwashing," emphasizing lush greenery, idyllic settings, and emotional cues designed to deflect attention from unsustainable practices.
+- **Vattenfall**: Frames are expected to align more closely with "authentic sustainability communication," featuring renewable energy projects and factual representations of environmental initiatives.
+- **Temporal Trends**: Videos with greater alignment to "inauthentic greenwashing" may exhibit inconsistent messaging, with frames oscillating between sustainability tropes and unrelated content, whereas authentic communication may show thematic coherence.
+
+**Contributions**
+
+This investigation will:
+- Offer a novel application of the CLIP model for evaluating corporate sustainability messaging.
+- Highlight the potential of image embeddings to quantitatively assess greenwashing levels.
+- Provide actionable insights for stakeholders seeking to differentiate authentic sustainability communication from greenwashing practices.
+
+By leveraging semantic embeddings and similarity analysis, this study aims to advance methods for scrutinizing corporate sustainability claims and ensuring accountability in public communication.
+
+# Image captioning (CV + NLP)
+
+**Challenge:** use chatgpt to modify the code to interate over all images in your directories!
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 276, referenced_widgets: [45293ecb78d8469ea7e2b3acb69e826b, 1221a3abe4a048e79182395b6f03095b, eea78331d6f8429db3bce3b997f97bd4, b37c939b6e6e4c809467e05957714cb5, 5a4d39210a0a4924bebc03216440f605, 2377cebc30ff48bda2f2da6e6150ff6b, 3ded760e0db84a27a540792327ab3ae7, 81918992bb3e487d920ef08fc01ac205, 1b0f28e3e6e44f60bd15680f9af4be79, 6c09a91007434f36aa3cac57499384b5, 8d197aa6232d47e2aaff0c9335a4ab24, 200a892cf611439aa85e1064089aba42, beb95bd331da46de88c4e773fad188e2, 2852323066274d629d6154d923eb338a, 203f76b0a8a34d27bcd47a626970a1c9, 87e2a9b8b0f54ab2aaea15f669be58cf, 32a1a8eb10e34d07bcf93a8c695b7ad9, 9bd9b1228abd49b3a0f7dc64367685e4, 2573ba229a4c441eb5868f8d37795281, 2ae7e49c685b44baa562574f91f40c83, c5b44b1099fb44d5925a5578510c0d1d, b765b0d770c24d5b8ab2f6e2450ed4d3, f34f205fd633453795fb7f80e37556d3, 3753b9985050405395fea3aa514986a6, 1e61aa1923a84c94821d908afa8280fe, b19c71c78e1148c0a8bdb5631b1001e0, 4aa74edcbd8548649ef25e71c5dd4c01, f903cb93b7304fd595ce49d9103a5417, f1b23b6f0c6e405aa3454a87256aa1f7, 17bacfa495724c729e140f6d8d1461d4, 5aa1d9980d6248748d8ac6773de9699c, 7c69c9937f8d4ad096629c5773a6418f, 8748b59d489a46f0ba2d8e13a05a44b3, 7a128a3342fe4ed9a3f7f071bd4e39f9, 164f1f45cf7b4c819902cf635e28613c, 83777d727c5c4ca1931bbda07f096e4a, be2c11b017fd40e4839228b5f42210a3, 75f876d2a1bf469f8207fc4af2901cf2, 0d5f87e54f524090ac876ef68fccb9c2, 3c650c30243745b9b26dc50f8c66be7b, 453622fdf0b549e2b82392dce97191d1, 72a9fa937278472d836509188d2f2928, a96b4ddbf8884261ab369aa8ee32e366, 351d6c62d8c140cd9a077748ba446ebb, fcc14d7685d34573b4941838ff855835, 8e7fb637d67d46b3bd24c479bdfd27f3, 3d421d7380a14fac8a916ed6596d70f7, c32412cf408c4eaeb971d2fa53497588, f6e2285299f04f3db369c57815b1a2fd, d49fcf9518c044f4aa5f88508ab7e925, 9df78a97bf904c82aa309a54cfa4fb7d, 6a656587b4d949708341aad77b57a7c7, 476257829a19443784bcdaa5f461fbcf, 17f319d98818489cbfcf49e5a9648e0c, 04ac3207f5844a0b97d19778b7205676, 5c0d9a9e2c4d4dfb8b4621b8b516d5ab, 93de6890eadc4680bf550c22fd8d8d99, 676226fa32604ffe9f79a53ff21eea44, aed52c1b849341928fb79bf2559e3a61, 7f5cc8e88191402fb822d2d4d39a8c65, c799733509dd419581321899ebf7fbd5, 58e3f4c665d849a0bbffdc91d9ea8261, 265be42896944c3f9a45adab9e55dfe9, 208bd288177f4fc4908fa506a905358d, b57bc877d97347419d810726d88935c3, 9594192a016e42d7b3ea55bd81effe99, 02ed8b5f316b421187b7317c6b420034, f4c560cea95a43b19215ee10cc903ab5, b6f68765815b4c75a6c10d6cfb93abc3, d85fe0badb834ff19c797f0e5fdc9ab7, 261ddc69183d4c85821ad7b5a6058c16, fe9874ac27094ff8ab622818b6f0f01d, cb81f606f2244235a4254bd579630aea, 59774e1f92b44cf0af207e821a4dc618, 5c78067adfa7494b8d9c03b308772c06, 74446165b5754685ad2de43b9e7d8979, 5a7be153de2a4658a2134f37009d797e]}
+from PIL import Image
+from transformers import BlipProcessor, BlipForConditionalGeneration
+
+# Load the BLIP model and processor
+processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
+model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
+
+# Path to the input image
+image_path = "/content/cv-org1-preem/frame_oYgrxXZTAQg_0011.png"
+raw_image = Image.open(image_path).convert("RGB")
+
+# Conditional image captioning
+text = "a photography of"
+inputs_conditional = processor(raw_image, text, return_tensors="pt")
+
+out_conditional = model.generate(**inputs_conditional)
+caption_conditional = processor.decode(out_conditional[0], skip_special_tokens=True)
+print(f"Conditional Caption: {caption_conditional}")
+
+# Unconditional image captioning
+inputs_unconditional = processor(raw_image, return_tensors="pt")
+
+out_unconditional = model.generate(**inputs_unconditional)
+caption_unconditional = processor.decode(out_unconditional[0], skip_special_tokens=True)
+print(f"Unconditional Caption: {caption_unconditional}")
+```
+
+**Load BLIP Model and Processor for Image Captioning**: The `BlipProcessor` and `BlipForConditionalGeneration` classes from the Hugging Face Transformers library are used to process images and generate captions. The processor converts the image and optional text prompt into input tensors, and the model generates text captions based on the input. Example: `BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")` loads the processor, and `BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")` loads the pre-trained model.
+
+**Perform Conditional Image Captioning**: A text prompt (e.g., `"a photography of"`) is provided to guide the caption generation. The processor prepares the input tensors by combining the image and text, and the model generates a context-aware caption. Example: `model.generate(**inputs)` generates the caption, and `processor.decode(out[0], skip_special_tokens=True)` decodes the output into human-readable text.
+
+**Perform Unconditional Image Captioning**: Without providing a text prompt, the processor uses only the image to prepare input tensors, and the model generates a caption solely based on the image content. This approach allows the model to describe the image without contextual guidance. Example: `processor(raw_image, return_tensors="pt")` processes the image, and `model.generate(**inputs)` produces the caption.
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import os
+import pandas as pd
+from transformers import VisionEncoderDecoderModel, ViTImageProcessor, AutoTokenizer
+import torch
+from PIL import Image
+
+# Load the pre-trained model, processor, and tokenizer
+model = VisionEncoderDecoderModel.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
+feature_extractor = ViTImageProcessor.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
+tokenizer = AutoTokenizer.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
+
+# Set the device to GPU if available, otherwise CPU
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
+# Caption generation parameters
+max_length = 16
+num_beams = 4
+gen_kwargs = {"max_length": max_length, "num_beams": num_beams}
+
+# Define directories to process
+directories = ["cv-org1-preem", "cv-org2-vattenfall"]
+
+# Function to generate captions
+def predict_caption(image_path):
+    image = Image.open(image_path)
+    if image.mode != "RGB":
+        image = image.convert(mode="RGB")
+    pixel_values = feature_extractor(images=[image], return_tensors="pt").pixel_values.to(device)
+    output_ids = model.generate(pixel_values, **gen_kwargs)
+    caption = tokenizer.decode(output_ids[0], skip_special_tokens=True).strip()
+    return caption
+
+# Initialize a list to store results
+data = []
+
+# Iterate over directories and process images
+for directory in directories:
+    for file in os.listdir(directory):
+        if file.startswith("frame_") and file.endswith(".png"):
+            file_path = os.path.join(directory, file)
+            try:
+                # Generate caption for the image
+                caption = predict_caption(file_path)
+                # Append the result to the data list
+                data.append({"Directory": directory, "Image_Path": file_path, "Caption": caption})
+            except Exception as e:
+                print(f"Error processing {file_path}: {e}")
+
+# Create a DataFrame from the data
+df = pd.DataFrame(data)
+
+# Save the DataFrame to a TSV file
+output_tsv_path = "image_captions.tsv"
+df.to_csv(output_tsv_path, sep="\t", index=False)
+print(f"Captions saved to {output_tsv_path}")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import pandas as pd
+
+# Path to the TSV file
+tsv_path = "image_captions.tsv"
+
+# Read the TSV file into a DataFrame
+df = pd.read_csv(tsv_path, sep="\t")
+
+# Order rows by the 'Image_Path' column
+df_sorted = df.sort_values(by="Image_Path")
+
+# Overwrite the existing TSV file with the sorted DataFrame
+df_sorted.to_csv(tsv_path, sep="\t", index=False)
+
+print(f"The TSV file '{tsv_path}' has been overwritten with sorted rows.")
+```
+
+# Image generation (notebook restart)
+
+```{python}
+# set notebook to gpu mode, then run the following
+!pip install -q diffusers transformers torch
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 1000, referenced_widgets: [981dcdff13cf4424b871eaba8257bfb8, 117deb7f47c8429ea2f70553cbd51087, 10bbdb5a415541d597af4d4cb59f9f9f, 2cc247f948d346b9b2cef08052dd5a71, 10239481ceda4c7bae6e609357b1cafa, 8706ab27db9b444da4f1225e00fb98b1, 1166d6d2657d431599a10c1a33a79ff3, 880f6115442a41cc9f2d594c4c4ed641, bbd13f636799490a9631ca18464a0e8b, 6551abb951754a61ab3aa0f538f05320, 264853ae74eb4600b8bce8f5a1a69341, daeab0dd22b2499084bd5b64f48e6731, 0c6005503df34a2fa9d5be7889e8bfce, 63e11b9e27c4432bb9ee1a1b448af0fd, 1c4f10961b704fcdadcaa092f6862fbf, e2c3885e63de42e08690036dbaa97a86, 3984ec544f5243af85c14f292fa7e69f, 447f661e0fe04032bba1a9744df07002, 6b03914780b84649ad61a0f8c93e45e9, dafda83407824738826b82e506f9e728, bf7b68b0ad6043b394da8f15c3eefa32, 4045a500501e4e94805318ee90b3c7b5, 7e87a8e40ef0441e90d016b7f45953d4, 740a905258cd4925ac69bf1c31ab3fa7, 247522ef465646b386d84c78b21192a5, 0e703206de454a88a36105d37c108cb9, 9acf9bba4574423dac9b418bc15809ce, d727a10cd15e4225adef51a92a13dfc9, 69096a36d7d5405c959f06a4261faa03, 94e44093c79a49bd949ff1346bc569b5, d4e19ccee53f4ee4861f4f53809dcded, 7c73bd525a5e4a69ab361edb760ce65e, a7bbb2aa8dda4083a8bd942a93a2107a, 80eaeb62631d4c29883374087df41d24, 02281986ee10458a9f64f3c39eda4cec, 3d71b7b2448847ada166cfc5b31a1f30, 3cbf92a23b3e4fbb8fc0919e778335a8, b72e4c1909ed4e8c9ae2796ec3c8f59d, 20bb93355e254754801169cacb5bfcdf, 5b1794c064ae4b36aaaf33e4361ced06, 260c65efd02b4bdaad5248a0d3a180fc, c6ed04061e084edfb44bd44728f4a651, 580f8d21d4e94f1496d43d17abbc72c1, 160c06bf751643cbb9a6e414504d3865, 1f3b043172534c71991667fbe956fdb8, cfba9f92b1d045b7ab8d44bfd7fc24be, f9c013b1c01048e5a08a30afd7bdd262, e7b9f0ebb0b04ed8ad742e60454bf7fb, 3641101fcc134345a41ec7ee7a5258c9, b21720c159884669b5e3791a2f2a2b59, cb9bf19ed65f4749bc4ebc74304f3c54, 1f2c6586ce4b46339e4afee873c37e88, 2977f8cd3aaa40e49fb14ae1b34c240f, 2d73074af0dd458da56cf301bca06719, 6c7a9bdf7e4c48019351adcfceee965a, c78ec522ff1243c4aa407003cefdc484, b3a4aad7587c4c29926bd60972ae7335, b743dbdb33e1438ba33425e2578a89c6, 8d2c7d886d4445afab8236babe8f90f8, 8636abf7a0f447bdae0306318b60d86d, de46f07529bc4237a690168a363a8d1c, b001da643b7849779b62182f5e3180be, 8fa0288523834a71bcf4a18f27f08300, 583221fa75c34502a50775907bb59f90, 71b67b638716426aaf7113046e07bd8d, d6b0247a2f30471bb6640e326265fb56, c58a7f51c1a34639bec9ea547639a3c6, fd09572f107346499004d4e17b1ed651, 215eebf2155948d1b5c093896c55c74d, 1503341d403544f59385bd174a616d49, 0de24c251b2346b092569099b8384d9a, 77f26cadb7ec49f18cfc6150877e5caa, e23d5e2b8a9c4c63b62d504f61d33fc6, 7b179a1479754e9bac8780a22a8ddda5, 703df0f8b7e143e89d317714a7bd14f6, ee95e101aaca44afa724d0c9400a181b, 3874e7f7a56e4c24a63d4e81f8d9e649, 5989e67cdbb94345a8098253f8731fee, 8460816a843846af99293d8f782366a1, 28f4c62980c747849a23f4648344a7a3, e41c3f932d7f4fd6a12dc12f55647f6f, d7aef1c5ebcb4673bb0a9e09b485d2d4, 89e4cbfb45834f9dacffb9a533e86509, d0b0c73a06d8490f874563c09d027042, f0891faafa74422e8d692b44dee8b60a, f03892f9be684e4a800f394cdffa7562, 60a3ab0eb7f54240ab82ae2bc35ac811, 7c89f9c3aeff422990784bb874687082, 19b2918391b5400a8c1ea7e4663d6fd3, fc6727f665b44bc792f730f546471b5e, 0269126d9e1a4cd1b2fd8326d5a21703, 3ef40b8f055746a9a1542eaf31c95b8c, ac515fa3dc8e45cda55f8b9f4b8644b5, 947363c638c04d50a887c85cdb2817f5, 821a011dc88a4bf6af4c83f129d2dcae, de7a4543d33d4c20bbb4a4cd29b47646, 40bb09f5ea5846e389fcd6cc45e439e7, 1503711e09ad4bd9a9f0620bdb735608, 87d9e3a78a5b464493fb19e9bb049adb, b9759fbbe87d4b01b8ad678d30292644, aa1bd013e8da43629f1bc529668cc551, 9302e7c294884eb88af4d897b5149312, 09839e7cdfea46aea5ac0d3abc01a727, d9f327a590e84761b27db1eb41767dc1, 526de9a09f1c469e8c0be049547e0a83, e161e3a373ab4759aac3cd45bd92550d, 0f37ffb91aa6425380434c3ed89e536a, 1d919b426c5648a198dc00a489c2c025, e4965a82913d40debcbcd0f310d1d12a, 79c35ee9f6d34f1aa3f16e795518657b, 984ad5105f524ceda9e8ca912f33c59e, ab5b3436a36a428dbd3116d973e0530a, 52774b13c7104771910f6c2d6d152985, a23387caf947424f93b557f89b231752, a096294a7cd74a96a266235a8dcf28e4, 69260032216d4a06bfec9c360fd1e9f9, 685652f133a34c7cbd86419cf974fe15, 2cbc205c809d4734869c860f3a9a8370, f3c65e58baab468ca3bc43c764a689d6, 9b8f282fcc9e40d9b23112087697bbfe, a5f5bb0bd2ea46d5ab337a2fdcf797ad, fca1c1a2d21f4cbeb25bd04957064643, 6e76f35f8a104100a0c35bc2d50cbf7d, 421bdc1f60da474c9f0aad43d77a3fe9, 2aede6138aa9422b8627baa9e0931037, 100f6d49877c489da6d9048352f0ca17, ce511a6f1b72473daa46c25b5f2e376b, 74ec53c79ba8408ab3dbdd227fc11f43, 9084364985cb4a8c8eecb290f804e695, b7af3b8ee2f94fe99cf01e5a5b45001f, 60a8a0a7c5f54811ad3fe377a3c9f643, 3744d051b2cb4a9d89f9c381417cda62, 7c47f7de915a4bdaad3f795df9aba96e, 6bfb42fab1a74fe690f2887104efd105, 95c199b5e00e4710bcd7cdf7e8ed17a7, 457cffaa77de4d0aa17c7c36e4eb4c33, 7efce1a79d0d49229780752f76ae1431, f9fb978c417e4e628b5cb9f88dbe94fe, 2b94cb72293f4bf59e2969f22f6ef048, 0731b93c345b461a9def2fa5d650fc8a, 4802ae7f44cd455cb89246574984d72d, 9ba669e85b624acb86c296deb592147a, f992d181e48841cc9dcef70d82948f39, 7f3c210f222b466ea188360936825fe4, 8339a6bb922a4d5fa0699c4500cbc5d9, 6edc0db1a9ee4ab08bd913ac94adcb3c, 3a1319c7bbf543788b9bcb82e7d6b9cf, fe6662356d904e518b41533bea03c960, c83a5435d7f0441f8a9d129a12c506d9, 4400fa85da40441387679449b615fd51, e15cb35df20b4b88ad3f7538cc5a3450, c17471b6ec1e47bea827a91686097d5c, 952a175f597c42e4afe72adb77a3f199, 525806f0f1c940b08559212779fd6bc8, c35bb0d25fbe429a9cbbfdef57092f23, d751553b967c4c9295f64e2f797ea5ce, 42e0cb83bec5405db9d75cc2ff4e2821, 455ee31070a8427aa658147f6f8ecdd0, f65c465ae6f04e00a0ac6fd19231dab1, e621dbe2909847dfbfeadac2f7f1edc4, 8952d013e6ba47cda7f308b1bfd870bd, d63d3938b93246ad8a1d197cbbb16b1d, d70bc31f79d2452c8d73942f3f9fc719, 658e94bcf9b54c9f863a80c5fdd5d76f, 0c66d193b5ac4c82bde1cc73aa17efc2, 19f9b8db4efb413d84a2efce1c8e0d03, e5aa9f4adfe84b64bec462e80fe4ed7b, 7bd8ac23a0bb4e1aaa306f378dab697a, d019871314e94894924dba3f3d1a1efa, 0bf1f704ddc54cab8d303a1b7ca2b0e6, e773f0f6929a41f58ca4535d31d4aa2a, 12ba4617b92b4022a6a77f32aa503a4e, bd2495e67bd54089997d81dccd8370eb, 44701282d1ec4c8592ca8c2e351568e7, 3e257be3501b48279914c4c49a8d9654, fc2e9f024ce344d983251d6b2c663b51, 5d990d8a7dc94f79bbffdd0622b28bfb, 2e5d2213c1b54446b11e1d820225a61b, bd62676f62af43cabd4d3d6add2b1337, 12d87e94ae584136982ead8e5a58048b, ded3bb1d04e5434a94fa77a237cd7051, 55feefb80b864fb483e3ff0192b14a53, f467942a367440f48e3ffcca0f951137, 93081587f3464cdbbd5bb8f34572772d, 5a1e9e3c79a4417f807b58f76c2ae7d3, 9902faf8aac94a699b1b60a32f3330da, 3f74b971f4534aed88c97a30bc0011f4, 1c35a0387dec4434aebee7a944ff0da4, e5ec4dc6fe2440db83c8e993ff88817c, 766190146e234e33bb1762b626eb98c4, fee276484a0a4da29451572f8c09250f, 7cd2b3d21e654899961c6ff2d35933da, 679ee8ff85dd40c2ab89010e3b7f288c, 24d7e3aa377e42929d99e5df5d288e60, 1a871a714d8340feb5b8be3e693ffee5, c385d865fe2942c896a7060ea63b20bd, 92275ee29f7f45cca78df5261b5ad92f, 7439310a5ef24cdbadbdb0bc239040e4, 9c984e714c794b7d8734c7c9d2de9e9c, ea0da340a8a64440badbe1e026996c4b, 1109088d1ca943e9809c68b6f7ade0de, e93e704decdd422a89e92e9cc1adcbcb, fb06d523c2fd4ea4bb7ac7ba50076b96, f0389de8a0754bab863b2a727372594f, a5e223d80d9442fba4a0bf1816858295, d1712a38ccee44e6b6e0d1059829246b, 8a21fa37633b48cdbdc09cb922a4a5c7, fbcb0eaed5de49b98da2d4952541993c, 40f05781b2ba40039f975067daa5ff91, 3d57bde6e68c4bfaa9620ecc4572631c, 674f4beaeb4647f192d5f7e36b8e0d05, e3f47d28cab94ce3ba5408a5199fe19e, 4fa9d68ff1864c899b57a73cf1f92f33, dbf92715f76a404cba89115badd76ce8, 0050cdb14f1642a3baca6bd3132c5d13, af94162cc6644bc091824d506b051c66, 77719c1dd2c34515a1e7eac74b6c9fd5, 3b2a28efe25d42c3a6f29fd015a1b041, eef0062277f9465ebda57b5d521eb843, ad4f238402b34b77b553487cd0bae152]}
+import torch
+from diffusers import StableDiffusionPipeline
+from IPython.display import display
+
+# Model and device setup
+model_id = "CompVis/stable-diffusion-v1-4"
+device = "cuda"
+
+# Load the Stable Diffusion pipeline
+pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
+pipe = pipe.to(device)
+
+# Static text prompt
+prompt = "a photo of a futuristic city under the ocean"
+
+# Generate image
+image = pipe(prompt).images[0]
+
+# Display the generated image
+display(image)
+```
+
+**Load the Stable Diffusion Model**: The `StableDiffusionPipeline` class from the Hugging Face `diffusers` library is used to load the pre-trained Stable Diffusion model (`CompVis/stable-diffusion-v1-4`). The model is loaded with 16-bit floating point precision (`torch.float16`) for efficient GPU usage and is moved to the specified device (`cuda` for GPU).
+
+**Static Text Prompt for Image Generation**: A static text string is used as the prompt to guide the model in generating an image. Example: `prompt = "a photo of a futuristic city under the ocean"` specifies the desired image content.
+
+**Generate and Display Image**: The pipeline generates an image based on the provided prompt. The generated image is accessed via `pipe(prompt).images[0]` and displayed directly in the notebook using the `IPython.display.display` function. This allows seamless visualization of the output in the notebook environment.
+
+

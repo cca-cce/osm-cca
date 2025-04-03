@@ -1,0 +1,529 @@
+---
+jupyter: python3
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/simm71/nlp3_lab.ipynb)
+
+# Research question
+
+**Introduction**
+
+A **Naive Bayes classifier** can be trained to distinguish between **authentic sustainability communication** and **inauthentic greenwashing communication** by leveraging labeled text data from both organizations. Each sentence, labeled as either "sustainability" or "greenwashing," serves as a training example. The classifier learns the probability of words appearing in each category, assuming conditional independence of words (a simplifying assumption of the Naive Bayes algorithm). This enables the model to predict the likelihood of a new sentence belonging to one of these two categories based on its word composition.
+
+**Comparing Sustainability and Greenwashing Across Organizations**
+
+Using this approach, we can compare the levels of sustainability versus greenwashing communication in Preem and Vattenfall. Since Preem operates in the fossil fuel sector (inherently less sustainable), we might expect a higher proportion of sentences classified as "greenwashing." Conversely, Vattenfall, focusing on renewable energy, may exhibit a higher proportion of "sustainability" sentences. These results could provide quantitative insights into how each organization frames its sustainability narrative.
+
+**Generalizing to Unseen Texts**
+
+Moreover, the Naive Bayes model can generalize to **unseen texts** by applying the learned word probabilities to predict the classification of new sentences. This allows the model to analyze sustainability communication from other organizations. While the model's effectiveness depends on the representativeness of the training data, its simplicity and ability to handle sparse data make it a powerful tool for detecting patterns in sustainability messaging across diverse contexts. By refining the model with additional data and adjusting for domain-specific language, it could become a valuable asset in analyzing corporate communication practices.
+
+# Download TSV text data
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# https://drive.google.com/file/d/1fEfnTrEkBBJGAEvzGaY20Ls4eotz9iBz/view?usp=sharing
+!rm -rf *.zip 2>/dev/null
+!gdown https://drive.google.com/uc?id=1fEfnTrEkBBJGAEvzGaY20Ls4eotz9iBz
+!unzip -q *.zip 2>/dev/null
+```
+
+# Read TSV text data to Pandas Dataframe
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+import pandas as pd
+
+# Read the TSV file into a DataFrame
+df_texts = pd.read_csv('df_sentences.tsv', sep='\t')
+
+# Display the first few rows of the DataFrame
+df_texts.head()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 112}
+# Aggregate and count unique values in the folder_name column
+df_texts['folder_name'].value_counts().reset_index()
+```
+
+**Check equal distribution of class labels**: Value Counts `df['folder_name'].value_counts()`: Counts occurrences of each unique value in the `folder_name` column. Reset Index `reset_index()`: Converts the resulting Series into a DataFrame for easy manipulation.
+
+**N.B. max 10 rows for NLP assignment!** Sample or truncate if dataset contains more texts.
+
+# Text normalization of sentence data
+
+```{python}
+# for more languages, check https://spacy.io/models
+!python -m spacy download en_core_web_md >/dev/null 2>&1
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 293}
+import pandas as pd
+import spacy
+
+# Load SpaCy model
+nlp = spacy.load("en_core_web_md")
+
+# Function to clean text using SpaCy
+def clean_text(text):
+    doc = nlp(text)
+    cleaned_tokens = [
+        token.lemma_.lower().strip() for token in doc
+        if not token.is_stop  # Remove stopwords
+        and not token.is_oov  # Exclude out-of-vocabulary (OOV) tokens
+        and token.is_alpha    # Keep only alphabetic tokens
+    ]
+    # Join tokens back into a single string with normalized whitespace
+    return " ".join(cleaned_tokens)
+
+# Apply the cleaning function to the 'sentence_text' column
+df_texts['cleaned_text'] = df_texts['sentence_text'].apply(clean_text)
+
+# Display the DataFrame with the new column
+df_texts.head()
+```
+
+**Load SpaCy Model**: The SpaCy model `en_core_web_md` is loaded to perform NLP tasks such as tokenization, lemmatization, and stopword removal. This step sets up the model for text preprocessing. Example: `nlp = spacy.load("en_core_web_md")`.
+
+**Define Text Cleaning Function**: A `clean_text` function is defined to process text by tokenizing it, removing stopwords (`token.is_stop`), excluding out-of-vocabulary tokens (`token.is_oov`), keeping only alphabetic tokens (`token.is_alpha`), and lemmatizing tokens (`token.lemma_`) to lowercase. The cleaned tokens are joined into a single string with normalized whitespace. Example: `cleaned_tokens = [token.lemma_.lower() for token in doc if not token.is_stop]`.
+
+**Apply Cleaning Function to Data**: The `clean_text` function is applied to the `sentence_text` column of the DataFrame (`df_texts`), and the cleaned text is stored in a new column called `cleaned_text`, enabling efficient text preprocessing for analysis. Example: `df_texts['cleaned_text'] = df_texts['sentence_text'].apply(clean_text)`.
+
+**Display the Updated DataFrame**: The updated DataFrame, which includes the `cleaned_text` column, is displayed to verify the preprocessing results. Example: `df_texts.head()`.
+
+# Split text data into train and test sets
+
+```{python}
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import classification_report, accuracy_score
+
+# Split the dataset into training and testing sets (80% train, 20% test)
+X = df_texts['cleaned_text']  # Features
+y = df_texts['folder_name']   # Labels
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+
+**Import Libraries**: The necessary libraries are imported to handle data manipulation (`pandas`), split data into training and testing sets (`train_test_split`), perform feature extraction with `CountVectorizer`, train a Naive Bayes classifier (`MultinomialNB`), and evaluate the model using metrics such as accuracy and classification reports (`classification_report`, `accuracy_score`). Example: `from sklearn.model_selection import train_test_split`.
+
+**Define Features and Labels**: The `cleaned_text` column is set as the feature (`X`), and the `folder_name` column is used as the label (`y`). These variables define the inputs and outputs for the classification model. Example: `X = df_texts['cleaned_text']` and `y = df_texts['folder_name']`.
+
+**Split Dataset**: The dataset is split into training (80%) and testing (20%) sets using `train_test_split`. The `random_state=42` ensures reproducibility, making the split consistent across runs. Example: `X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)`.
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 241}
+X_train.head()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+X_train.shape, X_test.shape
+```
+
+# Train a Naive Bayes text classifier
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 80}
+# Convert text data to a document-term matrix using CountVectorizer
+vectorizer = CountVectorizer()
+X_train_dtm = vectorizer.fit_transform(X_train)  # Fit on train, transform train
+X_test_dtm = vectorizer.transform(X_test)       # Transform test
+
+# Train a Naive Bayes classifier
+nb = MultinomialNB()
+nb.fit(X_train_dtm, y_train)
+```
+
+**Convert Text to Document-Term Matrix**: The `CountVectorizer` is initialized to transform text data into a document-term matrix (DTM), where each row represents a document and each column represents a word with its corresponding frequency. The vectorizer is fit to the training data (`X_train`) and used to transform both the training and testing sets into numerical representations. Example: `X_train_dtm = vectorizer.fit_transform(X_train)` and `X_test_dtm = vectorizer.transform(X_test)`.
+
+**Train Naive Bayes Classifier**: A `MultinomialNB` classifier is initialized and trained using the document-term matrix of the training data (`X_train_dtm`) and the corresponding labels (`y_train`). This step builds the classification model based on word frequencies in the training data. Example: `nb.fit(X_train_dtm, y_train)`.
+
+# Predict binary text class with Naive Bayes
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Make predictions on the test set
+y_pred = nb.predict(X_test_dtm)
+
+# Evaluate the model
+print("Accuracy:", accuracy_score(y_test, y_pred))
+print("\nClassification Report:\n", classification_report(y_test, y_pred))
+```
+
+**Make Predictions**: The trained Naive Bayes model is used to predict the labels for the test set by applying it to the document-term matrix of the test data (`X_test_dtm`). This generates the predicted labels (`y_pred`) for evaluation. Example: `y_pred = nb.predict(X_test_dtm)`.
+
+**Evaluate the Model**: The model’s performance is assessed by calculating the accuracy and generating a detailed classification report. The accuracy provides an overall measure of correctness, while the classification report includes precision, recall, and F1-score for each class. Example: `print("Accuracy:", accuracy_score(y_test, y_pred))` and `print(classification_report(y_test, y_pred))`.
+
+# Evaluate results with confusion matrix
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 472}
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+
+# Generate the confusion matrix
+cm = confusion_matrix(y_test, y_pred, labels=nb.classes_)
+
+# Visualize the confusion matrix
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=nb.classes_)
+disp.plot(cmap='Blues', values_format='d')
+
+# Add title and labels
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.show()
+```
+
+**Generate Confusion Matrix**: The confusion matrix is calculated to compare the true labels (`y_test`) with the predicted labels (`y_pred`). This matrix shows the number of correct and incorrect predictions for each class, providing insights into classification performance. Example: `cm = confusion_matrix(y_test, y_pred, labels=nb.classes_)`.
+
+**Visualize Confusion Matrix**: The confusion matrix is visualized using `ConfusionMatrixDisplay`, which renders the matrix as a heatmap with labels for better interpretation. The `cmap='Blues'` sets the color scheme, and `values_format='d'` ensures integer values are displayed. Example: `disp.plot(cmap='Blues', values_format='d')`.
+
+**Add Title and Labels**: Titles and axis labels are added to enhance readability. The matrix is displayed using `plt.show()`, making it easier to interpret the model's performance across different classes. Example: `plt.title("Confusion Matrix")` and `plt.xlabel("Predicted Label")`.
+
+# Examine top predictive terms
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import numpy as np
+
+# Get the class labels from the classifier
+class_labels = nb.classes_
+
+# Get the feature names (terms) from the vectorizer
+feature_names = vectorizer.get_feature_names_out()
+
+# Get the log probabilities of each feature given each class
+class_probabilities = nb.feature_log_prob_
+
+# Find the top 10 most predictive terms for each class
+for i, class_label in enumerate(class_labels):
+    top_indices = np.argsort(class_probabilities[i])[::-1][:10]  # Indices of top 10 terms
+    top_terms = [feature_names[j] for j in top_indices]
+    top_scores = class_probabilities[i][top_indices]
+    print(f"Top 10 terms for class '{class_label}':")
+    for term, score in zip(top_terms, top_scores):
+        print(f"  {term}: {score:.4f}")
+    print()
+```
+
+**Retrieve Class Labels and Feature Names**: The class labels (`nb.classes_`) and feature names (`vectorizer.get_feature_names_out()`) are extracted from the Naive Bayes classifier and vectorizer. The feature names correspond to terms in the document-term matrix, and the class labels represent the categories being predicted. Example: `class_labels = nb.classes_` and `feature_names = vectorizer.get_feature_names_out()`.
+
+**Extract Feature Probabilities**: The log probabilities of each feature (term) given each class are retrieved from the classifier (`nb.feature_log_prob_`). These probabilities indicate how strongly each term is associated with each class. Example: `class_probabilities = nb.feature_log_prob_`.
+
+**Identify Top Predictive Terms**: For each class, the top 10 most predictive terms are identified by sorting the log probabilities in descending order (`np.argsort(class_probabilities[i])[::-1][:10]`). The terms and their corresponding scores are printed to show the most influential words for each class. Example:
+```python
+top_terms = [feature_names[j] for j in top_indices]
+print(f"Top 10 terms for class '{class_label}': {top_terms}")
+```
+
+# Examine misclassified sentences
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 192}
+# Create a DataFrame with actual labels, predicted labels, and the test sentences
+results_df = pd.DataFrame({
+    'sentence': X_test,
+    'true_label': y_test,
+    'predicted_label': y_pred
+})
+
+# Identify misclassified sentences
+misclassified = results_df[results_df['true_label'] != results_df['predicted_label']]
+
+# Display a few misclassified examples
+print("Misclassified Sentences:")
+misclassified.head() # Show the first few rows of misclassified sentences
+```
+
+**Create Results DataFrame**: A DataFrame is created to combine the test sentences (`X_test`), their actual labels (`y_test`), and the predicted labels (`y_pred`). This structure allows for easy analysis of model predictions and misclassifications.
+
+**Identify Misclassified Sentences**: Rows where the `true_label` and `predicted_label` do not match are filtered into a separate DataFrame called `misclassified`. This subset highlights the sentences where the model's prediction was incorrect. Example: `misclassified = results_df[results_df['true_label'] != results_df['predicted_label']]`.
+
+**Display Misclassified Examples**: The first few rows of the `misclassified` DataFrame are displayed to inspect specific cases where the model made errors. This step provides valuable insights into potential patterns or reasons for misclassification. Example: `misclassified.head()`.
+
+# Save and load text classification model
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import pickle
+
+# Save the trained Naive Bayes model to a file
+with open('naive_bayes_model.pkl', 'wb') as model_file:
+    pickle.dump(nb, model_file)
+
+# Save the CountVectorizer to a file
+with open('count_vectorizer.pkl', 'wb') as vectorizer_file:
+    pickle.dump(vectorizer, vectorizer_file)
+
+print("Model and vectorizer saved successfully.")
+```
+
+**Save Naive Bayes Model**: The trained Naive Bayes model (`nb`) is serialized using the `pickle` module and saved to a file named `naive_bayes_model.pkl`. This ensures the model can be reloaded and reused later without retraining, saving computational resources.
+
+**Save CountVectorizer**: The `CountVectorizer`, which transforms text data into a document-term matrix, is serialized and saved to a file named `count_vectorizer.pkl`. This preserves the exact feature mapping used during training, ensuring compatibility when making future predictions.
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Load the Naive Bayes model from the file
+with open('naive_bayes_model.pkl', 'rb') as model_file:
+    loaded_nb = pickle.load(model_file)
+
+# Load the CountVectorizer from the file
+with open('count_vectorizer.pkl', 'rb') as vectorizer_file:
+    loaded_vectorizer = pickle.load(vectorizer_file)
+
+print("Model and vectorizer loaded successfully.")
+
+# Example usage for further classification
+new_texts = ["This is an example sentence about sustainability.",
+             "A claim about renewable energy innovation."]
+new_texts_dtm = loaded_vectorizer.transform(new_texts)  # Transform new texts
+new_predictions = loaded_nb.predict(new_texts_dtm)     # Predict classes
+print("Predictions for new texts:", new_predictions)
+```
+
+**Load Naive Bayes Model**: The previously saved Naive Bayes model (`naive_bayes_model.pkl`) is deserialized using the `pickle` module and loaded into the variable `loaded_nb`. This allows the model to be reused for predictions without retraining.
+
+**Load CountVectorizer**: The saved `CountVectorizer` (`count_vectorizer.pkl`) is deserialized and loaded into the variable `loaded_vectorizer`. This ensures that the exact feature mapping used during training is retained for preprocessing new data.
+
+**Predict New Texts**: New texts are transformed into a document-term matrix using the loaded vectorizer (`loaded_vectorizer.transform(new_texts)`), and the loaded model (`loaded_nb`) is used to predict the class labels for the new texts. Example predictions are displayed with `print("Predictions for new texts:", new_predictions)`.
+
+## Results vs. RQ
+
+This list of predictive terms provides insight into the vocabulary that the Naive Bayes classifier associates most strongly with the class `'org1-preem'`. The terms are ranked by their **log probabilities** (\( P(\text{term}|\text{class}) \)), where smaller (more negative) values indicate less frequent terms within the class but still relatively predictive due to their distinctiveness. Here's an explanation of the terms:
+
+### **1. Domain-Specific Vocabulary**
+- Words like **"preem"**, **"carbon"**, **"renewable"**, and **"fossil"** reflect the organization's focus on energy production and environmental topics.
+- These terms likely appear frequently in `'org1-preem'` texts, indicating that they are core to the company's communication about its activities.
+
+### **2. Sustainability and Greenwashing Themes**
+- Words such as **"carbon"**, **"emission"**, **"capture"**, and **"dioxide"** suggest discussions around carbon capture, emission reduction, and climate-related messaging. These topics are critical for Preem, as a fossil fuel organization attempting to convey sustainability efforts.
+- The inclusion of terms like **"renewable"** and **"fossil"** reflects the company's dual focus on non-renewable (fossil-based) energy production and efforts to position itself as environmentally responsible.
+
+### **3. Projects and Infrastructure**
+- Words like **"project"**, **"plant"**, and **"production"** indicate emphasis on the organization's operational and technological initiatives, such as production facilities or pilot projects related to carbon capture.
+
+### **4. Association with Greenwashing**
+- Terms such as **"carbon"**, **"renewable"**, and **"capture"** may indicate attempts to highlight environmentally friendly efforts, which could either reflect genuine initiatives or greenwashing tactics, depending on the context.
+
+### **Why These Terms Are Predictive**
+- The classifier identifies these terms as most indicative of the `'org1-preem'` class because they frequently appear in Preem's texts but may be less common or differently used in texts from other organizations.
+- The ranking and scores suggest these terms are not only common in the class but also relatively unique to it, making them effective predictors.
+
+This list provides valuable insight into the messaging strategies and thematic focus of `'org1-preem'`. It also highlights how the classifier distinguishes this class based on specific language patterns.
+
+# Transformers Named Entity Recognition
+
+### Instructions for Creating and Using a Hugging Face Token in Google Colab
+
+1. **Create a Hugging Face Token**:
+   - Visit the [Hugging Face website](https://huggingface.co/).
+   - Log in to your account or create a new account if you don't have one.
+   - Navigate to your **Account Settings** > **Access Tokens**.
+   - Click **New Token**, name it (e.g., "Colab"), and select the appropriate permission scope.
+   - Copy the generated token.
+
+2. **Add the Token to Google Colab Notebook Secrets**:
+   - Open your Colab notebook.
+   - Click on the "Secrets" icon in the left sidebar.
+   - Select **Add secrets**.
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 767, referenced_widgets: [636962be053141bf935ff3c5dfb443ce, 48b937d9bd1c43179faa5be5ceaa4518, 93b7572c5f2546ffac497d978c94f451, 8b0301e235ac440b99f59a9172be33ee, e5ec537edd204b96bb079dbde4890e36, 01297f77fb5442d497e3e4413a98816a, 7034229a61a54cd899c319d1ff4de149, dc7c29b907434025aef0ef267bd8619a, 1a74001e65844d1f984b48c7dc87b146, 3424085aa04c4e67b94fb9dea5919c11, be4a4958c9c041a890f3345bbd88aa10, eb7ca99f1b9a49e29a2ae47a625e7b31, acf2e930fcfb454aa549a1f65be951f8, 789686bd5897458aae04cf15ef01eafe, de156395db3b4013b758e274bc3bfb93, 5a1a8904dd0247e2a06851823456934e, a5e042c115e94431bcc8878efa3f15d4, e403312081004ac7bbae6f394a15673b, 294d47bf8f0240d7871cf067f2ad7f57, 55060b1c35704f329d593bb233974933, d65439bcdaa74f90bc0f9caa0c176342, 83c8246d4ac14f6faef9863d075400a8, abf9c6ee6f6c42b8b05d59ad149ed6e0, 4b825a3c219b424ab18885a5a7d8bbc6, b335b36812254608ac3a76a3efc8e717, ea45489d5a6a4f26ae648666f0b80388, 22deb11b400f4c98b8d036c911552712, 8199c5386a8a4c6e9828a1f1321f3d03, ae4a1bd173064c19a0ea9620bcfc73a2, c62797568bcb4848bb03312decda745c, 3e5b1b1dde9a40a79099bdfae89b1233, 13e2b45adf57454d88420d423e88bcc8, 128fcad49ab9440889414f6960742377, f7574502e37f4cac91e6ddb88ad53eb6, 81f5ab536e5f4c6396bd503ae381758c, c9a142e9f561432fa98a4c8b80047fee, fb77fd2fce06478f8312ee7b5594f6a1, 1f405d0c75a84a49961bf3b10a0e4436, 921c3d194e044176896a91dc92bddb6b, ab04a2580e4f48ff91788a465c325514, bb8d1e188e9b4c36a8846751047fe55f, 82aac6cba1314b3e9e16be6f6dc2262e, e3e6a211cbc343b49994f74e31e5e5e9, 6c0b2583125d4e9e84ca765344b2572f, 89cb712120514e2c9bd76340a25e6bb7, 86a2762330d1471ca25208afac393398, 83cd00df699c4979bd40765909c987d6, f6559c79a17943bf8213e3cc38259696, 2a9826aebee344f4afc327eb6d70d8f4, f8140307a4394b77ba17cae32fcb0e41, a4e1ab449dfb475391d82b13fdc82ff0, 5d107b24bcc044179ff4f143706fa724, e14d4a2b37d54953aa6e6dbf278343c2, 00f851d25fbe4bd29bc45c75e6e65290, f10a774c16524cdb89a63b8eaeccb243]}
+import pandas as pd
+from transformers import pipeline
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load the dataset
+df = pd.read_csv('df_sentences.tsv', sep='\t')
+
+# Initialize the Hugging Face NER pipeline
+ner_analyzer = pipeline("ner", model="Davlan/xlm-roberta-large-ner-hrl", aggregation_strategy="simple")
+
+# Perform NER analysis and save results as a list of dicts
+df['ner_results'] = df['sentence_text'].apply(lambda x: ner_analyzer(x))
+
+# Flatten the NER results into a new DataFrame
+ner_flattened = []
+for index, row in df.iterrows():
+    for entity in row['ner_results']:
+        ner_flattened.append({
+            'folder_name': row['folder_name'],
+            'entity_label': entity['entity_group'],
+            'confidence': entity['score']
+        })
+
+ner_df = pd.DataFrame(ner_flattened)
+
+# Group and count entity labels by organization
+entity_counts = ner_df.groupby(['folder_name', 'entity_label']).size().reset_index(name='frequency')
+
+# Plot the grouped bar chart
+plt.figure(figsize=(10, 6))
+sns.barplot(data=entity_counts, x='folder_name', y='frequency', hue='entity_label')
+plt.title("Named Entity Recognition by Organization")
+plt.xlabel("Organization")
+plt.ylabel("Frequency")
+plt.legend(title="Entity Label")
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
+```
+
+**Load Dataset**: The dataset is loaded from a tab-separated values file (`df_sentences.tsv`) into a Pandas DataFrame. This prepares the data for further analysis, including performing Named Entity Recognition (NER). Example: `df = pd.read_csv('df_sentences.tsv', sep='\t')`.
+
+**Perform NER Analysis**: A Hugging Face NER pipeline is initialized using the multilingual transformer model `Davlan/xlm-roberta-large-ner-hrl` with `aggregation_strategy="simple"` to merge overlapping entities. The `ner_analyzer` is applied to the `sentence_text` column, saving the results (lists of dictionaries with entity labels and scores) in a new column, `ner_results`. Example: `df['ner_results'] = df['sentence_text'].apply(lambda x: ner_analyzer(x))`.
+
+**Flatten NER Results**: The nested NER results are flattened into a new DataFrame, `ner_df`, where each row corresponds to an entity. The columns include the organization (`folder_name`), entity label (`entity_label`), and confidence score (`confidence`), enabling structured analysis of the detected entities. Example:
+```python
+for entity in row['ner_results']:
+    ner_flattened.append({'folder_name': row['folder_name'], 'entity_label': entity['entity_group'], 'confidence': entity['score']})
+```
+
+**Group and Count Entities**: The NER results are grouped by organization (`folder_name`) and entity label (`entity_label`), and the frequency of each entity type is counted. This provides insights into how entities are distributed across organizations. Example: `entity_counts = ner_df.groupby(['folder_name', 'entity_label']).size().reset_index(name='frequency')`.
+
+**Visualize Entity Distribution**: A grouped bar chart is created using Seaborn to display the frequency of each entity type for each organization. The x-axis represents organizations, the y-axis represents entity frequencies, and the legend differentiates entity labels. The chart is enhanced with titles, labels, and gridlines for clarity. Example:
+```python
+sns.barplot(data=entity_counts, x='folder_name', y='frequency', hue='entity_label')
+plt.title("Named Entity Recognition by Organization")
+```
+
+# Transformers Sentiment Analysis
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 607}
+import pandas as pd
+from transformers import pipeline
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load the dataset
+df = pd.read_csv('df_sentences.tsv', sep='\t')
+
+# Initialize the Hugging Face sentiment analysis pipeline
+sentiment_analyzer = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+
+# Perform sentiment analysis
+results = df['sentence_text'].apply(lambda x: sentiment_analyzer(x)[0])
+
+# Extract sentiment labels and confidence scores
+df['sentiment_label_raw'] = results.apply(lambda x: x['label'])  # Original label (e.g., "1 star")
+df['sentiment_score'] = results.apply(lambda x: x['score'])  # Confidence score
+
+# Map sentiment labels to descriptive categories
+sentiment_map = {
+    "1 star": "e. very negative",
+    "2 stars": "d. negative",
+    "3 stars": "c. neutral",
+    "4 stars": "b. positive",
+    "5 stars": "a. very positive"
+}
+df['sentiment_label'] = df['sentiment_label_raw'].map(sentiment_map)
+
+# Group and count sentiment labels by organization
+sentiment_counts = df.groupby(['folder_name', 'sentiment_label']).size().reset_index(name='frequency')
+
+# Plot the grouped bar chart
+plt.figure(figsize=(10, 6))
+sns.barplot(data=sentiment_counts, x='folder_name', y='frequency', hue='sentiment_label')
+plt.title("Sentiment Analysis by Organization")
+plt.xlabel("Organization")
+plt.ylabel("Frequency")
+plt.legend(title="Sentiment Label")
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
+```
+
+**Load Dataset**: The dataset is loaded from a tab-separated values file (`df_sentences.tsv`) into a Pandas DataFrame. This prepares the data for analysis, specifically for applying sentiment analysis to the `sentence_text` column. Example: `df = pd.read_csv('df_sentences.tsv', sep='\t')`.
+
+**Perform Sentiment Analysis**: A Hugging Face sentiment analysis pipeline is initialized using the multilingual model `nlptown/bert-base-multilingual-uncased-sentiment`. The `sentiment_analyzer` is applied to the `sentence_text` column, and the first result (containing sentiment label and confidence score) is extracted for each sentence. Example: `results = df['sentence_text'].apply(lambda x: sentiment_analyzer(x)[0])`.
+
+**Extract and Map Sentiment Labels**: The raw sentiment labels (e.g., "1 star") and confidence scores are extracted from the results and stored in the columns `sentiment_label_raw` and `sentiment_score`. The raw labels are then mapped to descriptive categories (e.g., "1 star" → "e. very negative") using a predefined dictionary. Example: `df['sentiment_label'] = df['sentiment_label_raw'].map(sentiment_map)`.
+
+**Group and Count Sentiment Labels**: The sentiment data is grouped by `folder_name` (organization) and `sentiment_label` to calculate the frequency of each sentiment category for each organization. This aggregated data provides insights into sentiment distribution across organizations. Example: `sentiment_counts = df.groupby(['folder_name', 'sentiment_label']).size().reset_index(name='frequency')`.
+
+**Visualize Sentiment Distribution**: A grouped bar chart is created using Seaborn to visualize the frequency of each sentiment category for each organization. The x-axis represents organizations, the y-axis represents sentiment frequency, and the legend differentiates sentiment categories. Titles, labels, and gridlines enhance readability. Example:
+```python
+sns.barplot(data=sentiment_counts, x='folder_name', y='frequency', hue='sentiment_label')
+plt.title("Sentiment Analysis by Organization")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Extract the numeric value from sentiment_label_raw and store it in a new column
+df['sentiment_numeric'] = df['sentiment_label_raw'].str.extract(r'(\d)').astype(int)
+
+# Display the updated DataFrame with the new column
+print(df[['sentiment_label_raw', 'sentiment_numeric']].head())
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Sort the DataFrame by sentiment_numeric for each organization
+most_positive = df.sort_values(by=['folder_name', 'sentiment_numeric'], ascending=[True, False])
+most_negative = df.sort_values(by=['folder_name', 'sentiment_numeric'], ascending=[True, True])
+
+# Extract the top 5 most positive texts for each organization
+top_positive = most_positive.groupby('folder_name').head(5)[['folder_name', 'sentence_text', 'sentiment_label', 'sentiment_numeric']]
+
+# Extract the top 5 most negative texts for each organization
+top_negative = most_negative.groupby('folder_name').head(5)[['folder_name', 'sentence_text', 'sentiment_label', 'sentiment_numeric']]
+
+# Display the results
+print("Top 5 Most Positive Texts by Organization:")
+print(top_positive)
+
+print("\nTop 5 Most Negative Texts by Organization:")
+print(top_negative)
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 380}
+df.head()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# Save the original DataFrame to a TSV file
+df.to_csv('df_sentences_with_sentiment.tsv', sep='\t', index=False)
+print("Original DataFrame saved to 'df_sentences_with_sentiment.tsv'")
+```
+
+# Transformers Text Summarization
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 490, referenced_widgets: [7e7a637ee58d4236931637094bfdad6a, 716010495ac349298435aa2c13072b47, 8e852693e89b448dbf045d8db86a37ff, 1aecb6608b1740f8aa86b4f338138dd1, fd325f37f06c4abd87bdc7180a6d19cb, 294dda810a164d328a789bea8dff1f81, c5ccfaacd29443ba9c3650742e3cd1c9, 4c9ca58b50fe4256835044a7feeae4eb, 7b02825a97e845298158954cf34e19d7, a906d4e127404411b419e5d021040edf, 30a9b634cddc426baf66e1a993f67896, ab67fdb7af8c4622921ff923e8ade37e, e4b9179a4b544fd4b0afb3c088752d31, fc497f9465c9445ebcccde6c4eb3a216, 139f93e536344438a0bca800ee35a363, 5ed4e938257f43799ce85b4fd09b4922, 57de5b985fbb4105a73cae4f0e396b5a, 1c2de5b974064bda81eacf4a7a7cd119, f2bb2ba27a26485ea2bd9185f10f72bb, b98f417afc5944f497fb322c384c451c, ed22ed8e787f4c82903134096709531d, dedda4fab73441ee93a1586ddf4ce85c, 1cbf995512d743c0bd1a2a4f514a6aab, 3e4bbe67d45441878ccad7b03b8cb7fb, ce69c9197d3c48a4939cd30096d988f3, 90a2bd1fbe2a4086a4b10959ef93f106, 64ccc1febfee4fa69f7293933dc58ed4, 19f7665e51f2427490d5f02ea9c5e7bb, d17bfc69abd3414dac25a8d4e05c7335, e5c899f06259483d94a242c0f270fd11, 4845213e38b24fb1bb98246865a1b412, 4e4aaeeba73f48e5b2912a25cb9e59da, 41ad1db4fdfc41b1810e31067c584e51, 70ffed04b23c4397bbaf8645058ba3d4, 9907bdd3b2de4411b742798f72fefa66, 37bc8f66a7244baeb9edbf995da3206a, cac99d3f714e46b6bf23e318f50d6fd3, d35f92b0bcb04388b51c988c4a2a38db, ddf2c5ab942a4385b3ade2c97a73f868, 253f7d4895894c0b9a496200f70e75b5, d32b23f929f84ad88b1319b47ff7b94b, e388ca7d93b446d8bcffbf44a988abe9, a402ee388f1443849b4e49205ee5fc63, 6669194c335444e1875543d0528d908e, d960a053e69141e487e42c8453c7197d, 42059c00e2884f7bb7002627cae8a396, e501aff8e93f4c32a9769bfc91f66c0d, 305d548b9e854b679ddf31819c7ca298, 2c0bef1905584b7cb4dc59cd4d3e5319, a8f516ccb2bf45999201cd91e2412461, 236d7ade5daf4e109774e03f7d5e7131, e6497b1de3794cebb5f17fca727f1a9e, c15bec38b03e49a5ad44bd835fd9a832, 216c47d32af74082a19b4f8c22a6fd85, c78bfa17910c4ce786e8a1c14b31db67, adfa21c0308a47e4a11d8800cc62f0e4, 9ed46791f6924e7f82eba8dc8f9012bf, cd4b7c3dbbe844ba905ef7112e8091c0, 6d937acac68644158750a8de6190ac73, 4facf43e4b7545419e445c5a2d40cdde, 7cdbefa485034889bb52e93d7a4cd90a, fed41cb0e3ba4186b6fbd34ea2a61803, b8d70b2dee3d4f2b8bb3bd21796cc415, 598cb132917c42c7859fe7353696139d, 7518b76cf6f64de8a7ffbc861583b6cb, f3edec817a81444fa98eff732eed1739]}
+from transformers import pipeline
+
+# Initialize the Hugging Face summarization pipeline
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+
+# Generate a 4-paragraph sample text on NLP and text classification
+text = """
+Natural Language Processing (NLP) is a branch of artificial intelligence that focuses on the interaction between computers and humans through natural language. It encompasses a wide range of applications, including machine translation, sentiment analysis, named entity recognition, and text classification. Over the years, NLP has become a vital component in building systems that can understand and respond to human language effectively.
+
+Text classification is one of the most common tasks in NLP. It involves categorizing text into predefined classes, such as spam detection, topic labeling, or sentiment prediction. Machine learning algorithms like Naive Bayes, Support Vector Machines, and deep learning models such as transformers have been widely used for this purpose. These methods rely on feature extraction techniques like TF-IDF, word embeddings, or contextual embeddings to represent text for classification.
+
+With the advent of transformers and pre-trained models like BERT, GPT, and RoBERTa, text classification has seen significant advancements. These models leverage attention mechanisms to capture context effectively, making them highly effective for understanding language semantics. They have set new benchmarks in various NLP tasks and enabled the development of applications like chatbots, recommendation systems, and content moderation tools.
+
+Despite these advancements, challenges remain in NLP and text classification. Handling ambiguity, understanding figurative language, and addressing bias in training data are some of the pressing issues researchers and practitioners face today. Nonetheless, the continued evolution of NLP techniques holds promise for even more robust and inclusive language understanding systems in the future.
+"""
+
+# Apply summarization to the sample text
+summary = summarizer(text, max_length=100, min_length=30, do_sample=False)[0]['summary_text']
+
+# Display the original text and its summary
+print("Original Text:\n")
+print(text)
+print("\nSummary:\n")
+print(summary)
+```
+
+
