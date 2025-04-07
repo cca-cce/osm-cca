@@ -1,16 +1,49 @@
----
-title: "Module 3: Analyzing text content with natural language processing"
-subtitle: "AI-aided content analysis of sustainability communication"
-#author: "nils.holmberg@iko.lu.se"
----
+# 3-2-3: Inferential text analysis, POS and NER
 
-## Lesson 3.2: Inferential text analysis, POS and NER
+## Part of speech analysis (POS)
 
-### [lab notebook](3-2-3-computer-lab-notebook.ipynb){target="_blank"}
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+# Step 2: Add POS tags
+pos_tags = []
 
-### [lab video](video-url.mp4){target="_blank"}
+for idx, row in df_sentences.iterrows():
+    doc = nlp(row['sentence_text'])
+    pos_tags.extend([
+        token.pos_
+        for token in doc
+        if token.is_alpha and token.text.lower() not in stop_words
+    ])
 
-### lab text
+# Append POS column
+df_tokens['token_pos'] = pos_tags
 
+# Preview
+df_tokens.head()
+```
 
+## Named entity recognition (NER)
+
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+# Step 3: Add entity types
+entity_types = []
+
+for idx, row in df_sentences.iterrows():
+    doc = nlp(row['sentence_text'])
+    entity_types.extend([
+        token.ent_type_ if token.ent_type_ else 'O'
+        for token in doc
+        if token.is_alpha and token.text.lower() not in stop_words
+    ])
+
+# Append entity column
+df_tokens['token_entity'] = entity_types
+
+# Save full token dataframe
+df_tokens.to_csv('df_tokens.tsv', sep='\t', index=False)
+
+# Preview
+df_tokens.head()
+```
 

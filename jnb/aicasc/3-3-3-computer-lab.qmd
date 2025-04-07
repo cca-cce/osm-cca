@@ -1,16 +1,90 @@
----
-title: "Module 3: Analyzing text content with natural language processing"
-subtitle: "AI-aided content analysis of sustainability communication"
-#author: "nils.holmberg@iko.lu.se"
----
+# 3-3-3: Visualizing results of text analysis
 
-## Lesson 3.3: Visualizing results of text analysis
+## Visualize results (stacked bar plot)
 
-### [lab notebook](3-3-3-computer-lab-notebook.ipynb){target="_blank"}
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
 
-### [lab video](video-url.mp4){target="_blank"}
+# Load or reuse the frequency data
+# df_tokens_frequency = pd.read_csv('df_tokens_frequency.tsv', sep='\t')
 
-### lab text
+# Increase default font size
+plt.rcParams.update({'font.size': 24})
 
+# Store unique folder names
+folder_names = df_tokens_frequency['folder_name'].unique()
+```
+
+```python
+def plot_token_pos_frequencies(df, token_pos_label):
+    df_tp = df[df['token_pos'] == token_pos_label]
+    unique_tokens = sorted(df_tp['token_lemma'].unique())[:20]
+    if len(unique_tokens) < 20:
+        unique_tokens.extend([''] * (20 - len(unique_tokens)))
+
+    plot_data = pd.DataFrame({'token_lemma': unique_tokens})
+
+    for folder_name in folder_names:
+        df_folder = df_tp[df_tp['folder_name'] == folder_name]
+        token_counts = df_folder.set_index('token_lemma')['count']
+        plot_data[folder_name] = plot_data['token_lemma'].map(token_counts).fillna(0)
+
+    fig, ax = plt.subplots(figsize=(20, 10))
+    ind = np.arange(len(unique_tokens))
+    bottom = np.zeros(len(unique_tokens))
+    colors = plt.cm.Set2.colors
+    color_cycle = colors[:len(folder_names)]
+
+    ax.yaxis.grid(True)
+
+    for i, folder_name in enumerate(folder_names):
+        counts = plot_data[folder_name].values
+        bars = ax.bar(ind, counts, bottom=bottom, color=color_cycle[i], label=folder_name)
+        for bar in bars:
+            height = bar.get_height()
+            if height > 0:
+                ax.text(
+                    bar.get_x() + bar.get_width() / 2,
+                    bar.get_y() + height / 2,
+                    int(height),
+                    ha='center',
+                    va='center',
+                    fontsize=16
+                )
+        bottom += counts
+
+    ax.set_xticks(ind)
+    ax.set_xticklabels(plot_data['token_lemma'], rotation=90)
+    ax.set_title(f"Token Frequencies for {token_pos_label}", fontsize=28)
+    ax.set_xlabel('Token Lemma', fontsize=24)
+    ax.set_ylabel('Frequency', fontsize=24)
+    ax.tick_params(axis='both', which='major', labelsize=20)
+    ax.legend(title='Folder Name', fontsize=20, title_fontsize=22)
+    plt.tight_layout()
+    plt.savefig(f"df_tokens_frequency_{token_pos_label}.png")
+    plt.show()
+```
+
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "NOUN")
+```
+
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "VERB")
+```
+
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "ADJ")
+```
+
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "PROPN")
+```
 
 

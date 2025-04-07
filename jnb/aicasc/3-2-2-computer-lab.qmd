@@ -1,16 +1,99 @@
----
-title: "Module 3: Analyzing text content with natural language processing"
-subtitle: "AI-aided content analysis of sustainability communication"
-#author: "nils.holmberg@iko.lu.se"
----
+# 3-2-2: Inferential text analysis, tokenization
 
-## Lesson 3.2: Inferential text analysis, tokenization
+## Split text into sentences
 
-### [lab notebook](3-2-2-computer-lab-notebook.ipynb){target="_blank"}
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+import pandas as pd
+import re
+import spacy
 
-### [lab video](video-url.mp4){target="_blank"}
+# Load the spaCy English model
+nlp = spacy.load('en_core_web_sm')
 
-### lab text
+data = []
 
+for idx, row in df_texts.iterrows():
+    text_index = row['text_index']
+    folder_name = row['folder_name']
+    clean_text = row['clean_text']
 
+    # Process the clean text to identify sentences
+    doc = nlp(clean_text)
+
+    sentence_index = 1
+    for sent in doc.sents:
+        sentence_text = sent.text
+
+        # Squeeze, trim, and convert sequences of whitespace to single spaces
+        sentence_text = re.sub(r'\s+', ' ', sentence_text).strip()
+
+        # Check if the sentence exceeds five words
+        if len(sentence_text.split()) > 5:
+            data.append({
+                'text_index': text_index,
+                'folder_name': folder_name,
+                'sentence_index': sentence_index,
+                'sentence_text': sentence_text
+            })
+            sentence_index += 1
+
+# Create the DataFrame
+df_sentences = pd.DataFrame(data, columns=['text_index', 'folder_name', 'sentence_index', 'sentence_text'])
+
+# Save the DataFrame to a TSV file
+df_sentences.to_csv('df_sentences.tsv', sep='\t', index=False)
+
+# View sentence dataframe
+df_sentences.head()
+```
+
+## Split sentences into tokens
+
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 241}
+import pandas as pd
+import spacy
+from nltk.corpus import stopwords
+import nltk
+
+# Download stopwords
+nltk.download('stopwords')
+
+# Load spaCy model
+nlp = spacy.load('en_core_web_sm')
+
+# Get NLTK English stopwords
+stop_words = set(stopwords.words('english'))
+
+# Step 1: Extract base token data (text + lemma)
+data = []
+
+for idx, row in df_sentences.iterrows():
+    text_index = row['text_index']
+    folder_name = row['folder_name']
+    sentence_index = row['sentence_index']
+    sentence_text = row['sentence_text']
+
+    doc = nlp(sentence_text)
+
+    token_index = 1
+    for token in doc:
+        if token.is_alpha and token.text.lower() not in stop_words:
+            data.append({
+                'text_index': text_index,
+                'folder_name': folder_name,
+                'sentence_index': sentence_index,
+                'token_index': token_index,
+                'token_text': token.text,
+                'token_lemma': token.lemma_
+            })
+            token_index += 1
+
+# Create base token dataframe
+df_tokens = pd.DataFrame(data)
+
+# Preview
+df_tokens.head()
+```
 

@@ -1,16 +1,40 @@
----
-title: "Module 3: Analyzing text content with natural language processing"
-subtitle: "AI-aided content analysis of sustainability communication"
-#author: "nils.holmberg@iko.lu.se"
----
+# 3-3-2: Summarizing results of text analysis
 
-## Lesson 3.3: Summarizing results of text analysis
+## Summarize data (select, filter, aggregate)
 
-### [lab notebook](3-3-2-computer-lab-notebook.ipynb){target="_blank"}
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 731}
+import pandas as pd
 
-### [lab video](video-url.mp4){target="_blank"}
+# Define the POS tags we're interested in
+pos_tags = ['NOUN', 'PROPN', 'VERB', 'ADJ']
 
-### lab text
+# Filter df_tokens to include only the desired POS tags
+filtered_df = df_tokens[df_tokens['token_pos'].isin(pos_tags)]
 
+# Group by folder_name, token_pos, and token_lemma, and count occurrences
+grouped = (
+    filtered_df.groupby(['folder_name', 'token_pos', 'token_lemma'])
+    .size()
+    .reset_index(name='count')
+)
 
+# For each folder_name and token_pos, get the top 10 most frequent token_lemmas
+df_tokens_frequency = (
+    grouped.groupby(['folder_name', 'token_pos'])
+    .apply(lambda x: x.nlargest(10, 'count'))
+    .reset_index(drop=True)
+)
+
+# Optionally, sort the dataframe for clarity
+df_tokens_frequency = df_tokens_frequency.sort_values(
+    ['folder_name', 'token_pos', 'count'], ascending=[True, True, False]
+)
+
+# Save df_tokens_frequency to TSV file
+df_tokens_frequency.to_csv('df_tokens_frequency.tsv', sep='\t', index=False)
+
+# Display the result
+df_tokens_frequency.head(20)
+```
 

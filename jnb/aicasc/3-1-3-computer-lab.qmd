@@ -1,16 +1,38 @@
----
-title: "Module 3: Analyzing text content with natural language processing"
-subtitle: "AI-aided content analysis of sustainability communication"
-#author: "nils.holmberg@iko.lu.se"
----
+# 3-1-3: Descriptive text analysis
 
-## Lesson 3.1: Descriptive text analysis
+## Count texts, words, and characters
 
-### [lab notebook](3-1-3-computer-lab-notebook.ipynb){target="_blank"}
+```python
+#| colab: {base_uri: https://localhost:8080/, height: 331}
+# Add new columns for text statistics
+df_texts['text_name'] = df_texts['file_path'].apply(os.path.basename)
 
-### [lab video](video-url.mp4){target="_blank"}
+# Word and character counts
+df_texts['word_count'] = df_texts['clean_text'].apply(lambda x: len(x.split()))
+df_texts['char_count'] = df_texts['clean_text'].apply(len)
 
-### lab text
+# Mean characters per word (avoid division by zero)
+df_texts['mean_chars_per_word'] = df_texts.apply(
+    lambda row: row['char_count'] / row['word_count'] if row['word_count'] > 0 else 0,
+    axis=1
+)
 
+# Select relevant columns for descriptive output
+df_stats = df_texts[['text_name', 'word_count', 'char_count', 'mean_chars_per_word']]
 
+# View the stats table
+df_stats
+
+# Optional: summary of word and character stats
+#summary = df_stats[['word_count', 'char_count', 'mean_chars_per_word']].describe()
+#print("\nDescriptive summary:\n", summary)
+```
+
+## Download pre-trained English language model
+
+```python
+#| colab: {base_uri: https://localhost:8080/}
+# for more languages, check https://spacy.io/models
+!python -m spacy download en_core_web_sm
+```
 

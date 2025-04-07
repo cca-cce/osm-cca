@@ -8,7 +8,7 @@ subtitle: "ai-aided-content-analysis-of-sustainability-communication"
 
 ## [the google colab notebook user interface](2-1-2-computer-lab.ipynb)
 
-```{python}
+```python
 # this is a python code cell.. also called a "code chunk"
 print("hello world !")
 ```
@@ -17,7 +17,7 @@ print("hello world !")
 
 this is a markdown text cell used to annotate and describe the code cell below
 
-```{python}
+```python
 # this is a python comment explaining the code line below
 print("hello mooc :)")
 ```
