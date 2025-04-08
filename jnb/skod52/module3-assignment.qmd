@@ -1,0 +1,25 @@
+
+# 1. Introduction 
+```{python}
+import pandas as pd
+```
+
+# 2. Methods 
+```{python}
+import pandas as pd
+```
+
+# 3. Results 
+```{python}
+import pandas as pd
+```
+
+# 4. Discussion 
+```{python}
+import pandas as pd
+```
+
+
+
+
+
