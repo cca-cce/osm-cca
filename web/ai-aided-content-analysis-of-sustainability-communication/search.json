@@ -244,18 +244,25 @@
     ]
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#open-science-methods",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#open-science-methods",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
     "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Open Science Methods",
-    "text": "Open Science Methods\n\n\n\nEmphasizes reproducibility and transparency in research.\n\nEncourages collaboration among global research communities.\n\nRelies on sharing data, code, and methodologies openly.\n\nSupported by open-source tools and platforms.\n\nEnhances scientific integrity and innovation."
+    "section": "Image classification and object detection",
+    "text": "Image classification and object detection"
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
     "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Python Environments: Local, Cloud, Notebooks",
-    "text": "Python Environments: Local, Cloud, Notebooks\n\nLocal environments require Python installation and configuration.\n\nCloud environments like Google Colab eliminate setup hurdles.\n\nNotebooks provide interactive code execution and documentation.\n\nCloud environments offer scalability and resource management.\n\nNotebooks support real-time code execution alongside markdown."
+    "section": "Inferential image analysis, classification",
+    "text": "Inferential image analysis, classification"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Inferential image analysis, object detection",
+    "text": "Inferential image analysis, object detection"
   },
   {
     "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
@@ -428,18 +435,53 @@
     "text": "Stacked bar plots\n\n\n\nSimple bar plots show single-organization metrics like category frequency.\n\nStacked bar plots compare multiple variables across organizations.\n\nSegments represent variables (e.g., word types) within bars.\n\nReveals differences, e.g., adjective use in Preem vs. Vattenfall.\n\nSupports multivariate analysis for clear, comparative insights.\n\n\n\n\n\n📊"
   },
   {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#open-science-methods",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#open-science-methods",
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
     "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Open Science Methods",
-    "text": "Open Science Methods\n\n\n\nEmphasizes reproducibility and transparency in research.\n\nEncourages collaboration among global research communities.\n\nRelies on sharing data, code, and methodologies openly.\n\nSupported by open-source tools and platforms.\n\nEnhances scientific integrity and innovation."
+    "section": "Key takeaways and ethical perspectives",
+    "text": "Key takeaways and ethical perspectives\n\nUnderstand how AI can support content analysis in sustainability research\nGain practical skills in text and image data analysis using low-code tools\nLearn to critically interpret results produced by machine learning models\nExplore ethical boundaries of automation in communication analysis\nReflect on transparency, bias, and accountability in AI-supported research"
   },
   {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
     "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Python Environments: Local, Cloud, Notebooks",
-    "text": "Python Environments: Local, Cloud, Notebooks\n\nLocal environments require Python installation and configuration.\n\nCloud environments like Google Colab eliminate setup hurdles.\n\nNotebooks provide interactive code execution and documentation.\n\nCloud environments offer scalability and resource management.\n\nNotebooks support real-time code execution alongside markdown."
+    "section": "What You Learned in This Course",
+    "text": "What You Learned in This Course\n\nCollect and organize sustainability content from real-world sources\nAnalyze both textual and visual communication using Python notebooks\nApply NLP and computer vision techniques in a social science context\nSummarize and visualize data to uncover communication patterns\nConnect computational methods to audience effects and strategic messaging"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Ethics of Automating Content Interpretation",
+    "text": "Ethics of Automating Content Interpretation\n\nQuestion how algorithmic bias might shape findings\nEvaluate the limits of interpretability in automated results\nDiscuss the role of the researcher in guiding and validating AI output\nConsider privacy and consent when collecting public digital content\nIntegrate ethical reflection into research design and dissemination"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Analysis documentation and open science",
+    "text": "Analysis documentation and open science\n\nEmphasize reproducibility through transparent workflows\nStore data, code, and results in accessible formats\nUse cloud platforms and version control for collaborative research\nFrame analysis in ways that support peer review and replication\nConnect computational practice with open science values"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-quarto-to-ensure-reproducibility",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-quarto-to-ensure-reproducibility",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Using Quarto to Ensure Reproducibility",
+    "text": "Using Quarto to Ensure Reproducibility\n\nQuarto integrates code, output, and documentation in one file\nSupports reproducible research with automated execution\nAllows easy conversion to HTML, PDF, or Word for publication\nEmbeds metadata, citations, and environment settings\nIdeal for sharing transparent, well-structured analytical reports"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Communicating AI-aided content analysis",
+    "text": "Communicating AI-aided content analysis\n\nTranslate technical findings into accessible narratives\nUse visualizations to highlight patterns in sustainability messaging\nConnect communication effects with organizational strategies\nPresent methods and results clearly for both technical and non-technical audiences\nPosition findings within broader ethical and scientific discussions"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Turning Your Analysis into a Research Publication",
+    "text": "Turning Your Analysis into a Research Publication\n\nStart with a well-documented Google Colab or Quarto notebook\nDefine a clear research question with reproducible methods\nUse structured visualizations to support interpretations\nAlign findings with existing literature and frameworks\nSubmit to journals focusing on digital methods, media studies, or sustainability communication"
   },
   {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3-2",
@@ -629,18 +671,25 @@
     "text": "Normalizing Image Content: Resize, Grayscale, and Consistency\n\nImage normalization enhances model performance by standardizing inputs.\nResizing aligns images to a uniform size, aiding consistency in analysis.\nGrayscale conversion reduces complexity and focuses on essential shapes.\nBrightness adjustments help maintain consistency across varied image sources.\nNormalizing inputs is vital for achieving accurate, reliable computer vision results."
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#open-science-methods",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#open-science-methods",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#interpreting-the-results-of-cv-analysis",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#interpreting-the-results-of-cv-analysis",
     "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Open Science Methods",
-    "text": "Open Science Methods\n\n\n\nEmphasizes reproducibility and transparency in research.\n\nEncourages collaboration among global research communities.\n\nRelies on sharing data, code, and methodologies openly.\n\nSupported by open-source tools and platforms.\n\nEnhances scientific integrity and innovation."
+    "section": "Interpreting the results of CV analysis",
+    "text": "Interpreting the results of CV analysis"
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#python-environments-local-cloud-notebooks",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#summarizing-results-of-image-analysis",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#summarizing-results-of-image-analysis",
     "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Python Environments: Local, Cloud, Notebooks",
-    "text": "Python Environments: Local, Cloud, Notebooks\n\nLocal environments require Python installation and configuration.\n\nCloud environments like Google Colab eliminate setup hurdles.\n\nNotebooks provide interactive code execution and documentation.\n\nCloud environments offer scalability and resource management.\n\nNotebooks support real-time code execution alongside markdown."
+    "section": "Summarizing results of image analysis",
+    "text": "Summarizing results of image analysis"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#visualizing-results-of-image-analysis",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#visualizing-results-of-image-analysis",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Visualizing results of image analysis",
+    "text": "Visualizing results of image analysis"
   },
   {
     "objectID": "resources.html",
