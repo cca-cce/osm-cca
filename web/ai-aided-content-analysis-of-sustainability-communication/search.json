@@ -664,14 +664,14 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#applying-spacy-nlp-models-to-dataframes",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "Applying SpaCy NLP Models to Dataframes",
-    "text": "Applying SpaCy NLP Models to Dataframes\n\n\n\nSpaCy provides pre-trained NLP models for efficient text processing.\n\nText and sentence dataframes integrate structured data with NLP outputs.\n\nNLP models parse and enrich text with token, dependency, and entity annotations.\n\nBatch processing of text improves efficiency for large datasets.\n\nPractical applications include text classification, summarization, and sentiment analysis.\n\n\n\n\n\n\n🧮"
+    "text": "Applying SpaCy NLP Models to Dataframes\n\n\n\nSpaCy provides pre-trained NLP models for efficient text processing.\n\nText and sentence dataframes integrate structured data with NLP outputs.\n\nNLP models parse and enrich text with token, dependency, and entity annotations.\n\nBatch processing of text improves efficiency for large datasets.\n\nPractical applications include text classification, summarization, and sentiment analysis."
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#iterating-over-sentence-dataframes-and-spacy-documents",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#iterating-over-sentence-dataframes-and-spacy-documents",
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#iterating-over-spacy-documents",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#iterating-over-spacy-documents",
     "title": "Module 3: Analyzing text content with natural language processing",
-    "section": "Iterating Over Sentence Dataframes and SpaCy Documents",
-    "text": "Iterating Over Sentence Dataframes and SpaCy Documents\n\n\n\nSentence-level dataframes organize text into manageable units for analysis.\n\nSpaCy document objects provide linguistic annotations for each token.\n\nIterating enables extraction of sentence-specific attributes like entities or sentiments.\n\nCombines structured data analysis with NLP insights for robust results.\n\nStreamlines processes such as summarization, search indexing, and context identification.\n\n\n\n\n\n\n🧮"
+    "section": "Iterating Over SpaCy Documents",
+    "text": "Iterating Over SpaCy Documents\n\n\n\nSentence-level dataframes organize text into manageable units for analysis.\n\nSpaCy document objects provide linguistic annotations for each token.\n\nIterating enables extraction of sentence-specific attributes like entities or sentiments.\n\nCombines structured data analysis with NLP insights for robust results.\n\nStreamlines processes such as summarization, search indexing, and context identification."
   },
   {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#text-normalization-and-token-attributes",
