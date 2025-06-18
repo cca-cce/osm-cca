@@ -1,0 +1,241 @@
+organization	image_path	label_rank	class_label	confidence_score
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	1	street sign	0.7668145895004272
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	2	traffic light, traffic signal, stoplight	0.06394050270318985
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	3	cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM	0.02572745829820633
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	4	tobacco shop, tobacconist shop, tobacconist	0.016515173017978668
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	5	mailbox, letter box	0.010574877262115479
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	6	digital clock	0.006355321500450373
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	7	pay-phone, pay-station	0.005857181269675493
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	8	vending machine	0.00402093306183815
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	9	gas pump, gasoline pump, petrol pump, island dispenser	0.003934172447770834
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page5_img0.png	10	scoreboard	0.003860942553728819
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	1	drilling platform, offshore rig	0.29904037714004517
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	2	barrel, cask	0.07715023308992386
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	3	crane	0.05627264454960823
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	4	water tower	0.05619373172521591
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	5	pier	0.015297649428248405
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	6	hook, claw	0.014568984508514404
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	7	pole	0.014394753612577915
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	8	space shuttle	0.01004492025822401
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	9	oil filter	0.009606570936739445
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page3_img0.png	10	rain barrel	0.00885106809437275
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	1	alp	0.22311162948608398
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	2	valley, vale	0.20469120144844055
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	3	ski	0.1065249890089035
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	4	snowmobile	0.07095041871070862
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	5	volcano	0.030793530866503716
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	6	geyser	0.023271823301911354
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	7	lakeside, lakeshore	0.019280392676591873
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	8	sandbar, sand bar	0.018019629642367363
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	9	promontory, headland, head, foreland	0.017808998003602028
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page7_img0.png	10	balloon	0.01455706637352705
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	1	maze, labyrinth	0.08273743093013763
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	2	oscilloscope, scope, cathode-ray oscilloscope, CRO	0.055159784853458405
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	3	jigsaw puzzle	0.04135727509856224
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	4	drilling platform, offshore rig	0.04083658382296562
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	5	sewing machine	0.035931821912527084
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	6	web site, website, internet site, site	0.019288934767246246
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	7	joystick	0.01820150576531887
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	8	planetarium	0.015658719465136528
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	9	airship, dirigible	0.015361239202320576
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page1_img0.png	10	space shuttle	0.01529271062463522
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	1	beaker	0.9929700493812561
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	2	Petri dish	0.0029298134613782167
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	3	measuring cup	0.0016613638726994395
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	4	paintbrush	0.0002863313420675695
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	5	goblet	0.00016954234160948545
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	6	water jug	0.000141305907163769
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	7	perfume, essence	0.00014021762763150036
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	8	pitcher, ewer	0.00013676780508831143
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	9	nipple	9.486992348683998e-05
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/production-of-renewable-diesel-synsat-project-preem_page6_img0.png	10	red wine	8.07171018095687e-05
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	1	bannister, banister, balustrade, balusters, handrail	0.9401566386222839
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	2	coil, spiral, volute, whorl, helix	0.009643182158470154
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	3	pier	0.0019784315954893827
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	4	liner, ocean liner	0.0009080823510885239
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	5	breakwater, groin, groyne, mole, bulwark, seawall, jetty	0.0008597485139034688
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	6	lifeboat	0.0008126187021844089
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	7	panpipe, pandean pipe, syrinx	0.0007999565568752587
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	8	ski	0.0007459284970536828
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	9	beacon, lighthouse, beacon light, pharos	0.0007318079005926847
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/towards-a-climate-neutral-value-chain_page2_img0.png	10	maze, labyrinth	0.0006957951700314879
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	1	nail	0.9800872802734375
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	2	screw	0.009069608524441719
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	3	hook, claw	0.003692128462716937
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	4	screwdriver	0.0024618003517389297
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	5	safety pin	0.0003395747335162014
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	6	carpenter's kit, tool kit	0.0003115016734227538
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	7	hammer	0.0002862152468878776
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	8	letter opener, paper knife, paperknife	0.00022134407481644303
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	9	hair slide	0.00018628110410645604
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/hvo-100-and-saf-sustainable-aviation-fuels-icr-project-preem_page1_img0.png	10	rule, ruler	0.0001077193592209369
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	1	geyser	0.0887078121304512
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	2	worm fence, snake fence, snake-rail fence, Virginia fence	0.03543312847614288
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	3	volcano	0.029118504375219345
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	4	lakeside, lakeshore	0.02506249211728573
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	5	pole	0.01958610862493515
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	6	spotlight, spot	0.017832279205322266
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	7	cliff, drop, drop-off	0.016733860597014427
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	8	viaduct	0.015605006366968155
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	9	beacon, lighthouse, beacon light, pharos	0.015601444989442825
+cv-org1-preem	/content/osm-cca-nlp/res/pdf/preem/raw-materials-sustainability-preem_page0_img0.png	10	suspension bridge	0.01295903604477644
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	1	drilling platform, offshore rig	0.34804025292396545
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	2	parachute, chute	0.22213807702064514
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	3	pole	0.05922289565205574
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	4	flagpole, flagstaff	0.04072541370987892
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	5	scuba diver	0.039175163954496384
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	6	crane	0.0386195033788681
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	7	projectile, missile	0.010949305258691311
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	8	airship, dirigible	0.010545260272920132
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	9	cliff, drop, drop-off	0.009337077848613262
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img0.png	10	beacon, lighthouse, beacon light, pharos	0.009216617792844772
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	1	airliner	0.5013479590415955
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	2	wing	0.13407014310359955
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	3	warplane, military plane	0.12480191886425018
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	4	airship, dirigible	0.11130642145872116
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	5	aircraft carrier, carrier, flattop, attack aircraft carrier	0.016214629635214806
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	6	projectile, missile	0.012603470124304295
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	7	crane	0.011630787514150143
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	8	drilling platform, offshore rig	0.009413196705281734
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	9	missile	0.004437600262463093
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/vattenfall-expands-circular-targes-on-wind-turbine-components-vattenfall_page0_img0.png	10	space shuttle	0.004041563719511032
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	1	drilling platform, offshore rig	0.9411647319793701
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	2	crane	0.004847522359341383
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	3	electric fan, blower	0.0017944190185517073
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	4	container ship, containership, container vessel	0.0015159829054027796
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	5	cellular telephone, cellular phone, cellphone, cell, mobile phone	0.0007581762038171291
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	6	solar dish, solar collector, solar furnace	0.0007123941322788596
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	7	projectile, missile	0.0007031933055259287
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	8	beacon, lighthouse, beacon light, pharos	0.0006906279013492167
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	9	dock, dockage, docking facility	0.0005421883543021977
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page12_img0.png	10	hook, claw	0.0005300300545059144
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	1	home theater, home theatre	0.2926124632358551
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	2	cinema, movie theater, movie theatre, movie house, picture palace	0.2430112361907959
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	3	theater curtain, theatre curtain	0.17294827103614807
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	4	television, television system	0.04267311096191406
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	5	notebook, notebook computer	0.016481881961226463
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	6	projector	0.013521981425583363
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	7	comic book	0.010573114268481731
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	8	web site, website, internet site, site	0.010075191035866737
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	9	library	0.00888031255453825
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page6_img0.png	10	stage	0.008382679894566536
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	1	electric fan, blower	0.039817918092012405
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	2	solar dish, solar collector, solar furnace	0.022290194407105446
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	3	pole	0.02180328220129013
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	4	flagpole, flagstaff	0.016236040741205215
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	5	worm fence, snake fence, snake-rail fence, Virginia fence	0.013895266689360142
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	6	water tower	0.010012786835432053
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	7	cellular telephone, cellular phone, cellphone, cell, mobile phone	0.00840300228446722
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	8	tennis ball	0.008238516747951508
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	9	pinwheel	0.007456405553966761
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page6_img0.png	10	rapeseed	0.006766417063772678
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	1	cardigan	0.5126710534095764
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	2	poncho	0.2715444564819336
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	3	wool, woolen, woollen	0.09259877353906631
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	4	sweatshirt	0.02020644024014473
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	5	jersey, T-shirt, tee shirt	0.001558425254188478
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	6	sock	0.0011880062520503998
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	7	mitten	0.00115252286195755
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	8	Welsh springer spaniel	0.0009540673345327377
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	9	jean, blue jean, denim	0.0009074463159777224
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img1.png	10	chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour	0.0007434249855577946
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	1	notebook, notebook computer	0.8119951486587524
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	2	laptop, laptop computer	0.09749486297369003
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	3	desktop computer	0.023000285029411316
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	4	mouse, computer mouse	0.013713379390537739
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	5	space bar	0.011761846020817757
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	6	hand-held computer, hand-held microcomputer	0.008348602801561356
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	7	desk	0.005779748782515526
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	8	modem	0.004669396672397852
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	9	screen, CRT screen	0.00414649210870266
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page9_img0.png	10	computer keyboard, keypad	0.0034714755602180958
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	1	chest	0.13640882074832916
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	2	crate	0.13492965698242188
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	3	doormat, welcome mat	0.06281799077987671
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	4	television, television system	0.043663788586854935
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	5	park bench	0.036074161529541016
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	6	chiffonier, commode	0.03399676829576492
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	7	file, file cabinet, filing cabinet	0.02739044837653637
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	8	sweatshirt	0.01760672964155674
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	9	desk	0.01657862775027752
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page1_img0.png	10	pedestal, plinth, footstall	0.015746744349598885
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	1	tractor	0.5180118680000305
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	2	plow, plough	0.25194868445396423
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	3	harvester, reaper	0.20110809803009033
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	4	thresher, thrasher, threshing machine	0.010358670726418495
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	5	lawn mower, mower	0.00806726049631834
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	6	jeep, landrover	0.0023257206194102764
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	7	snowplow, snowplough	0.0003186222165822983
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	8	hay	0.0002887107548303902
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	9	golfcart, golf cart	0.0002642761101014912
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/fossil-free-fertilisers-a-key-to-cutting-carbon-emissions-vattenfall_page0_img0.png	10	barrow, garden cart, lawn cart, wheelbarrow	0.00024237418256234378
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	1	marimba, xylophone	0.1046692356467247
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	2	suit, suit of clothes	0.045617274940013885
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	3	Windsor tie	0.02870967797935009
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	4	stage	0.025284485891461372
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	5	lab coat, laboratory coat	0.023463472723960876
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	6	sunglass	0.023420583456754684
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	7	steel drum	0.021402042359113693
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	8	maraca	0.01969847083091736
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	9	oboe, hautboy, hautbois	0.01945745013654232
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page2_img0.png	10	bassoon	0.018112674355506897
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	1	library	0.9873760938644409
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	2	bookcase	0.004398449789732695
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	3	bookshop, bookstore, bookstall	0.002881517866626382
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	4	academic gown, academic robe, judge's robe	0.0007393598789349198
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	5	tobacco shop, tobacconist shop, tobacconist	0.0003034315595868975
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	6	prison, prison house	0.00021871387434657663
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	7	cinema, movie theater, movie theatre, movie house, picture palace	0.00014491233741864562
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	8	organ, pipe organ	0.00010342135647078976
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	9	planetarium	0.00010107118578162044
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page0_img0.png	10	vestment	0.00010014386498369277
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	1	joystick	0.2255207747220993
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	2	hook, claw	0.09713602811098099
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	3	hand-held computer, hand-held microcomputer	0.04878277704119682
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	4	stopwatch, stop watch	0.02562139742076397
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	5	switch, electric switch, electrical switch	0.02076849713921547
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	6	odometer, hodometer, mileometer, milometer	0.02034483291208744
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	7	combination lock	0.020147955045104027
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	8	vacuum, vacuum cleaner	0.020037218928337097
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	9	gas pump, gasoline pump, petrol pump, island dispenser	0.012064121663570404
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page4_img0.png	10	magnetic compass	0.01028362289071083
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	1	nematode, nematode worm, roundworm	0.1213052049279213
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	2	spider web, spider's web	0.028852546587586403
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	3	parachute, chute	0.027469294145703316
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	4	plastic bag	0.0236100722104311
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	5	matchstick	0.021238410845398903
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	6	syringe	0.01776868849992752
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	7	jellyfish	0.015651823952794075
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	8	Petri dish	0.01375645026564598
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	9	promontory, headland, head, foreland	0.011970555409789085
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page10_img1.png	10	seashore, coast, seacoast, sea-coast	0.011901749297976494
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	1	park bench	0.08633703738451004
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	2	balloon	0.0650123804807663
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	3	binoculars, field glasses, opera glasses	0.05186764523386955
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	4	solar dish, solar collector, solar furnace	0.04769998788833618
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	5	torch	0.033224668353796005
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	6	swing	0.032434239983558655
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	7	umbrella	0.02598670683801174
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	8	parachute, chute	0.02154175378382206
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	9	kite	0.017497746273875237
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/un-s-sustainable-development-goals-vattenfall_page11_img0.png	10	soccer ball	0.013637710362672806
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	1	cellular telephone, cellular phone, cellphone, cell, mobile phone	0.10177484154701233
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	2	whistle	0.06633272022008896
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	3	hand-held computer, hand-held microcomputer	0.05150177329778671
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	4	harmonica, mouth organ, harp, mouth harp	0.04421595111489296
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	5	neck brace	0.03947398439049721
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	6	loupe, jeweler's loupe	0.03646327927708626
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	7	Windsor tie	0.02809539996087551
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	8	stethoscope	0.021283773705363274
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	9	suit, suit of clothes	0.019598016515374184
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page4_img0.png	10	notebook, notebook computer	0.019282855093479156
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	1	mask	0.28535404801368713
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	2	breastplate, aegis, egis	0.05263802781701088
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	3	sandal	0.03540283069014549
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	4	bolo tie, bolo, bola tie, bola	0.03519104793667793
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	5	holster	0.032224055379629135
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	6	knee pad	0.02852940373122692
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	7	running shoe	0.0285238828510046
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	8	cuirass	0.022409746423363686
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	9	cowboy boot	0.02228930965065956
+cv-org2-vattenfall	/content/osm-cca-nlp/res/pdf/vattenfall/shifting-the-climate-narrative-vattenfall_page7_img0.png	10	conch	0.01780761405825615
