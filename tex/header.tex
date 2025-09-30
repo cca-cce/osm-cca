@@ -1,0 +1,48 @@
+% header.tex — LU-styled Beamer header (XeLaTeX/LuaLaTeX)
+\usetheme[numbering=fraction,progressbar=frametitle]{metropolis}
+
+% --- Fonts (assumes you've installed the OTFs) ---
+\usepackage{fontspec}
+% Sans for UI/headers (Frutiger)
+\setsansfont{Frutiger LT Std}[Ligatures=TeX,Scale=MatchLowercase]
+% Serif for body text (Adobe Garamond Pro)
+\setmainfont{Adobe Garamond Pro}[Ligatures=TeX,Scale=MatchLowercase]
+
+% --- Colors (approximate LU palette; swap hex if you have official values) ---
+\usepackage{xcolor}
+\definecolor{LUDark}{HTML}{1E2A36}
+\definecolor{LUBlue}{HTML}{2E5B9A}
+\definecolor{LUBronze}{HTML}{A67C52}
+\definecolor{LULight}{HTML}{F2F4F7}
+
+\setbeamercolor{normal text}{fg=LUDark}
+\setbeamercolor{structure}{fg=LUBlue}
+\setbeamercolor{frametitle}{fg=LUBlue,bg=LULight}
+\setbeamercolor{title}{fg=LUBlue}
+\setbeamercolor{subtitle}{fg=LUDark}
+\setbeamercolor{progress bar in head/foot}{fg=LUBlue,bg=LULight}
+
+% --- Blocks (for right-side “panels”) ---
+\setbeamercolor{block title}{fg=white,bg=LUBlue}
+\setbeamercolor{block body}{bg=LULight,fg=LUDark}
+
+% --- Layout tweaks to mimic PPTX feel ---
+\setbeamersize{text margin left=8mm, text margin right=8mm}
+\setlength{\parskip}{0.4em}
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{section in toc}[sections numbered]
+
+% --- Title page treatment similar to PPTX cover ---
+\defbeamertemplate*{title page}{lu}{
+  \vspace*{1.8cm}
+  {\usebeamerfont{title}\color{LUBlue}\LARGE\inserttitle\par}
+  \vspace{0.8cm}
+  {\usebeamerfont{subtitle}\large\insertsubtitle\par}
+  \vspace{1.2cm}
+  {\insertauthor\par}
+  \vfill
+  % Optional place for a logo:
+  % \includegraphics[height=1.2cm]{media/lu-logo.pdf}
+}
+\setbeamertemplate{title page}[lu]
+

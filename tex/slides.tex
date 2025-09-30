@@ -1,0 +1,70 @@
+% slides.tex — minimal example reproducing first two slides
+\documentclass[aspectratio=169]{beamer}
+\input{header.tex}
+
+\title{Lecture Title} % from your title slide
+\subtitle{Name of course} % from your title slide
+\author{} % add presenter if you want
+
+\begin{document}
+
+% --- Title slide (Slide 1) ---
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+% --- Slide 2 layout: left text+bullets, right stacked “cards” ---
+\begin{frame}{Lorem ipsum dolor} % slide heading
+% Left column: paragraph + bullet intro (“Ut enim ad: …”)
+\begin{columns}[T,onlytextwidth]
+  \begin{column}{0.54\linewidth}
+    \small
+    % lead paragraph (first lines of your slide’s left text)
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. % summary from left body text :contentReference[oaicite:2]{index=2}
+
+    \vspace{0.6em}
+    \textbf{Ut enim ad:}
+    \begin{itemize}
+      \item Inventore veritatis
+      \item Architecto beatae
+      \item Vitae dicta sunt
+    \end{itemize} % bullets from the left list :contentReference[oaicite:3]{index=3}
+  \end{column}
+
+  % Right column: mimic stacked panels seen on slide 2
+  \begin{column}{0.43\linewidth}
+    \begin{block}{\normalsize \textbf{Lorem ipsum dolor sit amet}}
+      \footnotesize
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
+      % right column top text box :contentReference[oaicite:4]{index=4}
+    \end{block}
+
+    \begin{block}{\normalsize \textbf{Facilisis}}
+      \footnotesize
+      Aliquam mattis gravida mauris at ultricies. Quisque. Vestibulum varius eleifend dictum. Ut vitae tincidunt libero.
+      % right column mid text box :contentReference[oaicite:5]{index=5}
+    \end{block}
+
+    \begin{block}{\normalsize \textbf{Excepteur sint qui}}
+      \footnotesize
+      Aenean. Proin dictum bibendum velit, ut gravida libero iaculis sed. Gravida. Duis pretium justo sit amet ex suscipit.
+      % right column lower text box :contentReference[oaicite:6]{index=6}
+    \end{block}
+  \end{column}
+\end{columns}
+
+% Optional tiny footer row mimicking the bottom line of short labels
+\vspace{0.4em}
+{\scriptsize
+\textit{Elementum ante non dui felis} \ \ \textbar\ \
+Vestibulumvel \ \ \textbar\ \
+Pellentesque \ \ \textbar\ \
+Ullamcorper \ \ \textbar\ \
+Scelerisque
+}
+% bottom strip of small labels from the PDF/PPTX :contentReference[oaicite:7]{index=7}
+\end{frame}
+
+\end{document}
+

@@ -1,204 +1,120 @@
 [
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome"
+  },
+  {
+    "objectID": "0-1-welcome-script.html#mooc-welcome-address",
+    "href": "0-1-welcome-script.html#mooc-welcome-address",
+    "title": "0-1-welcome-script.qmd",
+    "section": "mooc welcome address",
+    "text": "mooc welcome address"
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-1",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-1",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWelcome to AI-Aided Content Analysis of Sustainability Communication—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content."
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-2",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-2",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future."
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-3",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-3",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision."
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-4",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-4",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals."
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-5",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-5",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources."
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-6",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-6",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?"
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-7",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-7",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place."
+  },
+  {
+    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-8",
+    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-8",
+    "title": "0-1-welcome-script.qmd",
+    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
+    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWelcome aboard. Let’s begin."
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
     "title": "Module 1: Understanding sustainability communication content",
-    "section": "Sustainability communication content",
-    "text": "Sustainability communication content\n\nDefine sustainability content both formally and functionally\nFormal content reflects environmental or social responsibility themes\nFunctional content supports branding, compliance, and stakeholder engagement\nCommunication influences perceptions of credibility and authenticity\nDual analysis reveals intent, structure, and audience impact"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Online content sampling",
-    "text": "Online content sampling\n\nSampling method influences research reliability and validity\nRandom sampling is ideal but hard to apply in web contexts\nPurposive sampling targets relevant or contrasting examples\nStrategic sampling balances focus and generalizability\nDesign choices must minimize bias in content selection"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Expectations about sustainability communication",
-    "text": "Expectations about sustainability communication\n\nChoose between qualitative, quantitative, or mixed approaches\nDescriptive analysis explores patterns; explanatory seeks causes\nLinguistic analysis compares tone, terms, and rhetorical strategies\nResearch begins with well-formed questions and hypotheses\nMethodological clarity improves interpretability and rigor"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Find online sustainability communication",
-    "text": "Find online sustainability communication\n\nSelect organizations aligned with your research objectives\nStudy one or compare multiple for contrast and depth\nTarget official websites as curated communication sources\nIdentify and extract sustainability-related URLs\nBuild a dataset from key pages like “CSR” or “Sustainability”"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Convert multimodal web pages to PDF",
-    "text": "Convert multimodal web pages to PDF\n\nUse browser print-to-PDF to capture entire web pages\nPreserves images, layout, and static design elements\nEnables analysis of multimodal communication forms\nQuick, user-friendly method requiring no programming\nLimitation: videos and interactive elements not captured"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Setting up an initial content database",
-    "text": "Setting up an initial content database\n\nEnsure all collected content is stored in an accessible format\nLocal storage is easy but lacks shareability and backup\nCloud solutions like Google Drive support collaboration\nGitHub adds version control and traceability benefits\nA well-structured archive supports long-term analysis"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Organize communication content in folders",
-    "text": "Organize communication content in folders\n\nSeparate folders allow comparisons between organizations\nNormalize filenames and paths for consistent processing\nFolder structure simplifies automation and batch analysis\nPDFs often need OCR or text extraction for further use\nGood organization supports transparency and reproducibility"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2-2",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2-2",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "lesson 2-2",
-    "text": "lesson 2-2\n\nvideo-lecture.qmd:Python and AI-aided data analysis\n\n\ncomputer-lab.qmd:Low-code data analysis, tables\n\n\ncomputer-lab.qmd:Low-code data analysis, graphs",
-    "crumbs": [
-      "module 2"
-    ]
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#python-for-social-science-data-analysis",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#python-for-social-science-data-analysis",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "Python for Social Science Data Analysis",
-    "text": "Python for Social Science Data Analysis\n\n\n\nOverview of data analysis types: descriptive, inferential, exploratory\nEmphasis on quantitative methods used in social sciences\nIntroduction to computational content analysis (text/image)\nBenefits of using Python for flexible, scalable analysis\nCommon libraries: pandas, statsmodels, matplotlib, scikit-learn"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-quantitative-analysis-with-python",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-quantitative-analysis-with-python",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "AI-Aided Quantitative Analysis with Python",
-    "text": "AI-Aided Quantitative Analysis with Python\n\nUse large language models (LLMs) to generate statistical code\nQuery data directly using natural language prompts\nAutomate hypothesis testing and model fitting\nReduce entry barrier for non-programmers\nBalance between manual control and AI guidance"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-computational-content-analysis",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-computational-content-analysis",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "AI-Aided Computational Content Analysis",
-    "text": "AI-Aided Computational Content Analysis\n\nApply LLMs for text classification, summarization, and topic modeling\nUse image models (e.g., CLIP, ViT) for analyzing visual content\nCombine text and visual features for rich content analysis\nAutomate entity recognition and theme detection\nUse AI to scale analysis of large corpora"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-tables",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-tables",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "Low-Code Data Analysis with Tables",
-    "text": "Low-Code Data Analysis with Tables\n\nLoad and view datasets using pandas DataFrames\nPerform filtering, grouping, and summary stats with minimal code\nContrast high-code scripts vs. low-code AI-assisted workflows\nUse AI tools to generate and interpret table outputs\nExample tools: pandasgui, datatable, ChatGPT + CSV"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#data-transformations-with-ai-assistance",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#data-transformations-with-ai-assistance",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "Data Transformations with AI Assistance",
-    "text": "Data Transformations with AI Assistance\n\nSelect relevant variables using prompts or code\nFilter observations based on conditions (e.g., time, value ranges)\nAggregate data for summaries (e.g., mean by group)\nCompare traditional pandas syntax vs. AI-assisted queries\nLearn transformation logic through interactive AI feedback"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-graphs",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-graphs",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "Low-Code Data Analysis with Graphs",
-    "text": "Low-Code Data Analysis with Graphs\n\nCreate basic visualizations (e.g., bar, line, histogram)\nUnderstand univariate (one variable) vs. bivariate (two variables) plots\nUse AI to suggest and generate appropriate plot types\nExample libraries: matplotlib, seaborn, plotnine\nVisualize data trends and relationships with minimal setup"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#multivariate-and-interactive-graphs",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#multivariate-and-interactive-graphs",
-    "title": "Module 2: Introduction to low-code Python programming",
-    "section": "Multivariate and Interactive Graphs",
-    "text": "Multivariate and Interactive Graphs\n\nVisualize relationships between three or more variables\nUse scatter matrices, heatmaps, or bubble charts\nAdd interactivity with plotly, altair, or holoviews\nUse AI to refine visual layouts and variable selections\nEnable dynamic exploration of patterns in large datasets"
-  },
-  {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html",
-    "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Open science promotes research practices that are transparent, reproducible, and openly accessible. It encourages international collaboration through the open sharing of data, code, and methodologies, making research more verifiable and impactful. By relying on open-source tools and platforms, it breaks down barriers between disciplines and enhances the credibility and integrity of scientific output. Ultimately, open science fosters innovation by enabling broader participation in the research process.\n\n\n\n\nPython can be run in different environments depending on the user’s needs. Local environments require installing Python and managing dependencies on your own machine, which offers control but can be complex. Cloud environments like Google Colab remove the need for setup, providing instant access to computational resources. Jupyter notebooks, used both locally and in the cloud, allow for interactive coding with integrated documentation. This flexibility makes notebooks especially useful for iterative analysis and educational purposes.\n\n\n\n\nJupyter Notebooks offer a powerful way to write and run code in small, interactive steps. Each notebook combines live code, explanations, and visualizations in a single document, making it ideal for experimentation, learning, and communication of results. They support a workflow where code can be modified and tested incrementally, which is especially helpful in debugging and teaching. Compared to traditional script-based environments, notebooks provide a more transparent and readable approach to programming.\n\n\n\n\nGoogle Colab is a free, cloud-based platform that hosts Jupyter notebooks and provides access to GPUs and other computing resources. It features an interface where users can write and execute code in cells while documenting their process in markdown. The notebook automatically saves to Google Drive, supporting easy sharing and collaboration. This makes it a perfect choice for beginners or teams who want to start coding without the hassle of installing anything locally.\n\n\n\n\nProgramming is the process of writing instructions that computers can follow to perform tasks, from calculations to automation. Python, known for its readable syntax and versatility, is one of the most popular languages for both beginners and professionals. It’s widely used in fields such as web development, data science, machine learning, and more. With its vast ecosystem of libraries, Python simplifies many tasks, making it accessible for quick prototyping and robust application development alike.\n\n\n\n\nPython supports both low-code and high-code workflows depending on user expertise and project complexity. Low-code approaches are useful for quick data analysis and visualization, especially in fields like social science where rapid insight is key. In contrast, high-code solutions enable more advanced customization, often used in computer science and AI development. The strength of Python lies in its ability to serve both ends of the spectrum efficiently.\n\n\n\n\nUnderstanding Python’s basic syntax is the first step in learning to program effectively. Variables are used to store information, and Python’s built-in data types like lists, dictionaries, and tuples help organize it. Loops enable automation by allowing code to repeat across items or conditions. Python’s syntax is intentionally clean and intuitive, which reduces errors and makes code easier to read. These fundamentals are the building blocks for writing useful and scalable programs.",
+    "text": "To understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
     "crumbs": [
-      "module 2",
-      "lesson 2.1",
-      "video lecture 2.1.1"
+      "module 1",
+      "lesson 1.1",
+      "video lecture 1.1.1"
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#lesson-2.1-ai-aided-and-low-code-programming",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#lesson-2.1-ai-aided-and-low-code-programming",
-    "title": "Module 2: Introduction to low-code Python programming",
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
+    "title": "Module 1: Understanding sustainability communication content",
     "section": "",
-    "text": "Open science promotes research practices that are transparent, reproducible, and openly accessible. It encourages international collaboration through the open sharing of data, code, and methodologies, making research more verifiable and impactful. By relying on open-source tools and platforms, it breaks down barriers between disciplines and enhances the credibility and integrity of scientific output. Ultimately, open science fosters innovation by enabling broader participation in the research process.\n\n\n\n\nPython can be run in different environments depending on the user’s needs. Local environments require installing Python and managing dependencies on your own machine, which offers control but can be complex. Cloud environments like Google Colab remove the need for setup, providing instant access to computational resources. Jupyter notebooks, used both locally and in the cloud, allow for interactive coding with integrated documentation. This flexibility makes notebooks especially useful for iterative analysis and educational purposes.\n\n\n\n\nJupyter Notebooks offer a powerful way to write and run code in small, interactive steps. Each notebook combines live code, explanations, and visualizations in a single document, making it ideal for experimentation, learning, and communication of results. They support a workflow where code can be modified and tested incrementally, which is especially helpful in debugging and teaching. Compared to traditional script-based environments, notebooks provide a more transparent and readable approach to programming.\n\n\n\n\nGoogle Colab is a free, cloud-based platform that hosts Jupyter notebooks and provides access to GPUs and other computing resources. It features an interface where users can write and execute code in cells while documenting their process in markdown. The notebook automatically saves to Google Drive, supporting easy sharing and collaboration. This makes it a perfect choice for beginners or teams who want to start coding without the hassle of installing anything locally.\n\n\n\n\nProgramming is the process of writing instructions that computers can follow to perform tasks, from calculations to automation. Python, known for its readable syntax and versatility, is one of the most popular languages for both beginners and professionals. It’s widely used in fields such as web development, data science, machine learning, and more. With its vast ecosystem of libraries, Python simplifies many tasks, making it accessible for quick prototyping and robust application development alike.\n\n\n\n\nPython supports both low-code and high-code workflows depending on user expertise and project complexity. Low-code approaches are useful for quick data analysis and visualization, especially in fields like social science where rapid insight is key. In contrast, high-code solutions enable more advanced customization, often used in computer science and AI development. The strength of Python lies in its ability to serve both ends of the spectrum efficiently.\n\n\n\n\nUnderstanding Python’s basic syntax is the first step in learning to program effectively. Variables are used to store information, and Python’s built-in data types like lists, dictionaries, and tuples help organize it. Loops enable automation by allowing code to repeat across items or conditions. Python’s syntax is intentionally clean and intuitive, which reduces errors and makes code easier to read. These fundamentals are the building blocks for writing useful and scalable programs.",
+    "text": "To understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
     "crumbs": [
-      "module 2",
-      "lesson 2.1",
-      "video lecture 2.1.1"
+      "module 1",
+      "lesson 1.1",
+      "video lecture 1.1.1"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AI-aided content analysis of sustainability communication",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
+    "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "index page..",
+    "text": "In sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
     "crumbs": [
-      "course start"
+      "module 4",
+      "lesson 4.1",
+      "video lecture 4.1.1"
     ]
   },
   {
-    "objectID": "index.html#module01-understanding-sustainability-communication-content-10pct",
-    "href": "index.html#module01-understanding-sustainability-communication-content-10pct",
-    "title": "AI-aided content analysis of sustainability communication",
-    "section": "module01-understanding-sustainability-communication-content-10pct",
-    "text": "module01-understanding-sustainability-communication-content-10pct\n\naicasc: sustainability communication content\naicasc: find online sustainability communication\naicasc: setting up an initial content database",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "In sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
     "crumbs": [
-      "course start"
-    ]
-  },
-  {
-    "objectID": "index.html#module02-introduction-to-low-code-python-programming-20pct",
-    "href": "index.html#module02-introduction-to-low-code-python-programming-20pct",
-    "title": "AI-aided content analysis of sustainability communication",
-    "section": "module02-introduction-to-low-code-python-programming-20pct",
-    "text": "module02-introduction-to-low-code-python-programming-20pct\n\naicasc: ai-aided and low-code programming\naicasc: google colab notebook user interface\naicasc: trying out some low-code python\naicasc: python and computational data analysis\naicasc: low-code data analysis, tables\naicasc: low-code data analysis, graphs",
-    "crumbs": [
-      "course start"
-    ]
-  },
-  {
-    "objectID": "index.html#module03-analyzing-text-content-natural-language-processing-30pct",
-    "href": "index.html#module03-analyzing-text-content-natural-language-processing-30pct",
-    "title": "AI-aided content analysis of sustainability communication",
-    "section": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "text": "module03-analyzing-text-content-natural-language-processing-30pct\n\naicasc: natural language processing (NLP) in social science\naicasc: reading text into dataframes\naicasc: descriptive text analysis\naicasc: part-of-speech and named entity recognition\naicasc: inferential text analysis, tokenization\naicasc: inferential text analysis, POS and NER\naicasc: interpreting the results of NLP analysis\naicasc: summarizing results of text analysis\naicasc: visualizing results of text analysis",
-    "crumbs": [
-      "course start"
-    ]
-  },
-  {
-    "objectID": "index.html#module04-analyzing-image-content-computer-vision-30pct",
-    "href": "index.html#module04-analyzing-image-content-computer-vision-30pct",
-    "title": "AI-aided content analysis of sustainability communication",
-    "section": "module04-analyzing-image-content-computer-vision-30pct",
-    "text": "module04-analyzing-image-content-computer-vision-30pct\n\naicasc: computer vision (CV) in social science\naicasc: reading images into dataframes\naicasc: descriptive image analysis\naicasc: image classification and object detection\naicasc: inferential image analysis, classification\naicasc: inferential image analysis, object detection\naicasc: interpreting the results of CV analysis\naicasc: summarizing results of image analysis\naicasc: summarizing results of image analysis",
-    "crumbs": [
-      "course start"
-    ]
-  },
-  {
-    "objectID": "index.html#module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
-    "href": "index.html#module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
-    "title": "AI-aided content analysis of sustainability communication",
-    "section": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
-    "text": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct\n\naicasc: key takeaways and ethical perspectives\naicasc: analysis documentation and open science\naicasc: communicating ai-aided content analysis",
-    "crumbs": [
-      "course start"
-    ]
-  },
-  {
-    "objectID": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
-    "href": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
-    "title": "AI-aided content analysis of sustainability communication",
-    "section": "overview of mooc course (ca 10 lessons x 3 hours work)",
-    "text": "overview of mooc course (ca 10 lessons x 3 hours work)\n\ncheck list for setting up screen recordings\n\nvideo lecture\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\ncomputer lab\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\nprepare quiz\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
-    "crumbs": [
-      "course start"
+      "module 4",
+      "lesson 4.1",
+      "video lecture 4.1.1"
     ]
   },
   {
@@ -272,6 +188,55 @@
     "text": "Normalizing Image Content: Resize, Grayscale, and Consistency\n\nImage normalization enhances model performance by standardizing inputs.\nResizing aligns images to a uniform size, aiding consistency in analysis.\nGrayscale conversion reduces complexity and focuses on essential shapes.\nBrightness adjustments help maintain consistency across varied image sources.\nNormalizing inputs is vital for achieving accurate, reliable computer vision results."
   },
   {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Key takeaways and ethical perspectives",
+    "text": "Key takeaways and ethical perspectives\n\nUnderstand how AI can support content analysis in sustainability research\nGain practical skills in text and image data analysis using low-code tools\nLearn to critically interpret results produced by machine learning models\nExplore ethical boundaries of automation in communication analysis\nReflect on transparency, bias, and accountability in AI-supported research"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "What You Learned in This Course",
+    "text": "What You Learned in This Course\n\nCollect and organize sustainability content from real-world sources\nAnalyze both textual and visual communication using Python notebooks\nApply NLP and computer vision techniques in a social science context\nSummarize and visualize data to uncover communication patterns\nConnect computational methods to audience effects and strategic messaging"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Ethics of Automating Content Interpretation",
+    "text": "Ethics of Automating Content Interpretation\n\nQuestion how algorithmic bias might shape findings\nEvaluate the limits of interpretability in automated results\nDiscuss the role of the researcher in guiding and validating AI output\nConsider privacy and consent when collecting public digital content\nIntegrate ethical reflection into research design and dissemination"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Analysis documentation and open science (Jupyter)",
+    "text": "Analysis documentation and open science (Jupyter)\n\nEmphasize reproducibility through transparent workflows\nStore data, code, and results in accessible formats\nUse cloud platforms and version control for collaborative research\nFrame analysis in ways that support peer review and replication\nConnect computational practice with open science values\ncomputer lab: download ipython notebook from google colab"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Using Jupyter Notebooks to Ensure Reproducibility",
+    "text": "Using Jupyter Notebooks to Ensure Reproducibility\n\nQuarto integrates code, output, and documentation in one file\nSupports reproducible research with automated execution\nAllows easy conversion to HTML, PDF, or Word for publication\nEmbeds metadata, citations, and environment settings\nIdeal for sharing transparent, well-structured analytical reports"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Communicating AI-aided content analysis (Quarto)",
+    "text": "Communicating AI-aided content analysis (Quarto)\n\nTranslate technical findings into accessible narratives\nUse visualizations to highlight patterns in sustainability messaging\nConnect communication effects with organizational strategies\nPresent methods and results clearly for both technical and non-technical audiences\nPosition findings within broader ethical and scientific discussions\ncomputer lab: convert ipython notebook to quarto document"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Turning Your Analysis into a Research Publication",
+    "text": "Turning Your Analysis into a Research Publication\n\nStart with a well-documented Google Colab or Quarto notebook\nDefine a clear research question with reproducible methods\nUse structured visualizations to support interpretations\nAlign findings with existing literature and frameworks\nSubmit to journals focusing on digital methods, media studies, or sustainability communication"
+  },
+  {
     "objectID": "about.html#literature",
     "href": "about.html#literature",
     "title": "About",
@@ -293,27 +258,76 @@
     "text": "online articles\n\nsome text here Kedia and Rasu (2020)"
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html",
-    "title": "Module 3: Analyzing text content with natural language processing",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#python-for-social-science-data-analysis",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#python-for-social-science-data-analysis",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "Python for Social Science Data Analysis",
+    "text": "Python for Social Science Data Analysis\n\n\n\nOverview of data analysis types: descriptive, inferential, exploratory\nEmphasis on quantitative methods used in social sciences\nIntroduction to computational content analysis (text/image)\nBenefits of using Python for flexible, scalable analysis\nCommon libraries: pandas, statsmodels, matplotlib, scikit-learn"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-quantitative-analysis-with-python",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-quantitative-analysis-with-python",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "AI-Aided Quantitative Analysis with Python",
+    "text": "AI-Aided Quantitative Analysis with Python\n\nUse large language models (LLMs) to generate statistical code\nQuery data directly using natural language prompts\nAutomate hypothesis testing and model fitting\nReduce entry barrier for non-programmers\nBalance between manual control and AI guidance"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-computational-content-analysis",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#ai-aided-computational-content-analysis",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "AI-Aided Computational Content Analysis",
+    "text": "AI-Aided Computational Content Analysis\n\nApply LLMs for text classification, summarization, and topic modeling\nUse image models (e.g., CLIP, ViT) for analyzing visual content\nCombine text and visual features for rich content analysis\nAutomate entity recognition and theme detection\nUse AI to scale analysis of large corpora"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-tables",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-tables",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "Low-Code Data Analysis with Tables",
+    "text": "Low-Code Data Analysis with Tables\n\nLoad and view datasets using pandas DataFrames\nPerform filtering, grouping, and summary stats with minimal code\nContrast high-code scripts vs. low-code AI-assisted workflows\nUse AI tools to generate and interpret table outputs\nExample tools: pandasgui, datatable, ChatGPT + CSV"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#data-transformations-with-ai-assistance",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#data-transformations-with-ai-assistance",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "Data Transformations with AI Assistance",
+    "text": "Data Transformations with AI Assistance\n\nSelect relevant variables using prompts or code\nFilter observations based on conditions (e.g., time, value ranges)\nAggregate data for summaries (e.g., mean by group)\nCompare traditional pandas syntax vs. AI-assisted queries\nLearn transformation logic through interactive AI feedback"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-graphs",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#low-code-data-analysis-with-graphs",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "Low-Code Data Analysis with Graphs",
+    "text": "Low-Code Data Analysis with Graphs\n\nCreate basic visualizations (e.g., bar, line, histogram)\nUnderstand univariate (one variable) vs. bivariate (two variables) plots\nUse AI to suggest and generate appropriate plot types\nExample libraries: matplotlib, seaborn, plotnine\nVisualize data trends and relationships with minimal setup"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#multivariate-and-interactive-graphs",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#multivariate-and-interactive-graphs",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "Multivariate and Interactive Graphs",
+    "text": "Multivariate and Interactive Graphs\n\nVisualize relationships between three or more variables\nUse scatter matrices, heatmaps, or bubble charts\nAdd interactivity with plotly, altair, or holoviews\nUse AI to refine visual layouts and variable selections\nEnable dynamic exploration of patterns in large datasets"
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
+    "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Understanding token relationships is fundamental in NLP, where aspect-based sentiment analysis identifies sentiment tied to specific aspects of a text. Knowledge graphs further enrich this understanding by mapping relationships between entities, enabling sophisticated insights into connections and context within the data.\n\n\n\nNatural language processing operates across multiple levels of granularity, from complete texts and paragraphs to sentences, words, and individual tokens. Each unit provides unique insights, with tokens representing the smallest meaningful elements, forming the foundation for complex linguistic analysis.\n\n\n\nSpaCy’s powerful NLP models can be seamlessly integrated with text and sentence dataframes, enabling batch processing of textual data. This application simplifies linguistic analysis and provides structured outputs, such as token attributes and syntactic dependencies, directly usable for further processing.\n\n\n\nIterating over a sentence-level dataframe and corresponding SpaCy document objects allows detailed exploration of linguistic features. This method facilitates tasks like extracting sentence-specific attributes, analyzing syntactic structures, and identifying patterns within textual data.\n\n\n\nText normalization ensures consistency and clarity by standardizing tokens, extracting essential attributes like token text and lemma. Lemmatization, in particular, reduces words to their base forms, enhancing search, indexing, and overall NLP model performance.\n\n\n\nNamed entity recognition (NER) identifies and classifies entities such as names, organizations, and dates within text, enabling applications like automated content categorization, customer sentiment analysis, and improved information retrieval systems.\n\n\n\nPart-of-speech tagging assigns grammatical categories to tokens, such as nouns, verbs, or adjectives, providing critical insights into text structure. Applications include syntactic parsing, language generation, and improving machine translation systems by capturing grammatical nuances.",
+    "text": "In the social sciences, data analysis takes many forms—including descriptive statistics, inferential testing, and exploratory modeling. Python provides a flexible and scalable environment for performing all of these, with a growing ecosystem tailored to academic and applied research. One emerging area is computational content analysis, where researchers apply Python tools to analyze text and visual content systematically. Libraries such as pandas, statsmodels, matplotlib, and scikit-learn enable everything from data wrangling to advanced modeling, making Python an essential tool for quantitative social scientists.\n\n\n\n\nArtificial intelligence—especially large language models—now supports researchers in performing quantitative analysis more efficiently. These models can generate Python code on demand for statistical tasks, allowing users to interact with their data through natural language. This reduces the technical barrier for non-programmers while enabling rapid hypothesis testing, data cleaning, and model generation. The balance between manual coding and AI-assisted scripting gives researchers more control and efficiency, particularly when iterating through complex analytical workflows.\n\n\n\n\nAI is also transforming how we approach content analysis. Large language models can assist in extracting meaning from text through classification, summarization, or topic modeling. Meanwhile, vision models like CLIP or ViT enable analysis of image and video content. Together, these tools support multimodal analysis, where textual and visual data are examined in tandem. Researchers can automate tasks such as entity recognition and theme detection, significantly speeding up the analysis of large, complex corpora while still allowing for nuanced interpretation.\n\n\n\n\nPython makes it easy to read and manipulate tabular data, especially using the pandas library. With AI-assisted tools, users can perform complex filtering, grouping, and aggregation with simple prompts rather than verbose code. This low-code approach is ideal for exploratory data analysis, especially in non-technical fields. Tools like pandasgui, datatable, or conversational agents like ChatGPT can generate, execute, and explain table operations in real-time. This democratizes access to data insights and facilitates reproducibility.\n\n\n\n\nTransforming data—through selection, filtering, and aggregation—is foundational to any analysis workflow. In Python, these operations are traditionally handled with pandas, but AI tools can now suggest or execute them via natural language instructions. This makes it easier for users to identify the variables they need, set conditions for filtering, and compute summaries like group means or totals. By comparing AI-generated queries to traditional code, learners gain a deeper understanding of the logic behind data manipulation.\n\n\n\n\nVisualization is a key part of understanding and communicating data. Python supports a wide range of basic plotting options, including bar charts, line graphs, and histograms. With AI assistance, users can describe the kind of graph they want and receive ready-to-run code. This enables quick generation of univariate and bivariate plots that explore single variables or pairwise relationships. Libraries such as matplotlib, seaborn, and plotnine provide powerful tools for crafting clear, insightful visualizations with minimal setup.\n\n\n\n\nWhen analysis involves more than two variables, visualization becomes more complex—and more powerful. Python offers tools to create multivariate plots like scatter matrices, heatmaps, and bubble charts. For dynamic exploration, libraries like plotly, altair, and holoviews enable interactive features such as zooming, filtering, and tooltip displays. AI support can refine these visualizations by adjusting parameters or recommending plot types based on data structure. This helps users engage deeply with high-dimensional data and uncover hidden patterns.",
     "crumbs": [
-      "module 3",
-      "lesson 3.2",
-      "video lecture 3.2.1"
+      "module 2",
+      "lesson 2.2",
+      "video lecture 2.2.1"
     ]
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html#lesson-3.2-part-of-speech-and-named-entity-recognition",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html#lesson-3.2-part-of-speech-and-named-entity-recognition",
-    "title": "Module 3: Analyzing text content with natural language processing",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#lesson-2.2-python-and-ai-aided-data-analysis",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#lesson-2.2-python-and-ai-aided-data-analysis",
+    "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Understanding token relationships is fundamental in NLP, where aspect-based sentiment analysis identifies sentiment tied to specific aspects of a text. Knowledge graphs further enrich this understanding by mapping relationships between entities, enabling sophisticated insights into connections and context within the data.\n\n\n\nNatural language processing operates across multiple levels of granularity, from complete texts and paragraphs to sentences, words, and individual tokens. Each unit provides unique insights, with tokens representing the smallest meaningful elements, forming the foundation for complex linguistic analysis.\n\n\n\nSpaCy’s powerful NLP models can be seamlessly integrated with text and sentence dataframes, enabling batch processing of textual data. This application simplifies linguistic analysis and provides structured outputs, such as token attributes and syntactic dependencies, directly usable for further processing.\n\n\n\nIterating over a sentence-level dataframe and corresponding SpaCy document objects allows detailed exploration of linguistic features. This method facilitates tasks like extracting sentence-specific attributes, analyzing syntactic structures, and identifying patterns within textual data.\n\n\n\nText normalization ensures consistency and clarity by standardizing tokens, extracting essential attributes like token text and lemma. Lemmatization, in particular, reduces words to their base forms, enhancing search, indexing, and overall NLP model performance.\n\n\n\nNamed entity recognition (NER) identifies and classifies entities such as names, organizations, and dates within text, enabling applications like automated content categorization, customer sentiment analysis, and improved information retrieval systems.\n\n\n\nPart-of-speech tagging assigns grammatical categories to tokens, such as nouns, verbs, or adjectives, providing critical insights into text structure. Applications include syntactic parsing, language generation, and improving machine translation systems by capturing grammatical nuances.",
+    "text": "In the social sciences, data analysis takes many forms—including descriptive statistics, inferential testing, and exploratory modeling. Python provides a flexible and scalable environment for performing all of these, with a growing ecosystem tailored to academic and applied research. One emerging area is computational content analysis, where researchers apply Python tools to analyze text and visual content systematically. Libraries such as pandas, statsmodels, matplotlib, and scikit-learn enable everything from data wrangling to advanced modeling, making Python an essential tool for quantitative social scientists.\n\n\n\n\nArtificial intelligence—especially large language models—now supports researchers in performing quantitative analysis more efficiently. These models can generate Python code on demand for statistical tasks, allowing users to interact with their data through natural language. This reduces the technical barrier for non-programmers while enabling rapid hypothesis testing, data cleaning, and model generation. The balance between manual coding and AI-assisted scripting gives researchers more control and efficiency, particularly when iterating through complex analytical workflows.\n\n\n\n\nAI is also transforming how we approach content analysis. Large language models can assist in extracting meaning from text through classification, summarization, or topic modeling. Meanwhile, vision models like CLIP or ViT enable analysis of image and video content. Together, these tools support multimodal analysis, where textual and visual data are examined in tandem. Researchers can automate tasks such as entity recognition and theme detection, significantly speeding up the analysis of large, complex corpora while still allowing for nuanced interpretation.\n\n\n\n\nPython makes it easy to read and manipulate tabular data, especially using the pandas library. With AI-assisted tools, users can perform complex filtering, grouping, and aggregation with simple prompts rather than verbose code. This low-code approach is ideal for exploratory data analysis, especially in non-technical fields. Tools like pandasgui, datatable, or conversational agents like ChatGPT can generate, execute, and explain table operations in real-time. This democratizes access to data insights and facilitates reproducibility.\n\n\n\n\nTransforming data—through selection, filtering, and aggregation—is foundational to any analysis workflow. In Python, these operations are traditionally handled with pandas, but AI tools can now suggest or execute them via natural language instructions. This makes it easier for users to identify the variables they need, set conditions for filtering, and compute summaries like group means or totals. By comparing AI-generated queries to traditional code, learners gain a deeper understanding of the logic behind data manipulation.\n\n\n\n\nVisualization is a key part of understanding and communicating data. Python supports a wide range of basic plotting options, including bar charts, line graphs, and histograms. With AI assistance, users can describe the kind of graph they want and receive ready-to-run code. This enables quick generation of univariate and bivariate plots that explore single variables or pairwise relationships. Libraries such as matplotlib, seaborn, and plotnine provide powerful tools for crafting clear, insightful visualizations with minimal setup.\n\n\n\n\nWhen analysis involves more than two variables, visualization becomes more complex—and more powerful. Python offers tools to create multivariate plots like scatter matrices, heatmaps, and bubble charts. For dynamic exploration, libraries like plotly, altair, and holoviews enable interactive features such as zooming, filtering, and tooltip displays. AI support can refine these visualizations by adjusting parameters or recommending plot types based on data structure. This helps users engage deeply with high-dimensional data and uncover hidden patterns.",
     "crumbs": [
-      "module 3",
-      "lesson 3.2",
-      "video lecture 3.2.1"
+      "module 2",
+      "lesson 2.2",
+      "video lecture 2.2.1"
     ]
   },
   {
@@ -366,30 +380,6 @@
     "text": "Manifest Text Content and Frequency Analysis\n\n\n\nManifest content refers to explicitly observable text elements.\n\nSentence and word counts provide quantitative content metrics.\n\nWord frequency analysis highlights key terms and dominant themes.\n\nVisualizations like word clouds offer intuitive insights into text data.\n\nThese metrics are foundational for exploratory text analysis.\n\n\n\n\n\n📊"
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html",
-    "title": "Module 3: Analyzing text content with natural language processing",
-    "section": "",
-    "text": "3-1-1-video-lecture-slides.pdf\n\n\n\n\n\n\n\n\n\n\nTexts in sustainability communication serve varied purposes, including raising awareness, educating audiences, advocating for change, and influencing policies. Informational texts like reports and white papers provide detailed data and analyses, while persuasive content such as blogs and social media posts aim to inspire action. Visual- and data-supported texts often enhance engagement by presenting complex ideas in accessible formats. Understanding the intended function is critical for effective communication and targeted NLP applications.\n\n\n\nNatural Language Processing (NLP) covers diverse areas, from sentiment analysis to machine translation and summarization. Working with unstructured text presents challenges, such as handling ambiguous language, idiomatic expressions, and domain-specific jargon. Additionally, processing noisy data from social media or OCR errors in scanned documents often complicates the analysis. Effective NLP requires robust preprocessing pipelines and domain-specific adjustments to achieve meaningful results.\n\n\n\nIn NLP, text analysis begins with defining the units of analysis—such as sentences, words, or characters. Tokens, the smallest logical units of text, are derived from splitting strings into meaningful components. N-grams, sequences of n tokens, capture contextual relationships, with bigrams and trigrams being particularly useful for understanding phrases. Mastering these foundational concepts is essential for advanced text processing.\n\n\n\nText is often embedded in formats like PDFs, HTML, or Markdown, each presenting unique challenges for extraction. PDFs may include layout artifacts, while HTML contains tags that must be parsed. Converting these formats into clean plain text ensures compatibility with NLP tools. Tools like Tika, Beautiful Soup, and Markdown parsers simplify this conversion process, paving the way for structured analysis.\n\n\n\nKey features of text content include readability indices like the Flesch Reading Ease, which assess complexity, and linguistic features such as Part-of-Speech (POS) tagging, which categorizes words based on their grammatical role. Named Entity Recognition (NER) identifies and classifies proper nouns, dates, or other specific entities. These features offer insights into the style, structure, and meaning of the text, aiding both analysis and decision-making.\n\n\n\nTextual data is often ingested into dataframes for analysis, enabling structured workflows. This process involves normalization tasks, such as lowercasing and removing punctuation, followed by tokenization to split the text into analyzable units. Pandas and NLTK are popular tools for managing these steps, enabling efficient preparation of text for downstream NLP tasks.\n\n\n\nManifest content refers to the explicit, observable elements of a text, such as word counts, sentence lengths, and overall structure. Techniques like word frequency analysis reveal dominant themes and help identify key terms. Sentence and word counts provide quantitative measures of text characteristics, while visualization tools like word clouds offer intuitive insights into content prominence.",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1",
-      "video lecture 3.1.1"
-    ]
-  },
-  {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html#lesson-3.1-natural-language-processing-nlp-in-social-science",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html#lesson-3.1-natural-language-processing-nlp-in-social-science",
-    "title": "Module 3: Analyzing text content with natural language processing",
-    "section": "",
-    "text": "3-1-1-video-lecture-slides.pdf\n\n\n\n\n\n\n\n\n\n\nTexts in sustainability communication serve varied purposes, including raising awareness, educating audiences, advocating for change, and influencing policies. Informational texts like reports and white papers provide detailed data and analyses, while persuasive content such as blogs and social media posts aim to inspire action. Visual- and data-supported texts often enhance engagement by presenting complex ideas in accessible formats. Understanding the intended function is critical for effective communication and targeted NLP applications.\n\n\n\nNatural Language Processing (NLP) covers diverse areas, from sentiment analysis to machine translation and summarization. Working with unstructured text presents challenges, such as handling ambiguous language, idiomatic expressions, and domain-specific jargon. Additionally, processing noisy data from social media or OCR errors in scanned documents often complicates the analysis. Effective NLP requires robust preprocessing pipelines and domain-specific adjustments to achieve meaningful results.\n\n\n\nIn NLP, text analysis begins with defining the units of analysis—such as sentences, words, or characters. Tokens, the smallest logical units of text, are derived from splitting strings into meaningful components. N-grams, sequences of n tokens, capture contextual relationships, with bigrams and trigrams being particularly useful for understanding phrases. Mastering these foundational concepts is essential for advanced text processing.\n\n\n\nText is often embedded in formats like PDFs, HTML, or Markdown, each presenting unique challenges for extraction. PDFs may include layout artifacts, while HTML contains tags that must be parsed. Converting these formats into clean plain text ensures compatibility with NLP tools. Tools like Tika, Beautiful Soup, and Markdown parsers simplify this conversion process, paving the way for structured analysis.\n\n\n\nKey features of text content include readability indices like the Flesch Reading Ease, which assess complexity, and linguistic features such as Part-of-Speech (POS) tagging, which categorizes words based on their grammatical role. Named Entity Recognition (NER) identifies and classifies proper nouns, dates, or other specific entities. These features offer insights into the style, structure, and meaning of the text, aiding both analysis and decision-making.\n\n\n\nTextual data is often ingested into dataframes for analysis, enabling structured workflows. This process involves normalization tasks, such as lowercasing and removing punctuation, followed by tokenization to split the text into analyzable units. Pandas and NLTK are popular tools for managing these steps, enabling efficient preparation of text for downstream NLP tasks.\n\n\n\nManifest content refers to the explicit, observable elements of a text, such as word counts, sentence lengths, and overall structure. Techniques like word frequency analysis reveal dominant themes and help identify key terms. Sentence and word counts provide quantitative measures of text characteristics, while visualization tools like word clouds offer intuitive insights into content prominence.",
-    "crumbs": [
-      "module 3",
-      "lesson 3.1",
-      "video lecture 3.1.1"
-    ]
-  },
-  {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3-2",
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3-2",
     "title": "Module 3: Analyzing text content with natural language processing",
@@ -407,169 +397,6 @@
     "text": "lesson 3-3\n\nvideo-lecture.qmd:Interpreting the results of NLP analysis\n\n\ncomputer-lab.qmd:Summarizing results of text analysis\n\n\ncomputer-lab.qmd:Visualizing results of text analysis",
     "crumbs": [
       "module 3"
-    ]
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome"
-  },
-  {
-    "objectID": "0-1-welcome-script.html#mooc-welcome-address",
-    "href": "0-1-welcome-script.html#mooc-welcome-address",
-    "title": "0-1-welcome-script.qmd",
-    "section": "mooc welcome address",
-    "text": "mooc welcome address"
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-1",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-1",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWelcome to AI-Aided Content Analysis of Sustainability Communication—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-2",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-2",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-3",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-3",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-4",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-4",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-5",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-5",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-6",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-6",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?"
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-7",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-7",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-8",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-8",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWelcome aboard. Let’s begin."
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Key takeaways and ethical perspectives",
-    "text": "Key takeaways and ethical perspectives\n\nUnderstand how AI can support content analysis in sustainability research\nGain practical skills in text and image data analysis using low-code tools\nLearn to critically interpret results produced by machine learning models\nExplore ethical boundaries of automation in communication analysis\nReflect on transparency, bias, and accountability in AI-supported research"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "What You Learned in This Course",
-    "text": "What You Learned in This Course\n\nCollect and organize sustainability content from real-world sources\nAnalyze both textual and visual communication using Python notebooks\nApply NLP and computer vision techniques in a social science context\nSummarize and visualize data to uncover communication patterns\nConnect computational methods to audience effects and strategic messaging"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Ethics of Automating Content Interpretation",
-    "text": "Ethics of Automating Content Interpretation\n\nQuestion how algorithmic bias might shape findings\nEvaluate the limits of interpretability in automated results\nDiscuss the role of the researcher in guiding and validating AI output\nConsider privacy and consent when collecting public digital content\nIntegrate ethical reflection into research design and dissemination"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Analysis documentation and open science (Jupyter)",
-    "text": "Analysis documentation and open science (Jupyter)\n\nEmphasize reproducibility through transparent workflows\nStore data, code, and results in accessible formats\nUse cloud platforms and version control for collaborative research\nFrame analysis in ways that support peer review and replication\nConnect computational practice with open science values\ncomputer lab: download ipython notebook from google colab"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Using Jupyter Notebooks to Ensure Reproducibility",
-    "text": "Using Jupyter Notebooks to Ensure Reproducibility\n\nQuarto integrates code, output, and documentation in one file\nSupports reproducible research with automated execution\nAllows easy conversion to HTML, PDF, or Word for publication\nEmbeds metadata, citations, and environment settings\nIdeal for sharing transparent, well-structured analytical reports"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Communicating AI-aided content analysis (Quarto)",
-    "text": "Communicating AI-aided content analysis (Quarto)\n\nTranslate technical findings into accessible narratives\nUse visualizations to highlight patterns in sustainability messaging\nConnect communication effects with organizational strategies\nPresent methods and results clearly for both technical and non-technical audiences\nPosition findings within broader ethical and scientific discussions\ncomputer lab: convert ipython notebook to quarto document"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Turning Your Analysis into a Research Publication",
-    "text": "Turning Your Analysis into a Research Publication\n\nStart with a well-documented Google Colab or Quarto notebook\nDefine a clear research question with reproducible methods\nUse structured visualizations to support interpretations\nAlign findings with existing literature and frameworks\nSubmit to journals focusing on digital methods, media studies, or sustainability communication"
-  },
-  {
-    "objectID": "0-2-resources.html",
-    "href": "0-2-resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
-    "crumbs": [
-      "course start",
-      "resources"
-    ]
-  },
-  {
-    "objectID": "0-2-resources.html#literature",
-    "href": "0-2-resources.html#literature",
-    "title": "Resources",
-    "section": "",
-    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
-    "crumbs": [
-      "course start",
-      "resources"
-    ]
-  },
-  {
-    "objectID": "0-2-resources.html#websites-and-apps",
-    "href": "0-2-resources.html#websites-and-apps",
-    "title": "Resources",
-    "section": "websites and apps",
-    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home",
-    "crumbs": [
-      "course start",
-      "resources"
-    ]
-  },
-  {
-    "objectID": "0-2-resources.html#online-articles",
-    "href": "0-2-resources.html#online-articles",
-    "title": "Resources",
-    "section": "online articles",
-    "text": "online articles\n\nsome text here Kedia and Rasu (2020)",
-    "crumbs": [
-      "course start",
-      "resources"
     ]
   },
   {
@@ -646,6 +473,76 @@
     ]
   },
   {
+    "objectID": "0-1-welcome.html",
+    "href": "0-1-welcome.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "script slides",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-welcome.html#mooc-welcome-address",
+    "href": "0-1-welcome.html#mooc-welcome-address",
+    "title": "Welcome",
+    "section": "mooc welcome address",
+    "text": "mooc welcome address\nWelcome to AI-Aided Content Analysis of Sustainability Communication—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content.\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future.\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision.\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources.\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place.\nWelcome aboard. Let’s begin.",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "!pip install -q pdfminer.six\nimport os\nfrom pdfminer.high_level import extract_text\n\n# Directories containing the PDFs\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.pdf'):\n                pdf_path = os.path.join(root, file)\n                text_path = os.path.splitext(pdf_path)[0] + '.txt'\n\n                try:\n                    text = extract_text(pdf_path)\n                    with open(text_path, 'w', encoding='utf-8') as f:\n                        f.write(text)\n                    print(f\"Converted {pdf_path} to {text_path}\")\n                except Exception as e:\n                    print(f\"Failed to convert {pdf_path}: {e}\")\nImporting Necessary Libraries\nThe code begins by importing essential modules. It imports os for interacting with the operating system’s file system and extract_text from pdfminer.high_level for extracting text content from PDF files.\n\nDefining the Directories Containing PDFs\nTwo lists named directories are defined. The first is a placeholder with ['organization1', 'organization2'], and the second specifies the actual paths to the directories containing the PDF files: - /content/osm-cca-nlp/res/pdf/preem - /content/osm-cca-nlp/res/pdf/vattenfall\n\nIterating Over Each Directory\nThe code uses a for loop to iterate through each directory specified in the directories list. This allows the program to process multiple directories sequentially.\n\nWalking Through Directory Trees\nWithin each directory, the os.walk(directory) function traverses the directory tree. It yields a tuple containing the root path, a list of dirs (subdirectories), and a list of files in each directory.\n\nIdentifying PDF Files\nFor every file in the files list, the code checks if the file name ends with .pdf (case-insensitive) using file.lower().endswith('.pdf'). This ensures that only PDF files are processed.\n\nConstructing File Paths\nThe full path to the PDF file is constructed using os.path.join(root, file). The corresponding text file path is created by replacing the .pdf extension with .txt using os.path.splitext(pdf_path)[0] + '.txt'.\n\nExtracting Text from PDFs\nA try block is initiated to attempt text extraction. The extract_text(pdf_path) function reads the content of the PDF file and stores it in the variable text.\n\nWriting Extracted Text to Files\nIf text extraction is successful, the code opens a new text file at text_path in write mode with UTF-8 encoding. It writes the extracted text into this file and then closes it, ensuring the text is saved next to the original PDF.\n\nLogging Successful Conversions\nAfter successfully writing the text file, the code prints a message indicating the PDF file has been converted, using:\nprint(f\"Converted {pdf_path} to {text_path}\")\n\nHandling Exceptions\nAn except block catches any exceptions that occur during the extraction or writing process. If an error occurs, it prints a failure message with the path of the PDF file and the exception details:\nprint(f\"Failed to convert {pdf_path}: {e}\")\n\n\n\n\nimport os\nimport pandas as pd\nimport re\nimport string\n\n# Directories containing the text files\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\ndata = []\ntext_index = 1\n\n# Allowed characters: alphabetic, punctuation, and whitespace\nallowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.txt'):\n                file_path = os.path.join(root, file)\n                folder_name = os.path.basename(root)\n\n                with open(file_path, 'r', encoding='utf-8') as f:\n                    raw_text = f.read()\n\n                # Keep only allowed characters\n                clean_text = ''.join(c for c in raw_text if c in allowed_chars)\n\n                # Replace sequences of whitespace with a single space\n                clean_text = re.sub(r'\\s+', ' ', clean_text)\n\n                # Trim leading and trailing whitespace\n                clean_text = clean_text.strip()\n\n                data.append({\n                    'text_index': text_index,\n                    'file_path': file_path,\n                    'folder_name': folder_name,\n                    'raw_text': raw_text,\n                    'clean_text': clean_text\n                })\n\n                text_index += 1\n\n# Create DataFrame\ndf_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])\n\n# Save DataFrame to TSV file\ndf_texts.to_csv('df_texts.tsv', sep='\\t', index=False)\ndf_texts.head()",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "computer lab 3.1.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#lesson-3.1-reading-text-into-dataframes",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#lesson-3.1-reading-text-into-dataframes",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "!pip install -q pdfminer.six\nimport os\nfrom pdfminer.high_level import extract_text\n\n# Directories containing the PDFs\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.pdf'):\n                pdf_path = os.path.join(root, file)\n                text_path = os.path.splitext(pdf_path)[0] + '.txt'\n\n                try:\n                    text = extract_text(pdf_path)\n                    with open(text_path, 'w', encoding='utf-8') as f:\n                        f.write(text)\n                    print(f\"Converted {pdf_path} to {text_path}\")\n                except Exception as e:\n                    print(f\"Failed to convert {pdf_path}: {e}\")\nImporting Necessary Libraries\nThe code begins by importing essential modules. It imports os for interacting with the operating system’s file system and extract_text from pdfminer.high_level for extracting text content from PDF files.\n\nDefining the Directories Containing PDFs\nTwo lists named directories are defined. The first is a placeholder with ['organization1', 'organization2'], and the second specifies the actual paths to the directories containing the PDF files: - /content/osm-cca-nlp/res/pdf/preem - /content/osm-cca-nlp/res/pdf/vattenfall\n\nIterating Over Each Directory\nThe code uses a for loop to iterate through each directory specified in the directories list. This allows the program to process multiple directories sequentially.\n\nWalking Through Directory Trees\nWithin each directory, the os.walk(directory) function traverses the directory tree. It yields a tuple containing the root path, a list of dirs (subdirectories), and a list of files in each directory.\n\nIdentifying PDF Files\nFor every file in the files list, the code checks if the file name ends with .pdf (case-insensitive) using file.lower().endswith('.pdf'). This ensures that only PDF files are processed.\n\nConstructing File Paths\nThe full path to the PDF file is constructed using os.path.join(root, file). The corresponding text file path is created by replacing the .pdf extension with .txt using os.path.splitext(pdf_path)[0] + '.txt'.\n\nExtracting Text from PDFs\nA try block is initiated to attempt text extraction. The extract_text(pdf_path) function reads the content of the PDF file and stores it in the variable text.\n\nWriting Extracted Text to Files\nIf text extraction is successful, the code opens a new text file at text_path in write mode with UTF-8 encoding. It writes the extracted text into this file and then closes it, ensuring the text is saved next to the original PDF.\n\nLogging Successful Conversions\nAfter successfully writing the text file, the code prints a message indicating the PDF file has been converted, using:\nprint(f\"Converted {pdf_path} to {text_path}\")\n\nHandling Exceptions\nAn except block catches any exceptions that occur during the extraction or writing process. If an error occurs, it prints a failure message with the path of the PDF file and the exception details:\nprint(f\"Failed to convert {pdf_path}: {e}\")\n\n\n\n\nimport os\nimport pandas as pd\nimport re\nimport string\n\n# Directories containing the text files\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\ndata = []\ntext_index = 1\n\n# Allowed characters: alphabetic, punctuation, and whitespace\nallowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.txt'):\n                file_path = os.path.join(root, file)\n                folder_name = os.path.basename(root)\n\n                with open(file_path, 'r', encoding='utf-8') as f:\n                    raw_text = f.read()\n\n                # Keep only allowed characters\n                clean_text = ''.join(c for c in raw_text if c in allowed_chars)\n\n                # Replace sequences of whitespace with a single space\n                clean_text = re.sub(r'\\s+', ' ', clean_text)\n\n                # Trim leading and trailing whitespace\n                clean_text = clean_text.strip()\n\n                data.append({\n                    'text_index': text_index,\n                    'file_path': file_path,\n                    'folder_name': folder_name,\n                    'raw_text': raw_text,\n                    'clean_text': clean_text\n                })\n\n                text_index += 1\n\n# Create DataFrame\ndf_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])\n\n# Save DataFrame to TSV file\ndf_texts.to_csv('df_texts.tsv', sep='\\t', index=False)\ndf_texts.head()",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "computer lab 3.1.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "3-1-1-video-lecture-slides.pdf\n\n\n\n\n\n\n\n\n\n\nTexts in sustainability communication serve varied purposes, including raising awareness, educating audiences, advocating for change, and influencing policies. Informational texts like reports and white papers provide detailed data and analyses, while persuasive content such as blogs and social media posts aim to inspire action. Visual- and data-supported texts often enhance engagement by presenting complex ideas in accessible formats. Understanding the intended function is critical for effective communication and targeted NLP applications.\n\n\n\nNatural Language Processing (NLP) covers diverse areas, from sentiment analysis to machine translation and summarization. Working with unstructured text presents challenges, such as handling ambiguous language, idiomatic expressions, and domain-specific jargon. Additionally, processing noisy data from social media or OCR errors in scanned documents often complicates the analysis. Effective NLP requires robust preprocessing pipelines and domain-specific adjustments to achieve meaningful results.\n\n\n\nIn NLP, text analysis begins with defining the units of analysis—such as sentences, words, or characters. Tokens, the smallest logical units of text, are derived from splitting strings into meaningful components. N-grams, sequences of n tokens, capture contextual relationships, with bigrams and trigrams being particularly useful for understanding phrases. Mastering these foundational concepts is essential for advanced text processing.\n\n\n\nText is often embedded in formats like PDFs, HTML, or Markdown, each presenting unique challenges for extraction. PDFs may include layout artifacts, while HTML contains tags that must be parsed. Converting these formats into clean plain text ensures compatibility with NLP tools. Tools like Tika, Beautiful Soup, and Markdown parsers simplify this conversion process, paving the way for structured analysis.\n\n\n\nKey features of text content include readability indices like the Flesch Reading Ease, which assess complexity, and linguistic features such as Part-of-Speech (POS) tagging, which categorizes words based on their grammatical role. Named Entity Recognition (NER) identifies and classifies proper nouns, dates, or other specific entities. These features offer insights into the style, structure, and meaning of the text, aiding both analysis and decision-making.\n\n\n\nTextual data is often ingested into dataframes for analysis, enabling structured workflows. This process involves normalization tasks, such as lowercasing and removing punctuation, followed by tokenization to split the text into analyzable units. Pandas and NLTK are popular tools for managing these steps, enabling efficient preparation of text for downstream NLP tasks.\n\n\n\nManifest content refers to the explicit, observable elements of a text, such as word counts, sentence lengths, and overall structure. Techniques like word frequency analysis reveal dominant themes and help identify key terms. Sentence and word counts provide quantitative measures of text characteristics, while visualization tools like word clouds offer intuitive insights into content prominence.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "video lecture 3.1.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html#lesson-3.1-natural-language-processing-nlp-in-social-science",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html#lesson-3.1-natural-language-processing-nlp-in-social-science",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "3-1-1-video-lecture-slides.pdf\n\n\n\n\n\n\n\n\n\n\nTexts in sustainability communication serve varied purposes, including raising awareness, educating audiences, advocating for change, and influencing policies. Informational texts like reports and white papers provide detailed data and analyses, while persuasive content such as blogs and social media posts aim to inspire action. Visual- and data-supported texts often enhance engagement by presenting complex ideas in accessible formats. Understanding the intended function is critical for effective communication and targeted NLP applications.\n\n\n\nNatural Language Processing (NLP) covers diverse areas, from sentiment analysis to machine translation and summarization. Working with unstructured text presents challenges, such as handling ambiguous language, idiomatic expressions, and domain-specific jargon. Additionally, processing noisy data from social media or OCR errors in scanned documents often complicates the analysis. Effective NLP requires robust preprocessing pipelines and domain-specific adjustments to achieve meaningful results.\n\n\n\nIn NLP, text analysis begins with defining the units of analysis—such as sentences, words, or characters. Tokens, the smallest logical units of text, are derived from splitting strings into meaningful components. N-grams, sequences of n tokens, capture contextual relationships, with bigrams and trigrams being particularly useful for understanding phrases. Mastering these foundational concepts is essential for advanced text processing.\n\n\n\nText is often embedded in formats like PDFs, HTML, or Markdown, each presenting unique challenges for extraction. PDFs may include layout artifacts, while HTML contains tags that must be parsed. Converting these formats into clean plain text ensures compatibility with NLP tools. Tools like Tika, Beautiful Soup, and Markdown parsers simplify this conversion process, paving the way for structured analysis.\n\n\n\nKey features of text content include readability indices like the Flesch Reading Ease, which assess complexity, and linguistic features such as Part-of-Speech (POS) tagging, which categorizes words based on their grammatical role. Named Entity Recognition (NER) identifies and classifies proper nouns, dates, or other specific entities. These features offer insights into the style, structure, and meaning of the text, aiding both analysis and decision-making.\n\n\n\nTextual data is often ingested into dataframes for analysis, enabling structured workflows. This process involves normalization tasks, such as lowercasing and removing punctuation, followed by tokenization to split the text into analyzable units. Pandas and NLTK are popular tools for managing these steps, enabling efficient preparation of text for downstream NLP tasks.\n\n\n\nManifest content refers to the explicit, observable elements of a text, such as word counts, sentence lengths, and overall structure. Techniques like word frequency analysis reveal dominant themes and help identify key terms. Sentence and word counts provide quantitative measures of text characteristics, while visualization tools like word clouds offer intuitive insights into content prominence.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1",
+      "video lecture 3.1.1"
+    ]
+  },
+  {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#token-relationships-and-knowledge-graphs",
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture-slides.html#token-relationships-and-knowledge-graphs",
     "title": "Module 3: Analyzing text content with natural language processing",
@@ -695,114 +592,27 @@
     "text": "Infering Part-of-Speech Tagging (POS)\n\n\n\nPOS tagging assigns grammatical roles to tokens like nouns, verbs, and adjectives.\n\nCaptures the syntactic structure of text for deeper linguistic understanding.\n\nApplications include syntax parsing, machine translation, and text generation.\n\nPOS tagging enhances accuracy in sentiment analysis and topic modeling.\n\nSupports advanced NLP tasks like dependency parsing and coreference resolution.\n\n\n\n\n\n\n🧮"
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "!pip install -q pdfminer.six\nimport os\nfrom pdfminer.high_level import extract_text\n\n# Directories containing the PDFs\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.pdf'):\n                pdf_path = os.path.join(root, file)\n                text_path = os.path.splitext(pdf_path)[0] + '.txt'\n\n                try:\n                    text = extract_text(pdf_path)\n                    with open(text_path, 'w', encoding='utf-8') as f:\n                        f.write(text)\n                    print(f\"Converted {pdf_path} to {text_path}\")\n                except Exception as e:\n                    print(f\"Failed to convert {pdf_path}: {e}\")\nImporting Necessary Libraries\nThe code begins by importing essential modules. It imports os for interacting with the operating system’s file system and extract_text from pdfminer.high_level for extracting text content from PDF files.\n\nDefining the Directories Containing PDFs\nTwo lists named directories are defined. The first is a placeholder with ['organization1', 'organization2'], and the second specifies the actual paths to the directories containing the PDF files: - /content/osm-cca-nlp/res/pdf/preem - /content/osm-cca-nlp/res/pdf/vattenfall\n\nIterating Over Each Directory\nThe code uses a for loop to iterate through each directory specified in the directories list. This allows the program to process multiple directories sequentially.\n\nWalking Through Directory Trees\nWithin each directory, the os.walk(directory) function traverses the directory tree. It yields a tuple containing the root path, a list of dirs (subdirectories), and a list of files in each directory.\n\nIdentifying PDF Files\nFor every file in the files list, the code checks if the file name ends with .pdf (case-insensitive) using file.lower().endswith('.pdf'). This ensures that only PDF files are processed.\n\nConstructing File Paths\nThe full path to the PDF file is constructed using os.path.join(root, file). The corresponding text file path is created by replacing the .pdf extension with .txt using os.path.splitext(pdf_path)[0] + '.txt'.\n\nExtracting Text from PDFs\nA try block is initiated to attempt text extraction. The extract_text(pdf_path) function reads the content of the PDF file and stores it in the variable text.\n\nWriting Extracted Text to Files\nIf text extraction is successful, the code opens a new text file at text_path in write mode with UTF-8 encoding. It writes the extracted text into this file and then closes it, ensuring the text is saved next to the original PDF.\n\nLogging Successful Conversions\nAfter successfully writing the text file, the code prints a message indicating the PDF file has been converted, using:\nprint(f\"Converted {pdf_path} to {text_path}\")\n\nHandling Exceptions\nAn except block catches any exceptions that occur during the extraction or writing process. If an error occurs, it prints a failure message with the path of the PDF file and the exception details:\nprint(f\"Failed to convert {pdf_path}: {e}\")\n\n\n\n\nimport os\nimport pandas as pd\nimport re\nimport string\n\n# Directories containing the text files\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\ndata = []\ntext_index = 1\n\n# Allowed characters: alphabetic, punctuation, and whitespace\nallowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.txt'):\n                file_path = os.path.join(root, file)\n                folder_name = os.path.basename(root)\n\n                with open(file_path, 'r', encoding='utf-8') as f:\n                    raw_text = f.read()\n\n                # Keep only allowed characters\n                clean_text = ''.join(c for c in raw_text if c in allowed_chars)\n\n                # Replace sequences of whitespace with a single space\n                clean_text = re.sub(r'\\s+', ' ', clean_text)\n\n                # Trim leading and trailing whitespace\n                clean_text = clean_text.strip()\n\n                data.append({\n                    'text_index': text_index,\n                    'file_path': file_path,\n                    'folder_name': folder_name,\n                    'raw_text': raw_text,\n                    'clean_text': clean_text\n                })\n\n                text_index += 1\n\n# Create DataFrame\ndf_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])\n\n# Save DataFrame to TSV file\ndf_texts.to_csv('df_texts.tsv', sep='\\t', index=False)\ndf_texts.head()",
+    "text": "Understanding token relationships is fundamental in NLP, where aspect-based sentiment analysis identifies sentiment tied to specific aspects of a text. Knowledge graphs further enrich this understanding by mapping relationships between entities, enabling sophisticated insights into connections and context within the data.\n\n\n\nNatural language processing operates across multiple levels of granularity, from complete texts and paragraphs to sentences, words, and individual tokens. Each unit provides unique insights, with tokens representing the smallest meaningful elements, forming the foundation for complex linguistic analysis.\n\n\n\nSpaCy’s powerful NLP models can be seamlessly integrated with text and sentence dataframes, enabling batch processing of textual data. This application simplifies linguistic analysis and provides structured outputs, such as token attributes and syntactic dependencies, directly usable for further processing.\n\n\n\nIterating over a sentence-level dataframe and corresponding SpaCy document objects allows detailed exploration of linguistic features. This method facilitates tasks like extracting sentence-specific attributes, analyzing syntactic structures, and identifying patterns within textual data.\n\n\n\nText normalization ensures consistency and clarity by standardizing tokens, extracting essential attributes like token text and lemma. Lemmatization, in particular, reduces words to their base forms, enhancing search, indexing, and overall NLP model performance.\n\n\n\nNamed entity recognition (NER) identifies and classifies entities such as names, organizations, and dates within text, enabling applications like automated content categorization, customer sentiment analysis, and improved information retrieval systems.\n\n\n\nPart-of-speech tagging assigns grammatical categories to tokens, such as nouns, verbs, or adjectives, providing critical insights into text structure. Applications include syntactic parsing, language generation, and improving machine translation systems by capturing grammatical nuances.",
     "crumbs": [
       "module 3",
-      "lesson 3.1",
-      "computer lab 3.1.2"
+      "lesson 3.2",
+      "video lecture 3.2.1"
     ]
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#lesson-3.1-reading-text-into-dataframes",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html#lesson-3.1-reading-text-into-dataframes",
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html#lesson-3.2-part-of-speech-and-named-entity-recognition",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html#lesson-3.2-part-of-speech-and-named-entity-recognition",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "!pip install -q pdfminer.six\nimport os\nfrom pdfminer.high_level import extract_text\n\n# Directories containing the PDFs\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.pdf'):\n                pdf_path = os.path.join(root, file)\n                text_path = os.path.splitext(pdf_path)[0] + '.txt'\n\n                try:\n                    text = extract_text(pdf_path)\n                    with open(text_path, 'w', encoding='utf-8') as f:\n                        f.write(text)\n                    print(f\"Converted {pdf_path} to {text_path}\")\n                except Exception as e:\n                    print(f\"Failed to convert {pdf_path}: {e}\")\nImporting Necessary Libraries\nThe code begins by importing essential modules. It imports os for interacting with the operating system’s file system and extract_text from pdfminer.high_level for extracting text content from PDF files.\n\nDefining the Directories Containing PDFs\nTwo lists named directories are defined. The first is a placeholder with ['organization1', 'organization2'], and the second specifies the actual paths to the directories containing the PDF files: - /content/osm-cca-nlp/res/pdf/preem - /content/osm-cca-nlp/res/pdf/vattenfall\n\nIterating Over Each Directory\nThe code uses a for loop to iterate through each directory specified in the directories list. This allows the program to process multiple directories sequentially.\n\nWalking Through Directory Trees\nWithin each directory, the os.walk(directory) function traverses the directory tree. It yields a tuple containing the root path, a list of dirs (subdirectories), and a list of files in each directory.\n\nIdentifying PDF Files\nFor every file in the files list, the code checks if the file name ends with .pdf (case-insensitive) using file.lower().endswith('.pdf'). This ensures that only PDF files are processed.\n\nConstructing File Paths\nThe full path to the PDF file is constructed using os.path.join(root, file). The corresponding text file path is created by replacing the .pdf extension with .txt using os.path.splitext(pdf_path)[0] + '.txt'.\n\nExtracting Text from PDFs\nA try block is initiated to attempt text extraction. The extract_text(pdf_path) function reads the content of the PDF file and stores it in the variable text.\n\nWriting Extracted Text to Files\nIf text extraction is successful, the code opens a new text file at text_path in write mode with UTF-8 encoding. It writes the extracted text into this file and then closes it, ensuring the text is saved next to the original PDF.\n\nLogging Successful Conversions\nAfter successfully writing the text file, the code prints a message indicating the PDF file has been converted, using:\nprint(f\"Converted {pdf_path} to {text_path}\")\n\nHandling Exceptions\nAn except block catches any exceptions that occur during the extraction or writing process. If an error occurs, it prints a failure message with the path of the PDF file and the exception details:\nprint(f\"Failed to convert {pdf_path}: {e}\")\n\n\n\n\nimport os\nimport pandas as pd\nimport re\nimport string\n\n# Directories containing the text files\ndirectories = ['organization1', 'organization2']\ndirectories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']\n\ndata = []\ntext_index = 1\n\n# Allowed characters: alphabetic, punctuation, and whitespace\nallowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)\n\nfor directory in directories:\n    for root, dirs, files in os.walk(directory):\n        for file in files:\n            if file.lower().endswith('.txt'):\n                file_path = os.path.join(root, file)\n                folder_name = os.path.basename(root)\n\n                with open(file_path, 'r', encoding='utf-8') as f:\n                    raw_text = f.read()\n\n                # Keep only allowed characters\n                clean_text = ''.join(c for c in raw_text if c in allowed_chars)\n\n                # Replace sequences of whitespace with a single space\n                clean_text = re.sub(r'\\s+', ' ', clean_text)\n\n                # Trim leading and trailing whitespace\n                clean_text = clean_text.strip()\n\n                data.append({\n                    'text_index': text_index,\n                    'file_path': file_path,\n                    'folder_name': folder_name,\n                    'raw_text': raw_text,\n                    'clean_text': clean_text\n                })\n\n                text_index += 1\n\n# Create DataFrame\ndf_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])\n\n# Save DataFrame to TSV file\ndf_texts.to_csv('df_texts.tsv', sep='\\t', index=False)\ndf_texts.head()",
+    "text": "Understanding token relationships is fundamental in NLP, where aspect-based sentiment analysis identifies sentiment tied to specific aspects of a text. Knowledge graphs further enrich this understanding by mapping relationships between entities, enabling sophisticated insights into connections and context within the data.\n\n\n\nNatural language processing operates across multiple levels of granularity, from complete texts and paragraphs to sentences, words, and individual tokens. Each unit provides unique insights, with tokens representing the smallest meaningful elements, forming the foundation for complex linguistic analysis.\n\n\n\nSpaCy’s powerful NLP models can be seamlessly integrated with text and sentence dataframes, enabling batch processing of textual data. This application simplifies linguistic analysis and provides structured outputs, such as token attributes and syntactic dependencies, directly usable for further processing.\n\n\n\nIterating over a sentence-level dataframe and corresponding SpaCy document objects allows detailed exploration of linguistic features. This method facilitates tasks like extracting sentence-specific attributes, analyzing syntactic structures, and identifying patterns within textual data.\n\n\n\nText normalization ensures consistency and clarity by standardizing tokens, extracting essential attributes like token text and lemma. Lemmatization, in particular, reduces words to their base forms, enhancing search, indexing, and overall NLP model performance.\n\n\n\nNamed entity recognition (NER) identifies and classifies entities such as names, organizations, and dates within text, enabling applications like automated content categorization, customer sentiment analysis, and improved information retrieval systems.\n\n\n\nPart-of-speech tagging assigns grammatical categories to tokens, such as nouns, verbs, or adjectives, providing critical insights into text structure. Applications include syntactic parsing, language generation, and improving machine translation systems by capturing grammatical nuances.",
     "crumbs": [
       "module 3",
-      "lesson 3.1",
-      "computer lab 3.1.2"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "",
-    "text": "In sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
-    "crumbs": [
-      "module 4",
-      "lesson 4.1",
-      "video lecture 4.1.1"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "",
-    "text": "In sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
-    "crumbs": [
-      "module 4",
-      "lesson 4.1",
-      "video lecture 4.1.1"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Image classification and object detection",
-    "text": "Image classification and object detection"
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Inferential image analysis, classification",
-    "text": "Inferential image analysis, classification"
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Inferential image analysis, object detection",
-    "text": "Inferential image analysis, object detection"
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "lesson 4-2",
-    "text": "lesson 4-2\n\nvideo-lecture.qmd:Image classification and object detection\n\n\ncomputer-lab.qmd:Inferential image analysis, classification\n\n\ncomputer-lab.qmd:Inferential image analysis, object detection",
-    "crumbs": [
-      "module 4"
-    ]
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "lesson 4-3",
-    "text": "lesson 4-3\n\nvideo-lecture.qmd:Interpreting the results of CV analysis\n\n\ncomputer-lab.qmd:Summarizing results of image analysis\n\n\ncomputer-lab.qmd:Visualizing results of image analysis",
-    "crumbs": [
-      "module 4"
-    ]
-  },
-  {
-    "objectID": "0-1-welcome.html",
-    "href": "0-1-welcome.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "script slides",
-    "crumbs": [
-      "course start",
-      "welcome"
-    ]
-  },
-  {
-    "objectID": "0-1-welcome.html#mooc-welcome-address",
-    "href": "0-1-welcome.html#mooc-welcome-address",
-    "title": "Welcome",
-    "section": "mooc welcome address",
-    "text": "mooc welcome address\nWelcome to AI-Aided Content Analysis of Sustainability Communication—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content.\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future.\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision.\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources.\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place.\nWelcome aboard. Let’s begin.",
-    "crumbs": [
-      "course start",
-      "welcome"
+      "lesson 3.2",
+      "video lecture 3.2.1"
     ]
   },
   {
@@ -869,51 +679,241 @@
     "text": "Basic Python Syntax: Variables, Data Objects, Loops\n\n\n\nVariables store information and data types define their nature.\n\nLists, dictionaries, and tuples organize data into structures.\n\nLoops iterate over data to automate repetitive tasks.\n\nPython syntax emphasizes simplicity and readability.\n\nMastery of basic syntax is essential for further programming skills.\n\n\n\n\n\n💻"
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "In the social sciences, data analysis takes many forms—including descriptive statistics, inferential testing, and exploratory modeling. Python provides a flexible and scalable environment for performing all of these, with a growing ecosystem tailored to academic and applied research. One emerging area is computational content analysis, where researchers apply Python tools to analyze text and visual content systematically. Libraries such as pandas, statsmodels, matplotlib, and scikit-learn enable everything from data wrangling to advanced modeling, making Python an essential tool for quantitative social scientists.\n\n\n\n\nArtificial intelligence—especially large language models—now supports researchers in performing quantitative analysis more efficiently. These models can generate Python code on demand for statistical tasks, allowing users to interact with their data through natural language. This reduces the technical barrier for non-programmers while enabling rapid hypothesis testing, data cleaning, and model generation. The balance between manual coding and AI-assisted scripting gives researchers more control and efficiency, particularly when iterating through complex analytical workflows.\n\n\n\n\nAI is also transforming how we approach content analysis. Large language models can assist in extracting meaning from text through classification, summarization, or topic modeling. Meanwhile, vision models like CLIP or ViT enable analysis of image and video content. Together, these tools support multimodal analysis, where textual and visual data are examined in tandem. Researchers can automate tasks such as entity recognition and theme detection, significantly speeding up the analysis of large, complex corpora while still allowing for nuanced interpretation.\n\n\n\n\nPython makes it easy to read and manipulate tabular data, especially using the pandas library. With AI-assisted tools, users can perform complex filtering, grouping, and aggregation with simple prompts rather than verbose code. This low-code approach is ideal for exploratory data analysis, especially in non-technical fields. Tools like pandasgui, datatable, or conversational agents like ChatGPT can generate, execute, and explain table operations in real-time. This democratizes access to data insights and facilitates reproducibility.\n\n\n\n\nTransforming data—through selection, filtering, and aggregation—is foundational to any analysis workflow. In Python, these operations are traditionally handled with pandas, but AI tools can now suggest or execute them via natural language instructions. This makes it easier for users to identify the variables they need, set conditions for filtering, and compute summaries like group means or totals. By comparing AI-generated queries to traditional code, learners gain a deeper understanding of the logic behind data manipulation.\n\n\n\n\nVisualization is a key part of understanding and communicating data. Python supports a wide range of basic plotting options, including bar charts, line graphs, and histograms. With AI assistance, users can describe the kind of graph they want and receive ready-to-run code. This enables quick generation of univariate and bivariate plots that explore single variables or pairwise relationships. Libraries such as matplotlib, seaborn, and plotnine provide powerful tools for crafting clear, insightful visualizations with minimal setup.\n\n\n\n\nWhen analysis involves more than two variables, visualization becomes more complex—and more powerful. Python offers tools to create multivariate plots like scatter matrices, heatmaps, and bubble charts. For dynamic exploration, libraries like plotly, altair, and holoviews enable interactive features such as zooming, filtering, and tooltip displays. AI support can refine these visualizations by adjusting parameters or recommending plot types based on data structure. This helps users engage deeply with high-dimensional data and uncover hidden patterns.",
+    "text": "Open science promotes research practices that are transparent, reproducible, and openly accessible. It encourages international collaboration through the open sharing of data, code, and methodologies, making research more verifiable and impactful. By relying on open-source tools and platforms, it breaks down barriers between disciplines and enhances the credibility and integrity of scientific output. Ultimately, open science fosters innovation by enabling broader participation in the research process.\n\n\n\n\nPython can be run in different environments depending on the user’s needs. Local environments require installing Python and managing dependencies on your own machine, which offers control but can be complex. Cloud environments like Google Colab remove the need for setup, providing instant access to computational resources. Jupyter notebooks, used both locally and in the cloud, allow for interactive coding with integrated documentation. This flexibility makes notebooks especially useful for iterative analysis and educational purposes.\n\n\n\n\nJupyter Notebooks offer a powerful way to write and run code in small, interactive steps. Each notebook combines live code, explanations, and visualizations in a single document, making it ideal for experimentation, learning, and communication of results. They support a workflow where code can be modified and tested incrementally, which is especially helpful in debugging and teaching. Compared to traditional script-based environments, notebooks provide a more transparent and readable approach to programming.\n\n\n\n\nGoogle Colab is a free, cloud-based platform that hosts Jupyter notebooks and provides access to GPUs and other computing resources. It features an interface where users can write and execute code in cells while documenting their process in markdown. The notebook automatically saves to Google Drive, supporting easy sharing and collaboration. This makes it a perfect choice for beginners or teams who want to start coding without the hassle of installing anything locally.\n\n\n\n\nProgramming is the process of writing instructions that computers can follow to perform tasks, from calculations to automation. Python, known for its readable syntax and versatility, is one of the most popular languages for both beginners and professionals. It’s widely used in fields such as web development, data science, machine learning, and more. With its vast ecosystem of libraries, Python simplifies many tasks, making it accessible for quick prototyping and robust application development alike.\n\n\n\n\nPython supports both low-code and high-code workflows depending on user expertise and project complexity. Low-code approaches are useful for quick data analysis and visualization, especially in fields like social science where rapid insight is key. In contrast, high-code solutions enable more advanced customization, often used in computer science and AI development. The strength of Python lies in its ability to serve both ends of the spectrum efficiently.\n\n\n\n\nUnderstanding Python’s basic syntax is the first step in learning to program effectively. Variables are used to store information, and Python’s built-in data types like lists, dictionaries, and tuples help organize it. Loops enable automation by allowing code to repeat across items or conditions. Python’s syntax is intentionally clean and intuitive, which reduces errors and makes code easier to read. These fundamentals are the building blocks for writing useful and scalable programs.",
     "crumbs": [
       "module 2",
-      "lesson 2.2",
-      "video lecture 2.2.1"
+      "lesson 2.1",
+      "video lecture 2.1.1"
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#lesson-2.2-python-and-ai-aided-data-analysis",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html#lesson-2.2-python-and-ai-aided-data-analysis",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#lesson-2.1-ai-aided-and-low-code-programming",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html#lesson-2.1-ai-aided-and-low-code-programming",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "In the social sciences, data analysis takes many forms—including descriptive statistics, inferential testing, and exploratory modeling. Python provides a flexible and scalable environment for performing all of these, with a growing ecosystem tailored to academic and applied research. One emerging area is computational content analysis, where researchers apply Python tools to analyze text and visual content systematically. Libraries such as pandas, statsmodels, matplotlib, and scikit-learn enable everything from data wrangling to advanced modeling, making Python an essential tool for quantitative social scientists.\n\n\n\n\nArtificial intelligence—especially large language models—now supports researchers in performing quantitative analysis more efficiently. These models can generate Python code on demand for statistical tasks, allowing users to interact with their data through natural language. This reduces the technical barrier for non-programmers while enabling rapid hypothesis testing, data cleaning, and model generation. The balance between manual coding and AI-assisted scripting gives researchers more control and efficiency, particularly when iterating through complex analytical workflows.\n\n\n\n\nAI is also transforming how we approach content analysis. Large language models can assist in extracting meaning from text through classification, summarization, or topic modeling. Meanwhile, vision models like CLIP or ViT enable analysis of image and video content. Together, these tools support multimodal analysis, where textual and visual data are examined in tandem. Researchers can automate tasks such as entity recognition and theme detection, significantly speeding up the analysis of large, complex corpora while still allowing for nuanced interpretation.\n\n\n\n\nPython makes it easy to read and manipulate tabular data, especially using the pandas library. With AI-assisted tools, users can perform complex filtering, grouping, and aggregation with simple prompts rather than verbose code. This low-code approach is ideal for exploratory data analysis, especially in non-technical fields. Tools like pandasgui, datatable, or conversational agents like ChatGPT can generate, execute, and explain table operations in real-time. This democratizes access to data insights and facilitates reproducibility.\n\n\n\n\nTransforming data—through selection, filtering, and aggregation—is foundational to any analysis workflow. In Python, these operations are traditionally handled with pandas, but AI tools can now suggest or execute them via natural language instructions. This makes it easier for users to identify the variables they need, set conditions for filtering, and compute summaries like group means or totals. By comparing AI-generated queries to traditional code, learners gain a deeper understanding of the logic behind data manipulation.\n\n\n\n\nVisualization is a key part of understanding and communicating data. Python supports a wide range of basic plotting options, including bar charts, line graphs, and histograms. With AI assistance, users can describe the kind of graph they want and receive ready-to-run code. This enables quick generation of univariate and bivariate plots that explore single variables or pairwise relationships. Libraries such as matplotlib, seaborn, and plotnine provide powerful tools for crafting clear, insightful visualizations with minimal setup.\n\n\n\n\nWhen analysis involves more than two variables, visualization becomes more complex—and more powerful. Python offers tools to create multivariate plots like scatter matrices, heatmaps, and bubble charts. For dynamic exploration, libraries like plotly, altair, and holoviews enable interactive features such as zooming, filtering, and tooltip displays. AI support can refine these visualizations by adjusting parameters or recommending plot types based on data structure. This helps users engage deeply with high-dimensional data and uncover hidden patterns.",
+    "text": "Open science promotes research practices that are transparent, reproducible, and openly accessible. It encourages international collaboration through the open sharing of data, code, and methodologies, making research more verifiable and impactful. By relying on open-source tools and platforms, it breaks down barriers between disciplines and enhances the credibility and integrity of scientific output. Ultimately, open science fosters innovation by enabling broader participation in the research process.\n\n\n\n\nPython can be run in different environments depending on the user’s needs. Local environments require installing Python and managing dependencies on your own machine, which offers control but can be complex. Cloud environments like Google Colab remove the need for setup, providing instant access to computational resources. Jupyter notebooks, used both locally and in the cloud, allow for interactive coding with integrated documentation. This flexibility makes notebooks especially useful for iterative analysis and educational purposes.\n\n\n\n\nJupyter Notebooks offer a powerful way to write and run code in small, interactive steps. Each notebook combines live code, explanations, and visualizations in a single document, making it ideal for experimentation, learning, and communication of results. They support a workflow where code can be modified and tested incrementally, which is especially helpful in debugging and teaching. Compared to traditional script-based environments, notebooks provide a more transparent and readable approach to programming.\n\n\n\n\nGoogle Colab is a free, cloud-based platform that hosts Jupyter notebooks and provides access to GPUs and other computing resources. It features an interface where users can write and execute code in cells while documenting their process in markdown. The notebook automatically saves to Google Drive, supporting easy sharing and collaboration. This makes it a perfect choice for beginners or teams who want to start coding without the hassle of installing anything locally.\n\n\n\n\nProgramming is the process of writing instructions that computers can follow to perform tasks, from calculations to automation. Python, known for its readable syntax and versatility, is one of the most popular languages for both beginners and professionals. It’s widely used in fields such as web development, data science, machine learning, and more. With its vast ecosystem of libraries, Python simplifies many tasks, making it accessible for quick prototyping and robust application development alike.\n\n\n\n\nPython supports both low-code and high-code workflows depending on user expertise and project complexity. Low-code approaches are useful for quick data analysis and visualization, especially in fields like social science where rapid insight is key. In contrast, high-code solutions enable more advanced customization, often used in computer science and AI development. The strength of Python lies in its ability to serve both ends of the spectrum efficiently.\n\n\n\n\nUnderstanding Python’s basic syntax is the first step in learning to program effectively. Variables are used to store information, and Python’s built-in data types like lists, dictionaries, and tuples help organize it. Loops enable automation by allowing code to repeat across items or conditions. Python’s syntax is intentionally clean and intuitive, which reduces errors and makes code easier to read. These fundamentals are the building blocks for writing useful and scalable programs.",
     "crumbs": [
       "module 2",
-      "lesson 2.2",
-      "video lecture 2.2.1"
+      "lesson 2.1",
+      "video lecture 2.1.1"
     ]
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "",
-    "text": "To understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2-2",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2-2",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "lesson 2-2",
+    "text": "lesson 2-2\n\nvideo-lecture.qmd:Python and AI-aided data analysis\n\n\ncomputer-lab.qmd:Low-code data analysis, tables\n\n\ncomputer-lab.qmd:Low-code data analysis, graphs",
     "crumbs": [
-      "module 1",
-      "lesson 1.1",
-      "video lecture 1.1.1"
+      "module 2"
     ]
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
-    "title": "Module 1: Understanding sustainability communication content",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI-aided content analysis of sustainability communication",
     "section": "",
-    "text": "To understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
+    "text": "index page..",
     "crumbs": [
-      "module 1",
-      "lesson 1.1",
-      "video lecture 1.1.1"
+      "course start"
     ]
+  },
+  {
+    "objectID": "index.html#module01-understanding-sustainability-communication-content-10pct",
+    "href": "index.html#module01-understanding-sustainability-communication-content-10pct",
+    "title": "AI-aided content analysis of sustainability communication",
+    "section": "module01-understanding-sustainability-communication-content-10pct",
+    "text": "module01-understanding-sustainability-communication-content-10pct\n\naicasc: sustainability communication content\naicasc: find online sustainability communication\naicasc: setting up an initial content database",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module02-introduction-to-low-code-python-programming-20pct",
+    "href": "index.html#module02-introduction-to-low-code-python-programming-20pct",
+    "title": "AI-aided content analysis of sustainability communication",
+    "section": "module02-introduction-to-low-code-python-programming-20pct",
+    "text": "module02-introduction-to-low-code-python-programming-20pct\n\naicasc: ai-aided and low-code programming\naicasc: google colab notebook user interface\naicasc: trying out some low-code python\naicasc: python and computational data analysis\naicasc: low-code data analysis, tables\naicasc: low-code data analysis, graphs",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module03-analyzing-text-content-natural-language-processing-30pct",
+    "href": "index.html#module03-analyzing-text-content-natural-language-processing-30pct",
+    "title": "AI-aided content analysis of sustainability communication",
+    "section": "module03-analyzing-text-content-natural-language-processing-30pct",
+    "text": "module03-analyzing-text-content-natural-language-processing-30pct\n\naicasc: natural language processing (NLP) in social science\naicasc: reading text into dataframes\naicasc: descriptive text analysis\naicasc: part-of-speech and named entity recognition\naicasc: inferential text analysis, tokenization\naicasc: inferential text analysis, POS and NER\naicasc: interpreting the results of NLP analysis\naicasc: summarizing results of text analysis\naicasc: visualizing results of text analysis",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module04-analyzing-image-content-computer-vision-30pct",
+    "href": "index.html#module04-analyzing-image-content-computer-vision-30pct",
+    "title": "AI-aided content analysis of sustainability communication",
+    "section": "module04-analyzing-image-content-computer-vision-30pct",
+    "text": "module04-analyzing-image-content-computer-vision-30pct\n\naicasc: computer vision (CV) in social science\naicasc: reading images into dataframes\naicasc: descriptive image analysis\naicasc: image classification and object detection\naicasc: inferential image analysis, classification\naicasc: inferential image analysis, object detection\naicasc: interpreting the results of CV analysis\naicasc: summarizing results of image analysis\naicasc: summarizing results of image analysis",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "href": "index.html#module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "title": "AI-aided content analysis of sustainability communication",
+    "section": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
+    "text": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct\n\naicasc: key takeaways and ethical perspectives\naicasc: analysis documentation and open science\naicasc: communicating ai-aided content analysis",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
+    "href": "index.html#overview-of-mooc-course-ca-10-lessons-x-3-hours-work",
+    "title": "AI-aided content analysis of sustainability communication",
+    "section": "overview of mooc course (ca 10 lessons x 3 hours work)",
+    "text": "overview of mooc course (ca 10 lessons x 3 hours work)\n\ncheck list for setting up screen recordings\n\nvideo lecture\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google slides browser tab\nstart google slides in presenter view\nread presentation script, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\ncomputer lab\n\nopen google chrome, access google isk account\ngo to microsoft teams, stream web app\nstart screen recording of google colab browser tab\nexecute jupyter notebook cells and explain, stop screen recording\ncontinue screen recording until done, finalize video\n\n\n\nprepare quiz\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "course start"
+    ]
+  },
+  {
+    "objectID": "0-2-resources.html",
+    "href": "0-2-resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
+    "crumbs": [
+      "course start",
+      "resources"
+    ]
+  },
+  {
+    "objectID": "0-2-resources.html#literature",
+    "href": "0-2-resources.html#literature",
+    "title": "Resources",
+    "section": "",
+    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
+    "crumbs": [
+      "course start",
+      "resources"
+    ]
+  },
+  {
+    "objectID": "0-2-resources.html#websites-and-apps",
+    "href": "0-2-resources.html#websites-and-apps",
+    "title": "Resources",
+    "section": "websites and apps",
+    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home",
+    "crumbs": [
+      "course start",
+      "resources"
+    ]
+  },
+  {
+    "objectID": "0-2-resources.html#online-articles",
+    "href": "0-2-resources.html#online-articles",
+    "title": "Resources",
+    "section": "online articles",
+    "text": "online articles\n\nsome text here Kedia and Rasu (2020)",
+    "crumbs": [
+      "course start",
+      "resources"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Image classification and object detection",
+    "text": "Image classification and object detection"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Inferential image analysis, classification",
+    "text": "Inferential image analysis, classification"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Inferential image analysis, object detection",
+    "text": "Inferential image analysis, object detection"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "lesson 4-2",
+    "text": "lesson 4-2\n\nvideo-lecture.qmd:Image classification and object detection\n\n\ncomputer-lab.qmd:Inferential image analysis, classification\n\n\ncomputer-lab.qmd:Inferential image analysis, object detection",
+    "crumbs": [
+      "module 4"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "lesson 4-3",
+    "text": "lesson 4-3\n\nvideo-lecture.qmd:Interpreting the results of CV analysis\n\n\ncomputer-lab.qmd:Summarizing results of image analysis\n\n\ncomputer-lab.qmd:Visualizing results of image analysis",
+    "crumbs": [
+      "module 4"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Sustainability communication content",
+    "text": "Sustainability communication content\n\nDefine sustainability content both formally and functionally\nFormal content reflects environmental or social responsibility themes\nFunctional content supports branding, compliance, and stakeholder engagement\nCommunication influences perceptions of credibility and authenticity\nDual analysis reveals intent, structure, and audience impact"
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Online content sampling",
+    "text": "Online content sampling\n\nSampling method influences research reliability and validity\nRandom sampling is ideal but hard to apply in web contexts\nPurposive sampling targets relevant or contrasting examples\nStrategic sampling balances focus and generalizability\nDesign choices must minimize bias in content selection"
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Expectations about sustainability communication",
+    "text": "Expectations about sustainability communication\n\nChoose between qualitative, quantitative, or mixed approaches\nDescriptive analysis explores patterns; explanatory seeks causes\nLinguistic analysis compares tone, terms, and rhetorical strategies\nResearch begins with well-formed questions and hypotheses\nMethodological clarity improves interpretability and rigor"
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Find online sustainability communication",
+    "text": "Find online sustainability communication\n\nSelect organizations aligned with your research objectives\nStudy one or compare multiple for contrast and depth\nTarget official websites as curated communication sources\nIdentify and extract sustainability-related URLs\nBuild a dataset from key pages like “CSR” or “Sustainability”"
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Convert multimodal web pages to PDF",
+    "text": "Convert multimodal web pages to PDF\n\nUse browser print-to-PDF to capture entire web pages\nPreserves images, layout, and static design elements\nEnables analysis of multimodal communication forms\nQuick, user-friendly method requiring no programming\nLimitation: videos and interactive elements not captured"
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Setting up an initial content database",
+    "text": "Setting up an initial content database\n\nEnsure all collected content is stored in an accessible format\nLocal storage is easy but lacks shareability and backup\nCloud solutions like Google Drive support collaboration\nGitHub adds version control and traceability benefits\nA well-structured archive supports long-term analysis"
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Organize communication content in folders",
+    "text": "Organize communication content in folders\n\nSeparate folders allow comparisons between organizations\nNormalize filenames and paths for consistent processing\nFolder structure simplifies automation and batch analysis\nPDFs often need OCR or text extraction for further use\nGood organization supports transparency and reproducibility"
   }
 ]
