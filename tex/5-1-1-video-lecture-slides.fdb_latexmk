@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759239666.11123 "5-1-1-video-lecture-slides.tex" "5-1-1-video-lecture-slides.pdf" "5-1-1-video-lecture-slides" 1759239667.39656 0
+["pdflatex"] 1759308241.93762 "5-1-1-video-lecture-slides.tex" "5-1-1-video-lecture-slides.pdf" "5-1-1-video-lecture-slides" 1759308243.64913 0
   "/etc/texmf/web2c/texmf.cnf" 1756626849.63494 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -213,13 +213,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1756816695 5306818 1fa401c76333135f70f9b590f03b90db ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1756816703 1928193 8228e9c7a9c5ebccba321bb66cf883d9 ""
-  "5-1-1-video-lecture-slides.aux" 1759239667.31425 1550 f4925b5e195bc7b5e61291502fce0f87 "pdflatex"
-  "5-1-1-video-lecture-slides.nav" 1759239667.31425 923 70574363c4fa33dff37c774f431cedff "pdflatex"
-  "5-1-1-video-lecture-slides.out" 1759239666.84226 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "5-1-1-video-lecture-slides.tex" 1759239610.42716 10480 463b61ec8e69f6933b268af5031d4da0 ""
+  "5-1-1-video-lecture-slides-3.png" 1759306769.75823 1221998 1e46b59475f67457344bfa1f32511e6c ""
+  "5-1-1-video-lecture-slides-5.png" 1759308041.44114 1157051 8843808c4126c235ed036a20695fd037 ""
+  "5-1-1-video-lecture-slides-7.png" 1759305166.3052 1060566 b748aac860123a3a3146df4d713654c5 ""
+  "5-1-1-video-lecture-slides.aux" 1759308243.51415 1550 f4925b5e195bc7b5e61291502fce0f87 "pdflatex"
+  "5-1-1-video-lecture-slides.nav" 1759308243.51815 923 70574363c4fa33dff37c774f431cedff "pdflatex"
+  "5-1-1-video-lecture-slides.out" 1759308242.79016 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "5-1-1-video-lecture-slides.tex" 1759308194.4349 10605 283eed63a219d341bf968c67d9961ddf ""
   "edulab-lulogo.png" 1759220813.97107 81171 22b3646e59f567a752239fb251b719cf ""
   "pelican.png" 1759220613.3061 1539274 bbe07c1a3f8d26e15309006a30864760 ""
-  "placeholder.jpg" 1759239610.43116 17965 eb36b3da88e18095c8f33e048889e984 ""
   (generated)
   "5-1-1-video-lecture-slides.aux"
   "5-1-1-video-lecture-slides.log"

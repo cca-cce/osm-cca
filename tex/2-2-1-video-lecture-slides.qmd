@@ -1,0 +1,144 @@
+---
+title: "Module 2: Introduction to low-code Python programming"
+subtitle: "<br/>Lesson 2.2: Python and AI-aided data analysis <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../res/media/lu/logo-black.png
+    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+#    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Python for Social Science Data Analysis
+
+::: columns
+::: {.column width="45%"}
+* Overview of data analysis types: descriptive, inferential, exploratory
+* Emphasis on quantitative methods used in social sciences
+* Introduction to computational content analysis (text/image)
+* Benefits of using Python for flexible, scalable analysis
+* Common libraries: `pandas`, `statsmodels`, `matplotlib`, `scikit-learn`
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## AI-Aided Quantitative Analysis with Python
+
+* Use large language models (LLMs) to generate statistical code
+* Query data directly using natural language prompts
+* Automate hypothesis testing and model fitting
+* Reduce entry barrier for non-programmers
+* Balance between manual control and AI guidance
+
+---
+
+## AI-Aided Computational Content Analysis
+
+* Apply LLMs for text classification, summarization, and topic modeling
+* Use image models (e.g., CLIP, ViT) for analyzing visual content
+* Combine text and visual features for rich content analysis
+* Automate entity recognition and theme detection
+* Use AI to scale analysis of large corpora
+
+---
+
+## Low-Code Data Analysis with Tables
+
+* Load and view datasets using `pandas` DataFrames
+* Perform filtering, grouping, and summary stats with minimal code
+* Contrast high-code scripts vs. low-code AI-assisted workflows
+* Use AI tools to generate and interpret table outputs
+* Example tools: `pandasgui`, `datatable`, ChatGPT + CSV
+
+---
+
+## Data Transformations with AI Assistance
+
+* Select relevant variables using prompts or code
+* Filter observations based on conditions (e.g., time, value ranges)
+* Aggregate data for summaries (e.g., mean by group)
+* Compare traditional `pandas` syntax vs. AI-assisted queries
+* Learn transformation logic through interactive AI feedback
+
+---
+
+## Low-Code Data Analysis with Graphs
+
+* Create basic visualizations (e.g., bar, line, histogram)
+* Understand univariate (one variable) vs. bivariate (two variables) plots
+* Use AI to suggest and generate appropriate plot types
+* Example libraries: `matplotlib`, `seaborn`, `plotnine`
+* Visualize data trends and relationships with minimal setup
+
+---
+
+## Multivariate and Interactive Graphs
+
+* Visualize relationships between three or more variables
+* Use scatter matrices, heatmaps, or bubble charts
+* Add interactivity with `plotly`, `altair`, or `holoviews`
+* Use AI to refine visual layouts and variable selections
+* Enable dynamic exploration of patterns in large datasets
+
+<!--
+
+## Open Science Methods  
+
+::: columns
+::: {.column width="45%"}
+- Emphasizes reproducibility and transparency in research.  
+- Encourages collaboration among global research communities.  
+- Relies on sharing data, code, and methodologies openly.  
+- Supported by open-source tools and platforms.  
+- Enhances scientific integrity and innovation.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Python Environments: Local, Cloud, Notebooks  
+- Local environments require Python installation and configuration.  
+- Cloud environments like Google Colab eliminate setup hurdles.  
+- Notebooks provide interactive code execution and documentation.  
+- Cloud environments offer scalability and resource management.  
+- Notebooks support real-time code execution alongside markdown.
+
+-->
+
+
+

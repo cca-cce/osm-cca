@@ -1,0 +1,186 @@
+---
+title: "Module 2: Introduction to low-code Python programming"
+subtitle: "<br/>Lesson 2.1: AI-aided and low-code programming <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../res/media/lu/logo-black.png
+    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+#    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Open Science Methods  
+
+::: columns
+::: {.column width="45%"}
+- Emphasizes reproducibility and transparency in research.  
+- Encourages collaboration among global research communities.  
+- Relies on sharing data, code, and methodologies openly.  
+- Supported by open-source tools and platforms.  
+- Enhances scientific integrity and innovation.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../lib/osm-comm/res/edu/lecture-241213-nlp3_page-65_extracted.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Python Environments: Local, Cloud, Notebooks  
+
+::: columns
+::: {.column width="45%"}
+- Local environments require Python installation and configuration.  
+- Cloud environments like Google Colab eliminate setup hurdles.  
+- Notebooks provide interactive code execution and documentation.  
+- Cloud environments offer scalability and resource management.  
+- Notebooks support real-time code execution alongside markdown.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../lib/osm-comm/res/edu/python-logo-only.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## The Concept of Jupyter Notebooks  
+
+::: columns
+::: {.column width="45%"}
+- Enables interactive, step-wise execution of code.  
+- Integrates code, text, and visualizations within one document.  
+- Ideal for iterative development, debugging, and documentation.  
+- Supports educational and research purposes effectively.  
+- Contrasts with traditional script-based development environments.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../lib/osm-comm/res/edu/Jupyter_logo.svg.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Google Colab Notebook Interface  
+
+::: columns
+::: {.column width="45%"}
+- Combines a cloud-hosted Jupyter notebook with GPU access.  
+- Features cells for executing code and writing text.  
+- Auto-saves progress and links to Google Drive for file storage.  
+- Supports collaboration and sharing with other users.  
+- Requires no local setup, ideal for rapid project development.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../lib/osm-comm/res/edu/Google_Colaboratory_SVG_Logo.svg.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## What Is Programming and Python Programming  
+
+::: columns
+::: {.column width="45%"}
+- Programming involves writing instructions for computers to execute.  
+- Python is a high-level, versatile language known for readability.  
+- Widely used in web development, data science, and automation.  
+- Python's extensive libraries simplify complex tasks.  
+- Popular for both beginner learning and professional development.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../lib/osm-comm/res/edu/Screenshot_2025-05-22_10-16-52.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Python Use Cases: Low vs. High-Code  
+
+::: columns
+::: {.column width="45%"}
+- Low-code leverages Python’s simplicity for fast data analysis.  
+- High-code applications involve deeper customization and algorithms.  
+- Social sciences benefit from low-code data manipulation and visualization.  
+- Computer science projects often require complex, high-code solutions.  
+- Python accommodates both low-code and high-code workflows.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../lib/osm-comm/res/edu/Screenshot_2025-05-22_10-16-52.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Basic Python Syntax: Variables, Data Objects, Loops  
+
+::: columns
+::: {.column width="45%"}
+- Variables store information and data types define their nature.  
+- Lists, dictionaries, and tuples organize data into structures.  
+- Loops iterate over data to automate repetitive tasks.  
+- Python syntax emphasizes simplicity and readability.  
+- Mastery of basic syntax is essential for further programming skills.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+::: {.absolute top="100" left="500" width="500" height="500" style="font-size:1000%;"}
+:computer:
+:::
+<!--
+![](../../../../../../lib/osm-comm/res/edu/Screenshot_2025-05-22_10-16-52.png){.absolute top="100" left="500" width="500" height="500"}
+-->
+
+:::
+:::
+
+
+
+
+
