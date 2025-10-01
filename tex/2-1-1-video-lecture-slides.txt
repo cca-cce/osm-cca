@@ -1,0 +1,28 @@
+## Open Science Methods
+
+Open science is about doing research in a way that others can understand, trust, and build on. We make our work reproducible and transparent, we collaborate across institutions and countries, and we share our data, code, and methods openly. Using open-source tools and platforms makes this practical, lowers barriers to entry, and accelerates feedback. In short, openness strengthens scientific integrity and speeds up innovation.
+
+## Python Environments: Local, Cloud, Notebooks
+
+You can run Python locally on your computer, in the cloud, or inside interactive notebooks. Local setups give you full control but require installation and configuration; cloud options like Google Colab remove setup hurdles and offer scalable resources. Notebooks combine runnable code with narrative text, so you can explain, execute, and document in one place—perfect for live demos, iterative work, and reproducible analyses.
+
+## The Concept of Jupyter Notebooks
+
+Jupyter lets you execute code step by step, mix it with explanatory text, and embed visualizations—all in a single document. This supports rapid experimentation, easy debugging, and thorough documentation, which is ideal for both teaching and research. Compared to traditional scripts, notebooks keep your reasoning, results, and code together, making your workflow clearer and easier to share.
+
+## Google Colab Notebook Interface
+
+Colab is a cloud-hosted Jupyter environment with optional GPU access and zero local setup. You work in cells—some for code, some for text—while your progress auto-saves and can sync with Google Drive. It’s built for collaboration and quick sharing, so teams can comment, copy, and rerun analyses easily. For fast prototyping and student projects, it’s a great default.
+
+## What Is Programming and Python Programming
+
+Programming is simply writing clear instructions for a computer to follow. Python is a readable, high-level language that’s versatile enough for web apps, data science, and automation. Its rich ecosystem of libraries turns complex tasks into a few lines of code, which makes it welcoming for beginners and powerful for professionals. That combination is why we use it here.
+
+## Python Use Cases: Low vs. High-Code
+
+Low-code Python emphasizes speed and clarity—loading data, cleaning it, and visualizing results with minimal boilerplate—ideal for social science analysis. High-code projects dive deeper into custom algorithms, performance tuning, and complex systems—more common in computer science applications. Python spans both worlds, so you can start simple and scale your skills as your projects grow.
+
+## Basic Python Syntax: Variables, Data Objects, Loops
+
+At the core, variables hold values and data types define what those values are. You’ll organize information with lists, dictionaries, and tuples, then use loops to repeat actions over items—great for automating routine steps. Python’s clean syntax keeps this readable, which is why mastering these basics unlocks everything else you’ll do in analysis and automation.
+
