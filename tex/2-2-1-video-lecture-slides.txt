@@ -1,0 +1,28 @@
+## Python for Social Science Data Analysis
+
+In this module, we map out descriptive, inferential, and exploratory analysis with a social-science lens, then show how computational content analysis spans text and images. Python shines here because it’s flexible and scalable—from quick prototypes to full studies—while libraries like `pandas`, `statsmodels`, `matplotlib`, and `scikit-learn` let you clean data, estimate models, and visualize results with just a few lines. The goal is to make rigorous quantitative methods feel approachable and repeatable.
+
+## AI-Aided Quantitative Analysis with Python
+
+We’ll use large language models to draft statistical code, query datasets in natural language, and automate routine steps like hypothesis tests and model fitting. This lowers the entry barrier for non-programmers while keeping you in the driver’s seat, so you can balance fast AI assistance with manual checks and methodological control.
+
+## AI-Aided Computational Content Analysis
+
+Here we put AI to work on text and visuals: LLMs for classification, summarization, and topic modeling, and image models like CLIP and ViT for recognizing themes in visual content. By combining text and image features, automating entity detection, and scaling to large corpora, you get a richer view of sustainability communication without losing analytical rigor.
+
+## Low-Code Data Analysis with Tables
+
+We’ll load datasets into `pandas` DataFrames, then filter, group, and summarize with minimal code—often generated or suggested by AI. You’ll see how low-code workflows (with tools like `pandasgui`, `datatable`, or ChatGPT + CSV) compare to higher-code scripts, and how AI can both produce the table and help interpret what it shows.
+
+## Data Transformations with AI Assistance
+
+You’ll practice selecting variables, filtering observations by time or value ranges, and aggregating to group-level summaries. We’ll contrast classic `pandas` syntax with AI-assisted queries, using the back-and-forth with the model to clarify logic, spot mistakes, and learn better transformation patterns as you go.
+
+## Low-Code Data Analysis with Graphs
+
+We’ll quickly build core plots—bars, lines, histograms—and talk about when to use univariate versus bivariate views. AI can propose suitable chart types and draft `matplotlib`, `seaborn`, or `plotnine` code, so you can visualize trends and relationships with almost no setup while still keeping outputs clear and publication-ready.
+
+## Multivariate and Interactive Graphs
+
+To explore richer patterns, we’ll use scatter matrices, heatmaps, and bubble charts, then add interactivity with `plotly`, `altair`, or `holoviews`. AI can help refine variable choices, axes, and layout, letting you create dynamic views that invite exploration and make complex relationships in large datasets easier to understand.
+
