@@ -1,0 +1,42 @@
+## Key takeaways and ethical perspectives
+
+So, as we wrap up this course, let’s highlight a few key takeaways. You’ve seen how AI can really support content analysis in sustainability research, helping us process and interpret large volumes of material. Along the way, you’ve built hands-on skills with text and image analysis using low-code tools. But the point was never just about running models — it’s also about learning to critically interpret the results they produce. We’ve also taken a step back to look at the ethical side: where are the boundaries of automation in communication research, and what responsibilities do we carry as researchers when it comes to transparency, bias, and accountability?
+
+---
+
+## What You Learned in This Course
+
+Looking back, you’ve learned to collect and organize sustainability content from real-world cases, and to analyze both texts and visuals using Python notebooks. You’ve experimented with natural language processing and computer vision in a social science context. And importantly, you’ve practiced summarizing and visualizing data to spot patterns in sustainability messaging, always connecting those findings to audience effects and strategic communication.
+
+---
+
+## Ethics of Automating Content Interpretation
+
+Now, one of the most important discussions we had was about the ethics of automating interpretation. Algorithms aren’t neutral. Bias can shape what we find, and sometimes the results are hard to fully explain. That’s why your role as the researcher remains central — guiding, validating, and questioning what the AI outputs. And of course, we also need to think about privacy and consent when working with digital content. The big point here is: ethics isn’t an afterthought, it’s something to integrate right from the start of your project.
+
+---
+
+## Analysis documentation and open science (Jupyter)
+
+Another theme is documentation. In research, transparency and reproducibility are everything. That means storing your data, code, and results in ways that others can access and check. Using cloud tools and version control helps collaboration, while clear documentation makes it easier for others to review or even replicate your work. In the lab, you practiced this by downloading a Jupyter notebook from Google Colab and walking through an example workflow.
+
+---
+
+## Using Jupyter Notebooks to Ensure Reproducibility
+
+Jupyter and Quarto really help with this. They bring together code, results, and narrative in one place. They make research reproducible — you can run the whole notebook again and get the same results. And they’re flexible, letting you export to HTML, PDF, or Word. Adding metadata, citations, and environment details makes your analysis both shareable and credible. Think of it as building a transparent research record that others can trust.
+
+---
+
+## Communicating AI-aided content analysis (Quarto)
+
+But analysis isn’t enough on its own — communication matters too. Quarto helps you present your findings clearly. You can turn technical outputs into accessible narratives, supported by visualizations that highlight patterns in sustainability communication. This makes your results useful not just for researchers, but also for practitioners and wider audiences. In the lab, you practiced converting a notebook into a Quarto document — a simple but powerful way of moving from analysis to communication.
+
+---
+
+## Turning Your Analysis into a Research Publication
+
+Finally, let’s talk about taking your work further. A well-documented notebook is already a strong foundation for a publication. With a clear research question, reproducible methods, and good visualizations, you can connect your findings to existing theory and publish in journals on digital methods, media, or sustainability communication. That’s the path from class exercises to real contributions to the field.
+
+---
+
