@@ -1,0 +1,28 @@
+## Functions of Visuals in Sustainability Communication
+
+Visuals make complex sustainability ideas clearer and more engaging. Photos can spark emotion and motivate action, infographics distill complicated numbers into digestible stories, and videos show impact as it unfolds. Using a mix of formats across contexts helps reinforce the core messages you want audiences to remember.
+
+## Computer Vision Areas and Content Challenges
+
+In this course, we look at CV tasks like object detection, facial recognition, and scene analysis, and how they can inform social science questions. Real-world images vary—lighting, angles, and sources—so robust models and sizable datasets are essential, especially for monitoring environmental change. Done well, CV helps us track patterns and shifts that matter for sustainability.
+
+## Image Basics: Pixels, RGB, and Grayscale
+
+Every image is a grid of pixels holding intensity or color values. RGB channels—red, green, and blue—combine to create colors, while grayscale collapses them into shades from dark to light. Understanding these basics is the foundation for any manipulation or analysis you’ll do later.
+
+## Constructing and Manipulating Images with NumPy
+
+You can treat images as NumPy arrays, where each element represents a pixel value. By adjusting those values, you can change brightness or color in targeted regions, reduce noise, or highlight features of interest. This pixel-level control is powerful for preprocessing before any modeling step.
+
+## Image Features: Colors, Histograms, and Edges
+
+Features translate raw pixels into patterns a model can use. Color histograms summarize dominant tones, edge detectors outline shapes and boundaries, and texture measures help distinguish smooth from rough areas. Together, these cues let AI “see” structure in images more effectively.
+
+## Reading Images into Dataframes and Matrix Structures
+
+Libraries like OpenCV load images as matrices, and you can also organize pixel data into dataframes for tidy analysis. Matrices preserve spatial relationships, which vision models rely on, while tabular formats make it easier to compare across many images. Access to pixel-level data gives you precision when testing hypotheses.
+
+## Normalizing Image Content: Resize, Grayscale, and Consistency
+
+Normalization standardizes your inputs so the model focuses on signal, not quirks. Resizing creates uniform dimensions, optional grayscale reduces complexity, and brightness adjustments align images from different sources. These steps boost accuracy and reliability, especially when your dataset is diverse.
+

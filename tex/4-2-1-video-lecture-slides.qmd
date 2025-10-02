@@ -1,0 +1,75 @@
+---
+title: "Module 4: Analyzing image content with computer vision"
+subtitle: "<br/>Lesson 4.2: Image classification and object detection <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../res/media/lu/logo-black.png
+    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+#    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Image classification and object detection
+## 
+## 
+
+## Inferential image analysis, classification
+## 
+
+## Inferential image analysis, object detection
+## 
+
+<!--
+
+## Open Science Methods  
+
+::: columns
+::: {.column width="45%"}
+- Emphasizes reproducibility and transparency in research.  
+- Encourages collaboration among global research communities.  
+- Relies on sharing data, code, and methodologies openly.  
+- Supported by open-source tools and platforms.  
+- Enhances scientific integrity and innovation.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Python Environments: Local, Cloud, Notebooks  
+- Local environments require Python installation and configuration.  
+- Cloud environments like Google Colab eliminate setup hurdles.  
+- Notebooks provide interactive code execution and documentation.  
+- Cloud environments offer scalability and resource management.  
+- Notebooks support real-time code execution alongside markdown.
+
+-->
+
+
+

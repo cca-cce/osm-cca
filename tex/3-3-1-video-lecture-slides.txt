@@ -1,0 +1,28 @@
+## Quantitative content analysis
+
+Here we treat text systematically: we measure theme frequency, sentiment, and tone, and we distinguish text-level signals (like overall tone) from word-level counts (like keywords). Human coders are flexible but don’t scale to big corpora, while AI-aided coding trades some nuance for speed and coverage. Used together with qualitative reading, these numbers help validate insights with clear, comparable metrics.
+
+## Operationalizing sustainability
+
+To separate authentic sustainability from greenwashing, we look for specific, measurable environmental claims rather than vague, feel-good language. Named entity recognition maps who and what is being talked about, and part-of-speech patterns—nouns, verbs, adjectives—reveal intent and framing. In short, we quantify the difference between concrete commitments and fuzzy promises.
+
+## Comparison across organizations
+
+When we compare Preem and Vattenfall, we see different storylines: fossil fuel firms often emphasize mitigation and risk, while renewables spotlight innovation and solutions. NLP picks up the contrasts in word choice and narrative tone, and it shows how public scrutiny can push fossil fuel messaging into a more defensive stance. The result is a quantitative view of alignment with sustainability goals across sectors.
+
+## Summarizing results of text analysis
+
+The challenge is turning token-level dataframes into something readable. We aggregate metrics—like category counts or sentiment scores—and relate dependent variables (e.g., category frequency) to independents (e.g., organization type). The goal is to surface clear trends, such as how often adjectives appear by sector, and make the findings actionable for different stakeholders.
+
+## Select, filter, aggregate
+
+We start by selecting the columns that matter—entity tags, part-of-speech, categories—then filter out noise like nulls or ultra-rare tokens. From there, we aggregate to compute counts, rates, or mean sentiment and build precise comparisons (for example, sustainability terms by organization). This pipeline turns raw text into structured, research-ready insights.
+
+## Visualizing results of text analysis
+
+Plots make patterns obvious in a way tables often don’t. We stick to clear visuals—bar charts, word clouds, heatmaps—and let tools like Matplotlib handle the mechanics while we focus on interpretation. Good visuals quickly highlight differences in term frequencies or sentiment across firms and help audiences grasp the story at a glance.
+
+## Stacked bar plots
+
+Bar charts are great for showing one organization at a time; stacked bars go further by comparing multiple variables within and across organizations. Each segment represents something meaningful—like word types or categories—so you can see, for example, whether adjectives are used more by Preem or Vattenfall. It’s a simple, multivariate view that supports clean, comparative insights.
+

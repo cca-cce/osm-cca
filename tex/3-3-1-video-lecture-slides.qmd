@@ -1,0 +1,204 @@
+---
+title: "Module 3: Analyzing text content with natural language processing"
+subtitle: "<br/>Lesson 3.3: Interpreting the results of NLP analysis <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../../res/media/lu/logo-black.png
+#    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Quantitative content analysis  
+
+::: columns
+::: {.column width="45%"}
+- Systematically evaluates text features like theme frequency and sentiment.  
+- Text-level (e.g., tone) differs from word-level (e.g., keyword counts).  
+- Human coders offer flexibility but lack scalability for large datasets.  
+- AI-aided coding sacrifices nuance for rapid, scalable analysis.  
+- Complements qualitative analysis, validating insights with numerical rigor.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<!--
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+-->
+::: {style="font-size:1000%;"}
+:newspaper:
+:::
+
+:::
+:::
+
+## Operationalizing sustainability  
+
+::: columns
+::: {.column width="45%"}
+- Distinguishes authentic sustainability from greenwashing via metrics.  
+- Authentic communication uses specific, measurable environmental metrics.  
+- Greenwashing features vague terms and unverifiable claims.  
+- Named entity recognition maps entities and their relationships.  
+- Part-of-speech analysis reveals intent through nouns, verbs, adjectives.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<!--
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+-->
+::: {style="font-size:1000%;"}
+:recycle:
+:::
+
+:::
+:::
+
+## Comparison across organizations  
+
+::: columns
+::: {.column width="45%"}
+- Compares Preem (fossil fuel) and Vattenfall (renewable energy).  
+- Fossil fuel firms emphasize mitigation; renewables highlight innovation.  
+- NLP detects differences in word choice and narrative tone.  
+- Public scrutiny shapes fossil fuel firms’ defensive messaging.  
+- Quantifies alignment with sustainability goals across sectors.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<!--
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+-->
+::: {style="font-size:1000%;"}
+:balance_scale:
+:::
+:::
+:::
+
+## Summarizing results of text analysis  
+
+::: columns
+::: {.column width="45%"}
+- Simplifies complex token-level dataframes for better readability.  
+- Aggregates metrics like content category counts or sentiment scores.  
+- Analyzes dependent variables (e.g., category frequency) against independents.  
+- Highlights trends, e.g., adjective use by organization type.  
+- Ensures findings are actionable for diverse stakeholders.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<!--
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+-->
+::: {style="font-size:1000%;"}
+:chart_with_upwards_trend:
+:::
+:::
+:::
+
+## Select, filter, aggregate  
+
+::: columns
+::: {.column width="45%"}
+- Selects key columns like token entity or part-of-speech tags.  
+- Filters out noise, e.g., null values or low-frequency tokens.  
+- Aggregates data to compute category counts or sentiment means.  
+- Enables precise comparisons, e.g., sustainability terms by organization.  
+- Transforms raw data into structured, research-ready insights.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<!--
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+-->
+::: {style="font-size:1000%;"}
+:dart:
+:::
+:::
+:::
+
+## Visualizing results of text analysis  
+
+::: columns
+::: {.column width="45%"}
+- Visualizations make NLP results intuitive compared to tables.  
+- Options include bar plots, word clouds, and heatmaps.  
+- Simple visuals (e.g., bar plots) are clearer than complex ones.  
+- AI tools like Matplotlib streamline visualization processes.  
+- Highlights trends, e.g., term frequency differences across firms.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<!--
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+-->
+::: {style="font-size:1000%;"}
+:art:
+:::
+
+:::
+:::
+
+## Stacked bar plots  
+
+::: columns
+::: {.column width="45%"}
+- Simple bar plots show single-organization metrics like category frequency.  
+- Stacked bar plots compare multiple variables across organizations.  
+- Segments represent variables (e.g., word types) within bars.  
+- Reveals differences, e.g., adjective use in Preem vs. Vattenfall.  
+- Supports multivariate analysis for clear, comparative insights.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+::: {style="font-size:1000%;"}
+:bar_chart:
+:::
+:::
+:::
+
+
+
+
+
+

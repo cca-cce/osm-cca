@@ -1,0 +1,96 @@
+---
+title: "Module 4: Analyzing image content with computer vision"
+subtitle: "<br/>Lesson 4.1: Computer vision (CV) in social science <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../res/media/lu/logo-black.png
+    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+#    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Functions of Visuals in Sustainability Communication
+
+::: columns
+::: {.column width="45%"}
+- Visuals enhance message clarity and audience engagement in sustainability topics.
+- Photos evoke emotional responses, encouraging empathy and action.
+- Infographics simplify complex data for easier public understanding.
+- Videos convey real-time impact, offering immersive storytelling.
+- Visual variety can reinforce key sustainability messages across contexts.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Computer Vision Areas and Content Challenges
+- Computer vision applications include object detection, facial recognition, and scene analysis.
+- Variations in lighting and angle present challenges in accurate image interpretation.
+- Environmental monitoring relies on detecting specific features in natural scenes.
+- Handling diverse image sources requires robust algorithms and large datasets.
+- Computer vision aids sustainability by tracking changes in environmental conditions.
+
+## Image Basics: Pixels, RGB, and Grayscale
+- Images are composed of pixels, each storing color or intensity values.
+- RGB channels (Red, Green, Blue) combine to create various colors in visuals.
+- Grayscale simplifies images by converting them into shades of gray.
+- Each color channel holds intensity values ranging from 0 to 255.
+- Understanding these basics is essential for manipulating and analyzing images.
+
+## Constructing and Manipulating Images with NumPy
+- Images can be represented as NumPy matrices, enabling pixel-based control.
+- Each matrix element corresponds to a pixel's intensity or color value.
+- Adjusting matrix values allows for brightness or color changes in specific regions.
+- Image manipulations aid in highlighting areas of interest or removing noise.
+- Using NumPy enhances flexibility in preprocessing images for computer vision tasks.
+
+## Image Features: Colors, Histograms, and Edges
+- Image content features help models identify patterns within visuals.
+- Color histograms reveal dominant tones by analyzing pixel distributions.
+- Edge detection outlines shapes, essential for object and scene recognition.
+- Texture features assist in distinguishing smooth versus rough surfaces.
+- Features enable AI to interpret images more effectively by capturing key visual aspects.
+
+## Reading Images into Dataframes and Matrix Structures
+- Tools like OpenCV allow images to be imported as matrices or dataframes.
+- Dataframes enable organization of pixel data for efficient analysis.
+- Matrix structures store spatial information, which is crucial for vision models.
+- Image data in structured formats simplifies comparisons across visuals.
+- Accessing pixel-level data provides precision in analyzing image content.
+
+## Normalizing Image Content: Resize, Grayscale, and Consistency
+- Image normalization enhances model performance by standardizing inputs.
+- Resizing aligns images to a uniform size, aiding consistency in analysis.
+- Grayscale conversion reduces complexity and focuses on essential shapes.
+- Brightness adjustments help maintain consistency across varied image sources.
+- Normalizing inputs is vital for achieving accurate, reliable computer vision results.
+
+
+

@@ -1,0 +1,194 @@
+---
+title: "Module 3: Analyzing text content with natural language processing"
+subtitle: "<br/>Lesson 3.2: Part-of-speech and named entity recognition <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../../res/media/lu/logo-black.png
+#    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Token Relationships and Knowledge Graphs
+
+::: {style="font-size: 85%;"}
+
+::: columns
+::: {.column width="45%"}
+- Tokens form the building blocks of text relationships and meaning in NLP.  
+- Aspect-based sentiment analysis identifies sentiment tied to specific aspects or topics.  
+- Knowledge graphs map relationships between entities to provide contextual insights.  
+- Token relationships enhance machine understanding of complex linguistic structures.  
+- These concepts drive applications in sentiment analysis, recommendations, and chatbots.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../../tmp/comm/simm71/lecture-241205-nlp1_page-17_extracted.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+:::
+
+## Units of NLP Analysis
+
+::: columns
+::: {.column width="45%"}
+- NLP processes text at various levels: texts, paragraphs, sentences, words, and tokens.  
+- Texts provide overarching narratives; tokens are the smallest meaningful units.  
+- Paragraphs and sentences act as natural segmentation points for processing.  
+- Tokens are annotated with attributes like part-of-speech and syntactic role.  
+- Understanding these units is key to granular and scalable text analysis.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+::: {style="font-size:1200%;"}
+:abacus:
+:::
+
+:::
+:::
+
+## Applying SpaCy NLP Models to Dataframes
+
+::: columns
+::: {.column width="45%"}
+- SpaCy provides pre-trained NLP models for efficient text processing.  
+- Text and sentence dataframes integrate structured data with NLP outputs.  
+- NLP models parse and enrich text with token, dependency, and entity annotations.  
+- Batch processing of text improves efficiency for large datasets.  
+- Practical applications include text classification, summarization, and sentiment analysis.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../../lib/osm-comm/res/edu/spacy_logo.jpg){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Iterating Over SpaCy Documents
+
+::: columns
+::: {.column width="45%"}
+- Sentence-level dataframes organize text into manageable units for analysis.  
+- SpaCy document objects provide linguistic annotations for each token.  
+- Iterating enables extraction of sentence-specific attributes like entities or sentiments.  
+- Combines structured data analysis with NLP insights for robust results.  
+- Streamlines processes such as summarization, search indexing, and context identification.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../../lib/osm-comm/res/edu/spacy_logo.jpg){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Text Normalization and Token Attributes
+
+::: columns
+::: {.column width="45%"}
+- Normalization reduces text variability by standardizing tokens.  
+- Lemmatization extracts the base form of words for consistent analysis.  
+- Token attributes, such as text and lemma, enable detailed linguistic understanding.  
+- Improved token consistency enhances downstream NLP tasks like matching and clustering.  
+- Normalization is essential for multilingual and noisy text processing.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+::: {style="font-size:1200%;"}
+:abacus:
+:::
+
+:::
+:::
+
+## Infering Named Entity Recognition (NER)
+
+::: columns
+::: {.column width="45%"}
+- NER identifies and categorizes entities like names, organizations, and dates.  
+- Extracted entities provide structured insights from unstructured text.  
+- Applications include content categorization, fraud detection, and customer sentiment analysis.  
+- NER supports personalized recommendations and enhanced search capabilities.  
+- It is fundamental to building knowledge graphs and question-answering systems.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+::: {style="font-size:1200%;"}
+:abacus:
+:::
+
+:::
+:::
+
+## Infering Part-of-Speech Tagging (POS)
+
+::: columns
+::: {.column width="45%"}
+- POS tagging assigns grammatical roles to tokens like nouns, verbs, and adjectives.  
+- Captures the syntactic structure of text for deeper linguistic understanding.  
+- Applications include syntax parsing, machine translation, and text generation.  
+- POS tagging enhances accuracy in sentiment analysis and topic modeling.  
+- Supports advanced NLP tasks like dependency parsing and coreference resolution.  
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+::: {style="font-size:1200%;"}
+:abacus:
+:::
+
+:::
+:::
+
+
+
+
+

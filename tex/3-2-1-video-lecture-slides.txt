@@ -1,0 +1,28 @@
+## Token Relationships and Knowledge Graphs
+
+Tokens are the basic units that let us map relationships and meaning in text, and they power analyses like aspect-based sentiment, where we link opinions to specific topics or entities. Knowledge graphs take this a step further by connecting entities and their relationships, adding rich context to what a model can infer. When we model token relationships, we give machines a way to understand complex linguistic structures, which then supports real applications—from sentiment analysis and recommendations to more natural chatbot responses.
+
+## Units of NLP Analysis
+
+NLP works across levels: entire texts and paragraphs for big-picture narratives, sentences for coherent units of meaning, and words or tokens for the most granular signals. Tokens can be annotated with attributes like part-of-speech and syntactic roles, which makes downstream tasks more precise. Understanding these layers helps you scale from quick insights to detailed, reproducible analyses.
+
+## Applying SpaCy NLP Models to Dataframes
+
+SpaCy gives us fast, pre-trained models that annotate text with tokens, dependencies, and entities, and we can merge those outputs into text or sentence-level dataframes. This keeps linguistic structure alongside metadata, so we can segment, compare, and visualize results efficiently. Batch processing makes large datasets practical, enabling tasks like classification, summarization, and sentiment analysis at scale.
+
+## Iterating Over SpaCy Documents
+
+SpaCy’s `Doc` and `Span` objects carry rich annotations for every sentence and token, so iterating through them lets us extract the exact attributes we need—entities, dependency heads, or sentiment per sentence. Organizing results in sentence-level dataframes keeps the workflow tidy and analysis-ready. This combination of structured data handling plus linguistic insight streamlines summarization, search indexing, and context detection.
+
+## Text Normalization and Token Attributes
+
+Normalization standardizes messy text so models focus on meaning rather than surface variation. Lemmatization reduces words to their base forms, and token attributes—like raw text and lemma—support consistent matching, clustering, and retrieval. This pays off especially with multilingual or noisy data, where improved consistency directly boosts downstream performance.
+
+## Infering Named Entity Recognition (NER)
+
+NER finds and labels real-world entities—people, organizations, locations, dates—turning unstructured text into structured signals we can query. Those entities drive practical use cases such as content categorization, fraud detection, and customer sentiment tracking, and they make recommendations and search more precise. NER also underpins knowledge graphs and question-answering systems by anchoring facts to the right nodes.
+
+## Infering Part-of-Speech Tagging (POS)
+
+POS tagging assigns grammatical roles—nouns, verbs, adjectives—to tokens, revealing the syntactic scaffolding of a sentence. With that structure, we get better parsing, translation, and text generation, and we improve the precision of tasks like sentiment analysis and topic modeling. POS tags also support advanced steps such as dependency parsing and coreference resolution, where understanding “who did what to whom” matters.
+

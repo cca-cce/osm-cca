@@ -1,0 +1,187 @@
+---
+title: "Module 3: Analyzing text content with natural language processing"
+subtitle: "<br/>Lesson 3.1: Natural language processing (NLP) in social science <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../../res/media/lu/logo-black.png
+#    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+#    ../../../../../../../res/media/quarto/osm-cca/lecture-231130-nlp1_page-02_extracted.png
+    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Functions of Texts in Sustainability Communication
+
+::: columns
+::: {.column width="45%"}
+- Informational texts provide data-driven insights and factual details.  
+- Persuasive texts motivate audiences toward action or change.  
+- Narrative texts create emotional connections to sustainability themes.  
+- Visual-supported texts enhance accessibility and engagement.  
+- Each text type targets specific audiences and communication goals.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../../res/media/quarto/osm-cca/lecture-231130-nlp1_page-02_extracted.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## NLP and Challenges of Unstructured Text  
+
+::: columns
+::: {.column width="45%"}
+- NLP applications include sentiment analysis, translation, and summarization.  
+- Unstructured text often contains ambiguous language and incomplete sentences.  
+- Domain-specific jargon and colloquialisms complicate processing.  
+- Noise in data sources like social media adds layers of preprocessing needs.  
+- Robust algorithms and preprocessing pipelines mitigate these challenges.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../../res/media/quarto/osm-cca/lecture-231130-nlp1_page-15_extracted.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Basic Concepts: Units, Tokens, and N-grams  
+
+::: columns
+::: {.column width="45%"}
+- Text units include sentences, words, and characters as analytical building blocks.  
+- Tokens are the smallest logical units, often derived from words.  
+- N-grams capture sequences of n tokens, revealing contextual patterns.  
+- Common n-grams include bigrams (two words) and trigrams (three words).  
+- These concepts underpin more advanced NLP tasks.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../../tmp/comm/simm71/lecture-241205-nlp1_page-21_extracted.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Formats and Conversion to Plain Text  
+
+::: columns
+::: {.column width="45%"}
+- Text is often stored in formats like PDF, HTML, or Markdown.  
+- PDFs may contain layout artifacts, complicating text extraction.  
+- HTML requires parsing to remove tags and extract meaningful content.  
+- Tools like Beautiful Soup and PDFMiner streamline these conversions.  
+- Converting to plain text ensures compatibility with NLP workflows.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+::: {style="font-size:1200%;"}
+:newspaper:
+:::
+
+:::
+:::
+
+## Text Features: Readability, POS, and NER  
+
+::: columns
+::: {.column width="45%"}
+- Readability indices assess the complexity of written content.  
+- POS tagging categorizes words by their grammatical function.  
+- NER identifies and classifies specific entities, such as names and dates.  
+- These features provide insights into the style and structure of text.  
+- They are essential for contextual and thematic understanding in NLP.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../../tmp/comm/simm71/lecture-241205-nlp1_page-17_extracted.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Reading Text into Dataframes and Preprocessing  
+
+::: columns
+::: {.column width="45%"}
+- Dataframes structure text data for analysis and visualization.  
+- Normalization includes lowercasing and punctuation removal.  
+- Tokenization splits text into analyzable units like words or phrases.  
+- Pandas and NLTK are widely used for preprocessing workflows.  
+- Clean, tokenized data is a prerequisite for most NLP tasks.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+::: {style="font-size:1200%;"}
+:abacus:
+:::
+
+:::
+:::
+
+## Manifest Text Content and Frequency Analysis  
+
+::: columns
+::: {.column width="45%"}
+- Manifest content refers to explicitly observable text elements.  
+- Sentence and word counts provide quantitative content metrics.  
+- Word frequency analysis highlights key terms and dominant themes.  
+- Visualizations like word clouds offer intuitive insights into text data.  
+- These metrics are foundational for exploratory text analysis.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+::: {style="font-size:1200%;"}
+:bar_chart:
+:::
+
+:::
+:::
+
+
+

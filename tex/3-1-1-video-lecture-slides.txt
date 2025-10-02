@@ -1,0 +1,28 @@
+## Functions of Texts in Sustainability Communication
+
+Texts play different roles: informational pieces provide data-driven facts, persuasive messages aim to motivate action, and narratives build emotional connection to sustainability themes. When paired with visuals—figures, images, or icons—texts become more accessible and engaging. The key is to match text type to audience and goal so each message lands with clarity and purpose.
+
+## NLP and Challenges of Unstructured Text
+
+NLP helps with tasks like sentiment analysis, translation, and summarization, but real-world text is messy: it’s ambiguous, full of domain jargon and colloquialisms, and often noisy—especially on social media. Robust preprocessing pipelines and well-chosen algorithms are essential to clean, normalize, and model this unstructured input so findings remain valid and reproducible.
+
+## Basic Concepts: Units, Tokens, and N-grams
+
+We analyze text at multiple levels—characters, words, and sentences—with tokens as the basic units. N-grams extend this by capturing sequences of tokens (like bigrams and trigrams), revealing common phrases and local context. These building blocks underpin downstream tasks, from classification and topic modeling to sentiment and sequence labeling.
+
+## Formats and Conversion to Plain Text
+
+Text arrives as PDFs, HTML, Markdown, and more, each with quirks. PDFs can carry layout artifacts; HTML needs parsing to strip tags and isolate meaningful content. Tools like Beautiful Soup and PDFMiner help convert diverse sources into clean, plain text—creating a consistent starting point for any NLP workflow.
+
+## Text Features: Readability, POS, and NER
+
+Readability indices gauge how complex a text is, POS tagging labels words by grammatical role, and NER pulls out entities such as people, organizations, dates, and places. Together, these features illuminate style, structure, and context, providing interpretable signals that improve modeling and deepen thematic understanding.
+
+## Reading Text into Dataframes and Preprocessing
+
+We load documents into dataframes to align text with metadata and visualizations, then normalize by lowercasing and removing punctuation. Tokenization splits text into analyzable units, often with `pandas` orchestrating data handling and NLTK (or similar) handling linguistic steps. Clean, tokenized data is the prerequisite for almost every NLP task.
+
+## Manifest Text Content and Frequency Analysis
+
+Manifest content focuses on what’s explicitly present: counts of sentences and words, and frequency of terms. Simple frequency tables and plots surface dominant themes quickly, while visualizations—like word clouds—offer fast intuition. These descriptive metrics are the first pass in exploratory text analysis and set up deeper modeling that follows.
+
