@@ -1,0 +1,327 @@
+% slides.tex — Lund University inspired title slide + content slide mock
+\documentclass[aspectratio=169]{beamer}
+
+% keep presentation lightweight and self-contained
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{iftex}
+
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{mathptmx} % Times-like serif
+  \usepackage[scaled=0.92]{helvet} % Arial-like sans
+  \newcommand{\TitleFont}{\rmfamily}
+  \newcommand{\SubtitleFont}{\sffamily}
+\else
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+  \newfontfamily\TitleFont{Times New Roman}[Scale=1.0]
+  \newfontfamily\SubtitleFont{Arial}[Scale=1.0]
+\fi
+
+% --- Color palette sampled from Presentation-template-page1.jpg ---
+\definecolor{LUBeige}{HTML}{D8CCAA}
+\definecolor{LUBronze}{HTML}{8A4F16}
+
+% ensure other frames revert to a neutral background
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{footline}{fg=LUBronze,bg=white!0}
+
+
+\newdimen\CircleRadius
+\CircleRadius=0.46\paperheight
+\newlength{\ContentHeight} % matched to left-column content height on content slides
+\newlength{\ImageHeight}
+\newlength{\ImageWidth}
+\newlength{\ImageInnerHeight}
+\newlength{\ImageInnerWidth}
+
+\title{Module 4: Analyzing image content with computer vision}
+\subtitle{Lesson 4.2: Image classification and object detection \\[0.8em]nils.holmberg@iko.lu.se}
+\author{}
+
+% Custom footline with frame number (left) and compact logo (right)
+\setbeamertemplate{footline}{%
+  \vspace{0.35cm}% raises the footer slightly above the slide edge
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3ex,dp=1.2ex,leftskip=0.9cm,rightskip=0.9cm]{footline}
+    {\SubtitleFont\small\color{LUBronze}\insertframenumber}
+    \hfill
+    \raisebox{-0.1cm}{\includegraphics[height=0.75cm]{edulab-lulogo.png}}
+  \end{beamercolorbox}%
+}
+
+% Bronze round bullets with matching text color for itemize blocks
+\setbeamercolor{itemize item}{fg=LUBronze}
+\setbeamercolor{itemize body}{fg=LUBronze}
+\setbeamertemplate{itemize item}{\color{LUBronze}\scriptsize\raise0.2ex\hbox{\textbullet}}
+
+\makeatletter
+\defbeamertemplate*{title page}{lu}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    % full-bleed beige background — adjust offsets here if you need more/less margin.
+    \fill[LUBeige] (current page.south west) rectangle (current page.north east);
+
+    % Lund University logo in the upper-left — tweak the shifts to nudge placement.
+    \node[anchor=north west] at ([xshift=0.3cm,yshift=-0.25cm]current page.north west) {
+      \includegraphics[height=1.9cm]{edulab-lulogo.png}
+    };
+
+    % Circular pelican artwork, bottom cropped by slide edge — adjust center/radius as needed.
+    \coordinate (circlecenter) at ([xshift=0.36\paperwidth,yshift=0.22\paperheight]current page.south west);
+    \begin{scope}
+      \clip (circlecenter) circle (\CircleRadius);
+      \node at (circlecenter) {
+        \includegraphics[width=1.12\paperheight]{pelican.png}
+      };
+    \end{scope}
+
+    % Title block positioned on the right — tweak node shift/inner sep to fine-tune spacing.
+    \node[anchor=north east] at ([xshift=-1.0cm,yshift=-1.0cm]current page.north east) {
+      \begin{tikzpicture}
+        \node[anchor=north east, fill=white, inner sep=18pt, minimum width=0.48\paperwidth] (titlebox) at (0,0) {
+          \begin{minipage}{0.44\paperwidth}
+            \raggedright
+            {\TitleFont\fontsize{14}{16}\selectfont\bfseries\color{LUBronze}\inserttitle\par}
+            \vspace{0.5em}
+            {\color{LUBronze}\rule{\linewidth}{0.8pt}\par}
+            \vspace{0.4em}
+            {\SubtitleFont\fontsize{11}{13}\selectfont\color{LUBronze}\insertsubtitle\par}
+          \end{minipage}
+        };
+      \end{tikzpicture}
+    };
+  \end{tikzpicture}
+}
+\setbeamertemplate{title page}[lu]
+\makeatother
+
+\begin{document}
+
+\setbeamercolor{background canvas}{bg=LUBeige}
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+\setbeamercolor{background canvas}{bg=white}
+\setcounter{framenumber}{0} % so the first content slide starts at 1
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Image classification and object detection\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Pixels lack intrinsic meaning
+        \item CV infers meaning from patterns
+        \item 2D order enables locality
+        \item Classification assigns learned labels
+        \item Detection locates named instances
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{4-2-1-video-lecture-slides-1.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Applications in sustainability communication\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Sources include PDFs, web
+        \item Quantify greenwashing color cues
+        \item Operationalize qualitative frame types
+        \item Measure actor prominence shifts
+        \item Consent bias fairness concerns
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{4-2-1-video-lecture-slides-2.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Install computer vision models in Colab\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Colab offers managed GPUs
+        \item Hugging Face supplies pretrained models
+        \item Embeddings enable text-image checks
+        \item Notebooks capture reproducible workflows
+        \item Ephemeral limits favor accessibility
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{4-2-1-video-lecture-slides-3.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Inferential image analysis, classification\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Classification handles diverse labels
+        \item Parallels supervised text labeling
+        \item Separate natural symbolic cues
+        \item Need balanced curated data
+        \item Labels must reflect content
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{4-2-1-video-lecture-slides-4.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Iterate classification to dataframe\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Pipelines iterate images, frames
+        \item Store results in dataframes
+        \item Tables enable filtering comparisons
+        \item Handle multilabel long-tail classes
+        \item Aggregation should preserve nuance
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{4-2-1-video-lecture-slides-5.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Inferential image analysis, object detection\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Detection localizes multiple instances
+        \item Counts and sizes signal salience
+        \item Dense occluded scenes challenge recall
+        \item Class imbalance skews detectors
+        \item Supports actor copresence measures
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{4-2-1-video-lecture-slides-6.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Object localization and confidence scores\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Boxes give rectangular localization
+        \item Tracking captures temporal transitions
+        \item Confidence scores need thresholds
+        \item Report confidence validation checks
+        \item Filter low-confidence detections
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{4-2-1-video-lecture-slides-7.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\end{document}

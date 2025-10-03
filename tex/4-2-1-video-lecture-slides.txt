@@ -1,0 +1,28 @@
+## Image classification and object detection
+
+Unlike NLP where tokens come pre-packaged with meaning, images give us raw pixels with no intrinsic semantics, so computer vision has to infer meaning from patterns of color, intensity, and shape. Because pixels are spatially ordered, convolution and attention can exploit locality and structure to find features that map to concepts. In practice, classification assigns one or more labels to an image or region, while object detection goes further by locating and naming multiple instances in the same scene. Together, these tasks convert arrays of numbers into analyzable units for social-scientific questions.
+
+## Applications in sustainability communication
+
+Our images often come from PDFs, websites, or sampled YouTube frames, and we use them to study how sustainability messages are framed visually. We can probe visual greenwashing by quantifying nature cues, “green” palettes, and the co-occurrence of eco-symbols with vague claims, while also operationalizing qualitative frames like problem–solution or risk versus opportunity. Analyses can measure the prominence of corporate versus community actors and how they’re portrayed. Techniques like face, affect, or demographic inference are technically possible (e.g., DeepFace) but must be handled with strict attention to consent, bias, and fairness.
+
+## Install computer vision models in Colab
+
+Google Colab gives you managed GPUs and zero local setup, which is perfect for quick prototypes with large models. Via Hugging Face, you can load pretrained vision and vision-language models in a few lines, then explore content embeddings and text–image similarity to test theme hypotheses (e.g., “offshore wind,” “carbon capture”). Notebooks also capture code, dependencies, and outputs for open, shareable workflows. The trade-off is that sessions are temporary and resource-limited, but the accessibility and reproducibility gains are substantial.
+
+## Inferential image analysis, classification
+
+Image classification assigns binary, multiclass, or multilabel categories to an input, analogous to supervised text labeling but driven by spatial features rather than token sequences. In sustainability datasets, classifiers can separate natural objects (trees, turbines, smoke plumes) from graphical elements (icons, logos, infographics) to distinguish evidence from symbolism. Reliable results require curated, balanced data and calibrated thresholds so labels reflect communicative content rather than artifacts or spurious correlations. When done well, classification becomes a fast, scalable way to audit visual narratives.
+
+## Iterate classification to dataframe
+
+A practical pipeline loops over folders of images or video frames sampled at set intervals, classifies each item, and writes results to a dataframe. Each row can store filename, timestamp, top-k labels, confidence scores, and source metadata, enabling filtering, grouping, and statistical comparisons across campaigns and time. Multi-label scenes and long-tail classes call for per-label thresholds, hierarchical taxonomies, and aggregation rules that preserve nuance. This tabular approach turns raw media into research-ready evidence.
+
+## Inferential image analysis, object detection
+
+Object detection extends classification by drawing boxes or masks around multiple instances and assigning each a class. This is crucial when scenes include many relevant elements—turbines, solar panels, people, vehicles—whose counts, sizes, and positions shape the message. Dense scenes, occlusion, small objects, and class imbalance remain hard problems that can depress precision or recall if unmanaged. For social science, detection unlocks measures like the salience of nature versus industry, co-presence of actors, and spatial layouts that imply responsibility or impact.
+
+## Object localization and confidence scores
+
+Localization can be coarse with bounding boxes or precise with segmentation masks; masks better estimate size, overlap, and shape but cost more compute. In video and streaming settings, tracking adds temporal continuity so you can analyze persistence and transitions of visual motifs over time. Confidence scores quantify uncertainty and should be filtered with class-specific thresholds and non-maximum suppression to reduce false positives. Reporting confidence distributions and validation checks increases transparency and strengthens the credibility of conclusions.
+

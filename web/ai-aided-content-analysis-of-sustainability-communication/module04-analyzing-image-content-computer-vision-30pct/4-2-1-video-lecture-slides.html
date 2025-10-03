@@ -149,24 +149,73 @@ nils.holmberg@iko.lu.se
 </section>
 <section id="image-classification-and-object-detection" class="slide level2">
 <h2>Image classification and object detection</h2>
+<ul>
+<li>Unlike NLP tokens with explicit semantics, image pixels lack intrinsic meaning.</li>
+<li>Computer vision must infer meaning from spatial patterns of color, intensity, and shape.</li>
+<li>Pixel ordering in two dimensions lets convolution and attention exploit locality and structure.</li>
+<li>Classification assigns one or more labels to an image or region based on learned patterns.</li>
+<li>Object detection jointly locates and names multiple instances to produce analyzable units.</li>
+</ul>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="applications-in-sustainability-communication" class="slide level2">
+<h2>Applications in sustainability communication</h2>
+<ul>
+<li>Research images often come from PDFs, websites, and sampled YouTube frames.</li>
+<li>Visual greenwashing can be assessed by quantifying nature cues and symbolic green color palettes.</li>
+<li>Computer vision can operationalize qualitative frames such as problem–solution or risk versus opportunity.</li>
+<li>Analyses can measure the prominence of corporate versus community actors in visuals.</li>
+<li>Face, affect, and demographic inference are feasible but raise consent, bias, and fairness concerns.</li>
+</ul>
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<section id="install-computer-vision-models-in-colab" class="slide level2">
+<h2>Install computer vision models in Colab</h2>
+<ul>
+<li>Colab provides managed GPUs and zero setup for fast prototyping with large models.</li>
+<li>Hugging Face offers pretrained vision and vision–language models accessible with minimal code.</li>
+<li>These tools enable experiments with content embeddings and text–image similarity to test themes.</li>
+<li>Notebooks capture code, dependencies, and outputs to support shareable open-science workflows.</li>
+<li>Ephemeral sessions and resource limits are trade-offs that favor accessibility and reproducibility.</li>
+</ul>
 </section>
 <section id="inferential-image-analysis-classification" class="slide level2">
 <h2>Inferential image analysis, classification</h2>
+<ul>
+<li>Image classification assigns binary, multiclass, or multilabel categories to an input image.</li>
+<li>The task parallels supervised text labeling but relies on spatial features instead of token sequences.</li>
+<li>Sustainability classifiers can separate natural objects from graphical elements to distinguish evidence from symbolism.</li>
+<li>Robust training requires balanced datasets, careful curation, and calibrated decision thresholds.</li>
+<li>Valid labels should reflect communicative content rather than spurious correlations or artifacts.</li>
+</ul>
 </section>
-<section id="section-2" class="slide level2">
-<h2></h2>
+<section id="iterate-classification-to-dataframe" class="slide level2">
+<h2>Iterate classification to dataframe</h2>
+<ul>
+<li>Build pipelines that iterate over image collections or video frames sampled at fixed intervals.</li>
+<li>Store per-item results in a dataframe with filenames, timestamps, labels, and confidence scores.</li>
+<li>Tabular outputs enable filtering, grouping, and statistical comparisons across campaigns and time.</li>
+<li>Multi-label scenes and long-tail classes require per-label thresholds and hierarchical taxonomies.</li>
+<li>Aggregation rules should preserve nuance while keeping analyses tractable and interpretable.</li>
+</ul>
 </section>
 <section id="inferential-image-analysis-object-detection" class="slide level2">
 <h2>Inferential image analysis, object detection</h2>
+<ul>
+<li>Object detection localizes and labels multiple instances within an image using boxes or masks.</li>
+<li>Counting and sizing detected elements provides indicators of salience and composition in sustainability scenes.</li>
+<li>Dense scenes, occlusion, and small objects remain challenging and can degrade recall and precision.</li>
+<li>Class imbalance can bias detectors toward frequent categories unless mitigated in training and postprocessing.</li>
+<li>Detection supports measures such as co-presence of actors and spatial arrangements of industry versus nature.</li>
+</ul>
 </section>
-<section id="section-3" class="slide level2">
-<h2></h2>
+<section id="object-localization-and-confidence-scores" class="slide level2">
+<h2>Object localization and confidence scores</h2>
+<ul>
+<li>Bounding boxes provide rectangular localization while segmentation masks deliver pixel-accurate shapes.</li>
+<li>Video and streaming analyses benefit from tracking to capture persistence and transitions over time.</li>
+<li>Confidence scores quantify uncertainty and should be filtered with class-specific thresholds and NMS.</li>
+<li>Reporting confidence distributions and validation checks increases transparency and reproducibility.</li>
+<li>Filtering low-confidence detections reduces false positives and improves the reliability of conclusions.</li>
+</ul>
 <!--
 
 ## Open Science Methods  

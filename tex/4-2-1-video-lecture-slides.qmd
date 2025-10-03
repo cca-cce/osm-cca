@@ -30,14 +30,60 @@ include-in-header:
 ---
 
 ## Image classification and object detection
-## 
-## 
+
+* Unlike NLP tokens with explicit semantics, image pixels lack intrinsic meaning.
+* Computer vision must infer meaning from spatial patterns of color, intensity, and shape.
+* Pixel ordering in two dimensions lets convolution and attention exploit locality and structure.
+* Classification assigns one or more labels to an image or region based on learned patterns.
+* Object detection jointly locates and names multiple instances to produce analyzable units.
+
+## Applications in sustainability communication
+
+* Research images often come from PDFs, websites, and sampled YouTube frames.
+* Visual greenwashing can be assessed by quantifying nature cues and symbolic green color palettes.
+* Computer vision can operationalize qualitative frames such as problem–solution or risk versus opportunity.
+* Analyses can measure the prominence of corporate versus community actors in visuals.
+* Face, affect, and demographic inference are feasible but raise consent, bias, and fairness concerns.
+
+## Install computer vision models in Colab
+
+* Colab provides managed GPUs and zero setup for fast prototyping with large models.
+* Hugging Face offers pretrained vision and vision–language models accessible with minimal code.
+* These tools enable experiments with content embeddings and text–image similarity to test themes.
+* Notebooks capture code, dependencies, and outputs to support shareable open-science workflows.
+* Ephemeral sessions and resource limits are trade-offs that favor accessibility and reproducibility.
 
 ## Inferential image analysis, classification
-## 
+
+* Image classification assigns binary, multiclass, or multilabel categories to an input image.
+* The task parallels supervised text labeling but relies on spatial features instead of token sequences.
+* Sustainability classifiers can separate natural objects from graphical elements to distinguish evidence from symbolism.
+* Robust training requires balanced datasets, careful curation, and calibrated decision thresholds.
+* Valid labels should reflect communicative content rather than spurious correlations or artifacts.
+
+## Iterate classification to dataframe
+
+* Build pipelines that iterate over image collections or video frames sampled at fixed intervals.
+* Store per-item results in a dataframe with filenames, timestamps, labels, and confidence scores.
+* Tabular outputs enable filtering, grouping, and statistical comparisons across campaigns and time.
+* Multi-label scenes and long-tail classes require per-label thresholds and hierarchical taxonomies.
+* Aggregation rules should preserve nuance while keeping analyses tractable and interpretable.
 
 ## Inferential image analysis, object detection
-## 
+
+* Object detection localizes and labels multiple instances within an image using boxes or masks.
+* Counting and sizing detected elements provides indicators of salience and composition in sustainability scenes.
+* Dense scenes, occlusion, and small objects remain challenging and can degrade recall and precision.
+* Class imbalance can bias detectors toward frequent categories unless mitigated in training and postprocessing.
+* Detection supports measures such as co-presence of actors and spatial arrangements of industry versus nature.
+
+## Object localization and confidence scores
+
+* Bounding boxes provide rectangular localization while segmentation masks deliver pixel-accurate shapes.
+* Video and streaming analyses benefit from tracking to capture persistence and transitions over time.
+* Confidence scores quantify uncertainty and should be filtered with class-specific thresholds and NMS.
+* Reporting confidence distributions and validation checks increases transparency and reproducibility.
+* Filtering low-confidence detections reduces false positives and improves the reliability of conclusions.
 
 <!--
 

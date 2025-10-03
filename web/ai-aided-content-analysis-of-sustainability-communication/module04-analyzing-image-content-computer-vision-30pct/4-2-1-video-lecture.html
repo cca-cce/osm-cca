@@ -533,8 +533,36 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="lecture-text" class="level3">
 <h3 class="anchored" data-anchor-id="lecture-text">lecture text</h3>
+<section id="image-classification-and-object-detection" class="level4">
+<h4 class="anchored" data-anchor-id="image-classification-and-object-detection">Image classification and object detection</h4>
+<p>Compared to NLP—where tokens provide explicit, discrete units—images present an inference problem because pixels carry no intrinsic semantics. Computer vision must learn meaning from spatial patterns of color and intensity that are only indirectly related to concepts like “tree,” “factory,” or “logo.” The advantage is that pixels are naturally ordered in two (or more) dimensions, so convolutional and attention-based models can exploit locality and shape to identify structures that would be opaque to bag-of-words text models. In practice, classification maps an image (or region) to one or more labels, while object detection jointly locates and names multiple instances, turning raw arrays into interpretable units that can be aggregated for social-scientific analysis.</p>
+</section>
+<section id="applications-in-sustainability-communication" class="level4">
+<h4 class="anchored" data-anchor-id="applications-in-sustainability-communication">Applications in sustainability communication</h4>
+<p>Empirical material often arrives as images extracted from PDFs, scraped from websites, or sampled as frames from YouTube videos; these can be analyzed to study visual framing in sustainability communication. Visual greenwashing can be investigated by quantifying cues such as nature imagery, color palettes suggestive of “green,” and the co-occurrence of ecological symbols with weak or non-verifiable claims. Beyond (or alongside) such quantitative indicators, computer vision can support qualitative constructs like problem–solution framing, risk vs.&nbsp;opportunity emphasis, or the prominence of corporate vs.&nbsp;community actors. While face recognition, emotion detection, and demographic inference (e.g., via packages like DeepFace) are technically feasible, they raise significant ethical and legal considerations—consent, bias, and fairness—that must be addressed in research design and reporting.</p>
+</section>
+<section id="install-computer-vision-models-in-colab" class="level4">
+<h4 class="anchored" data-anchor-id="install-computer-vision-models-in-colab">Install computer vision models in colab</h4>
+<p>Google Colab enables rapid prototyping without local setup, offering managed GPUs/TPUs and ephemeral environments that are ideal for teaching and exploratory work with large models. Through Hugging Face, students can access a wide range of pretrained unimodal and multimodal models (e.g., vision encoders, vision–language models) with a few lines of code. This facilitates experiments with content embeddings and text–image similarity—linking images to semantic prompts (e.g., “offshore wind,” “carbon capture”) to test hypotheses about visual themes. Although Colab’s sessions are temporary and resource-limited, the trade-off favors reproducibility and accessibility: notebooks capture dependencies, code, and outputs in a shareable, open-science workflow.</p>
+</section>
+<section id="inferential-image-analysis-classification" class="level4">
+<h4 class="anchored" data-anchor-id="inferential-image-analysis-classification">Inferential image analysis, classification</h4>
+<p>Image classification assigns one or more labels to an input: binary classification distinguishes presence vs.&nbsp;absence (e.g., “dog vs.&nbsp;not-dog”), multiclass chooses a single label from many, and multilabel allows multiple simultaneous categories. This task is analogous to supervised text labeling but operates over spatial features rather than tokens. For sustainability datasets, classifiers can distinguish natural objects (trees, turbines, smoke plumes) from graphical elements (icons, logos, infographics) to separate photographic evidence from designed symbolism. Careful curation of training data, class balance, and threshold calibration is required to ensure that predicted labels reflect communicative content rather than spurious correlations.</p>
+</section>
+<section id="iterate-classification-to-dataframe" class="level4">
+<h4 class="anchored" data-anchor-id="iterate-classification-to-dataframe">Iterate classification to dataframe</h4>
+<p>A practical pipeline iterates over collections of images—folders of campaign assets or frames extracted from video at fixed intervals—classifying each item and storing results in a dataframe. Each row can record filename, timestamp (for video frames), top-k predicted labels, and confidence scores, along with metadata such as source organization or platform. This tabular structure enables filtering, grouping, and statistical comparison across campaigns and time. Challenges include multi-label images (e.g., turbines and corporate logos in the same frame) and long-tail classes; solutions involve per-label thresholds, hierarchical taxonomies, and aggregation rules that preserve nuance while keeping the analysis tractable.</p>
+</section>
+<section id="inferential-image-analysis-object-detection" class="level4">
+<h4 class="anchored" data-anchor-id="inferential-image-analysis-object-detection">Inferential image analysis, object detection</h4>
+<p>Object detection extends classification by localizing multiple instances within a single image, outputting bounding boxes (or masks) with class labels. This is crucial when scenes contain many relevant elements—wind turbines, solar panels, people, vehicles—whose counts, sizes, and positions carry communicative meaning. However, dense scenes, occlusions, and small objects stress detectors, and class imbalance can skew results toward frequent categories. From a social-science perspective, detection enables measures like the salience of nature vs.&nbsp;industrial artifacts, co-presence of actors (e.g., company representatives with communities), and spatial arrangements that suggest responsibility, agency, or impact.</p>
+</section>
+<section id="object-localization-and-confidence-scores" class="level4">
+<h4 class="anchored" data-anchor-id="object-localization-and-confidence-scores">Object localization and confidence scores</h4>
+<p>Localization can be represented by bounding boxes (rectangles around objects) or by pixel-accurate segmentation masks; the latter improves measurement of size, overlap, and shape but is computationally heavier. In video or live streams, tracking adds temporal continuity, allowing researchers to analyze persistence and transitions of visual motifs across shots. Confidence scores quantify model uncertainty and should be monitored and filtered (e.g., via class-specific thresholds, non-maximum suppression settings) to reduce false positives. Reporting confidence distributions and quality checks—inter-annotator validation, spot audits—supports transparent, replicable claims about visual patterns in sustainability communication.</p>
 
 
+</section>
 </section>
 </section>
 
