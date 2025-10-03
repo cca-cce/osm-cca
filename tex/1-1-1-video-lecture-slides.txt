@@ -1,0 +1,28 @@
+## Sustainability communication content
+
+When we talk about sustainability communication, think of it in two complementary ways: formally, as messages that explicitly reference environmental or social responsibility, and functionally, as content that advances branding, compliance, and stakeholder engagement. Both dimensions shape how audiences judge credibility and authenticity. By reading the form and the function together, we can see intent, the structural choices behind a message, and its likely impact on different audiences.
+
+## Online content sampling
+
+How you sample online content will determine what you can claim from your study. Random sampling is the gold standard but tricky on the web, so we often use purposive sampling to capture the most relevant or contrasting cases, and strategic sampling to balance focus with generalizability. Whatever you choose, design your sampling to minimize bias so your findings are reliable and valid.
+
+## Expectations about sustainability communication
+
+Decide early whether your study is qualitative, quantitative, or mixed-methods, because that choice guides the questions you ask and the evidence you need. Descriptive analyses map patterns; explanatory analyses test why those patterns occur. Linguistic comparisons—tone, terminology, rhetorical strategies—help turn observations into arguments, but everything starts with well-formed questions and hypotheses and a transparent method that others can interpret and replicate.
+
+## Find online sustainability communication
+
+Begin by selecting organizations that fit your research goals—one for depth or several for contrast—and treat official websites as curated sources of messaging. Identify sustainability-related sections and URLs (e.g., “CSR,” “Sustainability,” “Impact”) and extract them systematically. The aim is to build a targeted dataset that directly reflects how organizations present their sustainability commitments.
+
+## Convert multimodal web pages to PDF
+
+A quick way to capture web content is to print pages to PDF, preserving the images, layout, and other static design elements that shape meaning. This gives you a portable record of multimodal communication without writing code, but remember the limitation: videos and interactive features won’t be captured, so note those gaps in your method.
+
+## Setting up an initial content database
+
+Store everything in accessible formats from day one. Local folders are simple, but cloud options like Google Drive improve collaboration and backup, while GitHub adds version control and traceability. A clean, documented archive—what was collected, when, and from where—sets you up for consistent, long-term analysis and easier verification.
+
+## Organize communication content in folders
+
+Use a clear folder hierarchy—by organization, year, or campaign—to support comparisons and batch processing. Normalize filenames and paths so scripts can find and process files reliably, and plan for OCR or text extraction from PDFs if you’ll analyze language features. Good organization isn’t busywork; it’s the backbone of transparency and reproducibility.
+

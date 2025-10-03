@@ -1,0 +1,133 @@
+---
+title: "Module 1: Understanding sustainability communication content"
+subtitle: "<br/>Lesson 1.1: Sustainability communication content <br/><br/>AI-aided content analysis of sustainability communication"
+author: "nils.holmberg@iko.lu.se"
+format:
+  revealjs: 
+    slide-number: true
+#    chalkboard: 
+#      buttons: false
+    preview-links: auto
+#    logo: /home/sol-nhl/res/media/lu/logo-black.png
+    logo: ../../../../../../res/media/lu/logo-black.png
+    css: ../../styles/styles.css
+    footer: <https://www.iko.lu.se>
+    theme: [default, aicasc] #beige blood dark default league moon night serif simple sky solarized 
+#    embed-resources: true
+#    self-contained-math: true
+    smaller: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .subtitle,
+      #title-slide .quarto-title-author-name {
+        font-size: 1.3em;
+        font-weight: bold;
+      }
+      </style>
+#resources:
+#  - 1-1-1-slide-deck.pdf
+---
+
+## Sustainability communication content
+
+* Define sustainability content both formally and functionally
+* Formal content reflects environmental or social responsibility themes
+* Functional content supports branding, compliance, and stakeholder engagement
+* Communication influences perceptions of credibility and authenticity
+* Dual analysis reveals intent, structure, and audience impact
+
+---
+
+## Online content sampling
+
+* Sampling method influences research reliability and validity
+* Random sampling is ideal but hard to apply in web contexts
+* Purposive sampling targets relevant or contrasting examples
+* Strategic sampling balances focus and generalizability
+* Design choices must minimize bias in content selection
+
+---
+
+## Expectations about sustainability communication
+
+* Choose between qualitative, quantitative, or mixed approaches
+* Descriptive analysis explores patterns; explanatory seeks causes
+* Linguistic analysis compares tone, terms, and rhetorical strategies
+* Research begins with well-formed questions and hypotheses
+* Methodological clarity improves interpretability and rigor
+
+---
+
+## Find online sustainability communication
+
+* Select organizations aligned with your research objectives
+* Study one or compare multiple for contrast and depth
+* Target official websites as curated communication sources
+* Identify and extract sustainability-related URLs
+* Build a dataset from key pages like “CSR” or “Sustainability”
+
+---
+
+## Convert multimodal web pages to PDF
+
+* Use browser print-to-PDF to capture entire web pages
+* Preserves images, layout, and static design elements
+* Enables analysis of multimodal communication forms
+* Quick, user-friendly method requiring no programming
+* Limitation: videos and interactive elements not captured
+
+---
+
+## Setting up an initial content database
+
+* Ensure all collected content is stored in an accessible format
+* Local storage is easy but lacks shareability and backup
+* Cloud solutions like Google Drive support collaboration
+* GitHub adds version control and traceability benefits
+* A well-structured archive supports long-term analysis
+
+---
+
+## Organize communication content in folders
+
+* Separate folders allow comparisons between organizations
+* Normalize filenames and paths for consistent processing
+* Folder structure simplifies automation and batch analysis
+* PDFs often need OCR or text extraction for further use
+* Good organization supports transparency and reproducibility
+
+<!--
+
+## Open Science Methods  
+
+::: columns
+::: {.column width="45%"}
+- Emphasizes reproducibility and transparency in research.  
+- Encourages collaboration among global research communities.  
+- Relies on sharing data, code, and methodologies openly.  
+- Supported by open-source tools and platforms.  
+- Enhances scientific integrity and innovation.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../../../../../../res/media/comm/edu/Screenshot_2024-11-12_10-24-56.png){.absolute top="100" left="500" width="500" height="500"}
+
+:::
+:::
+
+## Python Environments: Local, Cloud, Notebooks  
+- Local environments require Python installation and configuration.  
+- Cloud environments like Google Colab eliminate setup hurdles.  
+- Notebooks provide interactive code execution and documentation.  
+- Cloud environments offer scalability and resource management.  
+- Notebooks support real-time code execution alongside markdown.
+
+-->
+
+
+
