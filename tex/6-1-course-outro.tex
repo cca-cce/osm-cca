@@ -1,0 +1,174 @@
+% slides.tex — Lund University inspired title slide + content slide mock
+\documentclass[aspectratio=169]{beamer}
+
+% keep presentation lightweight and self-contained
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{iftex}
+
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{mathptmx} % Times fallback when Xe/LuaTeX unavailable
+  \usepackage[scaled=0.95]{helvet} % Sans fallback when Frutiger unavailable
+  \newcommand{\TitleFont}{\rmfamily}
+  \newcommand{\SubtitleFont}{\sffamily}
+  \PackageWarningNoLine{beamer}{Compile with XeLaTeX or LuaLaTeX to use bundled Garamond and Frutiger fonts.}
+\else
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX}
+  \newfontfamily\TitleFont[
+    Path=fonts/LU_profiltypsnitt_mars2012/AdobeGaramondPro/,
+    UprightFont=AGaramondPro-Regular.otf,
+    BoldFont=AGaramondPro-Semibold.otf,
+    ItalicFont=AGaramondPro-Italic.otf,
+    BoldItalicFont=AGaramondPro-Italic.otf
+  ]{AGaramondPro-Regular.otf}
+  \newfontfamily\SubtitleFont[
+    Path=fonts/LU_profiltypsnitt_mars2012/FrutigerLTStd/,
+    UprightFont=FrutigerLTStd-Roman.otf,
+    BoldFont=FrutigerLTStd-Bold.otf,
+    ItalicFont=FrutigerLTStd-Italic.otf,
+    BoldItalicFont=FrutigerLTStd-Italic.otf
+  ]{FrutigerLTStd-Roman.otf}
+  \setmainfont[
+    Path=fonts/LU_profiltypsnitt_mars2012/AdobeGaramondPro/,
+    UprightFont=AGaramondPro-Regular.otf,
+    BoldFont=AGaramondPro-Semibold.otf,
+    ItalicFont=AGaramondPro-Italic.otf,
+    BoldItalicFont=AGaramondPro-Italic.otf
+  ]{AGaramondPro-Regular.otf}
+  \setsansfont[
+    Path=fonts/LU_profiltypsnitt_mars2012/FrutigerLTStd/,
+    UprightFont=FrutigerLTStd-Roman.otf,
+    BoldFont=FrutigerLTStd-Bold.otf,
+    ItalicFont=FrutigerLTStd-Italic.otf,
+    BoldItalicFont=FrutigerLTStd-Italic.otf
+  ]{FrutigerLTStd-Roman.otf}
+\fi
+
+% --- Color palette sampled from Presentation-template-page1.jpg ---
+\definecolor{LUBeige}{HTML}{D8CCAA}
+\definecolor{LUBronze}{HTML}{8A4F16}
+
+% ensure other frames revert to a neutral background
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{footline}{fg=LUBronze,bg=white!0}
+
+
+\newdimen\CircleRadius
+\CircleRadius=0.46\paperheight
+\newlength{\ContentHeight} % matched to left-column content height on content slides
+\newlength{\ImageHeight}
+\newlength{\ImageWidth}
+\newlength{\ImageInnerHeight}
+\newlength{\ImageInnerWidth}
+
+\title{AI-Aided Content Analysis of Sustainability Communication}
+\subtitle{Lund University, Dept. of Communication \\[0.8em]nils.holmberg@iko.lu.se}
+\author{}
+
+% Custom footline with frame number (left) and compact logo (right)
+\setbeamertemplate{footline}{%
+  \vspace{0.35cm}% raises the footer slightly above the slide edge
+  \begin{beamercolorbox}[wd=\paperwidth,ht=3ex,dp=1.2ex,leftskip=0.9cm,rightskip=0.9cm]{footline}
+    {\SubtitleFont\small\color{LUBronze}\insertframenumber}
+    \hfill
+    \raisebox{-0.1cm}{\includegraphics[height=0.75cm]{edulab-lulogo.png}}
+  \end{beamercolorbox}%
+}
+
+% Bronze round bullets with matching text color for itemize blocks
+\setbeamercolor{itemize item}{fg=LUBronze}
+\setbeamercolor{itemize body}{fg=LUBronze}
+\setbeamertemplate{itemize item}{\color{LUBronze}\scriptsize\raise0.2ex\hbox{\textbullet}}
+
+\makeatletter
+\defbeamertemplate*{title page}{lu}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    % full-bleed beige background — adjust offsets here if you need more/less margin.
+    \fill[LUBeige] (current page.south west) rectangle (current page.north east);
+
+    % Lund University logo in the upper-left — tweak the shifts to nudge placement.
+    \node[anchor=north west] at ([xshift=0.3cm,yshift=-0.25cm]current page.north west) {
+      \includegraphics[height=1.9cm]{edulab-lulogo.png}
+    };
+
+    % Circular pelican artwork, bottom cropped by slide edge — adjust center/radius as needed.. xshift=0.36\paperwidth
+    \coordinate (circlecenter) at ([xshift=0.30\paperwidth,yshift=0.22\paperheight]current page.south west);
+    \begin{scope}
+      \clip (circlecenter) circle (\CircleRadius);
+      \node at (circlecenter) {
+        \includegraphics[width=1.12\paperheight]{pelican.png}
+      };
+    \end{scope}
+
+    % Title block positioned on the right — tweak node shift/inner sep to fine-tune spacing.
+    \node[anchor=north east] at ([xshift=-1.0cm,yshift=-1.0cm]current page.north east) {
+      \begin{tikzpicture}
+        \node[anchor=north east, fill=white, inner sep=18pt, minimum width=0.48\paperwidth] (titlebox) at (0,0) {
+          \begin{minipage}{0.44\paperwidth}
+            \raggedright
+            {\TitleFont\fontsize{14}{16}\selectfont\bfseries\color{LUBronze}\inserttitle\par}
+            \vspace{0.5em}
+            {\color{LUBronze}\rule{\linewidth}{0.8pt}\par}
+            \vspace{0.4em}
+            {\SubtitleFont\fontsize{11}{13}\selectfont\color{LUBronze}\insertsubtitle\par}
+          \end{minipage}
+        };
+      \end{tikzpicture}
+    };
+  \end{tikzpicture}
+}
+\setbeamertemplate{title page}[lu]
+\makeatother
+
+\begin{document}
+
+\setbeamercolor{background canvas}{bg=LUBeige}
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+\setbeamercolor{background canvas}{bg=white}
+\setcounter{framenumber}{0} % so the first content slide starts at 1
+
+\begin{frame}[t]{}
+  \vspace*{0.5cm}
+  {\TitleFont\fontsize{18}{22}\selectfont\color{LUBronze}Sustainability Communication Content\par}
+  \vspace{0.3em}
+  {\color{LUBronze}\rule{\linewidth}{0.8pt}}\par
+  \vspace{0.2cm}
+  \begin{columns}[t]
+    \begin{column}[t]{0.45\textwidth}
+      \vspace*{0pt}
+      \begin{itemize}\setlength\itemsep{0.65em}
+        \item Define sustainability content
+        \item Formal content signals responsibility
+        \item Functional content aids compliance
+        \item Communication shapes perceived credibility
+        \item Dual analysis reveals impact
+      \end{itemize}
+    \end{column}
+    \begin{column}[t]{0.4\textwidth}
+      \vspace*{0pt}
+      \includegraphics[
+        width=\linewidth,
+        height=0.60\textheight,
+        keepaspectratio=false,
+        trim=0 0 0 0,
+        clip
+      ]{1-1-1-video-lecture-slides-1.png}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\end{document}

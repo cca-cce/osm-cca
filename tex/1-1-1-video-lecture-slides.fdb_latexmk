@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759492917.16055 "1-1-1-video-lecture-slides.tex" "1-1-1-video-lecture-slides.pdf" "1-1-1-video-lecture-slides" 1759492919.77754 0
+["pdflatex"] 1759551257.3211 "1-1-1-video-lecture-slides.tex" "1-1-1-video-lecture-slides.pdf" "1-1-1-video-lecture-slides" 1759551259.59529 0
   "/etc/texmf/web2c/texmf.cnf" 1756626849.63494 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -220,10 +220,10 @@
   "1-1-1-video-lecture-slides-5.png" 1759492423.41107 1130937 824bca5a4373fa77b6b6c4ce10252afa ""
   "1-1-1-video-lecture-slides-6.png" 1759492466.98239 1116067 d7c7e3d0a6a86470903b0cb0a512e375 ""
   "1-1-1-video-lecture-slides-7.png" 1759492503.26983 1123913 7256a6972d775bf24aa78f8d3dcc9476 ""
-  "1-1-1-video-lecture-slides.aux" 1759492919.66339 1550 f4925b5e195bc7b5e61291502fce0f87 "pdflatex"
-  "1-1-1-video-lecture-slides.nav" 1759492919.66739 923 70574363c4fa33dff37c774f431cedff "pdflatex"
-  "1-1-1-video-lecture-slides.out" 1759492918.88341 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "1-1-1-video-lecture-slides.tex" 1759492865.18023 10539 f491a42d2f50bec41fbbf9a341c0d5ba ""
+  "1-1-1-video-lecture-slides.aux" 1759551259.48549 1550 f4925b5e195bc7b5e61291502fce0f87 "pdflatex"
+  "1-1-1-video-lecture-slides.nav" 1759551259.48949 923 70574363c4fa33dff37c774f431cedff "pdflatex"
+  "1-1-1-video-lecture-slides.out" 1759551258.7895 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "1-1-1-video-lecture-slides.tex" 1759551152.02738 10563 8739467d1e836d8dbc0a9cba6685c140 ""
   "edulab-lulogo.png" 1759220813.97107 81171 22b3646e59f567a752239fb251b719cf ""
   "pelican.png" 1759220613.3061 1539274 bbe07c1a3f8d26e15309006a30864760 ""
   (generated)
