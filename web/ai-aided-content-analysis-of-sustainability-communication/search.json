@@ -1,309 +1,277 @@
 [
   {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome"
-  },
-  {
-    "objectID": "0-1-welcome-script.html#mooc-welcome-address",
-    "href": "0-1-welcome-script.html#mooc-welcome-address",
-    "title": "0-1-welcome-script.qmd",
-    "section": "mooc welcome address",
-    "text": "mooc welcome address"
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-1",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-1",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWelcome to AI-Aided Content Analysis of Sustainability Communication—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-2",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-2",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-3",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-3",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-4",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-4",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-5",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-5",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-6",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-6",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?"
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-7",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-7",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place."
-  },
-  {
-    "objectID": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-8",
-    "href": "0-1-welcome-script.html#qmdai-aided-content-analysis-of-sustainability-communication0-1-welcome-8",
-    "title": "0-1-welcome-script.qmd",
-    "section": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome",
-    "text": "qmd/ai-aided-content-analysis-of-sustainability-communication/0-1-welcome\nWelcome aboard. Let’s begin."
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
     "title": "Module 1: Understanding sustainability communication content",
-    "section": "",
-    "text": "To understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
-    "crumbs": [
-      "module 1",
-      "lesson 1.1",
-      "video lecture 1.1.1"
-    ]
+    "section": "Sustainability communication content",
+    "text": "Sustainability communication content\n\nDefine sustainability content both formally and functionally\nFormal content reflects environmental or social responsibility themes\nFunctional content supports branding, compliance, and stakeholder engagement\nCommunication influences perceptions of credibility and authenticity\nDual analysis reveals intent, structure, and audience impact"
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
     "title": "Module 1: Understanding sustainability communication content",
-    "section": "",
-    "text": "To understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
-    "crumbs": [
-      "module 1",
-      "lesson 1.1",
-      "video lecture 1.1.1"
-    ]
+    "section": "Online content sampling",
+    "text": "Online content sampling\n\nSampling method influences research reliability and validity\nRandom sampling is ideal but hard to apply in web contexts\nPurposive sampling targets relevant or contrasting examples\nStrategic sampling balances focus and generalizability\nDesign choices must minimize bias in content selection"
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "",
-    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
-    "crumbs": [
-      "module 4",
-      "lesson 4.1",
-      "video lecture 4.1.1"
-    ]
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Expectations about sustainability communication",
+    "text": "Expectations about sustainability communication\n\nChoose between qualitative, quantitative, or mixed approaches\nDescriptive analysis explores patterns; explanatory seeks causes\nLinguistic analysis compares tone, terms, and rhetorical strategies\nResearch begins with well-formed questions and hypotheses\nMethodological clarity improves interpretability and rigor"
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "",
-    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
-    "crumbs": [
-      "module 4",
-      "lesson 4.1",
-      "video lecture 4.1.1"
-    ]
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Find online sustainability communication",
+    "text": "Find online sustainability communication\n\nSelect organizations aligned with your research objectives\nStudy one or compare multiple for contrast and depth\nTarget official websites as curated communication sources\nIdentify and extract sustainability-related URLs\nBuild a dataset from key pages like “CSR” or “Sustainability”"
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "",
-    "text": "powerpoint\nscript",
-    "crumbs": [
-      "module 4",
-      "lesson 4.3",
-      "video lecture 4.3.1"
-    ]
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Convert multimodal web pages to PDF",
+    "text": "Convert multimodal web pages to PDF\n\nUse browser print-to-PDF to capture entire web pages\nPreserves images, layout, and static design elements\nEnables analysis of multimodal communication forms\nQuick, user-friendly method requiring no programming\nLimitation: videos and interactive elements not captured"
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html#lesson-4.3-interpreting-the-results-of-cv-analysis",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html#lesson-4.3-interpreting-the-results-of-cv-analysis",
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Setting up an initial content database",
+    "text": "Setting up an initial content database\n\nEnsure all collected content is stored in an accessible format\nLocal storage is easy but lacks shareability and backup\nCloud solutions like Google Drive support collaboration\nGitHub adds version control and traceability benefits\nA well-structured archive supports long-term analysis"
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Organize communication content in folders",
+    "text": "Organize communication content in folders\n\nSeparate folders allow comparisons between organizations\nNormalize filenames and paths for consistent processing\nFolder structure simplifies automation and batch analysis\nPDFs often need OCR or text extraction for further use\nGood organization supports transparency and reproducibility"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "powerpoint\nscript",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nCompared to NLP—where tokens provide explicit, discrete units—images present an inference problem because pixels carry no intrinsic semantics. Computer vision must learn meaning from spatial patterns of color and intensity that are only indirectly related to concepts like “tree,” “factory,” or “logo.” The advantage is that pixels are naturally ordered in two (or more) dimensions, so convolutional and attention-based models can exploit locality and shape to identify structures that would be opaque to bag-of-words text models. In practice, classification maps an image (or region) to one or more labels, while object detection jointly locates and names multiple instances, turning raw arrays into interpretable units that can be aggregated for social-scientific analysis.\n\n\n\nEmpirical material often arrives as images extracted from PDFs, scraped from websites, or sampled as frames from YouTube videos; these can be analyzed to study visual framing in sustainability communication. Visual greenwashing can be investigated by quantifying cues such as nature imagery, color palettes suggestive of “green,” and the co-occurrence of ecological symbols with weak or non-verifiable claims. Beyond (or alongside) such quantitative indicators, computer vision can support qualitative constructs like problem–solution framing, risk vs. opportunity emphasis, or the prominence of corporate vs. community actors. While face recognition, emotion detection, and demographic inference (e.g., via packages like DeepFace) are technically feasible, they raise significant ethical and legal considerations—consent, bias, and fairness—that must be addressed in research design and reporting.\n\n\n\nGoogle Colab enables rapid prototyping without local setup, offering managed GPUs/TPUs and ephemeral environments that are ideal for teaching and exploratory work with large models. Through Hugging Face, students can access a wide range of pretrained unimodal and multimodal models (e.g., vision encoders, vision–language models) with a few lines of code. This facilitates experiments with content embeddings and text–image similarity—linking images to semantic prompts (e.g., “offshore wind,” “carbon capture”) to test hypotheses about visual themes. Although Colab’s sessions are temporary and resource-limited, the trade-off favors reproducibility and accessibility: notebooks capture dependencies, code, and outputs in a shareable, open-science workflow.\n\n\n\nImage classification assigns one or more labels to an input: binary classification distinguishes presence vs. absence (e.g., “dog vs. not-dog”), multiclass chooses a single label from many, and multilabel allows multiple simultaneous categories. This task is analogous to supervised text labeling but operates over spatial features rather than tokens. For sustainability datasets, classifiers can distinguish natural objects (trees, turbines, smoke plumes) from graphical elements (icons, logos, infographics) to separate photographic evidence from designed symbolism. Careful curation of training data, class balance, and threshold calibration is required to ensure that predicted labels reflect communicative content rather than spurious correlations.\n\n\n\nA practical pipeline iterates over collections of images—folders of campaign assets or frames extracted from video at fixed intervals—classifying each item and storing results in a dataframe. Each row can record filename, timestamp (for video frames), top-k predicted labels, and confidence scores, along with metadata such as source organization or platform. This tabular structure enables filtering, grouping, and statistical comparison across campaigns and time. Challenges include multi-label images (e.g., turbines and corporate logos in the same frame) and long-tail classes; solutions involve per-label thresholds, hierarchical taxonomies, and aggregation rules that preserve nuance while keeping the analysis tractable.\n\n\n\nObject detection extends classification by localizing multiple instances within a single image, outputting bounding boxes (or masks) with class labels. This is crucial when scenes contain many relevant elements—wind turbines, solar panels, people, vehicles—whose counts, sizes, and positions carry communicative meaning. However, dense scenes, occlusions, and small objects stress detectors, and class imbalance can skew results toward frequent categories. From a social-science perspective, detection enables measures like the salience of nature vs. industrial artifacts, co-presence of actors (e.g., company representatives with communities), and spatial arrangements that suggest responsibility, agency, or impact.\n\n\n\nLocalization can be represented by bounding boxes (rectangles around objects) or by pixel-accurate segmentation masks; the latter improves measurement of size, overlap, and shape but is computationally heavier. In video or live streams, tracking adds temporal continuity, allowing researchers to analyze persistence and transitions of visual motifs across shots. Confidence scores quantify model uncertainty and should be monitored and filtered (e.g., via class-specific thresholds, non-maximum suppression settings) to reduce false positives. Reporting confidence distributions and quality checks—inter-annotator validation, spot audits—supports transparent, replicable claims about visual patterns in sustainability communication.",
     "crumbs": [
       "module 4",
-      "lesson 4.3",
-      "video lecture 4.3.1"
+      "lesson 4.2",
+      "video lecture 4.2.1"
     ]
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#interpreting-the-results-of-cv-analysis",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#interpreting-the-results-of-cv-analysis",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html#lesson-4.2-image-classification-and-object-detection",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html#lesson-4.2-image-classification-and-object-detection",
     "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Interpreting the results of CV analysis",
-    "text": "Interpreting the results of CV analysis"
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#summarizing-results-of-image-analysis",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#summarizing-results-of-image-analysis",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Summarizing results of image analysis",
-    "text": "Summarizing results of image analysis"
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#visualizing-results-of-image-analysis",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#visualizing-results-of-image-analysis",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Visualizing results of image analysis",
-    "text": "Visualizing results of image analysis"
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#functions-of-visuals-in-sustainability-communication",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#functions-of-visuals-in-sustainability-communication",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Functions of Visuals in Sustainability Communication",
-    "text": "Functions of Visuals in Sustainability Communication\n\n\n\nVisuals enhance message clarity and audience engagement in sustainability topics.\nPhotos evoke emotional responses, encouraging empathy and action.\nInfographics simplify complex data for easier public understanding.\nVideos convey real-time impact, offering immersive storytelling.\nVisual variety can reinforce key sustainability messages across contexts."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#computer-vision-areas-and-content-challenges",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#computer-vision-areas-and-content-challenges",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Computer Vision Areas and Content Challenges",
-    "text": "Computer Vision Areas and Content Challenges\n\nComputer vision applications include object detection, facial recognition, and scene analysis.\nVariations in lighting and angle present challenges in accurate image interpretation.\nEnvironmental monitoring relies on detecting specific features in natural scenes.\nHandling diverse image sources requires robust algorithms and large datasets.\nComputer vision aids sustainability by tracking changes in environmental conditions."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-basics-pixels-rgb-and-grayscale",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-basics-pixels-rgb-and-grayscale",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Image Basics: Pixels, RGB, and Grayscale",
-    "text": "Image Basics: Pixels, RGB, and Grayscale\n\nImages are composed of pixels, each storing color or intensity values.\nRGB channels (Red, Green, Blue) combine to create various colors in visuals.\nGrayscale simplifies images by converting them into shades of gray.\nEach color channel holds intensity values ranging from 0 to 255.\nUnderstanding these basics is essential for manipulating and analyzing images."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#constructing-and-manipulating-images-with-numpy",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#constructing-and-manipulating-images-with-numpy",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Constructing and Manipulating Images with NumPy",
-    "text": "Constructing and Manipulating Images with NumPy\n\nImages can be represented as NumPy matrices, enabling pixel-based control.\nEach matrix element corresponds to a pixel’s intensity or color value.\nAdjusting matrix values allows for brightness or color changes in specific regions.\nImage manipulations aid in highlighting areas of interest or removing noise.\nUsing NumPy enhances flexibility in preprocessing images for computer vision tasks."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-features-colors-histograms-and-edges",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-features-colors-histograms-and-edges",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Image Features: Colors, Histograms, and Edges",
-    "text": "Image Features: Colors, Histograms, and Edges\n\nImage content features help models identify patterns within visuals.\nColor histograms reveal dominant tones by analyzing pixel distributions.\nEdge detection outlines shapes, essential for object and scene recognition.\nTexture features assist in distinguishing smooth versus rough surfaces.\nFeatures enable AI to interpret images more effectively by capturing key visual aspects."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#reading-images-into-dataframes-and-matrix-structures",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#reading-images-into-dataframes-and-matrix-structures",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Reading Images into Dataframes and Matrix Structures",
-    "text": "Reading Images into Dataframes and Matrix Structures\n\nTools like OpenCV allow images to be imported as matrices or dataframes.\nDataframes enable organization of pixel data for efficient analysis.\nMatrix structures store spatial information, which is crucial for vision models.\nImage data in structured formats simplifies comparisons across visuals.\nAccessing pixel-level data provides precision in analyzing image content."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#normalizing-image-content-resize-grayscale-and-consistency",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#normalizing-image-content-resize-grayscale-and-consistency",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Normalizing Image Content: Resize, Grayscale, and Consistency",
-    "text": "Normalizing Image Content: Resize, Grayscale, and Consistency\n\nImage normalization enhances model performance by standardizing inputs.\nResizing aligns images to a uniform size, aiding consistency in analysis.\nGrayscale conversion reduces complexity and focuses on essential shapes.\nBrightness adjustments help maintain consistency across varied image sources.\nNormalizing inputs is vital for achieving accurate, reliable computer vision results."
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Key takeaways and ethical perspectives",
-    "text": "Key takeaways and ethical perspectives\n\nUnderstand how AI can support content analysis in sustainability research\nGain practical skills in text and image data analysis using low-code tools\nLearn to critically interpret results produced by machine learning models\nExplore ethical boundaries of automation in communication analysis\nReflect on transparency, bias, and accountability in AI-supported research"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "What You Learned in This Course",
-    "text": "What You Learned in This Course\n\nCollect and organize sustainability content from real-world sources\nAnalyze both textual and visual communication using Python notebooks\nApply NLP and computer vision techniques in a social science context\nSummarize and visualize data to uncover communication patterns\nConnect computational methods to audience effects and strategic messaging"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Ethics of Automating Content Interpretation",
-    "text": "Ethics of Automating Content Interpretation\n\nQuestion how algorithmic bias might shape findings\nEvaluate the limits of interpretability in automated results\nDiscuss the role of the researcher in guiding and validating AI output\nConsider privacy and consent when collecting public digital content\nIntegrate ethical reflection into research design and dissemination"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Analysis documentation and open science (Jupyter)",
-    "text": "Analysis documentation and open science (Jupyter)\n\nEmphasize reproducibility through transparent workflows\nStore data, code, and results in accessible formats\nUse cloud platforms and version control for collaborative research\nFrame analysis in ways that support peer review and replication\nConnect computational practice with open science values\ncomputer lab: download ipython notebook from google colab"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Using Jupyter Notebooks to Ensure Reproducibility",
-    "text": "Using Jupyter Notebooks to Ensure Reproducibility\n\nQuarto integrates code, output, and documentation in one file\nSupports reproducible research with automated execution\nAllows easy conversion to HTML, PDF, or Word for publication\nEmbeds metadata, citations, and environment settings\nIdeal for sharing transparent, well-structured analytical reports"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Communicating AI-aided content analysis (Quarto)",
-    "text": "Communicating AI-aided content analysis (Quarto)\n\nTranslate technical findings into accessible narratives\nUse visualizations to highlight patterns in sustainability messaging\nConnect communication effects with organizational strategies\nPresent methods and results clearly for both technical and non-technical audiences\nPosition findings within broader ethical and scientific discussions\ncomputer lab: convert ipython notebook to quarto document"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
-    "section": "Turning Your Analysis into a Research Publication",
-    "text": "Turning Your Analysis into a Research Publication\n\nStart with a well-documented Google Colab or Quarto notebook\nDefine a clear research question with reproducible methods\nUse structured visualizations to support interpretations\nAlign findings with existing literature and frameworks\nSubmit to journals focusing on digital methods, media studies, or sustainability communication"
-  },
-  {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
     "section": "",
-    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn this course, you have learned how AI can support content analysis in sustainability research by making it easier to process large amounts of data. You have gained practical skills in analyzing text and image content using low-code tools, and you are now able to critically interpret the results that machine learning models produce. Alongside the technical skills, you have explored the ethical boundaries of automation in communication analysis and reflected on core principles of transparency, bias, and accountability in AI-supported research.\n\n\n\n\nThroughout the course, you practiced collecting and organizing sustainability communication content from real-world sources. You applied both text and image analysis in Python notebooks, integrating NLP and computer vision techniques within a social science context. These methods allowed you to summarize and visualize data, uncovering communication patterns that connect computational results to audience effects and strategic messaging.\n\n\n\n\nA key theme in this final module is the ethics of automating interpretation. We asked how algorithmic bias might shape findings and where the limits of interpretability lie when results are produced automatically. You reflected on the role of the researcher in guiding and validating AI outputs, while also considering privacy and consent when collecting digital content. The main takeaway is that ethical reflection needs to be integrated into every stage of research design and dissemination.\n\n\n\n\nAn important practice in AI-aided analysis is documenting your work transparently. Reproducibility is emphasized through clear and structured workflows that store data, code, and results in accessible formats. Using cloud platforms and version control supports collaboration, while framing analysis in ways that enable peer review and replication connects computational practice with open science values. In the computer lab, you downloaded an example Jupyter notebook from Google Colab to practice this workflow.\n\n\n\n\nJupyter and Quarto provide powerful tools to integrate code, output, and documentation in one place. These platforms support reproducible research through automated execution and allow for easy conversion of analyses into HTML, PDF, or Word. By embedding metadata, citations, and environment settings, your notebooks become well-structured analytical reports that are transparent and shareable across research communities.\n\n\n\n\nEqually important is how results are communicated. Quarto helps translate technical findings into accessible narratives that use visualizations to highlight patterns in sustainability messaging. This allows you to connect observed communication effects with organizational strategies and present methods and results clearly to both technical and non-technical audiences. In practice, you also experimented with converting your notebooks into Quarto documents as part of the computer lab.\n\n\n\n\nFinally, we connected your practical exercises to the process of producing publishable research. A well-documented Google Colab or Quarto notebook is an excellent starting point for a paper. By defining clear research questions, using reproducible methods, and including structured visualizations, you can align your findings with existing literature and frameworks. Journals focusing on digital methods, media studies, or sustainability communication provide natural outlets for publishing this type of AI-aided analysis.",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nCompared to NLP—where tokens provide explicit, discrete units—images present an inference problem because pixels carry no intrinsic semantics. Computer vision must learn meaning from spatial patterns of color and intensity that are only indirectly related to concepts like “tree,” “factory,” or “logo.” The advantage is that pixels are naturally ordered in two (or more) dimensions, so convolutional and attention-based models can exploit locality and shape to identify structures that would be opaque to bag-of-words text models. In practice, classification maps an image (or region) to one or more labels, while object detection jointly locates and names multiple instances, turning raw arrays into interpretable units that can be aggregated for social-scientific analysis.\n\n\n\nEmpirical material often arrives as images extracted from PDFs, scraped from websites, or sampled as frames from YouTube videos; these can be analyzed to study visual framing in sustainability communication. Visual greenwashing can be investigated by quantifying cues such as nature imagery, color palettes suggestive of “green,” and the co-occurrence of ecological symbols with weak or non-verifiable claims. Beyond (or alongside) such quantitative indicators, computer vision can support qualitative constructs like problem–solution framing, risk vs. opportunity emphasis, or the prominence of corporate vs. community actors. While face recognition, emotion detection, and demographic inference (e.g., via packages like DeepFace) are technically feasible, they raise significant ethical and legal considerations—consent, bias, and fairness—that must be addressed in research design and reporting.\n\n\n\nGoogle Colab enables rapid prototyping without local setup, offering managed GPUs/TPUs and ephemeral environments that are ideal for teaching and exploratory work with large models. Through Hugging Face, students can access a wide range of pretrained unimodal and multimodal models (e.g., vision encoders, vision–language models) with a few lines of code. This facilitates experiments with content embeddings and text–image similarity—linking images to semantic prompts (e.g., “offshore wind,” “carbon capture”) to test hypotheses about visual themes. Although Colab’s sessions are temporary and resource-limited, the trade-off favors reproducibility and accessibility: notebooks capture dependencies, code, and outputs in a shareable, open-science workflow.\n\n\n\nImage classification assigns one or more labels to an input: binary classification distinguishes presence vs. absence (e.g., “dog vs. not-dog”), multiclass chooses a single label from many, and multilabel allows multiple simultaneous categories. This task is analogous to supervised text labeling but operates over spatial features rather than tokens. For sustainability datasets, classifiers can distinguish natural objects (trees, turbines, smoke plumes) from graphical elements (icons, logos, infographics) to separate photographic evidence from designed symbolism. Careful curation of training data, class balance, and threshold calibration is required to ensure that predicted labels reflect communicative content rather than spurious correlations.\n\n\n\nA practical pipeline iterates over collections of images—folders of campaign assets or frames extracted from video at fixed intervals—classifying each item and storing results in a dataframe. Each row can record filename, timestamp (for video frames), top-k predicted labels, and confidence scores, along with metadata such as source organization or platform. This tabular structure enables filtering, grouping, and statistical comparison across campaigns and time. Challenges include multi-label images (e.g., turbines and corporate logos in the same frame) and long-tail classes; solutions involve per-label thresholds, hierarchical taxonomies, and aggregation rules that preserve nuance while keeping the analysis tractable.\n\n\n\nObject detection extends classification by localizing multiple instances within a single image, outputting bounding boxes (or masks) with class labels. This is crucial when scenes contain many relevant elements—wind turbines, solar panels, people, vehicles—whose counts, sizes, and positions carry communicative meaning. However, dense scenes, occlusions, and small objects stress detectors, and class imbalance can skew results toward frequent categories. From a social-science perspective, detection enables measures like the salience of nature vs. industrial artifacts, co-presence of actors (e.g., company representatives with communities), and spatial arrangements that suggest responsibility, agency, or impact.\n\n\n\nLocalization can be represented by bounding boxes (rectangles around objects) or by pixel-accurate segmentation masks; the latter improves measurement of size, overlap, and shape but is computationally heavier. In video or live streams, tracking adds temporal continuity, allowing researchers to analyze persistence and transitions of visual motifs across shots. Confidence scores quantify model uncertainty and should be monitored and filtered (e.g., via class-specific thresholds, non-maximum suppression settings) to reduce false positives. Reporting confidence distributions and quality checks—inter-annotator validation, spot audits—supports transparent, replicable claims about visual patterns in sustainability communication.",
     "crumbs": [
-      "module 5",
-      "lesson 5.1",
-      "video lecture 5.1.1"
+      "module 4",
+      "lesson 4.2",
+      "video lecture 4.2.1"
     ]
   },
   {
-    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html#lesson-5.1-key-takeaways-and-ethical-perspectives",
-    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html#lesson-5.1-key-takeaways-and-ethical-perspectives",
-    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "lesson 4-2",
+    "text": "lesson 4-2\n\nvideo-lecture.qmd:Image classification and object detection\n\n\ncomputer-lab.qmd:Inferential image analysis, classification\n\n\ncomputer-lab.qmd:Inferential image analysis, object detection",
+    "crumbs": [
+      "module 4"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "lesson 4-3",
+    "text": "lesson 4-3\n\nvideo-lecture.qmd:Interpreting the results of CV analysis\n\n\ncomputer-lab.qmd:Summarizing results of image analysis\n\n\ncomputer-lab.qmd:Visualizing results of image analysis",
+    "crumbs": [
+      "module 4"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Image classification and object detection",
+    "text": "Image classification and object detection\n\nUnlike NLP tokens with explicit semantics, image pixels lack intrinsic meaning.\nComputer vision must infer meaning from spatial patterns of color, intensity, and shape.\nPixel ordering in two dimensions lets convolution and attention exploit locality and structure.\nClassification assigns one or more labels to an image or region based on learned patterns.\nObject detection jointly locates and names multiple instances to produce analyzable units."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#applications-in-sustainability-communication",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#applications-in-sustainability-communication",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Applications in sustainability communication",
+    "text": "Applications in sustainability communication\n\nResearch images often come from PDFs, websites, and sampled YouTube frames.\nVisual greenwashing can be assessed by quantifying nature cues and symbolic green color palettes.\nComputer vision can operationalize qualitative frames such as problem–solution or risk versus opportunity.\nAnalyses can measure the prominence of corporate versus community actors in visuals.\nFace, affect, and demographic inference are feasible but raise consent, bias, and fairness concerns."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#install-computer-vision-models-in-colab",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#install-computer-vision-models-in-colab",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Install computer vision models in Colab",
+    "text": "Install computer vision models in Colab\n\nColab provides managed GPUs and zero setup for fast prototyping with large models.\nHugging Face offers pretrained vision and vision–language models accessible with minimal code.\nThese tools enable experiments with content embeddings and text–image similarity to test themes.\nNotebooks capture code, dependencies, and outputs to support shareable open-science workflows.\nEphemeral sessions and resource limits are trade-offs that favor accessibility and reproducibility."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Inferential image analysis, classification",
+    "text": "Inferential image analysis, classification\n\nImage classification assigns binary, multiclass, or multilabel categories to an input image.\nThe task parallels supervised text labeling but relies on spatial features instead of token sequences.\nSustainability classifiers can separate natural objects from graphical elements to distinguish evidence from symbolism.\nRobust training requires balanced datasets, careful curation, and calibrated decision thresholds.\nValid labels should reflect communicative content rather than spurious correlations or artifacts."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#iterate-classification-to-dataframe",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#iterate-classification-to-dataframe",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Iterate classification to dataframe",
+    "text": "Iterate classification to dataframe\n\nBuild pipelines that iterate over image collections or video frames sampled at fixed intervals.\nStore per-item results in a dataframe with filenames, timestamps, labels, and confidence scores.\nTabular outputs enable filtering, grouping, and statistical comparisons across campaigns and time.\nMulti-label scenes and long-tail classes require per-label thresholds and hierarchical taxonomies.\nAggregation rules should preserve nuance while keeping analyses tractable and interpretable."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Inferential image analysis, object detection",
+    "text": "Inferential image analysis, object detection\n\nObject detection localizes and labels multiple instances within an image using boxes or masks.\nCounting and sizing detected elements provides indicators of salience and composition in sustainability scenes.\nDense scenes, occlusion, and small objects remain challenging and can degrade recall and precision.\nClass imbalance can bias detectors toward frequent categories unless mitigated in training and postprocessing.\nDetection supports measures such as co-presence of actors and spatial arrangements of industry versus nature."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#object-localization-and-confidence-scores",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#object-localization-and-confidence-scores",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Object localization and confidence scores",
+    "text": "Object localization and confidence scores\n\nBounding boxes provide rectangular localization while segmentation masks deliver pixel-accurate shapes.\nVideo and streaming analyses benefit from tracking to capture persistence and transitions over time.\nConfidence scores quantify uncertainty and should be filtered with class-specific thresholds and NMS.\nReporting confidence distributions and validation checks increases transparency and reproducibility.\nFiltering low-confidence detections reduces false positives and improves the reliability of conclusions."
+  },
+  {
+    "objectID": "0-2-resources.html",
+    "href": "0-2-resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn this course, you have learned how AI can support content analysis in sustainability research by making it easier to process large amounts of data. You have gained practical skills in analyzing text and image content using low-code tools, and you are now able to critically interpret the results that machine learning models produce. Alongside the technical skills, you have explored the ethical boundaries of automation in communication analysis and reflected on core principles of transparency, bias, and accountability in AI-supported research.\n\n\n\n\nThroughout the course, you practiced collecting and organizing sustainability communication content from real-world sources. You applied both text and image analysis in Python notebooks, integrating NLP and computer vision techniques within a social science context. These methods allowed you to summarize and visualize data, uncovering communication patterns that connect computational results to audience effects and strategic messaging.\n\n\n\n\nA key theme in this final module is the ethics of automating interpretation. We asked how algorithmic bias might shape findings and where the limits of interpretability lie when results are produced automatically. You reflected on the role of the researcher in guiding and validating AI outputs, while also considering privacy and consent when collecting digital content. The main takeaway is that ethical reflection needs to be integrated into every stage of research design and dissemination.\n\n\n\n\nAn important practice in AI-aided analysis is documenting your work transparently. Reproducibility is emphasized through clear and structured workflows that store data, code, and results in accessible formats. Using cloud platforms and version control supports collaboration, while framing analysis in ways that enable peer review and replication connects computational practice with open science values. In the computer lab, you downloaded an example Jupyter notebook from Google Colab to practice this workflow.\n\n\n\n\nJupyter and Quarto provide powerful tools to integrate code, output, and documentation in one place. These platforms support reproducible research through automated execution and allow for easy conversion of analyses into HTML, PDF, or Word. By embedding metadata, citations, and environment settings, your notebooks become well-structured analytical reports that are transparent and shareable across research communities.\n\n\n\n\nEqually important is how results are communicated. Quarto helps translate technical findings into accessible narratives that use visualizations to highlight patterns in sustainability messaging. This allows you to connect observed communication effects with organizational strategies and present methods and results clearly to both technical and non-technical audiences. In practice, you also experimented with converting your notebooks into Quarto documents as part of the computer lab.\n\n\n\n\nFinally, we connected your practical exercises to the process of producing publishable research. A well-documented Google Colab or Quarto notebook is an excellent starting point for a paper. By defining clear research questions, using reproducible methods, and including structured visualizations, you can align your findings with existing literature and frameworks. Journals focusing on digital methods, media studies, or sustainability communication provide natural outlets for publishing this type of AI-aided analysis.",
+    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
     "crumbs": [
-      "module 5",
-      "lesson 5.1",
-      "video lecture 5.1.1"
+      "course start",
+      "resources"
     ]
   },
   {
-    "objectID": "about.html#literature",
-    "href": "about.html#literature",
-    "title": "About",
-    "section": "literature",
-    "text": "literature\n\nsustainability communication\n\n\n\n\n\n\nWeder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\ncomputational content analysis, computer vision\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\ncomputational content analysis, natural language processing\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\ncomputational data analysis\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\ncourse literature\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)"
+    "objectID": "0-2-resources.html#literature",
+    "href": "0-2-resources.html#literature",
+    "title": "Resources",
+    "section": "",
+    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
+    "crumbs": [
+      "course start",
+      "resources"
+    ]
   },
   {
-    "objectID": "about.html#websites-and-apps",
-    "href": "about.html#websites-and-apps",
-    "title": "About",
+    "objectID": "0-2-resources.html#websites-and-apps",
+    "href": "0-2-resources.html#websites-and-apps",
+    "title": "Resources",
     "section": "websites and apps",
-    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home"
+    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home",
+    "crumbs": [
+      "course start",
+      "resources"
+    ]
   },
   {
-    "objectID": "about.html#online-articles",
-    "href": "about.html#online-articles",
-    "title": "About",
+    "objectID": "0-2-resources.html#online-articles",
+    "href": "0-2-resources.html#online-articles",
+    "title": "Resources",
     "section": "online articles",
-    "text": "online articles\n\nsome text here Kedia and Rasu (2020)"
+    "text": "online articles\n\nsome text here Kedia and Rasu (2020)",
+    "crumbs": [
+      "course start",
+      "resources"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html",
+    "href": "0-1-course-intro.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "script slides",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html#mooc-welcome-address",
+    "href": "0-1-course-intro.html#mooc-welcome-address",
+    "title": "Welcome",
+    "section": "mooc welcome address",
+    "text": "mooc welcome address\nWelcome to AI-Aided Content Analysis of Sustainability Communication—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content.",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html#course-intro-1",
+    "href": "0-1-course-intro.html#course-intro-1",
+    "title": "Welcome",
+    "section": "course intro 1",
+    "text": "course intro 1\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future.",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html#course-intro-2",
+    "href": "0-1-course-intro.html#course-intro-2",
+    "title": "Welcome",
+    "section": "course intro 2",
+    "text": "course intro 2\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision.",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html#course-intro-3",
+    "href": "0-1-course-intro.html#course-intro-3",
+    "title": "Welcome",
+    "section": "course intro 3",
+    "text": "course intro 3\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html#course-intro-4",
+    "href": "0-1-course-intro.html#course-intro-4",
+    "title": "Welcome",
+    "section": "course intro 4",
+    "text": "course intro 4\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources.",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html#course-intro-5",
+    "href": "0-1-course-intro.html#course-intro-5",
+    "title": "Welcome",
+    "section": "course intro 5",
+    "text": "course intro 5\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
+  },
+  {
+    "objectID": "0-1-course-intro.html#course-intro-6",
+    "href": "0-1-course-intro.html#course-intro-6",
+    "title": "Welcome",
+    "section": "course intro 6",
+    "text": "course intro 6\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place.\nWelcome aboard. Let’s begin.",
+    "crumbs": [
+      "course start",
+      "welcome"
+    ]
   },
   {
     "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture-slides.html#python-for-social-science-data-analysis",
@@ -518,28 +486,6 @@
       "module 3",
       "lesson 3.3",
       "video lecture 3.3.1"
-    ]
-  },
-  {
-    "objectID": "0-1-welcome.html",
-    "href": "0-1-welcome.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "script slides",
-    "crumbs": [
-      "course start",
-      "welcome"
-    ]
-  },
-  {
-    "objectID": "0-1-welcome.html#mooc-welcome-address",
-    "href": "0-1-welcome.html#mooc-welcome-address",
-    "title": "Welcome",
-    "section": "mooc welcome address",
-    "text": "mooc welcome address\nWelcome to AI-Aided Content Analysis of Sustainability Communication—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content.\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future.\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision.\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources.\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place.\nWelcome aboard. Let’s begin.",
-    "crumbs": [
-      "course start",
-      "welcome"
     ]
   },
   {
@@ -831,189 +777,246 @@
     ]
   },
   {
-    "objectID": "0-2-resources.html",
-    "href": "0-2-resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
-    "crumbs": [
-      "course start",
-      "resources"
-    ]
+    "objectID": "about.html#literature",
+    "href": "about.html#literature",
+    "title": "About",
+    "section": "literature",
+    "text": "literature\n\nsustainability communication\n\n\n\n\n\n\nWeder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\ncomputational content analysis, computer vision\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\ncomputational content analysis, natural language processing\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\ncomputational data analysis\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\ncourse literature\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)"
   },
   {
-    "objectID": "0-2-resources.html#literature",
-    "href": "0-2-resources.html#literature",
-    "title": "Resources",
-    "section": "",
-    "text": "Weder, Krainer, and Karmasin (2021)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDey (2018)\n\n\n\n\n\n\n\nLakshmanan, Görner, and Gillard (2021)\n\n\n\n\n\n\n\nVasilev (2019)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVasiliev (2020)\n\n\n\n\n\n\n\nTunstall, Von Werra, and Wolf (2022)\n\n\n\n\n\n\n\nSzeliski (2010)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMcKinney (2022)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n(some-test?)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNeuendorf (2017)\n\n\n\n\n\n\n\nKedia and Rasu (2020)\n\n\n\n\n\n\n\nSzeliski (2010)",
-    "crumbs": [
-      "course start",
-      "resources"
-    ]
-  },
-  {
-    "objectID": "0-2-resources.html#websites-and-apps",
-    "href": "0-2-resources.html#websites-and-apps",
-    "title": "Resources",
+    "objectID": "about.html#websites-and-apps",
+    "href": "about.html#websites-and-apps",
+    "title": "About",
     "section": "websites and apps",
-    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home",
-    "crumbs": [
-      "course start",
-      "resources"
-    ]
+    "text": "websites and apps\n\nhttps://www.python.org/downloads/\nhttps://wiki.python.org/moin/BeginnersGuide\nhttps://www.anaconda.com/products/individual\nhttps://code.visualstudio.com/download\nhttps://github.com/jupyterlab/jupyterlab_app#download\nhttps://trinket.io/home"
   },
   {
-    "objectID": "0-2-resources.html#online-articles",
-    "href": "0-2-resources.html#online-articles",
-    "title": "Resources",
+    "objectID": "about.html#online-articles",
+    "href": "about.html#online-articles",
+    "title": "About",
     "section": "online articles",
-    "text": "online articles\n\nsome text here Kedia and Rasu (2020)",
+    "text": "online articles\n\nsome text here Kedia and Rasu (2020)"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn this course, you have learned how AI can support content analysis in sustainability research by making it easier to process large amounts of data. You have gained practical skills in analyzing text and image content using low-code tools, and you are now able to critically interpret the results that machine learning models produce. Alongside the technical skills, you have explored the ethical boundaries of automation in communication analysis and reflected on core principles of transparency, bias, and accountability in AI-supported research.\n\n\n\n\nThroughout the course, you practiced collecting and organizing sustainability communication content from real-world sources. You applied both text and image analysis in Python notebooks, integrating NLP and computer vision techniques within a social science context. These methods allowed you to summarize and visualize data, uncovering communication patterns that connect computational results to audience effects and strategic messaging.\n\n\n\n\nA key theme in this final module is the ethics of automating interpretation. We asked how algorithmic bias might shape findings and where the limits of interpretability lie when results are produced automatically. You reflected on the role of the researcher in guiding and validating AI outputs, while also considering privacy and consent when collecting digital content. The main takeaway is that ethical reflection needs to be integrated into every stage of research design and dissemination.\n\n\n\n\nAn important practice in AI-aided analysis is documenting your work transparently. Reproducibility is emphasized through clear and structured workflows that store data, code, and results in accessible formats. Using cloud platforms and version control supports collaboration, while framing analysis in ways that enable peer review and replication connects computational practice with open science values. In the computer lab, you downloaded an example Jupyter notebook from Google Colab to practice this workflow.\n\n\n\n\nJupyter and Quarto provide powerful tools to integrate code, output, and documentation in one place. These platforms support reproducible research through automated execution and allow for easy conversion of analyses into HTML, PDF, or Word. By embedding metadata, citations, and environment settings, your notebooks become well-structured analytical reports that are transparent and shareable across research communities.\n\n\n\n\nEqually important is how results are communicated. Quarto helps translate technical findings into accessible narratives that use visualizations to highlight patterns in sustainability messaging. This allows you to connect observed communication effects with organizational strategies and present methods and results clearly to both technical and non-technical audiences. In practice, you also experimented with converting your notebooks into Quarto documents as part of the computer lab.\n\n\n\n\nFinally, we connected your practical exercises to the process of producing publishable research. A well-documented Google Colab or Quarto notebook is an excellent starting point for a paper. By defining clear research questions, using reproducible methods, and including structured visualizations, you can align your findings with existing literature and frameworks. Journals focusing on digital methods, media studies, or sustainability communication provide natural outlets for publishing this type of AI-aided analysis.",
     "crumbs": [
-      "course start",
-      "resources"
+      "module 5",
+      "lesson 5.1",
+      "video lecture 5.1.1"
     ]
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#image-classification-and-object-detection",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Image classification and object detection",
-    "text": "Image classification and object detection\n\nUnlike NLP tokens with explicit semantics, image pixels lack intrinsic meaning.\nComputer vision must infer meaning from spatial patterns of color, intensity, and shape.\nPixel ordering in two dimensions lets convolution and attention exploit locality and structure.\nClassification assigns one or more labels to an image or region based on learned patterns.\nObject detection jointly locates and names multiple instances to produce analyzable units."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#applications-in-sustainability-communication",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#applications-in-sustainability-communication",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Applications in sustainability communication",
-    "text": "Applications in sustainability communication\n\nResearch images often come from PDFs, websites, and sampled YouTube frames.\nVisual greenwashing can be assessed by quantifying nature cues and symbolic green color palettes.\nComputer vision can operationalize qualitative frames such as problem–solution or risk versus opportunity.\nAnalyses can measure the prominence of corporate versus community actors in visuals.\nFace, affect, and demographic inference are feasible but raise consent, bias, and fairness concerns."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#install-computer-vision-models-in-colab",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#install-computer-vision-models-in-colab",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Install computer vision models in Colab",
-    "text": "Install computer vision models in Colab\n\nColab provides managed GPUs and zero setup for fast prototyping with large models.\nHugging Face offers pretrained vision and vision–language models accessible with minimal code.\nThese tools enable experiments with content embeddings and text–image similarity to test themes.\nNotebooks capture code, dependencies, and outputs to support shareable open-science workflows.\nEphemeral sessions and resource limits are trade-offs that favor accessibility and reproducibility."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-classification",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Inferential image analysis, classification",
-    "text": "Inferential image analysis, classification\n\nImage classification assigns binary, multiclass, or multilabel categories to an input image.\nThe task parallels supervised text labeling but relies on spatial features instead of token sequences.\nSustainability classifiers can separate natural objects from graphical elements to distinguish evidence from symbolism.\nRobust training requires balanced datasets, careful curation, and calibrated decision thresholds.\nValid labels should reflect communicative content rather than spurious correlations or artifacts."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#iterate-classification-to-dataframe",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#iterate-classification-to-dataframe",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Iterate classification to dataframe",
-    "text": "Iterate classification to dataframe\n\nBuild pipelines that iterate over image collections or video frames sampled at fixed intervals.\nStore per-item results in a dataframe with filenames, timestamps, labels, and confidence scores.\nTabular outputs enable filtering, grouping, and statistical comparisons across campaigns and time.\nMulti-label scenes and long-tail classes require per-label thresholds and hierarchical taxonomies.\nAggregation rules should preserve nuance while keeping analyses tractable and interpretable."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#inferential-image-analysis-object-detection",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Inferential image analysis, object detection",
-    "text": "Inferential image analysis, object detection\n\nObject detection localizes and labels multiple instances within an image using boxes or masks.\nCounting and sizing detected elements provides indicators of salience and composition in sustainability scenes.\nDense scenes, occlusion, and small objects remain challenging and can degrade recall and precision.\nClass imbalance can bias detectors toward frequent categories unless mitigated in training and postprocessing.\nDetection supports measures such as co-presence of actors and spatial arrangements of industry versus nature."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#object-localization-and-confidence-scores",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture-slides.html#object-localization-and-confidence-scores",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "Object localization and confidence scores",
-    "text": "Object localization and confidence scores\n\nBounding boxes provide rectangular localization while segmentation masks deliver pixel-accurate shapes.\nVideo and streaming analyses benefit from tracking to capture persistence and transitions over time.\nConfidence scores quantify uncertainty and should be filtered with class-specific thresholds and NMS.\nReporting confidence distributions and validation checks increases transparency and reproducibility.\nFiltering low-confidence detections reduces false positives and improves the reliability of conclusions."
-  },
-  {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "lesson 4-2",
-    "text": "lesson 4-2\n\nvideo-lecture.qmd:Image classification and object detection\n\n\ncomputer-lab.qmd:Inferential image analysis, classification\n\n\ncomputer-lab.qmd:Inferential image analysis, object detection",
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html#lesson-5.1-key-takeaways-and-ethical-perspectives",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html#lesson-5.1-key-takeaways-and-ethical-perspectives",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn this course, you have learned how AI can support content analysis in sustainability research by making it easier to process large amounts of data. You have gained practical skills in analyzing text and image content using low-code tools, and you are now able to critically interpret the results that machine learning models produce. Alongside the technical skills, you have explored the ethical boundaries of automation in communication analysis and reflected on core principles of transparency, bias, and accountability in AI-supported research.\n\n\n\n\nThroughout the course, you practiced collecting and organizing sustainability communication content from real-world sources. You applied both text and image analysis in Python notebooks, integrating NLP and computer vision techniques within a social science context. These methods allowed you to summarize and visualize data, uncovering communication patterns that connect computational results to audience effects and strategic messaging.\n\n\n\n\nA key theme in this final module is the ethics of automating interpretation. We asked how algorithmic bias might shape findings and where the limits of interpretability lie when results are produced automatically. You reflected on the role of the researcher in guiding and validating AI outputs, while also considering privacy and consent when collecting digital content. The main takeaway is that ethical reflection needs to be integrated into every stage of research design and dissemination.\n\n\n\n\nAn important practice in AI-aided analysis is documenting your work transparently. Reproducibility is emphasized through clear and structured workflows that store data, code, and results in accessible formats. Using cloud platforms and version control supports collaboration, while framing analysis in ways that enable peer review and replication connects computational practice with open science values. In the computer lab, you downloaded an example Jupyter notebook from Google Colab to practice this workflow.\n\n\n\n\nJupyter and Quarto provide powerful tools to integrate code, output, and documentation in one place. These platforms support reproducible research through automated execution and allow for easy conversion of analyses into HTML, PDF, or Word. By embedding metadata, citations, and environment settings, your notebooks become well-structured analytical reports that are transparent and shareable across research communities.\n\n\n\n\nEqually important is how results are communicated. Quarto helps translate technical findings into accessible narratives that use visualizations to highlight patterns in sustainability messaging. This allows you to connect observed communication effects with organizational strategies and present methods and results clearly to both technical and non-technical audiences. In practice, you also experimented with converting your notebooks into Quarto documents as part of the computer lab.\n\n\n\n\nFinally, we connected your practical exercises to the process of producing publishable research. A well-documented Google Colab or Quarto notebook is an excellent starting point for a paper. By defining clear research questions, using reproducible methods, and including structured visualizations, you can align your findings with existing literature and frameworks. Journals focusing on digital methods, media studies, or sustainability communication provide natural outlets for publishing this type of AI-aided analysis.",
     "crumbs": [
-      "module 4"
+      "module 5",
+      "lesson 5.1",
+      "video lecture 5.1.1"
     ]
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
-    "title": "Module 4: Analyzing image content with computer vision",
-    "section": "lesson 4-3",
-    "text": "lesson 4-3\n\nvideo-lecture.qmd:Interpreting the results of CV analysis\n\n\ncomputer-lab.qmd:Summarizing results of image analysis\n\n\ncomputer-lab.qmd:Visualizing results of image analysis",
-    "crumbs": [
-      "module 4"
-    ]
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#key-takeaways-and-ethical-perspectives",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Key takeaways and ethical perspectives",
+    "text": "Key takeaways and ethical perspectives\n\nUnderstand how AI can support content analysis in sustainability research\nGain practical skills in text and image data analysis using low-code tools\nLearn to critically interpret results produced by machine learning models\nExplore ethical boundaries of automation in communication analysis\nReflect on transparency, bias, and accountability in AI-supported research"
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html",
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#what-you-learned-in-this-course",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "What You Learned in This Course",
+    "text": "What You Learned in This Course\n\nCollect and organize sustainability content from real-world sources\nAnalyze both textual and visual communication using Python notebooks\nApply NLP and computer vision techniques in a social science context\nSummarize and visualize data to uncover communication patterns\nConnect computational methods to audience effects and strategic messaging"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#ethics-of-automating-content-interpretation",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Ethics of Automating Content Interpretation",
+    "text": "Ethics of Automating Content Interpretation\n\nQuestion how algorithmic bias might shape findings\nEvaluate the limits of interpretability in automated results\nDiscuss the role of the researcher in guiding and validating AI output\nConsider privacy and consent when collecting public digital content\nIntegrate ethical reflection into research design and dissemination"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#analysis-documentation-and-open-science-jupyter",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Analysis documentation and open science (Jupyter)",
+    "text": "Analysis documentation and open science (Jupyter)\n\nEmphasize reproducibility through transparent workflows\nStore data, code, and results in accessible formats\nUse cloud platforms and version control for collaborative research\nFrame analysis in ways that support peer review and replication\nConnect computational practice with open science values\ncomputer lab: download ipython notebook from google colab"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#using-jupyter-notebooks-to-ensure-reproducibility",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Using Jupyter Notebooks to Ensure Reproducibility",
+    "text": "Using Jupyter Notebooks to Ensure Reproducibility\n\nQuarto integrates code, output, and documentation in one file\nSupports reproducible research with automated execution\nAllows easy conversion to HTML, PDF, or Word for publication\nEmbeds metadata, citations, and environment settings\nIdeal for sharing transparent, well-structured analytical reports"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#communicating-ai-aided-content-analysis-quarto",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Communicating AI-aided content analysis (Quarto)",
+    "text": "Communicating AI-aided content analysis (Quarto)\n\nTranslate technical findings into accessible narratives\nUse visualizations to highlight patterns in sustainability messaging\nConnect communication effects with organizational strategies\nPresent methods and results clearly for both technical and non-technical audiences\nPosition findings within broader ethical and scientific discussions\ncomputer lab: convert ipython notebook to quarto document"
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture-slides.html#turning-your-analysis-into-a-research-publication",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Turning Your Analysis into a Research Publication",
+    "text": "Turning Your Analysis into a Research Publication\n\nStart with a well-documented Google Colab or Quarto notebook\nDefine a clear research question with reproducible methods\nUse structured visualizations to support interpretations\nAlign findings with existing literature and frameworks\nSubmit to journals focusing on digital methods, media studies, or sustainability communication"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#functions-of-visuals-in-sustainability-communication",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#functions-of-visuals-in-sustainability-communication",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Functions of Visuals in Sustainability Communication",
+    "text": "Functions of Visuals in Sustainability Communication\n\n\n\nVisuals enhance message clarity and audience engagement in sustainability topics.\nPhotos evoke emotional responses, encouraging empathy and action.\nInfographics simplify complex data for easier public understanding.\nVideos convey real-time impact, offering immersive storytelling.\nVisual variety can reinforce key sustainability messages across contexts."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#computer-vision-areas-and-content-challenges",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#computer-vision-areas-and-content-challenges",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Computer Vision Areas and Content Challenges",
+    "text": "Computer Vision Areas and Content Challenges\n\nComputer vision applications include object detection, facial recognition, and scene analysis.\nVariations in lighting and angle present challenges in accurate image interpretation.\nEnvironmental monitoring relies on detecting specific features in natural scenes.\nHandling diverse image sources requires robust algorithms and large datasets.\nComputer vision aids sustainability by tracking changes in environmental conditions."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-basics-pixels-rgb-and-grayscale",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-basics-pixels-rgb-and-grayscale",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Image Basics: Pixels, RGB, and Grayscale",
+    "text": "Image Basics: Pixels, RGB, and Grayscale\n\nImages are composed of pixels, each storing color or intensity values.\nRGB channels (Red, Green, Blue) combine to create various colors in visuals.\nGrayscale simplifies images by converting them into shades of gray.\nEach color channel holds intensity values ranging from 0 to 255.\nUnderstanding these basics is essential for manipulating and analyzing images."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#constructing-and-manipulating-images-with-numpy",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#constructing-and-manipulating-images-with-numpy",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Constructing and Manipulating Images with NumPy",
+    "text": "Constructing and Manipulating Images with NumPy\n\nImages can be represented as NumPy matrices, enabling pixel-based control.\nEach matrix element corresponds to a pixel’s intensity or color value.\nAdjusting matrix values allows for brightness or color changes in specific regions.\nImage manipulations aid in highlighting areas of interest or removing noise.\nUsing NumPy enhances flexibility in preprocessing images for computer vision tasks."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-features-colors-histograms-and-edges",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#image-features-colors-histograms-and-edges",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Image Features: Colors, Histograms, and Edges",
+    "text": "Image Features: Colors, Histograms, and Edges\n\nImage content features help models identify patterns within visuals.\nColor histograms reveal dominant tones by analyzing pixel distributions.\nEdge detection outlines shapes, essential for object and scene recognition.\nTexture features assist in distinguishing smooth versus rough surfaces.\nFeatures enable AI to interpret images more effectively by capturing key visual aspects."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#reading-images-into-dataframes-and-matrix-structures",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#reading-images-into-dataframes-and-matrix-structures",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Reading Images into Dataframes and Matrix Structures",
+    "text": "Reading Images into Dataframes and Matrix Structures\n\nTools like OpenCV allow images to be imported as matrices or dataframes.\nDataframes enable organization of pixel data for efficient analysis.\nMatrix structures store spatial information, which is crucial for vision models.\nImage data in structured formats simplifies comparisons across visuals.\nAccessing pixel-level data provides precision in analyzing image content."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#normalizing-image-content-resize-grayscale-and-consistency",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture-slides.html#normalizing-image-content-resize-grayscale-and-consistency",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Normalizing Image Content: Resize, Grayscale, and Consistency",
+    "text": "Normalizing Image Content: Resize, Grayscale, and Consistency\n\nImage normalization enhances model performance by standardizing inputs.\nResizing aligns images to a uniform size, aiding consistency in analysis.\nGrayscale conversion reduces complexity and focuses on essential shapes.\nBrightness adjustments help maintain consistency across varied image sources.\nNormalizing inputs is vital for achieving accurate, reliable computer vision results."
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#interpreting-the-results-of-cv-analysis",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#interpreting-the-results-of-cv-analysis",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Interpreting the results of CV analysis",
+    "text": "Interpreting the results of CV analysis"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#single-image",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#single-image",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Single-image",
+    "text": "Single-image"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#summarizing-results-of-image-analysis",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#summarizing-results-of-image-analysis",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Summarizing results of image analysis",
+    "text": "Summarizing results of image analysis"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#visualizing-results-of-image-analysis",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture-slides.html#visualizing-results-of-image-analysis",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Visualizing results of image analysis",
+    "text": "Visualizing results of image analysis"
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "powerpoint\nscript\n\n\n\n\n\n\nCompared to NLP—where tokens provide explicit, discrete units—images present an inference problem because pixels carry no intrinsic semantics. Computer vision must learn meaning from spatial patterns of color and intensity that are only indirectly related to concepts like “tree,” “factory,” or “logo.” The advantage is that pixels are naturally ordered in two (or more) dimensions, so convolutional and attention-based models can exploit locality and shape to identify structures that would be opaque to bag-of-words text models. In practice, classification maps an image (or region) to one or more labels, while object detection jointly locates and names multiple instances, turning raw arrays into interpretable units that can be aggregated for social-scientific analysis.\n\n\n\nEmpirical material often arrives as images extracted from PDFs, scraped from websites, or sampled as frames from YouTube videos; these can be analyzed to study visual framing in sustainability communication. Visual greenwashing can be investigated by quantifying cues such as nature imagery, color palettes suggestive of “green,” and the co-occurrence of ecological symbols with weak or non-verifiable claims. Beyond (or alongside) such quantitative indicators, computer vision can support qualitative constructs like problem–solution framing, risk vs. opportunity emphasis, or the prominence of corporate vs. community actors. While face recognition, emotion detection, and demographic inference (e.g., via packages like DeepFace) are technically feasible, they raise significant ethical and legal considerations—consent, bias, and fairness—that must be addressed in research design and reporting.\n\n\n\nGoogle Colab enables rapid prototyping without local setup, offering managed GPUs/TPUs and ephemeral environments that are ideal for teaching and exploratory work with large models. Through Hugging Face, students can access a wide range of pretrained unimodal and multimodal models (e.g., vision encoders, vision–language models) with a few lines of code. This facilitates experiments with content embeddings and text–image similarity—linking images to semantic prompts (e.g., “offshore wind,” “carbon capture”) to test hypotheses about visual themes. Although Colab’s sessions are temporary and resource-limited, the trade-off favors reproducibility and accessibility: notebooks capture dependencies, code, and outputs in a shareable, open-science workflow.\n\n\n\nImage classification assigns one or more labels to an input: binary classification distinguishes presence vs. absence (e.g., “dog vs. not-dog”), multiclass chooses a single label from many, and multilabel allows multiple simultaneous categories. This task is analogous to supervised text labeling but operates over spatial features rather than tokens. For sustainability datasets, classifiers can distinguish natural objects (trees, turbines, smoke plumes) from graphical elements (icons, logos, infographics) to separate photographic evidence from designed symbolism. Careful curation of training data, class balance, and threshold calibration is required to ensure that predicted labels reflect communicative content rather than spurious correlations.\n\n\n\nA practical pipeline iterates over collections of images—folders of campaign assets or frames extracted from video at fixed intervals—classifying each item and storing results in a dataframe. Each row can record filename, timestamp (for video frames), top-k predicted labels, and confidence scores, along with metadata such as source organization or platform. This tabular structure enables filtering, grouping, and statistical comparison across campaigns and time. Challenges include multi-label images (e.g., turbines and corporate logos in the same frame) and long-tail classes; solutions involve per-label thresholds, hierarchical taxonomies, and aggregation rules that preserve nuance while keeping the analysis tractable.\n\n\n\nObject detection extends classification by localizing multiple instances within a single image, outputting bounding boxes (or masks) with class labels. This is crucial when scenes contain many relevant elements—wind turbines, solar panels, people, vehicles—whose counts, sizes, and positions carry communicative meaning. However, dense scenes, occlusions, and small objects stress detectors, and class imbalance can skew results toward frequent categories. From a social-science perspective, detection enables measures like the salience of nature vs. industrial artifacts, co-presence of actors (e.g., company representatives with communities), and spatial arrangements that suggest responsibility, agency, or impact.\n\n\n\nLocalization can be represented by bounding boxes (rectangles around objects) or by pixel-accurate segmentation masks; the latter improves measurement of size, overlap, and shape but is computationally heavier. In video or live streams, tracking adds temporal continuity, allowing researchers to analyze persistence and transitions of visual motifs across shots. Confidence scores quantify model uncertainty and should be monitored and filtered (e.g., via class-specific thresholds, non-maximum suppression settings) to reduce false positives. Reporting confidence distributions and quality checks—inter-annotator validation, spot audits—supports transparent, replicable claims about visual patterns in sustainability communication.",
+    "text": "powerpoint\nscript",
     "crumbs": [
       "module 4",
-      "lesson 4.2",
-      "video lecture 4.2.1"
+      "lesson 4.3",
+      "video lecture 4.3.1"
     ]
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html#lesson-4.2-image-classification-and-object-detection",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html#lesson-4.2-image-classification-and-object-detection",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html#lesson-4.3-interpreting-the-results-of-cv-analysis",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html#lesson-4.3-interpreting-the-results-of-cv-analysis",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "powerpoint\nscript\n\n\n\n\n\n\nCompared to NLP—where tokens provide explicit, discrete units—images present an inference problem because pixels carry no intrinsic semantics. Computer vision must learn meaning from spatial patterns of color and intensity that are only indirectly related to concepts like “tree,” “factory,” or “logo.” The advantage is that pixels are naturally ordered in two (or more) dimensions, so convolutional and attention-based models can exploit locality and shape to identify structures that would be opaque to bag-of-words text models. In practice, classification maps an image (or region) to one or more labels, while object detection jointly locates and names multiple instances, turning raw arrays into interpretable units that can be aggregated for social-scientific analysis.\n\n\n\nEmpirical material often arrives as images extracted from PDFs, scraped from websites, or sampled as frames from YouTube videos; these can be analyzed to study visual framing in sustainability communication. Visual greenwashing can be investigated by quantifying cues such as nature imagery, color palettes suggestive of “green,” and the co-occurrence of ecological symbols with weak or non-verifiable claims. Beyond (or alongside) such quantitative indicators, computer vision can support qualitative constructs like problem–solution framing, risk vs. opportunity emphasis, or the prominence of corporate vs. community actors. While face recognition, emotion detection, and demographic inference (e.g., via packages like DeepFace) are technically feasible, they raise significant ethical and legal considerations—consent, bias, and fairness—that must be addressed in research design and reporting.\n\n\n\nGoogle Colab enables rapid prototyping without local setup, offering managed GPUs/TPUs and ephemeral environments that are ideal for teaching and exploratory work with large models. Through Hugging Face, students can access a wide range of pretrained unimodal and multimodal models (e.g., vision encoders, vision–language models) with a few lines of code. This facilitates experiments with content embeddings and text–image similarity—linking images to semantic prompts (e.g., “offshore wind,” “carbon capture”) to test hypotheses about visual themes. Although Colab’s sessions are temporary and resource-limited, the trade-off favors reproducibility and accessibility: notebooks capture dependencies, code, and outputs in a shareable, open-science workflow.\n\n\n\nImage classification assigns one or more labels to an input: binary classification distinguishes presence vs. absence (e.g., “dog vs. not-dog”), multiclass chooses a single label from many, and multilabel allows multiple simultaneous categories. This task is analogous to supervised text labeling but operates over spatial features rather than tokens. For sustainability datasets, classifiers can distinguish natural objects (trees, turbines, smoke plumes) from graphical elements (icons, logos, infographics) to separate photographic evidence from designed symbolism. Careful curation of training data, class balance, and threshold calibration is required to ensure that predicted labels reflect communicative content rather than spurious correlations.\n\n\n\nA practical pipeline iterates over collections of images—folders of campaign assets or frames extracted from video at fixed intervals—classifying each item and storing results in a dataframe. Each row can record filename, timestamp (for video frames), top-k predicted labels, and confidence scores, along with metadata such as source organization or platform. This tabular structure enables filtering, grouping, and statistical comparison across campaigns and time. Challenges include multi-label images (e.g., turbines and corporate logos in the same frame) and long-tail classes; solutions involve per-label thresholds, hierarchical taxonomies, and aggregation rules that preserve nuance while keeping the analysis tractable.\n\n\n\nObject detection extends classification by localizing multiple instances within a single image, outputting bounding boxes (or masks) with class labels. This is crucial when scenes contain many relevant elements—wind turbines, solar panels, people, vehicles—whose counts, sizes, and positions carry communicative meaning. However, dense scenes, occlusions, and small objects stress detectors, and class imbalance can skew results toward frequent categories. From a social-science perspective, detection enables measures like the salience of nature vs. industrial artifacts, co-presence of actors (e.g., company representatives with communities), and spatial arrangements that suggest responsibility, agency, or impact.\n\n\n\nLocalization can be represented by bounding boxes (rectangles around objects) or by pixel-accurate segmentation masks; the latter improves measurement of size, overlap, and shape but is computationally heavier. In video or live streams, tracking adds temporal continuity, allowing researchers to analyze persistence and transitions of visual motifs across shots. Confidence scores quantify model uncertainty and should be monitored and filtered (e.g., via class-specific thresholds, non-maximum suppression settings) to reduce false positives. Reporting confidence distributions and quality checks—inter-annotator validation, spot audits—supports transparent, replicable claims about visual patterns in sustainability communication.",
+    "text": "powerpoint\nscript",
     "crumbs": [
       "module 4",
-      "lesson 4.2",
-      "video lecture 4.2.1"
+      "lesson 4.3",
+      "video lecture 4.3.1"
     ]
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#sustainability-communication-content",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Sustainability communication content",
-    "text": "Sustainability communication content\n\nDefine sustainability content both formally and functionally\nFormal content reflects environmental or social responsibility themes\nFunctional content supports branding, compliance, and stakeholder engagement\nCommunication influences perceptions of credibility and authenticity\nDual analysis reveals intent, structure, and audience impact"
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.1",
+      "video lecture 4.1.1"
+    ]
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#online-content-sampling",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Online content sampling",
-    "text": "Online content sampling\n\nSampling method influences research reliability and validity\nRandom sampling is ideal but hard to apply in web contexts\nPurposive sampling targets relevant or contrasting examples\nStrategic sampling balances focus and generalizability\nDesign choices must minimize bias in content selection"
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html#lesson-4.1-computer-vision-cv-in-social-science",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nIn sustainability communication, visuals play diverse and essential roles, helping to convey messages effectively and inspire action. Photographs can evoke empathy by illustrating real-world environmental or social issues, while infographics break down complex data into digestible insights. Videos offer immersive storytelling, capturing time-based changes in climate or pollution. Charts and maps further enhance understanding by representing geographic data or environmental statistics visually. Choosing the right type of visual for the message strengthens the impact of sustainability communication, making data more relatable and motivating audiences toward sustainable practices.\n\n\n\nComputer vision encompasses various applications such as facial recognition, object detection, and environmental monitoring, each posing unique challenges. For example, recognizing objects under varying lighting conditions or from different angles is complex and often demands robust datasets and model fine-tuning. In sustainability contexts, computer vision helps detect patterns in satellite imagery for deforestation monitoring or pollution tracking. Challenges in image quality, such as low resolution or noise, add further complexity. Addressing these issues enhances the accuracy and reliability of computer vision applications in diverse fields.\n\n\n\nImages consist of pixels, the smallest units of a digital image, each carrying information about color or intensity. In color images, RGB (Red, Green, Blue) channels control the intensity of each primary color, creating a wide range of colors when combined. Grayscale images simplify this by displaying only shades of gray, reducing computational requirements and focusing on shapes and textures. Understanding pixels and color channels is foundational for image manipulation and analysis, as these elements define the structure and appearance of digital visuals.\n\n\n\nConstructing and manipulating images using NumPy matrices provides precise control over individual pixel regions. Representing an image as a matrix allows for adjustments to brightness, contrast, or specific colors by altering matrix values. Manipulating specific pixel regions can emphasize or obscure areas within an image, supporting tasks like highlighting points of interest in sustainability visuals. Using NumPy for image processing is powerful in computer vision as it enables direct, customizable changes to image data, preparing images for model analysis.\n\n\n\nUnderstanding image content features, such as color histograms and edges, is essential for analyzing and interpreting images. Color histograms reveal the distribution of colors in an image, helping identify dominant tones, while edge detection algorithms outline shapes and boundaries, crucial for object recognition tasks. Texture features capture surface variations, aiding in the differentiation of smooth and rough surfaces. These features provide a structured understanding of images, enabling computer vision models to detect patterns and make sense of visual data for diverse applications.\n\n\n\nDigital images can be represented as dataframes or matrices, with libraries like OpenCV facilitating this transformation. A matrix structure stores spatial information about pixels, enabling efficient analysis and comparison across images. Dataframes provide additional flexibility, organizing pixel values into a structured format for advanced data processing. Accessing image data in structured forms, like matrices, allows for detailed examination of image content, supporting tasks such as object detection and pattern recognition in computer vision applications.\n\n\n\nNormalizing image content enhances consistency across datasets, making inputs suitable for analysis by computer vision models. Resizing images ensures uniform dimensions, while grayscale conversion reduces complexity, focusing models on shapes rather than colors. Brightness normalization further enhances consistency, allowing models to interpret images reliably despite varying lighting conditions. These preprocessing steps are essential in computer vision as they reduce the variability of image inputs, helping AI models perform consistently across different visual data sources.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.1",
+      "video lecture 4.1.1"
+    ]
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#expectations-about-sustainability-communication",
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html",
     "title": "Module 1: Understanding sustainability communication content",
-    "section": "Expectations about sustainability communication",
-    "text": "Expectations about sustainability communication\n\nChoose between qualitative, quantitative, or mixed approaches\nDescriptive analysis explores patterns; explanatory seeks causes\nLinguistic analysis compares tone, terms, and rhetorical strategies\nResearch begins with well-formed questions and hypotheses\nMethodological clarity improves interpretability and rigor"
+    "section": "",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nTo understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "video lecture 1.1.1"
+    ]
   },
   {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#find-online-sustainability-communication",
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html#lesson-1.1-sustainability-communication-content",
     "title": "Module 1: Understanding sustainability communication content",
-    "section": "Find online sustainability communication",
-    "text": "Find online sustainability communication\n\nSelect organizations aligned with your research objectives\nStudy one or compare multiple for contrast and depth\nTarget official websites as curated communication sources\nIdentify and extract sustainability-related URLs\nBuild a dataset from key pages like “CSR” or “Sustainability”"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#convert-multimodal-web-pages-to-pdf",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Convert multimodal web pages to PDF",
-    "text": "Convert multimodal web pages to PDF\n\nUse browser print-to-PDF to capture entire web pages\nPreserves images, layout, and static design elements\nEnables analysis of multimodal communication forms\nQuick, user-friendly method requiring no programming\nLimitation: videos and interactive elements not captured"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#setting-up-an-initial-content-database",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Setting up an initial content database",
-    "text": "Setting up an initial content database\n\nEnsure all collected content is stored in an accessible format\nLocal storage is easy but lacks shareability and backup\nCloud solutions like Google Drive support collaboration\nGitHub adds version control and traceability benefits\nA well-structured archive supports long-term analysis"
-  },
-  {
-    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
-    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture-slides.html#organize-communication-content-in-folders",
-    "title": "Module 1: Understanding sustainability communication content",
-    "section": "Organize communication content in folders",
-    "text": "Organize communication content in folders\n\nSeparate folders allow comparisons between organizations\nNormalize filenames and paths for consistent processing\nFolder structure simplifies automation and batch analysis\nPDFs often need OCR or text extraction for further use\nGood organization supports transparency and reproducibility"
+    "section": "",
+    "text": "powerpoint\nscript\n\n\n\n\n\n\nTo understand sustainability communication, we need to define content both formally and functionally. Formally, we can consider sustainability content as any material that aligns with themes of environmental or social responsibility, such as climate action, resource use, or equity. Functionally, sustainability communication serves organizational purposes—such as shaping brand identity, complying with regulations, or engaging stakeholders. These functions affect how audiences perceive credibility and authenticity. Analyzing content through both lenses helps clarify its structure, intent, and potential impact.\n\n\n\n\nWhen collecting online sustainability communication for research, sampling methods shape the validity and reliability of findings. Random sampling is considered the gold standard in social science, but it may be difficult to apply in digital contexts. Instead, purposive or strategic sampling can ensure the inclusion of relevant or contrasting cases. Whichever method is used, researchers must assess whether their sample supports generalizable claims. A strong sampling design ensures that observed patterns are not merely artifacts of selection bias.\n\n\n\n\nSustainability communication can be studied using qualitative, quantitative, or mixed methods. Qualitative approaches explore the deeper meanings behind content, while quantitative methods enable comparisons and statistical testing. Descriptive studies reveal patterns and practices, while explanatory studies focus on why these patterns occur. For example, a linguistic comparison between high-impact and low-impact organizations might reveal different rhetorical strategies or terminology use. The process begins by formulating clear research questions and operationalizing them into testable hypotheses or coding schemes.\n\n\n\n\nThe first step in collecting sustainability communication is to select which organizations to study, guided by your research questions. You may focus on a single organization for depth or compare contrasting organizations for breadth. Official websites are a primary source of curated, strategic communication. Within these sites, researchers can collect the URLs of sustainability-related pages, often found under sections like “Sustainability,” “CSR,” or “Environment.” These links will form the basis of your content collection and further analysis.\n\n\n\n\nTo capture complex sustainability content online, one effective method is to print web pages to PDF using a browser. This approach preserves multimodal elements such as layout, images, and embedded links, which are essential for analyzing how messages are visually and textually constructed. It’s a fast and accessible technique that requires no special tools. However, a limitation is that videos or dynamic elements are not captured, making this best suited for static page content.\n\n\n\n\nAfter collecting the content, it’s important to store it in a way that supports reproducibility and easy access. Saving files locally is straightforward and works offline, but can be harder to share or back up. Using cloud platforms like Google Drive or GitHub offers better collaboration, version control, and accessibility. Regardless of the method, the goal is to make communication content systematically available for analysis, and to ensure it can be traced back to its source.\n\n\n\n\nOrganizing files into folders by organization or theme helps compare sustainability messaging across cases. Consistent file path naming is important for automating the analysis and maintaining structure. If content is saved as rendered PDFs, it may need to be converted into plain text later for textual analysis or coding. A clear folder structure simplifies navigation, supports reproducibility, and ensures that data management doesn’t become a barrier to insight.",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1",
+      "video lecture 1.1.1"
+    ]
   }
 ]
