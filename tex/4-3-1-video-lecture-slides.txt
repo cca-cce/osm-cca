@@ -1,0 +1,28 @@
+## Interpreting results of CV analysis
+
+This is the wrap-up step where we answer our original research questions using visual evidence—labels, counts, bounding boxes, and spatial patterns rather than tokens and n-grams. We can borrow analogies from NLP, but CV interpretation also asks us to think about composition, color, scale, and who or what co-appears in the frame. The job is to link model outputs—class probabilities and detection counts—to theoretical constructs like risk or solution framing, and say clearly how the visuals support or challenge our hypotheses. Finally, we report uncertainty and plausible alternatives so our claims stay proportional to the evidence and faithful to the study design.
+
+## Operationalizations using image features
+
+We translate communication concepts into variables we can measure from images. That means defining a dependent variable and how it’s captured (a label, a count, or a segmented area share), then specifying explanatory variables—often categorical like organization, sector, campaign, or time—and coding them consistently. We state expectations up front and tie each to a specific statistical test or model. This upfront design reduces post-hoc bias and clarifies exactly which visual features are meant to indicate the constructs we care about.
+
+## Comparisons across organizations
+
+We start with theory-driven expectations for how visuals should differ across organizations. High-impact firms are expected to show mitigation and infrastructure cues, while low-impact firms lean toward ecosystems, communities, and everyday practices. We separate common imagery from distinctive features by comparing normalized rates, not raw counts, so sample size doesn’t mislead us. And we always add context—channel and time—so we don’t mistake one-off campaigns for enduring strategy.
+
+## Summarizing results of image analysis
+
+First we tidy the classification dataframe and make labels readable—splitting long compound names helps. Then we produce core summaries like class frequencies, detections per image, and average confidence before fitting models (e.g., logistic or Poisson, with campaign random effects where needed). We report effect sizes with uncertainty and control for multiple testing when many classes are involved. Finally, we say whether the analysis is exploratory or confirmatory so readers know how to weigh the findings.
+
+## Select, filter, aggregate
+
+We choose variables that match our framework, then filter out nulls, corrupt items, and predictions below class-specific confidence thresholds. Next we aggregate with simple, interpretable functions—counts, proportions, means—at the levels that matter (image, campaign, organization, time). Compact summary tables—such as class-by-organization with normalized proportions—feed directly into models and figures. This disciplined routine stabilizes estimates and keeps interpretation transparent and reproducible.
+
+## Visualizing results of image analysis
+
+We use numeric graphics—bar charts, ridgeline densities, co-occurrence heatmaps—to show prevalence and differences, and pair them with CV-specific visuals that reveal what the model actually saw, like bounding boxes and segmentation overlays. Diagnostics matter too: confusion matrices, precision–recall curves, and curated misclassifications help audiences gauge reliability. We separate data visualizations (about the corpus) from method visualizations (about model behavior), and we show trends with clear normalization and uncertainty so visuals map cleanly to our claims.
+
+## Grouped bar plots
+
+Grouped bars are a compact way to show multi-dimensional comparisons while staying readable. We encode organizations as groups and image classes or themes as bars within each group, normalizing to proportions to handle unequal sample sizes. We order bars by prevalence or effect size, add error bars or confidence intervals where appropriate, and keep legends tight. The result makes it easy to see where imagery overlaps across organizations and where distinctive visuals are over-represented.
+

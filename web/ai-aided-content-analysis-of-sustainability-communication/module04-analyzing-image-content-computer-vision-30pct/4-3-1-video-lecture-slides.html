@@ -147,26 +147,75 @@ nils.holmberg@iko.lu.se
 </div>
 
 </section>
-<section id="interpreting-the-results-of-cv-analysis" class="slide level2">
-<h2>Interpreting the results of CV analysis</h2>
+<section id="interpreting-results-of-cv-analysis" class="slide level2">
+<h2>Interpreting results of CV analysis</h2>
+<ul>
+<li>Interpretation is the final step that must explicitly answer the research questions you posed at the outset.</li>
+<li>In CV the evidence is visual—labels, counts, boxes, and spatial patterns—rather than textual tokens and n-grams.</li>
+<li>NLP can serve as a template for analogies, but CV also demands reasoning about composition, color, scale, and co-presence.</li>
+<li>Connect model outputs such as class probabilities and detection counts to theoretical constructs like risk or solution framing.</li>
+<li>Report uncertainty and alternative explanations so claims remain proportional to confidence and grounded in the study design.</li>
+</ul>
 </section>
-<section id="single-image" class="slide level2">
-<h2>Single-image</h2>
+<section id="operationalizations-using-image-features" class="slide level2">
+<h2>Operationalizations using image features</h2>
+<ul>
+<li>Translate communication concepts into measurable variables derived from images.</li>
+<li>Define a clear dependent variable and its measurement as a label, count, or segmented area share.</li>
+<li>Specify explanatory variables, often categorical, and code them consistently across organization, sector, campaign, and time.</li>
+<li>State a priori expectations and link each to a specific statistical test or model.</li>
+<li>Use this design to limit post-hoc bias and to clarify which features indicate the constructs of interest.</li>
+</ul>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="comparisons-across-organizations" class="slide level2">
+<h2>Comparisons across organizations</h2>
+<ul>
+<li>Begin with theory-driven expectations about how visuals should differ between organizations.</li>
+<li>High-impact firms are expected to feature mitigation and infrastructure cues.</li>
+<li>Low-impact firms are expected to emphasize ecosystems, communities, and everyday practices.</li>
+<li>Distinguish common imagery from distinctive features by comparing normalized rates rather than raw counts.</li>
+<li>Contextualize differences across channels and time to avoid attributing one-off campaigns to enduring strategies.</li>
+</ul>
 </section>
 <section id="summarizing-results-of-image-analysis" class="slide level2">
 <h2>Summarizing results of image analysis</h2>
+<ul>
+<li>Tidy the classification dataframe and make labels interpretable, including splitting compound class names.</li>
+<li>Produce core summaries such as class frequencies, detections per image, and mean confidence.</li>
+<li>Fit models that test associations, for example logistic or Poisson regression with campaign random effects.</li>
+<li>Report effect sizes with uncertainty and control for multiple comparisons when many classes are tested.</li>
+<li>Declare whether the analysis is exploratory or confirmatory so readers weigh results appropriately.</li>
+</ul>
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<section id="select-filter-aggregate" class="slide level2">
+<h2>Select, filter, aggregate</h2>
+<ul>
+<li>Select dependent and independent variables that reflect the conceptual framework.</li>
+<li>Filter out nulls, corrupt items, and predictions below class-specific confidence thresholds.</li>
+<li>Aggregate with simple functions—counts, proportions, and means—at image, campaign, organization, or time levels.</li>
+<li>Build compact summary tables such as class-by-organization with normalized proportions.</li>
+<li>Use this disciplined routine to stabilize estimates and make interpretation transparent and reproducible.</li>
+</ul>
 </section>
 <section id="visualizing-results-of-image-analysis" class="slide level2">
 <h2>Visualizing results of image analysis</h2>
+<ul>
+<li>Use numeric graphics such as bar charts, ridgeline densities, and co-occurrence heatmaps to show prevalence and differences.</li>
+<li>Complement them with CV-specific visuals that reveal what the model saw, including bounding boxes and segmentation overlays.</li>
+<li>Include diagnostic views such as confusion matrices, precision–recall curves, and curated misclassification examples.</li>
+<li>Separate data visualizations that describe the corpus from method visualizations that describe model behavior.</li>
+<li>Display trends with clear normalization and uncertainty so visual comparisons map cleanly to the claims.</li>
+</ul>
 </section>
-<section id="section-2" class="slide level2">
-<h2></h2>
+<section id="grouped-bar-plots" class="slide level2">
+<h2>Grouped bar plots</h2>
+<ul>
+<li>Choose grouped bars to visualize multi-dimensional comparisons while retaining simple bivariate structure.</li>
+<li>Encode organizations as groups and image classes or themes as bars within each group.</li>
+<li>Normalize to proportions to control for unequal sample sizes across organizations.</li>
+<li>Order bars by prevalence or effect size and add error bars or confidence intervals where appropriate.</li>
+<li>Highlight where labels overlap across organizations and where distinctive imagery is over-represented.</li>
+</ul>
 <!--
 
 ## Open Science Methods  

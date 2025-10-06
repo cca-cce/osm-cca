@@ -29,15 +29,61 @@ include-in-header:
 #  - 1-1-1-slide-deck.pdf
 ---
 
-## Interpreting the results of CV analysis
-## 
-## 
+## Interpreting results of CV analysis
+
+* Interpretation is the final step that must explicitly answer the research questions you posed at the outset.
+* In CV the evidence is visual—labels, counts, boxes, and spatial patterns—rather than textual tokens and n-grams.
+* NLP can serve as a template for analogies, but CV also demands reasoning about composition, color, scale, and co-presence.
+* Connect model outputs such as class probabilities and detection counts to theoretical constructs like risk or solution framing.
+* Report uncertainty and alternative explanations so claims remain proportional to confidence and grounded in the study design.
+
+## Operationalizations using image features
+
+* Translate communication concepts into measurable variables derived from images.
+* Define a clear dependent variable and its measurement as a label, count, or segmented area share.
+* Specify explanatory variables, often categorical, and code them consistently across organization, sector, campaign, and time.
+* State a priori expectations and link each to a specific statistical test or model.
+* Use this design to limit post-hoc bias and to clarify which features indicate the constructs of interest.
+
+## Comparisons across organizations
+
+* Begin with theory-driven expectations about how visuals should differ between organizations.
+* High-impact firms are expected to feature mitigation and infrastructure cues.
+* Low-impact firms are expected to emphasize ecosystems, communities, and everyday practices.
+* Distinguish common imagery from distinctive features by comparing normalized rates rather than raw counts.
+* Contextualize differences across channels and time to avoid attributing one-off campaigns to enduring strategies.
 
 ## Summarizing results of image analysis
-## 
+
+* Tidy the classification dataframe and make labels interpretable, including splitting compound class names.
+* Produce core summaries such as class frequencies, detections per image, and mean confidence.
+* Fit models that test associations, for example logistic or Poisson regression with campaign random effects.
+* Report effect sizes with uncertainty and control for multiple comparisons when many classes are tested.
+* Declare whether the analysis is exploratory or confirmatory so readers weigh results appropriately.
+
+## Select, filter, aggregate
+
+* Select dependent and independent variables that reflect the conceptual framework.
+* Filter out nulls, corrupt items, and predictions below class-specific confidence thresholds.
+* Aggregate with simple functions—counts, proportions, and means—at image, campaign, organization, or time levels.
+* Build compact summary tables such as class-by-organization with normalized proportions.
+* Use this disciplined routine to stabilize estimates and make interpretation transparent and reproducible.
 
 ## Visualizing results of image analysis
-## 
+
+* Use numeric graphics such as bar charts, ridgeline densities, and co-occurrence heatmaps to show prevalence and differences.
+* Complement them with CV-specific visuals that reveal what the model saw, including bounding boxes and segmentation overlays.
+* Include diagnostic views such as confusion matrices, precision–recall curves, and curated misclassification examples.
+* Separate data visualizations that describe the corpus from method visualizations that describe model behavior.
+* Display trends with clear normalization and uncertainty so visual comparisons map cleanly to the claims.
+
+## Grouped bar plots
+
+* Choose grouped bars to visualize multi-dimensional comparisons while retaining simple bivariate structure.
+* Encode organizations as groups and image classes or themes as bars within each group.
+* Normalize to proportions to control for unequal sample sizes across organizations.
+* Order bars by prevalence or effect size and add error bars or confidence intervals where appropriate.
+* Highlight where labels overlap across organizations and where distinctive imagery is over-represented.
 
 <!--
 

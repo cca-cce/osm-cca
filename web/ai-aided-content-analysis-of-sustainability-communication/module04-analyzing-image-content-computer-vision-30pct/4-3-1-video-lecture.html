@@ -533,8 +533,36 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="lecture-text" class="level3">
 <h3 class="anchored" data-anchor-id="lecture-text">lecture text</h3>
+<section id="interpreting-results-of-cv-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="interpreting-results-of-cv-analysis">Interpreting results of CV analysis</h4>
+<p>Interpreting computer-vision (CV) outputs is the final step of the image-analysis workflow and should explicitly answer the research questions you posed at the outset. Although conceptually similar to interpreting NLP results, here the evidence is visual rather than textual: labels, counts, bounding boxes, and spatial patterns replace tokens and n-grams. Because NLP is often more mature in the social sciences, it can serve as an interpretive template (e.g., map “object frequency” to “term frequency,” or “salience in the frame” to “prominence in a paragraph”), but CV frequently demands more “out-of-the-box” reasoning about composition, color, scale, and co-presence in the scene. The key is to connect model outputs (e.g., class probabilities, detection counts) to constructs in your theory (e.g., risk framing, solution framing, corporate presence) and to articulate how the visual evidence supports or disconfirms your hypotheses. Throughout, report uncertainty (confidence scores, error patterns) and discuss alternative explanations to ensure your claims remain tied to the questions you set out to answer.</p>
+</section>
+<section id="operationalizations-using-image-features" class="level4">
+<h4 class="anchored" data-anchor-id="operationalizations-using-image-features">Operationalizations using image features</h4>
+<p>Operationalizing communication concepts in CV means translating them into measurable variables derived from images. Define your dependent variable clearly (e.g., the probability or count of “nature imagery,” “industrial infrastructure,” or “logo presence”) and specify how it is measured (classification label, detection count, or segmented area share). Then define explanatory variables—often categorical—such as organization, sector, campaign, channel, or time period, and code them consistently (e.g., one-hot or hierarchical groupings). State expectations ex ante (e.g., organizations with lower environmental impact will display higher “nature imagery” prevalence), and link each expectation to a specific statistical test or model. This design anchors interpretation, reduces post-hoc bias, and makes it clear which visual features are intended to serve as indicators of the underlying communication constructs.</p>
+</section>
+<section id="comparisons-across-organizations" class="level4">
+<h4 class="anchored" data-anchor-id="comparisons-across-organizations">Comparisons across organizations</h4>
+<p>When comparing organizations with high versus low environmental impact, specify what you expect to see visually and why. High-impact firms may feature mitigation and infrastructure cues (plants, pipelines, protective gear, dashboards), whereas lower-impact firms may emphasize ecosystems, communities, and everyday practices (forests, biodiversity, people in natural settings). Note that overlap is possible—both groups might depict wind turbines or lab settings—so your analysis should distinguish distinctive features (used disproportionately) from common ones (shared baseline imagery). Use stratified summaries and normalization (e.g., per 100 images) to ensure fair comparisons across unequal sample sizes. Finally, contextualize differences: are they consistent across channels and time, or limited to specific campaigns and events?</p>
+</section>
+<section id="summarizing-results-of-image-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="summarizing-results-of-image-analysis">Summarizing results of image analysis</h4>
+<p>Start by reading the image-classification dataframe and ensuring labels and metadata are tidy and interpretable (splitting long, compound class labels into meaningful tokens can aid grouping and display). Summarize key metrics—class frequencies, detection counts per image, mean confidence—before fitting models that test associations (e.g., logistic or Poisson regression, mixed effects for campaigns). Report effect sizes with uncertainty, and use appropriate significance controls when testing many classes. Clarify whether your stance is exploratory (pattern finding, hypothesis generation) or confirmatory (pre-specified hypotheses), since this affects how results should be weighed. Well-structured summaries turn raw model outputs into evidence that answers substantive questions.</p>
+</section>
+<section id="select-filter-aggregate" class="level4">
+<h4 class="anchored" data-anchor-id="select-filter-aggregate">Select, filter, aggregate</h4>
+<p>Prior to modeling, select the variables that correspond to your conceptual framework (dependent and independent), and filter rows to remove noise: nulls, corrupt images, or predictions below class-specific confidence thresholds. Aggregate with simple, interpretable functions—counts, proportions, means—at analysis-relevant levels (image, campaign, organization, time window). Build compact summary tables (e.g., class-by-organization with normalized proportions) that feed directly into statistical tests and figures. This disciplined select-filter-aggregate routine reduces variance from noisy predictions and makes downstream interpretation more robust and transparent.</p>
+</section>
+<section id="visualizing-results-of-image-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="visualizing-results-of-image-analysis">Visualizing results of image analysis</h4>
+<p>Use standard numeric visualizations to communicate prevalence and differences (bar charts, ridgeline densities, heatmaps of feature co-occurrence), and complement them with CV-specific visuals that show <em>what</em> the model saw (detections drawn as bounding boxes, segmentation overlays). Include diagnostic views—confusion matrices, precision–recall curves, examples of edge cases and misclassifications—to help audiences gauge reliability. Distinguish between <em>data</em> visualizations (what appears in the corpus) and <em>method</em> visualizations (how the model behaves), and use each for its purpose. When showing trends, be explicit about normalization and uncertainty so visual comparisons map cleanly to your claims.</p>
+</section>
+<section id="grouped-bar-plots" class="level4">
+<h4 class="anchored" data-anchor-id="grouped-bar-plots">Grouped bar plots</h4>
+<p>Grouped (clustered) bar plots are a compact way to display multi-dimensional comparisons while retaining the simplicity of bivariate bars. Use groups (color/hue and legend) to encode organizations and bars to encode image classes or themes, normalizing to proportions to control for different sample sizes. This format highlights both overlapping labels (common imagery across organizations) and distinctive labels (classes over-represented in one group). Order bars by effect size or prevalence, add error bars or CIs where appropriate, and keep legends concise. Well-designed grouped bars make it easy to see where visual narratives converge and where they diverge.</p>
 
 
+</section>
 </section>
 </section>
 
