@@ -1,0 +1,25 @@
+## mooc farewell address
+
+As we wrap up *AI-Aided Content Analysis of Sustainability Communication*, let's reflect on the bridge from decoding digital sustainability messages to exploring their effects on minds and hearts, behaviors and cognitions.
+
+## paragraph 1
+
+Now, take those content features you've extracted—themes in climate reports, visuals in greenwashing—and use them to test real effects on audiences. With your low-code skills, design experiments to see how messages shape thoughts and feelings in groups or individuals.
+
+## paragraph 2
+
+Start with surveys: Layer sentiment scores into questions to check attitude shifts—does hopeful framing ease eco-anxiety in young adults? Or try psychophysiological tools like eye-tracking to spot where eyes linger on flood images, or EEG for spikes at guilt trips like "cut your carbon."
+
+## paragraph 3
+
+For web-based experiments, it's easy and inclusive: A/B test urgency in social media posts with web surveys — does it boost arousal in city vs. rural folks? Track clicks or bias scores right in browsers, revealing how messages empower or alienate diverse groups.
+
+## paragraph 4
+
+Lund students, this amps up your theses with mixed methods. Researchers, it's a toolkit for stronger papers. Public folks, it shows how to critique comms that truly connect.
+
+You've got the power to test sustainability talk's real touch. Experiment boldly, question deeply—what if our messages heal more than they inform? Stay curious. Until next time.
+
+
+
+

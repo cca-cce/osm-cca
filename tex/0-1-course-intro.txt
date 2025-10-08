@@ -2,27 +2,31 @@
 
 Welcome to *AI-Aided Content Analysis of Sustainability Communication*—an online course designed to equip you with cutting-edge tools to explore one of the most pressing challenges of our time: how sustainability is communicated, interpreted, and shaped through digital content.
 
-## course intro 1
+## personal presentation
+
+My name is Nils Holmberg and i work at the Dept. of Communication at Lund University, where i teach and research on the topics of computational content analysis and cognitive communication effects. 
+
+## paragraph 1
 
 Whether you're a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can *see, read, and interpret sustainability communication at scale*. And if you're a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future.
 
-## course intro 2
+## paragraph 2
 
 From the very start, you’ll get hands-on experience building your own *content database*—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You'll learn to *read and analyze both text and image content*, using powerful tools from natural language processing and computer vision.
 
-## course intro 3
+## paragraph 3
 
 For Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.
 
-## course intro 4
+## paragraph 4
 
 International participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources.
 
-## course intro 5
+## paragraph 5
 
 And for members of the general public, this course demystifies AI and data analysis. You won’t just learn *what* these models do—you’ll learn *how to question them*: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?
 
-## course intro 6
+## paragraph 6
 
 By the end of this course, you'll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you're here to meet a curriculum requirement, advance your own research, or explore a personal passion—you're in the right place.
 
