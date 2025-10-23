@@ -1,0 +1,421 @@
+---
+title: '3-1-2: Reading text into dataframes'
+jupyter: python3
+---
+
+
+
+## Download text data and install packages
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+!rm -rf *.zip osm-cca-* 2>/dev/null
+!git clone https://github.com/cca-cce/osm-cca-nlp.git
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+!pip install -q pdfminer.six
+```
+
+## Convert PDF to plain text
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+import os
+from pdfminer.high_level import extract_text
+
+# Directories containing the PDFs
+directories = ['organization1', 'organization2']
+directories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']
+
+for directory in directories:
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.lower().endswith('.pdf'):
+                pdf_path = os.path.join(root, file)
+                text_path = os.path.splitext(pdf_path)[0] + '.txt'
+
+                try:
+                    text = extract_text(pdf_path)
+                    with open(text_path, 'w', encoding='utf-8') as f:
+                        f.write(text)
+                    print(f"Converted {pdf_path} to {text_path}")
+                except Exception as e:
+                    print(f"Failed to convert {pdf_path}: {e}")
+```
+
+## Read plain text to Pandas Dataframe
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 293}
+import os
+import pandas as pd
+import re
+import string
+
+# Directories containing the text files
+directories = ['organization1', 'organization2']
+directories = ['/content/osm-cca-nlp/res/pdf/preem', '/content/osm-cca-nlp/res/pdf/vattenfall']
+
+data = []
+text_index = 1
+
+# Allowed characters: alphabetic, punctuation, and whitespace
+allowed_chars = set(string.ascii_letters + string.punctuation + string.whitespace)
+
+for directory in directories:
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.lower().endswith('.txt'):
+                file_path = os.path.join(root, file)
+                folder_name = os.path.basename(root)
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    raw_text = f.read()
+
+                # Keep only allowed characters
+                clean_text = ''.join(c for c in raw_text if c in allowed_chars)
+
+                # Replace sequences of whitespace with a single space
+                clean_text = re.sub(r'\s+', ' ', clean_text)
+
+                # Trim leading and trailing whitespace
+                clean_text = clean_text.strip()
+
+                data.append({
+                    'text_index': text_index,
+                    'file_path': file_path,
+                    'folder_name': folder_name,
+                    'raw_text': raw_text,
+                    'clean_text': clean_text
+                })
+
+                text_index += 1
+
+# Create DataFrame
+df_texts = pd.DataFrame(data, columns=['text_index', 'file_path', 'folder_name', 'raw_text', 'clean_text'])
+
+# Save DataFrame to TSV file
+df_texts.to_csv('df_texts.tsv', sep='\t', index=False)
+
+# View text dataframe
+df_texts.head()
+```
+
+# 3-1-3: Descriptive text analysis
+
+## Count texts, words, and characters
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 331}
+# Add new columns for text statistics
+df_texts['text_name'] = df_texts['file_path'].apply(os.path.basename)
+
+# Word and character counts
+df_texts['word_count'] = df_texts['clean_text'].apply(lambda x: len(x.split()))
+df_texts['char_count'] = df_texts['clean_text'].apply(len)
+
+# Mean characters per word (avoid division by zero)
+df_texts['mean_chars_per_word'] = df_texts.apply(
+    lambda row: row['char_count'] / row['word_count'] if row['word_count'] > 0 else 0,
+    axis=1
+)
+
+# Select relevant columns for descriptive output
+df_stats = df_texts[['text_name', 'word_count', 'char_count', 'mean_chars_per_word']]
+
+# View the stats table
+df_stats
+
+# Optional: summary of word and character stats
+#summary = df_stats[['word_count', 'char_count', 'mean_chars_per_word']].describe()
+#print("\nDescriptive summary:\n", summary)
+```
+
+## Download pre-trained English language model
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/}
+# for more languages, check https://spacy.io/models
+!python -m spacy download en_core_web_sm
+```
+
+# 3-2-2: Inferential text analysis, tokenization
+
+## Split text into sentences
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+import pandas as pd
+import re
+import spacy
+
+# Load the spaCy English model
+nlp = spacy.load('en_core_web_sm')
+
+data = []
+
+for idx, row in df_texts.iterrows():
+    text_index = row['text_index']
+    folder_name = row['folder_name']
+    clean_text = row['clean_text']
+
+    # Process the clean text to identify sentences
+    doc = nlp(clean_text)
+
+    sentence_index = 1
+    for sent in doc.sents:
+        sentence_text = sent.text
+
+        # Squeeze, trim, and convert sequences of whitespace to single spaces
+        sentence_text = re.sub(r'\s+', ' ', sentence_text).strip()
+
+        # Check if the sentence exceeds five words
+        if len(sentence_text.split()) > 5:
+            data.append({
+                'text_index': text_index,
+                'folder_name': folder_name,
+                'sentence_index': sentence_index,
+                'sentence_text': sentence_text
+            })
+            sentence_index += 1
+
+# Create the DataFrame
+df_sentences = pd.DataFrame(data, columns=['text_index', 'folder_name', 'sentence_index', 'sentence_text'])
+
+# Save the DataFrame to a TSV file
+df_sentences.to_csv('df_sentences.tsv', sep='\t', index=False)
+
+# View sentence dataframe
+df_sentences.head()
+```
+
+## Split sentences into tokens
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 241}
+import pandas as pd
+import spacy
+from nltk.corpus import stopwords
+import nltk
+
+# Download stopwords
+nltk.download('stopwords')
+
+# Load spaCy model
+nlp = spacy.load('en_core_web_sm')
+
+# Get NLTK English stopwords
+stop_words = set(stopwords.words('english'))
+
+# Step 1: Extract base token data (text + lemma)
+data = []
+
+for idx, row in df_sentences.iterrows():
+    text_index = row['text_index']
+    folder_name = row['folder_name']
+    sentence_index = row['sentence_index']
+    sentence_text = row['sentence_text']
+
+    doc = nlp(sentence_text)
+
+    token_index = 1
+    for token in doc:
+        if token.is_alpha and token.text.lower() not in stop_words:
+            data.append({
+                'text_index': text_index,
+                'folder_name': folder_name,
+                'sentence_index': sentence_index,
+                'token_index': token_index,
+                'token_text': token.text,
+                'token_lemma': token.lemma_
+            })
+            token_index += 1
+
+# Create base token dataframe
+df_tokens = pd.DataFrame(data)
+
+# Preview
+df_tokens.head()
+```
+
+# 3-2-3: Inferential text analysis, POS and NER
+
+## Part of speech analysis (POS)
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+# Step 2: Add POS tags
+pos_tags = []
+
+for idx, row in df_sentences.iterrows():
+    doc = nlp(row['sentence_text'])
+    pos_tags.extend([
+        token.pos_
+        for token in doc
+        if token.is_alpha and token.text.lower() not in stop_words
+    ])
+
+# Append POS column
+df_tokens['token_pos'] = pos_tags
+
+# Preview
+df_tokens.head()
+```
+
+## Named entity recognition (NER)
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 206}
+# Step 3: Add entity types
+entity_types = []
+
+for idx, row in df_sentences.iterrows():
+    doc = nlp(row['sentence_text'])
+    entity_types.extend([
+        token.ent_type_ if token.ent_type_ else 'O'
+        for token in doc
+        if token.is_alpha and token.text.lower() not in stop_words
+    ])
+
+# Append entity column
+df_tokens['token_entity'] = entity_types
+
+# Save full token dataframe
+df_tokens.to_csv('df_tokens.tsv', sep='\t', index=False)
+
+# Preview
+df_tokens.head()
+```
+
+# 3-3-2: Summarizing results of text analysis
+
+## Summarize data (select, filter, aggregate)
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 731}
+import pandas as pd
+
+# Define the POS tags we're interested in
+pos_tags = ['NOUN', 'PROPN', 'VERB', 'ADJ']
+
+# Filter df_tokens to include only the desired POS tags
+filtered_df = df_tokens[df_tokens['token_pos'].isin(pos_tags)]
+
+# Group by folder_name, token_pos, and token_lemma, and count occurrences
+grouped = (
+    filtered_df.groupby(['folder_name', 'token_pos', 'token_lemma'])
+    .size()
+    .reset_index(name='count')
+)
+
+# For each folder_name and token_pos, get the top 10 most frequent token_lemmas
+df_tokens_frequency = (
+    grouped.groupby(['folder_name', 'token_pos'])
+    .apply(lambda x: x.nlargest(10, 'count'))
+    .reset_index(drop=True)
+)
+
+# Optionally, sort the dataframe for clarity
+df_tokens_frequency = df_tokens_frequency.sort_values(
+    ['folder_name', 'token_pos', 'count'], ascending=[True, True, False]
+)
+
+# Save df_tokens_frequency to TSV file
+df_tokens_frequency.to_csv('df_tokens_frequency.tsv', sep='\t', index=False)
+
+# Display the result
+df_tokens_frequency.head(20)
+```
+
+# 3-3-3: Visualizing results of text analysis
+
+## Visualize results (stacked bar plot)
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Load or reuse the frequency data
+# df_tokens_frequency = pd.read_csv('df_tokens_frequency.tsv', sep='\t')
+
+# Increase default font size
+plt.rcParams.update({'font.size': 24})
+
+# Store unique folder names
+folder_names = df_tokens_frequency['folder_name'].unique()
+```
+
+```{python}
+def plot_token_pos_frequencies(df, token_pos_label):
+    df_tp = df[df['token_pos'] == token_pos_label]
+    unique_tokens = sorted(df_tp['token_lemma'].unique())[:20]
+    if len(unique_tokens) < 20:
+        unique_tokens.extend([''] * (20 - len(unique_tokens)))
+
+    plot_data = pd.DataFrame({'token_lemma': unique_tokens})
+
+    for folder_name in folder_names:
+        df_folder = df_tp[df_tp['folder_name'] == folder_name]
+        token_counts = df_folder.set_index('token_lemma')['count']
+        plot_data[folder_name] = plot_data['token_lemma'].map(token_counts).fillna(0)
+
+    fig, ax = plt.subplots(figsize=(20, 10))
+    ind = np.arange(len(unique_tokens))
+    bottom = np.zeros(len(unique_tokens))
+    colors = plt.cm.Set2.colors
+    color_cycle = colors[:len(folder_names)]
+
+    ax.yaxis.grid(True)
+
+    for i, folder_name in enumerate(folder_names):
+        counts = plot_data[folder_name].values
+        bars = ax.bar(ind, counts, bottom=bottom, color=color_cycle[i], label=folder_name)
+        for bar in bars:
+            height = bar.get_height()
+            if height > 0:
+                ax.text(
+                    bar.get_x() + bar.get_width() / 2,
+                    bar.get_y() + height / 2,
+                    int(height),
+                    ha='center',
+                    va='center',
+                    fontsize=16
+                )
+        bottom += counts
+
+    ax.set_xticks(ind)
+    ax.set_xticklabels(plot_data['token_lemma'], rotation=90)
+    ax.set_title(f"Token Frequencies for {token_pos_label}", fontsize=28)
+    ax.set_xlabel('Token Lemma', fontsize=24)
+    ax.set_ylabel('Frequency', fontsize=24)
+    ax.tick_params(axis='both', which='major', labelsize=20)
+    ax.legend(title='Folder Name', fontsize=20, title_fontsize=22)
+    plt.tight_layout()
+    plt.savefig(f"df_tokens_frequency_{token_pos_label}.png")
+    plt.show()
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "NOUN")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "VERB")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "ADJ")
+```
+
+```{python}
+#| colab: {base_uri: https://localhost:8080/, height: 506}
+plot_token_pos_frequencies(df_tokens_frequency, "PROPN")
+```
+
+

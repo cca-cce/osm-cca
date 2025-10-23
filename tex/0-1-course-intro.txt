@@ -18,9 +18,11 @@ From the very start, you’ll get hands-on experience building your own *content
 
 For Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.
 
+<!--
 ## paragraph 4
 
 International participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources.
+-->
 
 ## paragraph 5
 

@@ -208,66 +208,66 @@
     ]
   },
   {
-    "objectID": "0-1-course-intro.html#course-intro-1",
-    "href": "0-1-course-intro.html#course-intro-1",
+    "objectID": "0-1-course-intro.html#personal-presentation",
+    "href": "0-1-course-intro.html#personal-presentation",
     "title": "Welcome",
-    "section": "course intro 1",
-    "text": "course intro 1\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future.",
+    "section": "personal presentation",
+    "text": "personal presentation\nMy name is Nils Holmberg and i work at the Dept. of Communication at Lund University, where i teach and research on the topics of computational content analysis and cognitive communication effects.",
     "crumbs": [
       "course start",
       "welcome"
     ]
   },
   {
-    "objectID": "0-1-course-intro.html#course-intro-2",
-    "href": "0-1-course-intro.html#course-intro-2",
+    "objectID": "0-1-course-intro.html#paragraph-1",
+    "href": "0-1-course-intro.html#paragraph-1",
     "title": "Welcome",
-    "section": "course intro 2",
-    "text": "course intro 2\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision.",
+    "section": "paragraph 1",
+    "text": "paragraph 1\nWhether you’re a Lund University student advancing your coursework in media studies, environmental science, or digital methods, or a researcher or learner joining us from across the globe, this course opens new doors into how we can see, read, and interpret sustainability communication at scale. And if you’re a curious member of the public—perhaps with an interest in climate issues, artificial intelligence, or media literacy—you’ll find this course a window into how machines can help us make sense of the messages that shape our collective future.",
     "crumbs": [
       "course start",
       "welcome"
     ]
   },
   {
-    "objectID": "0-1-course-intro.html#course-intro-3",
-    "href": "0-1-course-intro.html#course-intro-3",
+    "objectID": "0-1-course-intro.html#paragraph-2",
+    "href": "0-1-course-intro.html#paragraph-2",
     "title": "Welcome",
-    "section": "course intro 3",
-    "text": "course intro 3\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.",
+    "section": "paragraph 2",
+    "text": "paragraph 2\nFrom the very start, you’ll get hands-on experience building your own content database—learning how to find, collect, and structure sustainability communication from real-world websites. Through accessible, low-code Python notebooks running in Google Colab, you’ll be empowered to run your first analyses with minimal technical barriers. Want to see how organizations talk about climate goals? Curious how different companies portray sustainability through visuals? You’ll learn to read and analyze both text and image content, using powerful tools from natural language processing and computer vision.",
     "crumbs": [
       "course start",
       "welcome"
     ]
   },
   {
-    "objectID": "0-1-course-intro.html#course-intro-4",
-    "href": "0-1-course-intro.html#course-intro-4",
+    "objectID": "0-1-course-intro.html#paragraph-3",
+    "href": "0-1-course-intro.html#paragraph-3",
     "title": "Welcome",
-    "section": "course intro 4",
-    "text": "course intro 4\nInternational participants and researchers will find the course modular and self-paced, with content that bridges theory and application. You’ll explore how AI models like named entity recognition, tokenization, and object detection can be used to analyze sustainability messages—helping you ask sharper research questions and generate new forms of evidence from digital sources.",
+    "section": "paragraph 3",
+    "text": "paragraph 3\nFor Lund University students, this course offers specific methodological training that can be applied directly to thesis work or project assignments. You’ll gain not only technical fluency but also a critical understanding of how to document your methods and communicate your findings transparently—skills that align with open science values and interdisciplinary research goals.",
     "crumbs": [
       "course start",
       "welcome"
     ]
   },
   {
-    "objectID": "0-1-course-intro.html#course-intro-5",
-    "href": "0-1-course-intro.html#course-intro-5",
+    "objectID": "0-1-course-intro.html#paragraph-5",
+    "href": "0-1-course-intro.html#paragraph-5",
     "title": "Welcome",
-    "section": "course intro 5",
-    "text": "course intro 5\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?",
+    "section": "paragraph 5",
+    "text": "paragraph 5\nAnd for members of the general public, this course demystifies AI and data analysis. You won’t just learn what these models do—you’ll learn how to question them: How does automated analysis shape what we see in sustainability reports? Where do ethical boundaries lie? And how can content analysis be a tool for both transparency and critique?",
     "crumbs": [
       "course start",
       "welcome"
     ]
   },
   {
-    "objectID": "0-1-course-intro.html#course-intro-6",
-    "href": "0-1-course-intro.html#course-intro-6",
+    "objectID": "0-1-course-intro.html#paragraph-6",
+    "href": "0-1-course-intro.html#paragraph-6",
     "title": "Welcome",
-    "section": "course intro 6",
-    "text": "course intro 6\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place.\nWelcome aboard. Let’s begin.",
+    "section": "paragraph 6",
+    "text": "paragraph 6\nBy the end of this course, you’ll be able to extract insights from digital content, summarize and visualize patterns in sustainability communication, and engage with critical discussions about the ethics of AI-assisted research. Whether you’re here to meet a curriculum requirement, advance your own research, or explore a personal passion—you’re in the right place.\nWelcome aboard. Let’s begin.",
     "crumbs": [
       "course start",
       "welcome"
@@ -486,6 +486,72 @@
       "module 3",
       "lesson 3.3",
       "video lecture 3.3.1"
+    ]
+  },
+  {
+    "objectID": "0-3-course-outro.html",
+    "href": "0-3-course-outro.html",
+    "title": "Farewell",
+    "section": "",
+    "text": "script slides",
+    "crumbs": [
+      "course start",
+      "farewell"
+    ]
+  },
+  {
+    "objectID": "0-3-course-outro.html#mooc-farewell-address",
+    "href": "0-3-course-outro.html#mooc-farewell-address",
+    "title": "Farewell",
+    "section": "mooc farewell address",
+    "text": "mooc farewell address\nAs we wrap up AI-Aided Content Analysis of Sustainability Communication, let’s reflect on the bridge from decoding digital sustainability messages to exploring their effects on minds and hearts, behaviors and cognitions.",
+    "crumbs": [
+      "course start",
+      "farewell"
+    ]
+  },
+  {
+    "objectID": "0-3-course-outro.html#paragraph-1",
+    "href": "0-3-course-outro.html#paragraph-1",
+    "title": "Farewell",
+    "section": "paragraph 1",
+    "text": "paragraph 1\nNow, take those content features you’ve extracted—themes in climate reports, visuals in greenwashing—and use them to test real effects on audiences. With your low-code skills, design experiments to see how messages shape thoughts and feelings in groups or individuals.",
+    "crumbs": [
+      "course start",
+      "farewell"
+    ]
+  },
+  {
+    "objectID": "0-3-course-outro.html#paragraph-2",
+    "href": "0-3-course-outro.html#paragraph-2",
+    "title": "Farewell",
+    "section": "paragraph 2",
+    "text": "paragraph 2\nStart with surveys: Layer sentiment scores into questions to check attitude shifts—does hopeful framing ease eco-anxiety in young adults? Or try psychophysiological tools like eye-tracking to spot where eyes linger on flood images, or EEG for spikes at guilt trips like “cut your carbon.”",
+    "crumbs": [
+      "course start",
+      "farewell"
+    ]
+  },
+  {
+    "objectID": "0-3-course-outro.html#paragraph-3",
+    "href": "0-3-course-outro.html#paragraph-3",
+    "title": "Farewell",
+    "section": "paragraph 3",
+    "text": "paragraph 3\nFor web-based experiments, it’s easy and inclusive: A/B test urgency in social media posts with web surveys — does it boost arousal in city vs. rural folks? Track clicks or bias scores right in browsers, revealing how messages empower or alienate diverse groups.",
+    "crumbs": [
+      "course start",
+      "farewell"
+    ]
+  },
+  {
+    "objectID": "0-3-course-outro.html#paragraph-4",
+    "href": "0-3-course-outro.html#paragraph-4",
+    "title": "Farewell",
+    "section": "paragraph 4",
+    "text": "paragraph 4\nLund students, this amps up your theses with mixed methods. Researchers, it’s a toolkit for stronger papers. Public folks, it shows how to critique comms that truly connect.\nYou’ve got the power to test sustainability talk’s real touch. Experiment boldly, question deeply—what if our messages heal more than they inform? Stay curious. Until next time.",
+    "crumbs": [
+      "course start",
+      "farewell"
     ]
   },
   {
