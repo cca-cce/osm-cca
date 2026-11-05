@@ -1,0 +1,23 @@
+
+
+- variations: 
+    - typeName: multipleChoice
+      _id: 3foI9dKmEfGAAMQPCHRinA
+      prompt: |-
+          I have successfully executed
+          [notebook](https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=tFPlMewXywwd)
+          code cells from top and focus on sections 4.2.2 - 4.2.3 (Inferential image
+          analysis, classification; Inferential image analysis, object detection) and
+          observed notebook cell outputs.
+      shuffleOptions: false
+      options: 
+        - answer: 'Yes'
+          isCorrect: true
+          feedback: ''
+          _id: '0.24199028963240043'
+        - answer: 'No'
+          isCorrect: false
+          feedback: |-
+              Revisit the computer lab videos 4.2.2 and 4.2.3, run the notebook from the top,
+              and try again.
+          _id: '0.8659769153003186'

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop>
+ <assessment title="QuizExport" ident="A1001">
+   <section title="Main" ident="S1001">
+     <item ident="3foI99KmEfGAAMQPCHRinA" coursera_id="3foI99KmEfGAAMQPCHRinA">
+ <presentation>
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>I have successfully executed <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module05_ethical_aspects_of_ai_aided_content_analysis_10pct.ipynb#scrollTo=as3zaxEnJZRc">notebook</a> code cells from top and focus on sections 5.1.2 - 5.1.3 (Analysis documentation and open science; Communicating AI-aided content analysis) and observed notebook cell outputs.</p>]]>
+   </mattext>
+  </material>
+  <response_lid ident="3foI99KmEfGAAMQPCHRinA_RC" rcardinality="Single">
+   <render_choice>
+    <response_label ident="0.27937399817103326" coursera_id="0.27937399817103326">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>Yes</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+    <response_label ident="0.6774134993512175" coursera_id="0.6774134993512175">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>No</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+   </render_choice>
+  </response_lid>
+ </presentation>
+ <resprocessing>
+  <outcomes>
+   <decvar vartype="Integer" defaultval="0" varname="que_score"></decvar>
+  </outcomes>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI99KmEfGAAMQPCHRinA_RC">
+     0.27937399817103326
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    1
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.27937399817103326_FB"></displayfeedback>
+  </respcondition>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI99KmEfGAAMQPCHRinA_RC">
+     0.6774134993512175
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    0
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.6774134993512175_FB"></displayfeedback>
+  </respcondition>
+ </resprocessing>
+ <itemfeedback ident="0.27937399817103326_FB">
+  <material></material>
+ </itemfeedback>
+ <itemfeedback ident="0.6774134993512175_FB">
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>Revisit the computer lab videos 5.1.2 and 5.1.3, run the notebook from the top, and try again.</p>]]>
+   </mattext>
+  </material>
+ </itemfeedback>
+</item>
+   </section>
+ </assessment>
+</questestinterop>
+      

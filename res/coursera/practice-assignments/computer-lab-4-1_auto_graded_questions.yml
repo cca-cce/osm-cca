@@ -1,0 +1,22 @@
+
+
+- variations: 
+    - typeName: multipleChoice
+      _id: 3foI9NKmEfGAAMQPCHRinA
+      prompt: |-
+          I have successfully executed
+          [notebook](https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=7TxmnqoLywwa)
+          code cells from top and focus on sections 4.1.2 - 4.1.3 (Reading images into
+          dataframes; Descriptive image analysis) and observed notebook cell outputs.
+      shuffleOptions: false
+      options: 
+        - answer: 'Yes'
+          isCorrect: true
+          feedback: ''
+          _id: '0.010701501911146827'
+        - answer: 'No'
+          isCorrect: false
+          feedback: |-
+              Revisit the computer lab videos 4.1.2 and 4.1.3, run the notebook from the top,
+              and try again.
+          _id: '0.18532038068266277'

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop>
+ <assessment title="QuizExport" ident="A1001">
+   <section title="Main" ident="S1001">
+     <item ident="3foI9tKmEfGAAMQPCHRinA" coursera_id="3foI9tKmEfGAAMQPCHRinA">
+ <presentation>
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>I have successfully executed <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=9imFEDEWywwe">notebook</a> code cells from top and focus on sections 4.3.2 - 4.3.3 (Summarizing results of image analysis; Visualizing results of image analysis) and observed notebook cell outputs.</p>]]>
+   </mattext>
+  </material>
+  <response_lid ident="3foI9tKmEfGAAMQPCHRinA_RC" rcardinality="Single">
+   <render_choice>
+    <response_label ident="0.6987333769255065" coursera_id="0.6987333769255065">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>Yes</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+    <response_label ident="0.13364649288146957" coursera_id="0.13364649288146957">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>No</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+   </render_choice>
+  </response_lid>
+ </presentation>
+ <resprocessing>
+  <outcomes>
+   <decvar vartype="Integer" defaultval="0" varname="que_score"></decvar>
+  </outcomes>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI9tKmEfGAAMQPCHRinA_RC">
+     0.6987333769255065
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    1
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.6987333769255065_FB"></displayfeedback>
+  </respcondition>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI9tKmEfGAAMQPCHRinA_RC">
+     0.13364649288146957
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    0
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.13364649288146957_FB"></displayfeedback>
+  </respcondition>
+ </resprocessing>
+ <itemfeedback ident="0.6987333769255065_FB">
+  <material></material>
+ </itemfeedback>
+ <itemfeedback ident="0.13364649288146957_FB">
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>Revisit the computer lab videos 4.3.2 and 4.3.3, run the notebook from the top, and try again.</p>]]>
+   </mattext>
+  </material>
+ </itemfeedback>
+</item>
+   </section>
+ </assessment>
+</questestinterop>
+      

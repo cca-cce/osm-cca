@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop>
+ <assessment title="QuizExport" ident="A1001">
+   <section title="Main" ident="S1001">
+     <item ident="3foI7tKmEfGAAMQPCHRinA" coursera_id="3foI7tKmEfGAAMQPCHRinA">
+ <presentation>
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>I have successfully executed <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module01_understanding_sustainability_communication_content_10pct.ipynb#scrollTo=FsOKpBlkDfLb">notebook</a> code cells from top and focus on sections 1.1.2 - 1.1.3 (Find online sustainability communication; Setting up an initial content database) and observed notebook cell outputs.</p>]]>
+   </mattext>
+  </material>
+  <response_lid ident="3foI7tKmEfGAAMQPCHRinA_RC" rcardinality="Single">
+   <render_choice>
+    <response_label ident="0.3696835753632379" coursera_id="0.3696835753632379">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>Yes</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+    <response_label ident="0.5653902978343772" coursera_id="0.5653902978343772">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>No</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+   </render_choice>
+  </response_lid>
+ </presentation>
+ <resprocessing>
+  <outcomes>
+   <decvar vartype="Integer" defaultval="0" varname="que_score"></decvar>
+  </outcomes>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI7tKmEfGAAMQPCHRinA_RC">
+     0.3696835753632379
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    1
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.3696835753632379_FB"></displayfeedback>
+  </respcondition>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI7tKmEfGAAMQPCHRinA_RC">
+     0.5653902978343772
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    0
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.5653902978343772_FB"></displayfeedback>
+  </respcondition>
+ </resprocessing>
+ <itemfeedback ident="0.3696835753632379_FB">
+  <material></material>
+ </itemfeedback>
+ <itemfeedback ident="0.5653902978343772_FB">
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>Revisit the computer lab videos 1.1.2 and 1.1.3, run the notebook from the top, and try again.</p>]]>
+   </mattext>
+  </material>
+ </itemfeedback>
+</item>
+   </section>
+ </assessment>
+</questestinterop>
+      

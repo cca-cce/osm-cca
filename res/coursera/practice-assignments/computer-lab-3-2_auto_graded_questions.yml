@@ -1,0 +1,23 @@
+
+
+- variations: 
+    - typeName: multipleChoice
+      _id: 3foI8tKmEfGAAMQPCHRinA
+      prompt: |-
+          I have successfully executed
+          [notebook](https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=U-33FgoGoeSx)
+          code cells from top and focus on sections 3.2.2 - 3.2.3 (Inferential text
+          analysis, tokenization; Inferential text analysis, POS and NER) and observed
+          notebook cell outputs.
+      shuffleOptions: false
+      options: 
+        - answer: 'Yes'
+          isCorrect: true
+          feedback: ''
+          _id: '0.4640875593730831'
+        - answer: 'No'
+          isCorrect: false
+          feedback: |-
+              Revisit the computer lab videos 3.2.2 and 3.2.3, run the notebook from the top,
+              and try again.
+          _id: '0.19380164644097708'

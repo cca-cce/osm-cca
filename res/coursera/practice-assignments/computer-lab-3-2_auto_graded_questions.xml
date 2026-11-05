@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop>
+ <assessment title="QuizExport" ident="A1001">
+   <section title="Main" ident="S1001">
+     <item ident="3foI8tKmEfGAAMQPCHRinA" coursera_id="3foI8tKmEfGAAMQPCHRinA">
+ <presentation>
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>I have successfully executed <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=U-33FgoGoeSx">notebook</a> code cells from top and focus on sections 3.2.2 - 3.2.3 (Inferential text analysis, tokenization; Inferential text analysis, POS and NER) and observed notebook cell outputs.</p>]]>
+   </mattext>
+  </material>
+  <response_lid ident="3foI8tKmEfGAAMQPCHRinA_RC" rcardinality="Single">
+   <render_choice>
+    <response_label ident="0.4640875593730831" coursera_id="0.4640875593730831">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>Yes</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+    <response_label ident="0.19380164644097708" coursera_id="0.19380164644097708">
+     <material>
+      <mattext texttype="text/html"><![CDATA[<p>No</p>]]>
+      </mattext>
+     </material>
+    </response_label>
+   </render_choice>
+  </response_lid>
+ </presentation>
+ <resprocessing>
+  <outcomes>
+   <decvar vartype="Integer" defaultval="0" varname="que_score"></decvar>
+  </outcomes>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI8tKmEfGAAMQPCHRinA_RC">
+     0.4640875593730831
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    1
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.4640875593730831_FB"></displayfeedback>
+  </respcondition>
+  <respcondition>
+   <conditionvar>
+    <varequal respident="3foI8tKmEfGAAMQPCHRinA_RC">
+     0.19380164644097708
+    </varequal>
+   </conditionvar>
+   <setvar varname="que_score">
+    0
+   </setvar>
+   <displayfeedback feedbackType="Response" linkrefid="0.19380164644097708_FB"></displayfeedback>
+  </respcondition>
+ </resprocessing>
+ <itemfeedback ident="0.4640875593730831_FB">
+  <material></material>
+ </itemfeedback>
+ <itemfeedback ident="0.19380164644097708_FB">
+  <material>
+   <mattext texttype="text/html"><![CDATA[<p>Revisit the computer lab videos 3.2.2 and 3.2.3, run the notebook from the top, and try again.</p>]]>
+   </mattext>
+  </material>
+ </itemfeedback>
+</item>
+   </section>
+ </assessment>
+</questestinterop>
+      

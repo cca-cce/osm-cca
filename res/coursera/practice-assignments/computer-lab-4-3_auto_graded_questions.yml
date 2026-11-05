@@ -1,0 +1,23 @@
+
+
+- variations: 
+    - typeName: multipleChoice
+      _id: 3foI9tKmEfGAAMQPCHRinA
+      prompt: |-
+          I have successfully executed
+          [notebook](https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=9imFEDEWywwe)
+          code cells from top and focus on sections 4.3.2 - 4.3.3 (Summarizing results of
+          image analysis; Visualizing results of image analysis) and observed notebook
+          cell outputs.
+      shuffleOptions: false
+      options: 
+        - answer: 'Yes'
+          isCorrect: true
+          feedback: ''
+          _id: '0.6987333769255065'
+        - answer: 'No'
+          isCorrect: false
+          feedback: |-
+              Revisit the computer lab videos 4.3.2 and 4.3.3, run the notebook from the top,
+              and try again.
+          _id: '0.13364649288146957'
