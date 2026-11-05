@@ -543,10 +543,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="lecture-video" class="level3">
 <h3 class="anchored" data-anchor-id="lecture-video"><a href="https://huggingface.co/datasets/nils-holmberg/aicasc/resolve/main/4-3-1-x-reenc.mp4" target="_blank">lecture video</a></h3>
-<video controls="" playsinline="" preload="metadata" aria-label="Lecture video 4.3.1" style="width: 100%; height: auto;">
+<video crossorigin="anonymous" data-captions-vtt="https://huggingface.co/datasets/nils-holmberg/aicasc/resolve/main/4-3-1-x-reenc.en.vtt" controls="" playsinline="" preload="metadata" aria-label="Lecture video 4.3.1" style="width: 100%; height: auto;">
   <source src="https://huggingface.co/datasets/nils-holmberg/aicasc/resolve/main/4-3-1-x-reenc.mp4" type="video/mp4">
   Your browser does not support embedded video. <a href="https://huggingface.co/datasets/nils-holmberg/aicasc/resolve/main/4-3-1-x-reenc.mp4">Open the lecture video</a>.
 </video>
+<!-- aicasc-captions:begin -->
+<p><a href="https://huggingface.co/datasets/nils-holmberg/aicasc/resolve/main/4-3-1-x-reenc.en.srt?download=true" target="_blank" rel="noopener">Download English subtitles (SRT)</a> <!-- aicasc-captions:end --></p>
 <!-- aicasc-hf-video:end 4-3-1 -->
 <ul>
 <li><a href="../../../tex/4-3-1-video-lecture-slides.pdf" target="_blank">powerpoint</a></li>
@@ -589,6 +591,89 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+(() => {
+  'use strict';
+  if (window.aicascCaptionLoader) {
+    window.aicascCaptionLoader.init();
+    return;
+  }
+  const states = new WeakMap();
+  const blobs = new Set();
+
+  function fail(video, state) {
+    if (state.failed) return;
+    state.failed = true;
+    video.dataset.captionsState = 'error';
+    if (state.track) state.track.remove();
+    if (state.blob) {
+      URL.revokeObjectURL(state.blob);
+      blobs.delete(state.blob);
+    }
+    const message = document.createElement('p');
+    message.dataset.aicascCaptionMessage = '';
+    message.setAttribute('role', 'status');
+    message.textContent = 'English captions are currently unavailable. You can download the SRT file below.';
+    video.insertAdjacentElement('afterend', message);
+  }
+
+  async function load(video) {
+    if (states.has(video)) return;
+    const state = { failed: false };
+    states.set(video, state);
+    video.dataset.captionsState = 'loading';
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 15000);
+    try {
+      const response = await fetch(video.dataset.captionsVtt, {
+        mode: 'cors', credentials: 'omit', signal: controller.signal
+      });
+      if (!response.ok) throw new Error('Caption request failed');
+      const text = (await response.text()).replace(/^\uFEFF/, '');
+      if (!/^WEBVTT(?:[ \t].*)?(?:\r?\n|$)/.test(text)) throw new Error('Invalid WebVTT');
+      state.blob = URL.createObjectURL(new Blob([text], { type: 'text/vtt' }));
+      blobs.add(state.blob);
+      const track = document.createElement('track');
+      state.track = track;
+      track.kind = 'subtitles';
+      track.srclang = 'en';
+      track.label = 'English';
+      track.default = true;
+      track.addEventListener('load', () => {
+        if (!track.track.cues || !track.track.cues.length) {
+          fail(video, state);
+          return;
+        }
+        track.track.mode = 'showing';
+        video.dataset.captionsState = 'ready';
+      }, { once: true });
+      track.addEventListener('error', () => fail(video, state), { once: true });
+      track.src = state.blob;
+      video.append(track);
+      track.track.mode = 'showing';
+    } catch (_) {
+      fail(video, state);
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  function init() {
+    document.querySelectorAll('video[data-captions-vtt]').forEach(load);
+  }
+  window.aicascCaptionLoader = { init };
+  window.addEventListener('pagehide', event => {
+    if (event.persisted) return;
+    blobs.forEach(url => URL.revokeObjectURL(url));
+    blobs.clear();
+  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init, { once: true });
+  } else {
+    init();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
