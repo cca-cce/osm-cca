@@ -947,67 +947,67 @@
   {
     "objectID": "0-3-course-outro.html",
     "href": "0-3-course-outro.html",
-    "title": "Farewell",
+    "title": "Continue",
     "section": "",
     "text": "script slides",
     "crumbs": [
       "course start",
-      "farewell"
+      "continue"
     ]
   },
   {
-    "objectID": "0-3-course-outro.html#mooc-farewell-address",
-    "href": "0-3-course-outro.html#mooc-farewell-address",
-    "title": "Farewell",
-    "section": "mooc farewell address",
-    "text": "mooc farewell address\nAs we wrap up AI-Aided Content Analysis of Sustainability Communication, let’s reflect on the bridge from decoding digital sustainability messages to exploring their effects on minds and hearts, behaviors and cognitions.",
+    "objectID": "0-3-course-outro.html#mooc-continue-address",
+    "href": "0-3-course-outro.html#mooc-continue-address",
+    "title": "Continue",
+    "section": "mooc continue address",
+    "text": "mooc continue address\nAs we wrap up AI-Aided Content Analysis of Sustainability Communication, let’s reflect on the bridge from decoding digital sustainability messages to exploring their effects on minds and hearts, behaviors and cognitions.",
     "crumbs": [
       "course start",
-      "farewell"
+      "continue"
     ]
   },
   {
     "objectID": "0-3-course-outro.html#paragraph-1",
     "href": "0-3-course-outro.html#paragraph-1",
-    "title": "Farewell",
+    "title": "Continue",
     "section": "paragraph 1",
     "text": "paragraph 1\nNow, take those content features you’ve extracted—themes in climate reports, visuals in greenwashing—and use them to test real effects on audiences. With your low-code skills, design experiments to see how messages shape thoughts and feelings in groups or individuals.",
     "crumbs": [
       "course start",
-      "farewell"
+      "continue"
     ]
   },
   {
     "objectID": "0-3-course-outro.html#paragraph-2",
     "href": "0-3-course-outro.html#paragraph-2",
-    "title": "Farewell",
+    "title": "Continue",
     "section": "paragraph 2",
     "text": "paragraph 2\nStart with surveys: Layer sentiment scores into questions to check attitude shifts—does hopeful framing ease eco-anxiety in young adults? Or try psychophysiological tools like eye-tracking to spot where eyes linger on flood images, or EEG for spikes at guilt trips like “cut your carbon.”",
     "crumbs": [
       "course start",
-      "farewell"
+      "continue"
     ]
   },
   {
     "objectID": "0-3-course-outro.html#paragraph-3",
     "href": "0-3-course-outro.html#paragraph-3",
-    "title": "Farewell",
+    "title": "Continue",
     "section": "paragraph 3",
     "text": "paragraph 3\nFor web-based experiments, it’s easy and inclusive: A/B test urgency in social media posts with web surveys — does it boost arousal in city vs. countryside folks? Track clicks or bias scores right in browsers, revealing how messages empower or alienate diverse groups.",
     "crumbs": [
       "course start",
-      "farewell"
+      "continue"
     ]
   },
   {
     "objectID": "0-3-course-outro.html#paragraph-4",
     "href": "0-3-course-outro.html#paragraph-4",
-    "title": "Farewell",
+    "title": "Continue",
     "section": "paragraph 4",
     "text": "paragraph 4\nLund students, this amps up your theses with mixed methods. Researchers, it’s a toolkit for stronger papers. Public folks, it shows how to critique comms that truly connect.\nYou’ve got the power to test sustainability talk’s real touch. Experiment boldly, question deeply—what if our messages heal more than they inform? Stay curious. Until next time.",
     "crumbs": [
       "course start",
-      "farewell"
+      "continue"
     ]
   },
   {
@@ -1391,7 +1391,7 @@
     "href": "index.html",
     "title": "AI-aided content analysis of sustainability communication",
     "section": "",
-    "text": "index page..",
+    "text": "This course introduces AI-aided content analysis of digital sustainability communication. Organizations in every sector now communicate their sustainability work online, through websites, reports, social media and images. The course shows how this growing body of text and visual content can be collected, organized and analyzed systematically, and how computational methods can help answer questions about how organizations present their environmental and social responsibility.\nAll practical work is done in low-code online notebooks in Google Colab, so you need no software installation and no prior programming experience. With the help of AI-assisted coding, you work step by step through natural language processing of texts and computer vision analysis of images, and learn to summarize, visualize, document and share your results in an open and reproducible way.\nThe course is designed for students and researchers in the social sciences who want to add computational methods to their toolkit without first becoming programmers. It is equally relevant for communication practitioners in the private and public sectors who want to analyze and evaluate sustainability communication, whether their own organization’s or that of others.",
     "crumbs": [
       "course start"
     ]
