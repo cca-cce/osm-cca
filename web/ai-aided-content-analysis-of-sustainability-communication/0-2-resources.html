@@ -4069,6 +4069,21 @@ margin: 0;
 flex: 1 1 auto;
 min-width: 0;
 }
+
+img.slide-thumb {
+display: block;
+width: 100%;
+max-width: 640px;
+height: auto;
+border: 1px solid rgba(255, 255, 255, 0.15);
+border-radius: 6px;
+margin: 0.5rem 0 1rem;
+transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+a:hover > img.slide-thumb {
+transform: translateY(-2px);
+box-shadow: 0 6px 18px rgba(50, 205, 50, 0.25);
+}
 </style>
 </head>
 
