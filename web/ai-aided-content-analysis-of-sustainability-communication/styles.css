@@ -1,1 +1,23 @@
 /* css styles */
+
+/* sidebar: small logo left of the search field (see sidebar-logo.html) */
+#quarto-sidebar .sidebar-header.logo-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+#quarto-sidebar .sidebar-header.logo-search .sidebar-logo-link {
+  flex: 0 0 auto;
+  line-height: 0;
+}
+#quarto-sidebar .sidebar-header.logo-search .sidebar-logo {
+  height: 2.25rem;            /* fallback, script matches the search box height */
+  width: auto;
+  max-width: none;
+  padding: 0;
+  margin: 0;
+}
+#quarto-sidebar .sidebar-header.logo-search .sidebar-search {
+  flex: 1 1 auto;
+  min-width: 0;
+}

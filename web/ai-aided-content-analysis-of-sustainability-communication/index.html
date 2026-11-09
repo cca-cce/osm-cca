@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7e50a8b78544497ab741beb14bf6cddc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7d6e9d192961c0e496f5cc978f6c0dc0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,12 +74,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="icon" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-favicon-180.png">
+<script>
+// move the sidebar search field next to the logo and match the logo height to it
+document.addEventListener("DOMContentLoaded", function () {
+  var header = document.querySelector("#quarto-sidebar .sidebar-header");
+  var search = document.querySelector("#quarto-sidebar .sidebar-search");
+  if (!header || !search || !header.querySelector(".sidebar-logo")) return;
+  var oldWrap = search.parentElement;
+  header.classList.add("logo-search");
+  header.appendChild(search);
+  if (oldWrap && oldWrap.children.length === 0) oldWrap.remove();
+  function fit() {
+    var box = search.querySelector(".aa-Form, .aa-DetachedSearchButton, input");
+    if (box && box.offsetHeight) {
+      header.querySelectorAll(".sidebar-logo").forEach(function (img) {
+        img.style.height = box.offsetHeight + "px";
+      });
+    }
+  }
+  setTimeout(fit, 300);
+  window.addEventListener("resize", fit);
+});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<body class="nav-sidebar floating fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -102,9 +128,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">osm-cca</a> 
-    </div>
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-256.svg" alt="osm-cca logo" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-256.svg" alt="osm-cca logo" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -492,23 +519,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#module01-understanding-sustainability-communication-content-10pct" id="toc-module01-understanding-sustainability-communication-content-10pct" class="nav-link active" data-scroll-target="#module01-understanding-sustainability-communication-content-10pct">module01-understanding-sustainability-communication-content-10pct</a></li>
-  <li><a href="#module02-introduction-to-low-code-python-programming-20pct" id="toc-module02-introduction-to-low-code-python-programming-20pct" class="nav-link" data-scroll-target="#module02-introduction-to-low-code-python-programming-20pct">module02-introduction-to-low-code-python-programming-20pct</a></li>
-  <li><a href="#module03-analyzing-text-content-natural-language-processing-30pct" id="toc-module03-analyzing-text-content-natural-language-processing-30pct" class="nav-link" data-scroll-target="#module03-analyzing-text-content-natural-language-processing-30pct">module03-analyzing-text-content-natural-language-processing-30pct</a></li>
-  <li><a href="#module04-analyzing-image-content-computer-vision-30pct" id="toc-module04-analyzing-image-content-computer-vision-30pct" class="nav-link" data-scroll-target="#module04-analyzing-image-content-computer-vision-30pct">module04-analyzing-image-content-computer-vision-30pct</a></li>
-  <li><a href="#module05-ethical-aspects-of-ai-aided-content-analysis-10pct" id="toc-module05-ethical-aspects-of-ai-aided-content-analysis-10pct" class="nav-link" data-scroll-target="#module05-ethical-aspects-of-ai-aided-content-analysis-10pct">module05-ethical-aspects-of-ai-aided-content-analysis-10pct</a></li>
-  <li><a href="#overview-of-mooc-course-ca-10-lessons-x-3-hours-work" id="toc-overview-of-mooc-course-ca-10-lessons-x-3-hours-work" class="nav-link" data-scroll-target="#overview-of-mooc-course-ca-10-lessons-x-3-hours-work">overview of mooc course (ca 10 lessons x 3 hours work)</a>
-  <ul class="collapse">
-  <li><a href="#check-list-for-setting-up-screen-recordings" id="toc-check-list-for-setting-up-screen-recordings" class="nav-link" data-scroll-target="#check-list-for-setting-up-screen-recordings">check list for setting up screen recordings</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content" tabindex="-1">
 
@@ -536,55 +547,55 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="module01-understanding-sustainability-communication-content-10pct">module01-understanding-sustainability-communication-content-10pct</h2>
 <ul>
 <li>aicasc: <a href="./module01-understanding-sustainability-communication-content-10pct/1-1-1-video-lecture.html">sustainability communication content</a></li>
-<li>aicasc: <a href="./module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html">find online sustainability communication</a></li>
-<li>aicasc: <a href="./module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html">setting up an initial content database</a></li>
+<li>aicasc: <a href="./module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html">find online sustainability communication</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module01_understanding_sustainability_communication_content_10pct.ipynb#scrollTo=FsOKpBlkDfLb" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html">setting up an initial content database</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module01_understanding_sustainability_communication_content_10pct.ipynb#scrollTo=DAGgfA_HDfLd" target="_blank">Colab notebook</a></li>
 </ul>
 </section>
 <section id="module02-introduction-to-low-code-python-programming-20pct" class="level2">
 <h2 class="anchored" data-anchor-id="module02-introduction-to-low-code-python-programming-20pct">module02-introduction-to-low-code-python-programming-20pct</h2>
 <ul>
 <li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-1-1-video-lecture.html">ai-aided and low-code programming</a></li>
-<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html">google colab notebook user interface</a></li>
-<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-1-3-computer-lab.html">trying out some low-code python</a></li>
+<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html">google colab notebook user interface</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module02_introduction_to_low_code_python_programming_20pct.ipynb#scrollTo=f2q0F72ivrqU" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-1-3-computer-lab.html">trying out some low-code python</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module02_introduction_to_low_code_python_programming_20pct.ipynb#scrollTo=w6nIW-cLvrqY" target="_blank">Colab notebook</a></li>
 <li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html">python and computational data analysis</a></li>
-<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html">low-code data analysis, tables</a></li>
-<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html">low-code data analysis, graphs</a></li>
+<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html">low-code data analysis, tables</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module02_introduction_to_low_code_python_programming_20pct.ipynb#scrollTo=L6K72KWwvrqa" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html">low-code data analysis, graphs</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module02_introduction_to_low_code_python_programming_20pct.ipynb#scrollTo=9DKdQMlyvrqa" target="_blank">Colab notebook</a></li>
 </ul>
 </section>
 <section id="module03-analyzing-text-content-natural-language-processing-30pct" class="level2">
 <h2 class="anchored" data-anchor-id="module03-analyzing-text-content-natural-language-processing-30pct">module03-analyzing-text-content-natural-language-processing-30pct</h2>
 <ul>
 <li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html">natural language processing (NLP) in social science</a></li>
-<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html">reading text into dataframes</a></li>
-<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html">descriptive text analysis</a></li>
+<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html">reading text into dataframes</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=cED93ePCoeSv" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html">descriptive text analysis</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=x1eozWoToeSx" target="_blank">Colab notebook</a></li>
 <li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html">part-of-speech and named entity recognition</a></li>
-<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html">inferential text analysis, tokenization</a></li>
-<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html">inferential text analysis, POS and NER</a></li>
+<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html">inferential text analysis, tokenization</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=U-33FgoGoeSx" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html">inferential text analysis, POS and NER</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=lNKulZnsoeSy" target="_blank">Colab notebook</a></li>
 <li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-3-1-video-lecture.html">interpreting the results of NLP analysis</a></li>
-<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html">summarizing results of text analysis</a></li>
-<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html">visualizing results of text analysis</a></li>
+<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html">summarizing results of text analysis</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=NE2jIyFRoeSz" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html">visualizing results of text analysis</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module03_analyzing_text_content_natural_language_processing_30pct.ipynb#scrollTo=VVYnOAotoeSz" target="_blank">Colab notebook</a></li>
 </ul>
 </section>
 <section id="module04-analyzing-image-content-computer-vision-30pct" class="level2">
 <h2 class="anchored" data-anchor-id="module04-analyzing-image-content-computer-vision-30pct">module04-analyzing-image-content-computer-vision-30pct</h2>
 <ul>
 <li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-1-1-video-lecture.html">computer vision (CV) in social science</a></li>
-<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-1-2-computer-lab.html">reading images into dataframes</a></li>
-<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-1-3-computer-lab.html">descriptive image analysis</a></li>
+<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-1-2-computer-lab.html">reading images into dataframes</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=7TxmnqoLywwa" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-1-3-computer-lab.html">descriptive image analysis</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=gJWV7LG3ywwc" target="_blank">Colab notebook</a></li>
 <li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-2-1-video-lecture.html">image classification and object detection</a></li>
-<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-2-2-computer-lab.html">inferential image analysis, classification</a></li>
-<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-2-3-computer-lab.html">inferential image analysis, object detection</a></li>
+<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-2-2-computer-lab.html">inferential image analysis, classification</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=tFPlMewXywwd" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-2-3-computer-lab.html">inferential image analysis, object detection</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=OVJ-Nfnkywwd" target="_blank">Colab notebook</a></li>
 <li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-3-1-video-lecture.html">interpreting the results of CV analysis</a></li>
-<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-3-2-computer-lab.html">summarizing results of image analysis</a></li>
-<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-3-3-computer-lab.html">summarizing results of image analysis</a></li>
+<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-3-2-computer-lab.html">summarizing results of image analysis</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=9imFEDEWywwe" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module04-analyzing-image-content-computer-vision-30pct/4-3-3-computer-lab.html">summarizing results of image analysis</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module04_analyzing_image_content_computer_vision_30pct.ipynb#scrollTo=s1RkNeTDywwf" target="_blank">Colab notebook</a></li>
 </ul>
 </section>
 <section id="module05-ethical-aspects-of-ai-aided-content-analysis-10pct" class="level2">
 <h2 class="anchored" data-anchor-id="module05-ethical-aspects-of-ai-aided-content-analysis-10pct">module05-ethical-aspects-of-ai-aided-content-analysis-10pct</h2>
 <ul>
 <li>aicasc: <a href="./module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-1-video-lecture.html">key takeaways and ethical perspectives</a></li>
-<li>aicasc: <a href="./module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-2-computer-lab.html">analysis documentation and open science</a></li>
-<li>aicasc: <a href="./module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-3-computer-lab.html">communicating ai-aided content analysis</a></li>
+<li>aicasc: <a href="./module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-2-computer-lab.html">analysis documentation and open science</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module05_ethical_aspects_of_ai_aided_content_analysis_10pct.ipynb#scrollTo=as3zaxEnJZRc" target="_blank">Colab notebook</a></li>
+<li>aicasc: <a href="./module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-3-computer-lab.html">communicating ai-aided content analysis</a> · <a href="https://colab.research.google.com/github/cca-cce/osm-cca/blob/main/jnb/aicasc/module05_ethical_aspects_of_ai_aided_content_analysis_10pct.ipynb#scrollTo=PrFF9KJZJZRg" target="_blank">Colab notebook</a></li>
 </ul>
 <hr>
 </section>

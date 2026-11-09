@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-7e50a8b78544497ab741beb14bf6cddc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-7d6e9d192961c0e496f5cc978f6c0dc0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,12 +74,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="icon" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-favicon-180.png">
+<script>
+// move the sidebar search field next to the logo and match the logo height to it
+document.addEventListener("DOMContentLoaded", function () {
+  var header = document.querySelector("#quarto-sidebar .sidebar-header");
+  var search = document.querySelector("#quarto-sidebar .sidebar-search");
+  if (!header || !search || !header.querySelector(".sidebar-logo")) return;
+  var oldWrap = search.parentElement;
+  header.classList.add("logo-search");
+  header.appendChild(search);
+  if (oldWrap && oldWrap.children.length === 0) oldWrap.remove();
+  function fit() {
+    var box = search.querySelector(".aa-Form, .aa-DetachedSearchButton, input");
+    if (box && box.offsetHeight) {
+      header.querySelectorAll(".sidebar-logo").forEach(function (img) {
+        img.style.height = box.offsetHeight + "px";
+      });
+    }
+  }
+  setTimeout(fit, 300);
+  window.addEventListener("resize", fit);
+});
+</script>
 
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<body class="nav-sidebar floating fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -102,9 +128,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">osm-cca</a> 
-    </div>
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-256.svg" alt="osm-cca logo" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="https://raw.githubusercontent.com/nils-holmberg/resn-dev/main/res/avatar/avatar-256.svg" alt="osm-cca logo" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -492,32 +519,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#lesson-3-1" id="toc-lesson-3-1" class="nav-link active" data-scroll-target="#lesson-3-1">lesson 3-1</a>
-  <ul class="collapse">
-  <li><a href="#video-lecture.qmdnatural-language-processing-nlp-in-social-science" id="toc-video-lecture.qmdnatural-language-processing-nlp-in-social-science" class="nav-link" data-scroll-target="#video-lecture.qmdnatural-language-processing-nlp-in-social-science">video-lecture.qmd:Natural language processing (NLP) in social science</a></li>
-  <li><a href="#computer-lab.qmdreading-text-into-dataframes" id="toc-computer-lab.qmdreading-text-into-dataframes" class="nav-link" data-scroll-target="#computer-lab.qmdreading-text-into-dataframes">computer-lab.qmd:Reading text into dataframes</a></li>
-  <li><a href="#computer-lab.qmddescriptive-text-analysis" id="toc-computer-lab.qmddescriptive-text-analysis" class="nav-link" data-scroll-target="#computer-lab.qmddescriptive-text-analysis">computer-lab.qmd:Descriptive text analysis</a></li>
-  </ul></li>
-  <li><a href="#lesson-3-2" id="toc-lesson-3-2" class="nav-link" data-scroll-target="#lesson-3-2">lesson 3-2</a>
-  <ul class="collapse">
-  <li><a href="#video-lecture.qmdpart-of-speech-and-named-entity-recognition" id="toc-video-lecture.qmdpart-of-speech-and-named-entity-recognition" class="nav-link" data-scroll-target="#video-lecture.qmdpart-of-speech-and-named-entity-recognition">video-lecture.qmd:Part-of-speech and named entity recognition</a></li>
-  <li><a href="#computer-lab.qmdinferential-text-analysis-tokenization" id="toc-computer-lab.qmdinferential-text-analysis-tokenization" class="nav-link" data-scroll-target="#computer-lab.qmdinferential-text-analysis-tokenization">computer-lab.qmd:Inferential text analysis, tokenization</a></li>
-  <li><a href="#computer-lab.qmdinferential-text-analysis-pos-and-ner" id="toc-computer-lab.qmdinferential-text-analysis-pos-and-ner" class="nav-link" data-scroll-target="#computer-lab.qmdinferential-text-analysis-pos-and-ner">computer-lab.qmd:Inferential text analysis, POS and NER</a></li>
-  </ul></li>
-  <li><a href="#lesson-3-3" id="toc-lesson-3-3" class="nav-link" data-scroll-target="#lesson-3-3">lesson 3-3</a>
-  <ul class="collapse">
-  <li><a href="#video-lecture.qmdinterpreting-the-results-of-nlp-analysis" id="toc-video-lecture.qmdinterpreting-the-results-of-nlp-analysis" class="nav-link" data-scroll-target="#video-lecture.qmdinterpreting-the-results-of-nlp-analysis">video-lecture.qmd:Interpreting the results of NLP analysis</a></li>
-  <li><a href="#computer-lab.qmdsummarizing-results-of-text-analysis" id="toc-computer-lab.qmdsummarizing-results-of-text-analysis" class="nav-link" data-scroll-target="#computer-lab.qmdsummarizing-results-of-text-analysis">computer-lab.qmd:Summarizing results of text analysis</a></li>
-  <li><a href="#computer-lab.qmdvisualizing-results-of-text-analysis" id="toc-computer-lab.qmdvisualizing-results-of-text-analysis" class="nav-link" data-scroll-target="#computer-lab.qmdvisualizing-results-of-text-analysis">computer-lab.qmd:Visualizing results of text analysis</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content" tabindex="-1">
 
@@ -541,40 +543,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="lesson-3-1" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-3-1">lesson 3-1</h2>
-<section id="video-lecture.qmdnatural-language-processing-nlp-in-social-science" class="level3">
-<h3 class="anchored" data-anchor-id="video-lecture.qmdnatural-language-processing-nlp-in-social-science">video-lecture.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html">Natural language processing (NLP) in social science</a></h3>
+<p>This module applies natural language processing (NLP) to the texts in your sustainability communication database. You read texts into dataframes, describe them, annotate them with tokens, parts of speech and named entities, and summarize and visualize the results.</p>
+<section id="lesson-3.1" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3.1">Lesson 3.1</h2>
+<p>This lesson introduces natural language processing (NLP) in social science. The video lecture presents the field, and in the computer labs you convert PDF documents to plain text, read the texts into a dataframe and compute descriptive text statistics.</p>
+<section id="video-lecture.qmd-natural-language-processing-nlp-in-social-science" class="level3">
+<h3 class="anchored" data-anchor-id="video-lecture.qmd-natural-language-processing-nlp-in-social-science">video-lecture.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-1-video-lecture.html">Natural language processing (NLP) in social science</a></h3>
 </section>
-<section id="computer-lab.qmdreading-text-into-dataframes" class="level3">
-<h3 class="anchored" data-anchor-id="computer-lab.qmdreading-text-into-dataframes">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html">Reading text into dataframes</a></h3>
+<section id="computer-lab.qmd-reading-text-into-dataframes" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmd-reading-text-into-dataframes">computer-lab.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html">Reading text into dataframes</a></h3>
 </section>
-<section id="computer-lab.qmddescriptive-text-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="computer-lab.qmddescriptive-text-analysis">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html">Descriptive text analysis</a></h3>
-</section>
-</section>
-<section id="lesson-3-2" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-3-2">lesson 3-2</h2>
-<section id="video-lecture.qmdpart-of-speech-and-named-entity-recognition" class="level3">
-<h3 class="anchored" data-anchor-id="video-lecture.qmdpart-of-speech-and-named-entity-recognition">video-lecture.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html">Part-of-speech and named entity recognition</a></h3>
-</section>
-<section id="computer-lab.qmdinferential-text-analysis-tokenization" class="level3">
-<h3 class="anchored" data-anchor-id="computer-lab.qmdinferential-text-analysis-tokenization">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html">Inferential text analysis, tokenization</a></h3>
-</section>
-<section id="computer-lab.qmdinferential-text-analysis-pos-and-ner" class="level3">
-<h3 class="anchored" data-anchor-id="computer-lab.qmdinferential-text-analysis-pos-and-ner">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html">Inferential text analysis, POS and NER</a></h3>
+<section id="computer-lab.qmd-descriptive-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmd-descriptive-text-analysis">computer-lab.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html">Descriptive text analysis</a></h3>
 </section>
 </section>
-<section id="lesson-3-3" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-3-3">lesson 3-3</h2>
-<section id="video-lecture.qmdinterpreting-the-results-of-nlp-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="video-lecture.qmdinterpreting-the-results-of-nlp-analysis">video-lecture.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-1-video-lecture.html">Interpreting the results of NLP analysis</a></h3>
+<section id="lesson-3.2" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3.2">Lesson 3.2</h2>
+<p>This lesson covers inferential text analysis. The video lecture explains part-of-speech tagging and named entity recognition, and in the computer labs you split texts into sentences and tokens with spaCy and annotate each token with its part of speech and entity type.</p>
+<section id="video-lecture.qmd-part-of-speech-and-named-entity-recognition" class="level3">
+<h3 class="anchored" data-anchor-id="video-lecture.qmd-part-of-speech-and-named-entity-recognition">video-lecture.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-1-video-lecture.html">Part-of-speech and named entity recognition</a></h3>
 </section>
-<section id="computer-lab.qmdsummarizing-results-of-text-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="computer-lab.qmdsummarizing-results-of-text-analysis">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html">Summarizing results of text analysis</a></h3>
+<section id="computer-lab.qmd-inferential-text-analysis-tokenization" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmd-inferential-text-analysis-tokenization">computer-lab.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html">Inferential text analysis, tokenization</a></h3>
 </section>
-<section id="computer-lab.qmdvisualizing-results-of-text-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="computer-lab.qmdvisualizing-results-of-text-analysis">computer-lab.qmd:<a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html">Visualizing results of text analysis</a></h3>
+<section id="computer-lab.qmd-inferential-text-analysis-pos-and-ner" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmd-inferential-text-analysis-pos-and-ner">computer-lab.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html">Inferential text analysis, POS and NER</a></h3>
+</section>
+</section>
+<section id="lesson-3.3" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3.3">Lesson 3.3</h2>
+<p>This lesson is about interpreting the results of NLP analysis. The video lecture discusses how to make sense of the results, and in the computer labs you summarize word frequencies by organization and part of speech and visualize them as bar plots.</p>
+<section id="video-lecture.qmd-interpreting-the-results-of-nlp-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="video-lecture.qmd-interpreting-the-results-of-nlp-analysis">video-lecture.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-1-video-lecture.html">Interpreting the results of NLP analysis</a></h3>
+</section>
+<section id="computer-lab.qmd-summarizing-results-of-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmd-summarizing-results-of-text-analysis">computer-lab.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html">Summarizing results of text analysis</a></h3>
+</section>
+<section id="computer-lab.qmd-visualizing-results-of-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="computer-lab.qmd-visualizing-results-of-text-analysis">computer-lab.qmd: <a href="../module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html">Visualizing results of text analysis</a></h3>
 
 
 </section>

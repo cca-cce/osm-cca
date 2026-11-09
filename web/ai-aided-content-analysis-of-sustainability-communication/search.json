@@ -53,7 +53,7 @@
     "href": "module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html",
     "title": "Module 1: Understanding sustainability communication content",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you will set up an initial content database for your project. The collected PDF files are organized in a single project directory with one subdirectory per organization, so that the folder structure itself records which organization each document comes from. This simple convention is what later code uses to group and compare results.\nYou then make the content available online, either through Google Drive or a GitHub repository, and learn how to bring it into a Google Colab session. The notebook shows how to compress the project directory into a zip file, upload it to the Colab file area, and unzip it so that the documents are ready for text and image analysis.",
     "crumbs": [
       "module 1",
       "lesson 1.1",
@@ -65,7 +65,7 @@
     "href": "module01-understanding-sustainability-communication-content-10pct/1-1-3-computer-lab.html#lesson-1.1-setting-up-an-initial-content-database",
     "title": "Module 1: Understanding sustainability communication content",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you will set up an initial content database for your project. The collected PDF files are organized in a single project directory with one subdirectory per organization, so that the folder structure itself records which organization each document comes from. This simple convention is what later code uses to group and compare results.\nYou then make the content available online, either through Google Drive or a GitHub repository, and learn how to bring it into a Google Colab session. The notebook shows how to compress the project directory into a zip file, upload it to the Colab file area, and unzip it so that the documents are ready for text and image analysis.",
     "crumbs": [
       "module 1",
       "lesson 1.1",
@@ -73,11 +73,31 @@
     ]
   },
   {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/index.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/index.html",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "",
+    "text": "This module introduces sustainability communication as material for content analysis. You learn what characterizes the sustainability content that organizations publish online, and how to collect and organize such content into a small database for analysis in the rest of the course.",
+    "crumbs": [
+      "module 1"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/index.html#lesson-1.1",
+    "href": "module01-understanding-sustainability-communication-content-10pct/index.html#lesson-1.1",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "Lesson 1.1",
+    "text": "Lesson 1.1\nThis lesson introduces sustainability communication content and how it can be studied. The video lecture presents the topic, and in the computer labs you find online sustainability communication from contrasting organizations and set up an initial content database.\n\nvideo-lecture.qmd: Sustainability communication content\n\n\ncomputer-lab.qmd: Find online sustainability communication\n\n\ncomputer-lab.qmd: Setting up an initial content database",
+    "crumbs": [
+      "module 1"
+    ]
+  },
+  {
     "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-3-computer-lab.html",
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-3-computer-lab.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab introduces descriptive image analysis. You read and display images, and for each image file record basic properties such as width, height, number of color channels and total pixel count in a dataframe, which makes it possible to compare the image material of the organizations.\nYou also extract simple visual features: color information, shown as color histograms, and edge information, computed with edge detection. These low-level features show how computers represent images as numbers, and prepare you for the AI models used in the next lesson.",
     "crumbs": [
       "module 4",
       "lesson 4.1",
@@ -89,7 +109,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-3-computer-lab.html#lesson-4.1-descriptive-image-analysis",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab introduces descriptive image analysis. You read and display images, and for each image file record basic properties such as width, height, number of color channels and total pixel count in a dataframe, which makes it possible to compare the image material of the organizations.\nYou also extract simple visual features: color information, shown as color histograms, and edge information, computed with edge detection. These low-level features show how computers represent images as numbers, and prepare you for the AI models used in the next lesson.",
     "crumbs": [
       "module 4",
       "lesson 4.1",
@@ -125,7 +145,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-3-computer-lab.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab moves from classifying whole images to detecting objects within them. You load a DETR object detection model from Hugging Face, which finds individual objects in an image, labels them and marks their location with bounding boxes.\nTesting the model on sample images from the content database, you draw the detected boxes and labels on the image and inspect the confidence scores. Object detection shows what is actually depicted in sustainability imagery, such as people, vehicles or buildings, and where in the picture it appears.",
     "crumbs": [
       "module 4",
       "lesson 4.2",
@@ -137,7 +157,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-3-computer-lab.html#lesson-4.2-inferential-image-analysis-object-detection",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab moves from classifying whole images to detecting objects within them. You load a DETR object detection model from Hugging Face, which finds individual objects in an image, labels them and marks their location with bounding boxes.\nTesting the model on sample images from the content database, you draw the detected boxes and labels on the image and inspect the confidence scores. Object detection shows what is actually depicted in sustainability imagery, such as people, vehicles or buildings, and where in the picture it appears.",
     "crumbs": [
       "module 4",
       "lesson 4.2",
@@ -145,21 +165,41 @@
     ]
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-2",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html",
     "title": "Module 4: Analyzing image content with computer vision",
-    "section": "lesson 4-2",
-    "text": "lesson 4-2\n\nvideo-lecture.qmd:Image classification and object detection\n\n\ncomputer-lab.qmd:Inferential image analysis, classification\n\n\ncomputer-lab.qmd:Inferential image analysis, object detection",
+    "section": "",
+    "text": "This module applies computer vision (CV) to the images in your sustainability communication database. You extract images from documents, describe their visual properties, classify them and detect objects with pre-trained AI models, and summarize and visualize the results.",
     "crumbs": [
       "module 4"
     ]
   },
   {
-    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
-    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4-3",
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4.1",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4.1",
     "title": "Module 4: Analyzing image content with computer vision",
-    "section": "lesson 4-3",
-    "text": "lesson 4-3\n\nvideo-lecture.qmd:Interpreting the results of CV analysis\n\n\ncomputer-lab.qmd:Summarizing results of image analysis\n\n\ncomputer-lab.qmd:Visualizing results of image analysis",
+    "section": "Lesson 4.1",
+    "text": "Lesson 4.1\nThis lesson introduces computer vision (CV) in social science. The video lecture presents the field, and in the computer labs you extract images from PDF documents, read them into Python and describe their size, color and edge features.\n\nvideo-lecture.qmd: Computer vision (CV) in social science\n\n\ncomputer-lab.qmd: Reading images into dataframes\n\n\ncomputer-lab.qmd: Descriptive image analysis",
+    "crumbs": [
+      "module 4"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4.2",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4.2",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Lesson 4.2",
+    "text": "Lesson 4.2\nThis lesson covers inferential image analysis. The video lecture explains image classification and object detection, and in the computer labs you use pre-trained Hugging Face models to classify images and to detect and locate objects within them.\n\nvideo-lecture.qmd: Image classification and object detection\n\n\ncomputer-lab.qmd: Inferential image analysis, classification\n\n\ncomputer-lab.qmd: Inferential image analysis, object detection",
+    "crumbs": [
+      "module 4"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4.3",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/index.html#lesson-4.3",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "Lesson 4.3",
+    "text": "Lesson 4.3\nThis lesson is about interpreting the results of CV analysis. The video lecture discusses how to make sense of the results, and in the computer labs you summarize the image classification labels by organization and visualize them together with object detection results.\n\nvideo-lecture.qmd: Interpreting the results of CV analysis\n\n\ncomputer-lab.qmd: Summarizing results of image analysis\n\n\ncomputer-lab.qmd: Visualizing results of image analysis",
     "crumbs": [
       "module 4"
     ]
@@ -218,7 +258,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-2-computer-lab.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you summarize the results of the image analysis. You read the saved image classification results and split the predicted class labels into individual words, so that similar labels can be counted together.\nYou then aggregate the label words by organization, keep the ten most frequent for each, and save the summary table as a TSV file. This gives a compact overview of what kinds of motifs dominate the images of each organization.",
     "crumbs": [
       "module 4",
       "lesson 4.3",
@@ -230,7 +270,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-2-computer-lab.html#lesson-4.3-summarizing-results-of-image-analysis",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you summarize the results of the image analysis. You read the saved image classification results and split the predicted class labels into individual words, so that similar labels can be counted together.\nYou then aggregate the label words by organization, keep the ten most frequent for each, and save the summary table as a TSV file. This gives a compact overview of what kinds of motifs dominate the images of each organization.",
     "crumbs": [
       "module 4",
       "lesson 4.3",
@@ -238,11 +278,33 @@
     ]
   },
   {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "This lesson is about interpreting the results of CV analysis. The video lecture discusses how to make sense of the results, and in the computer labs you summarize the image classification labels by organization and visualize them together with object detection results.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.3"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html#lesson-4.3",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-lesson.html#lesson-4.3",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "This lesson is about interpreting the results of CV analysis. The video lecture discusses how to make sense of the results, and in the computer labs you summarize the image classification labels by organization and visualize them together with object detection results.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.3"
+    ]
+  },
+  {
     "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-3-3-computer-lab.html",
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-3-computer-lab.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab visualizes and interprets the results of the image analysis. Using the summary table from the previous lab, you create a grouped bar plot with seaborn that compares the most frequent image labels across organizations.\nYou also revisit the object detection results by displaying annotated images with bounding boxes. The lab ends by discussing how these visualizations relate to your research questions, and what they can and cannot tell us about how organizations communicate sustainability visually.",
     "crumbs": [
       "module 4",
       "lesson 4.3",
@@ -254,7 +316,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-3-3-computer-lab.html#lesson-4.3-visualizing-results-of-image-analysis",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab visualizes and interprets the results of the image analysis. Using the summary table from the previous lab, you create a grouped bar plot with seaborn that compares the most frequent image labels across organizations.\nYou also revisit the object detection results by displaying annotated images with bounding boxes. The lab ends by discussing how these visualizations relate to your research questions, and what they can and cannot tell us about how organizations communicate sustainability visually.",
     "crumbs": [
       "module 4",
       "lesson 4.3",
@@ -310,7 +372,7 @@
     "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-2-computer-lab.html",
     "title": "Module 5: Ethical aspects of AI-aided content analysis",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab focuses on documenting AI-aided content analysis in line with open science principles. Storing data, code and results in accessible formats, using cloud platforms and version control, and sharing notebooks through services such as GitHub and nbviewer make an analysis transparent and reproducible.\nYou look at what makes Jupyter notebooks useful for research, combining code, narrative and results in one document, and work through a short example study with an introduction, research question, visualization and interpretation. Finally, you download the notebook in .ipynb format as a record of your own analysis.",
     "crumbs": [
       "module 5",
       "lesson 5.1",
@@ -322,11 +384,53 @@
     "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-2-computer-lab.html#lesson-5.1-analysis-documentation-and-open-science",
     "title": "Module 5: Ethical aspects of AI-aided content analysis",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab focuses on documenting AI-aided content analysis in line with open science principles. Storing data, code and results in accessible formats, using cloud platforms and version control, and sharing notebooks through services such as GitHub and nbviewer make an analysis transparent and reproducible.\nYou look at what makes Jupyter notebooks useful for research, combining code, narrative and results in one document, and work through a short example study with an introduction, research question, visualization and interpretation. Finally, you download the notebook in .ipynb format as a record of your own analysis.",
     "crumbs": [
       "module 5",
       "lesson 5.1",
       "computer lab 5.1.2"
+    ]
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "",
+    "text": "This lesson rounds off the course with key takeaways and ethical perspectives on AI-aided content analysis. In the computer labs you document your analysis in line with open science practices and turn your notebook into a shareable publication with Quarto.",
+    "crumbs": [
+      "module 5",
+      "lesson 5.1"
+    ]
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html#lesson-5.1",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-lesson.html#lesson-5.1",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "",
+    "text": "This lesson rounds off the course with key takeaways and ethical perspectives on AI-aided content analysis. In the computer labs you document your analysis in line with open science practices and turn your notebook into a shareable publication with Quarto.",
+    "crumbs": [
+      "module 5",
+      "lesson 5.1"
+    ]
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/index.html",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/index.html",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "",
+    "text": "This module concludes the course with the ethical aspects of AI-aided content analysis. You reflect on the key takeaways from the course, and learn how to document your analysis according to open science principles and communicate it to others.",
+    "crumbs": [
+      "module 5"
+    ]
+  },
+  {
+    "objectID": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/index.html#lesson-5.1",
+    "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/index.html#lesson-5.1",
+    "title": "Module 5: Ethical aspects of AI-aided content analysis",
+    "section": "Lesson 5.1",
+    "text": "Lesson 5.1\nThis lesson rounds off the course with key takeaways and ethical perspectives on AI-aided content analysis. In the computer labs you document your analysis in line with open science practices and turn your notebook into a shareable publication with Quarto.\n\nvideo-lecture.qmd: Key takeaways and ethical perspectives\n\n\ncomputer-lab.qmd: Analysis documentation and open science\n\n\ncomputer-lab.qmd: Communicating AI-aided content analysis",
+    "crumbs": [
+      "module 5"
     ]
   },
   {
@@ -422,7 +526,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab applies AI-assisted coding to tabular data analysis with the pandas library. Using short prompts, you generate a small example dataframe with an integer identifier, a random numeric variable and a categorical variable, and inspect its structure.\nYou then aggregate the data, calculating the mean of the numeric variable for each category, and save both the original and the aggregated tables as tab-separated (TSV) files. Loading the files back into dataframes shows how intermediate results can be stored and reused between notebook sessions.",
     "crumbs": [
       "module 2",
       "lesson 2.2",
@@ -434,7 +538,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-2-computer-lab.html#lesson-2.2-low-code-data-analysis-tables",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab applies AI-assisted coding to tabular data analysis with the pandas library. Using short prompts, you generate a small example dataframe with an integer identifier, a random numeric variable and a categorical variable, and inspect its structure.\nYou then aggregate the data, calculating the mean of the numeric variable for each category, and save both the original and the aggregated tables as tab-separated (TSV) files. Loading the files back into dataframes shows how intermediate results can be stored and reused between notebook sessions.",
     "crumbs": [
       "module 2",
       "lesson 2.2",
@@ -446,7 +550,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you turn tables into graphs using AI-assisted data visualization. After loading the aggregated data saved in the previous lab, you prompt the assistant to create a bar plot of the category means with matplotlib, and adjust the appearance of the plot, such as axis limits and labels.\nYou go on to create line graphs with seaborn, and explore the seaborn example gallery to try more advanced plot types. The aim is to see how quickly a visualization can be produced from a clear prompt, and how to refine it until it communicates the result well.",
     "crumbs": [
       "module 2",
       "lesson 2.2",
@@ -458,7 +562,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-3-computer-lab.html#lesson-2.2-low-code-data-analysis-graphs",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you turn tables into graphs using AI-assisted data visualization. After loading the aggregated data saved in the previous lab, you prompt the assistant to create a bar plot of the category means with matplotlib, and adjust the appearance of the plot, such as axis limits and labels.\nYou go on to create line graphs with seaborn, and explore the seaborn example gallery to try more advanced plot types. The aim is to see how quickly a visualization can be produced from a clear prompt, and how to refine it until it communicates the result well.",
     "crumbs": [
       "module 2",
       "lesson 2.2",
@@ -515,6 +619,28 @@
     "text": "Multivariate and Interactive Graphs\n\nVisualize relationships between three or more variables\nUse scatter matrices, heatmaps, or bubble charts\nAdd interactivity with plotly, altair, or holoviews\nUse AI to refine visual layouts and variable selections\nEnable dynamic exploration of patterns in large datasets"
   },
   {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "",
+    "text": "This lesson applies low-code Python to data analysis. The video lecture shows how Python supports computational data analysis, and in the computer labs you use AI-assisted coding to create, aggregate and save tables, and to visualize them as graphs.",
+    "crumbs": [
+      "module 2",
+      "lesson 2.2"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html#lesson-2.2",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-lesson.html#lesson-2.2",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "",
+    "text": "This lesson applies low-code Python to data analysis. The video lecture shows how Python supports computational data analysis, and in the computer labs you use AI-assisted coding to create, aggregate and save tables, and to visualize them as graphs.",
+    "crumbs": [
+      "module 2",
+      "lesson 2.2"
+    ]
+  },
+  {
     "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-2-1-video-lecture.html",
     "title": "Module 2: Introduction to low-code Python programming",
@@ -539,11 +665,33 @@
     ]
   },
   {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "",
+    "text": "This lesson introduces AI-aided and low-code programming. The video lecture explains the approach, and in the computer labs you get to know the Google Colab notebook interface and try out writing Python code with the help of an AI assistant.",
+    "crumbs": [
+      "module 2",
+      "lesson 2.1"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html#lesson-2.1",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-lesson.html#lesson-2.1",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "",
+    "text": "This lesson introduces AI-aided and low-code programming. The video lecture explains the approach, and in the computer labs you get to know the Google Colab notebook interface and try out writing Python code with the help of an AI assistant.",
+    "crumbs": [
+      "module 2",
+      "lesson 2.1"
+    ]
+  },
+  {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html",
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab moves from collecting texts to describing them. Working with the dataframe of cleaned texts from the previous lab, you add columns with basic text statistics for each document, such as word counts, character counts and average word length, and compare these figures between the two organizations.\nYou also download a pre-trained English language model for the spaCy library. This model is the foundation for the inferential text analysis in the next lesson, where texts are split into sentences and tokens and annotated with grammatical and semantic information.",
     "crumbs": [
       "module 3",
       "lesson 3.1",
@@ -555,7 +703,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-3-computer-lab.html#lesson-3.1-descriptive-text-analysis",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab moves from collecting texts to describing them. Working with the dataframe of cleaned texts from the previous lab, you add columns with basic text statistics for each document, such as word counts, character counts and average word length, and compare these figures between the two organizations.\nYou also download a pre-trained English language model for the spaCy library. This model is the foundation for the inferential text analysis in the next lesson, where texts are split into sentences and tokens and annotated with grammatical and semantic information.",
     "crumbs": [
       "module 3",
       "lesson 3.1",
@@ -616,7 +764,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you summarize the results of the text analysis. Starting from the annotated token table, you select the parts of speech that carry most content, nouns, proper nouns, verbs and adjectives, and filter out everything else.\nYou then group the tokens by organization, part of speech and lemma and count how often each word occurs. The resulting frequency table shows which words are most typical for each organization and is saved for visualization in the next lab.",
     "crumbs": [
       "module 3",
       "lesson 3.3",
@@ -628,7 +776,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-2-computer-lab.html#lesson-3.3-summarizing-results-of-text-analysis",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you summarize the results of the text analysis. Starting from the annotated token table, you select the parts of speech that carry most content, nouns, proper nouns, verbs and adjectives, and filter out everything else.\nYou then group the tokens by organization, part of speech and lemma and count how often each word occurs. The resulting frequency table shows which words are most typical for each organization and is saved for visualization in the next lab.",
     "crumbs": [
       "module 3",
       "lesson 3.3",
@@ -636,21 +784,41 @@
     ]
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3-2",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3-2",
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html",
     "title": "Module 3: Analyzing text content with natural language processing",
-    "section": "lesson 3-2",
-    "text": "lesson 3-2\n\nvideo-lecture.qmd:Part-of-speech and named entity recognition\n\n\ncomputer-lab.qmd:Inferential text analysis, tokenization\n\n\ncomputer-lab.qmd:Inferential text analysis, POS and NER",
+    "section": "",
+    "text": "This module applies natural language processing (NLP) to the texts in your sustainability communication database. You read texts into dataframes, describe them, annotate them with tokens, parts of speech and named entities, and summarize and visualize the results.",
     "crumbs": [
       "module 3"
     ]
   },
   {
-    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3-3",
-    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3-3",
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3.1",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3.1",
     "title": "Module 3: Analyzing text content with natural language processing",
-    "section": "lesson 3-3",
-    "text": "lesson 3-3\n\nvideo-lecture.qmd:Interpreting the results of NLP analysis\n\n\ncomputer-lab.qmd:Summarizing results of text analysis\n\n\ncomputer-lab.qmd:Visualizing results of text analysis",
+    "section": "Lesson 3.1",
+    "text": "Lesson 3.1\nThis lesson introduces natural language processing (NLP) in social science. The video lecture presents the field, and in the computer labs you convert PDF documents to plain text, read the texts into a dataframe and compute descriptive text statistics.\n\nvideo-lecture.qmd: Natural language processing (NLP) in social science\n\n\ncomputer-lab.qmd: Reading text into dataframes\n\n\ncomputer-lab.qmd: Descriptive text analysis",
+    "crumbs": [
+      "module 3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3.2",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3.2",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "Lesson 3.2",
+    "text": "Lesson 3.2\nThis lesson covers inferential text analysis. The video lecture explains part-of-speech tagging and named entity recognition, and in the computer labs you split texts into sentences and tokens with spaCy and annotate each token with its part of speech and entity type.\n\nvideo-lecture.qmd: Part-of-speech and named entity recognition\n\n\ncomputer-lab.qmd: Inferential text analysis, tokenization\n\n\ncomputer-lab.qmd: Inferential text analysis, POS and NER",
+    "crumbs": [
+      "module 3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3.3",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/index.html#lesson-3.3",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "Lesson 3.3",
+    "text": "Lesson 3.3\nThis lesson is about interpreting the results of NLP analysis. The video lecture discusses how to make sense of the results, and in the computer labs you summarize word frequencies by organization and part of speech and visualize them as bar plots.\n\nvideo-lecture.qmd: Interpreting the results of NLP analysis\n\n\ncomputer-lab.qmd: Summarizing results of text analysis\n\n\ncomputer-lab.qmd: Visualizing results of text analysis",
     "crumbs": [
       "module 3"
     ]
@@ -733,7 +901,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\n\nThis lab visualizes the word frequencies from the previous lab. You define a reusable plotting function that draws a stacked bar plot of the 20 most frequent lemmas for a given part of speech, with the bars split by organization.\nRunning the function for nouns, verbs, adjectives and proper nouns gives four complementary views of how the organizations talk about sustainability. The lab ends with interpreting these plots: which themes, actions, qualities and actors stand out, and how do the organizations differ?",
     "crumbs": [
       "module 3",
       "lesson 3.3",
@@ -745,7 +913,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-3-computer-lab.html#lesson-3.3-visualizing-results-of-text-analysis",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\n\nThis lab visualizes the word frequencies from the previous lab. You define a reusable plotting function that draws a stacked bar plot of the 20 most frequent lemmas for a given part of speech, with the bars split by organization.\nRunning the function for nouns, verbs, adjectives and proper nouns gives four complementary views of how the organizations talk about sustainability. The lab ends with interpreting these plots: which themes, actions, qualities and actors stand out, and how do the organizations differ?",
     "crumbs": [
       "module 3",
       "lesson 3.3",
@@ -757,7 +925,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you begin inferential text analysis by tokenizing the corpus with spaCy. Each document is first split into sentences, which are stored in a new dataframe that keeps track of the organization and source file of every sentence.\nThe sentences are then split into tokens, the individual words and symbols that natural language processing works with. You record each token together with its lemma and filter out stopwords, common function words that carry little meaning, which gives a cleaner basis for counting and comparing vocabulary.",
     "crumbs": [
       "module 3",
       "lesson 3.2",
@@ -769,7 +937,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-2-computer-lab.html#lesson-3.2-inferential-text-analysis-tokenization",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you begin inferential text analysis by tokenizing the corpus with spaCy. Each document is first split into sentences, which are stored in a new dataframe that keeps track of the organization and source file of every sentence.\nThe sentences are then split into tokens, the individual words and symbols that natural language processing works with. You record each token together with its lemma and filter out stopwords, common function words that carry little meaning, which gives a cleaner basis for counting and comparing vocabulary.",
     "crumbs": [
       "module 3",
       "lesson 3.2",
@@ -843,6 +1011,28 @@
     ]
   },
   {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "This lesson is about interpreting the results of NLP analysis. The video lecture discusses how to make sense of the results, and in the computer labs you summarize word frequencies by organization and part of speech and visualize them as bar plots.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html#lesson-3.3",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-3-lesson.html#lesson-3.3",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "This lesson is about interpreting the results of NLP analysis. The video lecture discusses how to make sense of the results, and in the computer labs you summarize word frequencies by organization and part of speech and visualize them as bar plots.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.3"
+    ]
+  },
+  {
     "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-2-computer-lab.html",
     "title": "Module 3: Analyzing text content with natural language processing",
@@ -895,7 +1085,7 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab adds linguistic annotation to the tokenized texts. Using the spaCy language model, every token is tagged with its part of speech (POS), such as noun, verb, adjective or proper noun, so that you can examine what kinds of words organizations use when they communicate about sustainability.\nYou also apply named entity recognition (NER), which marks tokens that refer to entities like organizations, places, dates and amounts. The resulting token table, with POS tags and entity types, is the main dataset you will summarize and visualize in the next lesson.",
     "crumbs": [
       "module 3",
       "lesson 3.2",
@@ -907,11 +1097,33 @@
     "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-3-computer-lab.html#lesson-3.2-inferential-text-analysis-pos-and-ner",
     "title": "Module 3: Analyzing text content with natural language processing",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab adds linguistic annotation to the tokenized texts. Using the spaCy language model, every token is tagged with its part of speech (POS), such as noun, verb, adjective or proper noun, so that you can examine what kinds of words organizations use when they communicate about sustainability.\nYou also apply named entity recognition (NER), which marks tokens that refer to entities like organizations, places, dates and amounts. The resulting token table, with POS tags and entity types, is the main dataset you will summarize and visualize in the next lesson.",
     "crumbs": [
       "module 3",
       "lesson 3.2",
       "computer lab 3.2.3"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "This lesson covers inferential text analysis. The video lecture explains part-of-speech tagging and named entity recognition, and in the computer labs you split texts into sentences and tokens with spaCy and annotate each token with its part of speech and entity type.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html#lesson-3.2",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-2-lesson.html#lesson-3.2",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "This lesson covers inferential text analysis. The video lecture explains part-of-speech tagging and named entity recognition, and in the computer labs you split texts into sentences and tokens with spaCy and annotate each token with its part of speech and entity type.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.2"
     ]
   },
   {
@@ -988,6 +1200,28 @@
     ]
   },
   {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "This lesson introduces natural language processing (NLP) in social science. The video lecture presents the field, and in the computer labs you convert PDF documents to plain text, read the texts into a dataframe and compute descriptive text statistics.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1"
+    ]
+  },
+  {
+    "objectID": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#lesson-3.1",
+    "href": "module03-analyzing-text-content-natural-language-processing-30pct/3-1-lesson.html#lesson-3.1",
+    "title": "Module 3: Analyzing text content with natural language processing",
+    "section": "",
+    "text": "This lesson introduces natural language processing (NLP) in social science. The video lecture presents the field, and in the computer labs you convert PDF documents to plain text, read the texts into a dataframe and compute descriptive text statistics.",
+    "crumbs": [
+      "module 3",
+      "lesson 3.1"
+    ]
+  },
+  {
     "objectID": "aicasc-2-1-1-video-lecture.html#hello-there",
     "href": "aicasc-2-1-1-video-lecture.html#hello-there",
     "title": "Quarto Presentations",
@@ -1006,7 +1240,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-3-computer-lab.html",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you try out low-code Python programming with the help of Colab’s built-in AI assistant. Instead of writing code from scratch, you describe what you want in a natural-language prompt, for example a function that checks whether a word is a palindrome, and let the assistant generate the code.\nYou then run and test the generated function, and practice AI-assisted debugging by asking the assistant to explain and fix a short piece of faulty code. The lab shows how prompting, reading and testing code go together, a workflow you will keep using throughout the course.",
     "crumbs": [
       "module 2",
       "lesson 2.1",
@@ -1018,7 +1252,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-3-computer-lab.html#lesson-2.1-trying-out-some-low-code-python",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you try out low-code Python programming with the help of Colab’s built-in AI assistant. Instead of writing code from scratch, you describe what you want in a natural-language prompt, for example a function that checks whether a word is a palindrome, and let the assistant generate the code.\nYou then run and test the generated function, and practice AI-assisted debugging by asking the assistant to explain and fix a short piece of faulty code. The lab shows how prompting, reading and testing code go together, a workflow you will keep using throughout the course.",
     "crumbs": [
       "module 2",
       "lesson 2.1",
@@ -1099,11 +1333,31 @@
     ]
   },
   {
-    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2-2",
-    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2-2",
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html",
     "title": "Module 2: Introduction to low-code Python programming",
-    "section": "lesson 2-2",
-    "text": "lesson 2-2\n\nvideo-lecture.qmd:Python and AI-aided data analysis\n\n\ncomputer-lab.qmd:Low-code data analysis, tables\n\n\ncomputer-lab.qmd:Low-code data analysis, graphs",
+    "section": "",
+    "text": "This module introduces low-code Python programming in Google Colab notebooks. With the help of AI-assisted coding, you learn to write, run and debug short programs and to analyze and visualize data in tables, without needing prior programming experience.",
+    "crumbs": [
+      "module 2"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2.1",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2.1",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "Lesson 2.1",
+    "text": "Lesson 2.1\nThis lesson introduces AI-aided and low-code programming. The video lecture explains the approach, and in the computer labs you get to know the Google Colab notebook interface and try out writing Python code with the help of an AI assistant.\n\nvideo-lecture.qmd: AI-aided and low-code programming\n\n\ncomputer-lab.qmd: Google Colab notebook user interface\n\n\ncomputer-lab.qmd: Trying out some low-code Python",
+    "crumbs": [
+      "module 2"
+    ]
+  },
+  {
+    "objectID": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2.2",
+    "href": "module02-introduction-to-low-code-python-programming-20pct/index.html#lesson-2.2",
+    "title": "Module 2: Introduction to low-code Python programming",
+    "section": "Lesson 2.2",
+    "text": "Lesson 2.2\nThis lesson applies low-code Python to data analysis. The video lecture shows how Python supports computational data analysis, and in the computer labs you use AI-assisted coding to create, aggregate and save tables, and to visualize them as graphs.\n\nvideo-lecture.qmd: Python and AI-aided data analysis\n\n\ncomputer-lab.qmd: Low-code data analysis, tables\n\n\ncomputer-lab.qmd: Low-code data analysis, graphs",
     "crumbs": [
       "module 2"
     ]
@@ -1113,7 +1367,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab introduces the Google Colab notebook interface, which is used for all computer labs in the course. You practice creating, deleting, moving and running code cells and text cells, and see how text cells written in Markdown can document your analysis alongside the code.\nYou also explore the left-hand menu, with its table of contents, find-and-replace, secrets, files and variables panels, and the top menu, where you open and save notebooks, change notebook settings and restart the session. Getting comfortable with these tools makes the later analysis labs much easier to follow.",
     "crumbs": [
       "module 2",
       "lesson 2.1",
@@ -1125,7 +1379,7 @@
     "href": "module02-introduction-to-low-code-python-programming-20pct/2-1-2-computer-lab.html#lesson-2.1-google-colab-notebook-user-interface",
     "title": "Module 2: Introduction to low-code Python programming",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nThis lab introduces the Google Colab notebook interface, which is used for all computer labs in the course. You practice creating, deleting, moving and running code cells and text cells, and see how text cells written in Markdown can document your analysis alongside the code.\nYou also explore the left-hand menu, with its table of contents, find-and-replace, secrets, files and variables panels, and the top menu, where you open and save notebooks, change notebook settings and restart the session. Getting comfortable with these tools makes the later analysis labs much easier to follow.",
     "crumbs": [
       "module 2",
       "lesson 2.1",
@@ -1147,7 +1401,7 @@
     "href": "index.html#module01-understanding-sustainability-communication-content-10pct",
     "title": "AI-aided content analysis of sustainability communication",
     "section": "module01-understanding-sustainability-communication-content-10pct",
-    "text": "module01-understanding-sustainability-communication-content-10pct\n\naicasc: sustainability communication content\naicasc: find online sustainability communication\naicasc: setting up an initial content database",
+    "text": "module01-understanding-sustainability-communication-content-10pct\n\naicasc: sustainability communication content\naicasc: find online sustainability communication · Colab notebook\naicasc: setting up an initial content database · Colab notebook",
     "crumbs": [
       "course start"
     ]
@@ -1157,7 +1411,7 @@
     "href": "index.html#module02-introduction-to-low-code-python-programming-20pct",
     "title": "AI-aided content analysis of sustainability communication",
     "section": "module02-introduction-to-low-code-python-programming-20pct",
-    "text": "module02-introduction-to-low-code-python-programming-20pct\n\naicasc: ai-aided and low-code programming\naicasc: google colab notebook user interface\naicasc: trying out some low-code python\naicasc: python and computational data analysis\naicasc: low-code data analysis, tables\naicasc: low-code data analysis, graphs",
+    "text": "module02-introduction-to-low-code-python-programming-20pct\n\naicasc: ai-aided and low-code programming\naicasc: google colab notebook user interface · Colab notebook\naicasc: trying out some low-code python · Colab notebook\naicasc: python and computational data analysis\naicasc: low-code data analysis, tables · Colab notebook\naicasc: low-code data analysis, graphs · Colab notebook",
     "crumbs": [
       "course start"
     ]
@@ -1167,7 +1421,7 @@
     "href": "index.html#module03-analyzing-text-content-natural-language-processing-30pct",
     "title": "AI-aided content analysis of sustainability communication",
     "section": "module03-analyzing-text-content-natural-language-processing-30pct",
-    "text": "module03-analyzing-text-content-natural-language-processing-30pct\n\naicasc: natural language processing (NLP) in social science\naicasc: reading text into dataframes\naicasc: descriptive text analysis\naicasc: part-of-speech and named entity recognition\naicasc: inferential text analysis, tokenization\naicasc: inferential text analysis, POS and NER\naicasc: interpreting the results of NLP analysis\naicasc: summarizing results of text analysis\naicasc: visualizing results of text analysis",
+    "text": "module03-analyzing-text-content-natural-language-processing-30pct\n\naicasc: natural language processing (NLP) in social science\naicasc: reading text into dataframes · Colab notebook\naicasc: descriptive text analysis · Colab notebook\naicasc: part-of-speech and named entity recognition\naicasc: inferential text analysis, tokenization · Colab notebook\naicasc: inferential text analysis, POS and NER · Colab notebook\naicasc: interpreting the results of NLP analysis\naicasc: summarizing results of text analysis · Colab notebook\naicasc: visualizing results of text analysis · Colab notebook",
     "crumbs": [
       "course start"
     ]
@@ -1177,7 +1431,7 @@
     "href": "index.html#module04-analyzing-image-content-computer-vision-30pct",
     "title": "AI-aided content analysis of sustainability communication",
     "section": "module04-analyzing-image-content-computer-vision-30pct",
-    "text": "module04-analyzing-image-content-computer-vision-30pct\n\naicasc: computer vision (CV) in social science\naicasc: reading images into dataframes\naicasc: descriptive image analysis\naicasc: image classification and object detection\naicasc: inferential image analysis, classification\naicasc: inferential image analysis, object detection\naicasc: interpreting the results of CV analysis\naicasc: summarizing results of image analysis\naicasc: summarizing results of image analysis",
+    "text": "module04-analyzing-image-content-computer-vision-30pct\n\naicasc: computer vision (CV) in social science\naicasc: reading images into dataframes · Colab notebook\naicasc: descriptive image analysis · Colab notebook\naicasc: image classification and object detection\naicasc: inferential image analysis, classification · Colab notebook\naicasc: inferential image analysis, object detection · Colab notebook\naicasc: interpreting the results of CV analysis\naicasc: summarizing results of image analysis · Colab notebook\naicasc: summarizing results of image analysis · Colab notebook",
     "crumbs": [
       "course start"
     ]
@@ -1187,7 +1441,7 @@
     "href": "index.html#module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
     "title": "AI-aided content analysis of sustainability communication",
     "section": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct",
-    "text": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct\n\naicasc: key takeaways and ethical perspectives\naicasc: analysis documentation and open science\naicasc: communicating ai-aided content analysis",
+    "text": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct\n\naicasc: key takeaways and ethical perspectives\naicasc: analysis documentation and open science · Colab notebook\naicasc: communicating ai-aided content analysis · Colab notebook",
     "crumbs": [
       "course start"
     ]
@@ -1228,7 +1482,7 @@
     "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-3-computer-lab.html",
     "title": "Module 5: Ethical aspects of AI-aided content analysis",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn the final lab you learn how to communicate your AI-aided content analysis to others. Starting from a notebook with a visualization, you upload the notebook to a Colab session and install the Quarto publishing system.\nYou then convert the notebook into a Quarto document, add a document header with title, author and output settings, and render it to formats such as PDF, HTML and Word. This turns your analysis into a polished report that can be shared with colleagues, stakeholders or the public.",
     "crumbs": [
       "module 5",
       "lesson 5.1",
@@ -1240,7 +1494,7 @@
     "href": "module05-ethical-aspects-of-ai-aided-content-analysis-10pct/5-1-3-computer-lab.html#lesson-5.1-communicating-ai-aided-content-analysis",
     "title": "Module 5: Ethical aspects of AI-aided content analysis",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn the final lab you learn how to communicate your AI-aided content analysis to others. Starting from a notebook with a visualization, you upload the notebook to a Colab session and install the Quarto publishing system.\nYou then convert the notebook into a Quarto document, add a document header with title, author and output settings, and render it to formats such as PDF, HTML and Word. This turns your analysis into a polished report that can be shared with colleagues, stakeholders or the public.",
     "crumbs": [
       "module 5",
       "lesson 5.1",
@@ -1471,7 +1725,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-2-computer-lab.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you start working with the images in your sustainability communication. After downloading the course data and installing the PyMuPDF library, you extract the embedded images from each PDF document and save them as image files, organized by organization.\nYou then read image files into Python with OpenCV and display them, and collect information about the files in a pandas dataframe. This prepares the image material in the same structured way as the texts in the previous module.",
     "crumbs": [
       "module 4",
       "lesson 4.1",
@@ -1483,7 +1737,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-2-computer-lab.html#lesson-4.1-reading-images-into-dataframes",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you start working with the images in your sustainability communication. After downloading the course data and installing the PyMuPDF library, you extract the embedded images from each PDF document and save them as image files, organized by organization.\nYou then read image files into Python with OpenCV and display them, and collect information about the files in a pandas dataframe. This prepares the image material in the same structured way as the texts in the previous module.",
     "crumbs": [
       "module 4",
       "lesson 4.1",
@@ -1491,11 +1745,33 @@
     ]
   },
   {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "This lesson introduces computer vision (CV) in social science. The video lecture presents the field, and in the computer labs you extract images from PDF documents, read them into Python and describe their size, color and edge features.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.1"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html#lesson-4.1",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-1-lesson.html#lesson-4.1",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "This lesson introduces computer vision (CV) in social science. The video lecture presents the field, and in the computer labs you extract images from PDF documents, read them into Python and describe their size, color and edge features.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.1"
+    ]
+  },
+  {
     "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-2-computer-lab.html",
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-2-computer-lab.html",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you use a pre-trained AI model to classify images. After selecting and displaying a test image, you load a Vision Transformer (ViT) image classification model from Hugging Face and let it predict what the image shows, together with a confidence score.\nYou then loop through all images in the content database, classify each one, and collect the predicted labels and scores in a dataframe together with the organization the image comes from. The results are saved as a TSV file for summarizing in a later lab.",
     "crumbs": [
       "module 4",
       "lesson 4.2",
@@ -1507,7 +1783,7 @@
     "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-2-computer-lab.html#lesson-4.2-inferential-image-analysis-classification",
     "title": "Module 4: Analyzing image content with computer vision",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you use a pre-trained AI model to classify images. After selecting and displaying a test image, you load a Vision Transformer (ViT) image classification model from Hugging Face and let it predict what the image shows, together with a confidence score.\nYou then loop through all images in the content database, classify each one, and collect the predicted labels and scores in a dataframe together with the organization the image comes from. The results are saved as a TSV file for summarizing in a later lab.",
     "crumbs": [
       "module 4",
       "lesson 4.2",
@@ -1515,11 +1791,33 @@
     ]
   },
   {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "This lesson covers inferential image analysis. The video lecture explains image classification and object detection, and in the computer labs you use pre-trained Hugging Face models to classify images and to detect and locate objects within them.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.2"
+    ]
+  },
+  {
+    "objectID": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html#lesson-4.2",
+    "href": "module04-analyzing-image-content-computer-vision-30pct/4-2-lesson.html#lesson-4.2",
+    "title": "Module 4: Analyzing image content with computer vision",
+    "section": "",
+    "text": "This lesson covers inferential image analysis. The video lecture explains image classification and object detection, and in the computer labs you use pre-trained Hugging Face models to classify images and to detect and locate objects within them.",
+    "crumbs": [
+      "module 4",
+      "lesson 4.2"
+    ]
+  },
+  {
     "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html",
     "href": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html",
     "title": "Module 1: Understanding sustainability communication content",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you will find online sustainability communication to use as material for content analysis. Starting from an ordinary web search, you locate the websites of organizations that publish sustainability content and identify the pages where they present their sustainability work, such as dedicated sustainability sections, reports and news pages.\nTo make later comparisons meaningful, the lab uses contrasting organizations, for example an energy company and an environmental NGO, that communicate about the same topic from different positions. You then capture the selected web pages as PDF files, which preserves both their text and images as a stable record that can be analyzed in the coming modules.",
     "crumbs": [
       "module 1",
       "lesson 1.1",
@@ -1531,11 +1829,33 @@
     "href": "module01-understanding-sustainability-communication-content-10pct/1-1-2-computer-lab.html#lesson-1.1-find-online-sustainability-communication",
     "title": "Module 1: Understanding sustainability communication content",
     "section": "",
-    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT)",
+    "text": "Your browser does not support embedded video. Open the lab video.\n\n\nDownload English subtitles (SRT) \n\n\n\n\nIn this lab you will find online sustainability communication to use as material for content analysis. Starting from an ordinary web search, you locate the websites of organizations that publish sustainability content and identify the pages where they present their sustainability work, such as dedicated sustainability sections, reports and news pages.\nTo make later comparisons meaningful, the lab uses contrasting organizations, for example an energy company and an environmental NGO, that communicate about the same topic from different positions. You then capture the selected web pages as PDF files, which preserves both their text and images as a stable record that can be analyzed in the coming modules.",
     "crumbs": [
       "module 1",
       "lesson 1.1",
       "computer lab 1.1.2"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "",
+    "text": "This lesson introduces sustainability communication content and how it can be studied. The video lecture presents the topic, and in the computer labs you find online sustainability communication from contrasting organizations and set up an initial content database.",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1"
+    ]
+  },
+  {
+    "objectID": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html#lesson-1.1",
+    "href": "module01-understanding-sustainability-communication-content-10pct/1-1-lesson.html#lesson-1.1",
+    "title": "Module 1: Understanding sustainability communication content",
+    "section": "",
+    "text": "This lesson introduces sustainability communication content and how it can be studied. The video lecture presents the topic, and in the computer labs you find online sustainability communication from contrasting organizations and set up an initial content database.",
+    "crumbs": [
+      "module 1",
+      "lesson 1.1"
     ]
   },
   {
