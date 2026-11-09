@@ -37,3 +37,8 @@ a:hover > img.slide-thumb {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(50, 205, 50, 0.25);
 }
+
+/* sitewide footer: small, muted links */
+.nav-footer { font-size: 0.8rem; }
+.nav-footer .nav-link { padding: 0.1rem 0.6rem; opacity: 0.8; }
+.nav-footer .nav-link:hover { opacity: 1; }
